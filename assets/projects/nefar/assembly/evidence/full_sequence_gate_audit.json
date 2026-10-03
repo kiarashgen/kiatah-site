@@ -1,0 +1,2299 @@
+{
+  "success": true,
+  "scope": "full conditional sequence gate coverage, not physical assembly acceptance",
+  "programme_sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d",
+  "connections_sha256": "75e2848910753f8b7d078eda8eee1d50805e3b4d170963696905c17df0db6926",
+  "accepted_source_members": 18,
+  "pending_source_members": 137,
+  "total_source_members": 155,
+  "pending_site_steps": 80,
+  "robot_site_steps": 31,
+  "guided_site_steps": 49,
+  "every_site_step_has_exact_nominal_fixing_geometry": true,
+  "offsite_connected_planar_modules": 5,
+  "robot_loaded_transfer_replays_bound_to_current_world": 31,
+  "robot_loaded_transfer_steps_remaining": [],
+  "roof_static_insertion_clearance_pass": true,
+  "evidence": {
+    "robot_site_fixing_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/robot_site_fixing_qa.json",
+      "sha256": "486ce91098da9d4cbdca690f8d699b69ad68a3927bb376676cbaa99dcead9b83"
+    },
+    "east_post_shoe_fixing_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/east_post_shoe_fixing_qa.json",
+      "sha256": "c13166b1bcb0a191aff6d640c7b89bfb2301e1a7f0ff4323d150787a1412d9ad"
+    },
+    "guided_five_site_fixing_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/guided_five_site_fixing_qa.json",
+      "sha256": "154e3cbc1cb94fdd403f767f883221cf4c1c1a11fef4bf7582c20f440ef2cb33"
+    },
+    "guided_finish_site_fixing_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/guided_finish_site_fixing_qa.json",
+      "sha256": "98a964a65b133832fa4e880cbb09d349969e6fc0b5bd780823eb032e952fdb9e"
+    },
+    "roof_skin_fixing_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/roof_skin_fixing_qa.json",
+      "sha256": "a52eff2811a54adda024afb87419f5b488547d8cb84a2cb92ee2e35695b793bc"
+    },
+    "ridge_cap_fixing_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/ridge_cap_fixing_qa.json",
+      "sha256": "e751e8206f942960177e6ec88e27a938e1dae99d0b792107889a867144106d4c"
+    },
+    "offsite_planar_module_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/offsite_planar_module_qa.json",
+      "sha256": "e5d9eb2216969c5583b60dcc0d7238618b0176030e5049cdd348c5cbf0ba6386"
+    },
+    "ridge_internal_screw_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/ridge_internal_screw_qa.json",
+      "sha256": "e889088ce397fc342a88d32e386bcd232ab132b0998edcfe8e8f1394bd2457a2"
+    },
+    "static_roof_insertion_clearance": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/static_roof_insertion_clearance.json",
+      "sha256": "bb7d419842acbc74039e7bd706724ebac47a6c0f9eac4712949bfe571dbca052"
+    },
+    "roof_handoff_geometry": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/roof_handoff_geometry.json",
+      "sha256": "a5648d645c28da9ae74bc21c873674c1884cd4220cae54685a8752f14d5d3071"
+    },
+    "roof_guided_delivery_path_qa": {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/roof_guided_delivery_path_qa.json",
+      "sha256": "515204982e400ed565e09f83260822634db8c627898884c83a9a8a7b6c7d74ce"
+    }
+  },
+  "steps": [
+    {
+      "site_step": 1,
+      "task_id": "NF-LB-07",
+      "source_members": [
+        "NF-LB-07"
+      ],
+      "family": "LOWER_BRACE",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_GROUND",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "guided_five_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 2,
+      "task_id": "NF-FB-01",
+      "source_members": [
+        "NF-FB-01"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FB-01.json",
+        "sha256": "fc5897f812ee547cba9b190112282dd1cf0e5671aa90a8d418b286dca28caace",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 3,
+      "task_id": "NF-FB-02",
+      "source_members": [
+        "NF-FB-02"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FB-02.json",
+        "sha256": "fb3a8399f19dd0a1d8a72fbfe5637556ec97af929084be20f5ee69875da2f196",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 4,
+      "task_id": "NF-FJ-01",
+      "source_members": [
+        "NF-FJ-01"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FJ-01.json",
+        "sha256": "116a5bb03c738315fec2ef18415323cec0be6dd02bfb483362318f918a1e247a",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FB-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 5,
+      "task_id": "NF-FJ-02",
+      "source_members": [
+        "NF-FJ-02"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FJ-02.json",
+        "sha256": "1955f3c050e31e57cf9af29f118a8ed880835b13ea573e2d419135b0e7f3a7c8",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FB-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 6,
+      "task_id": "NF-FJ-03",
+      "source_members": [
+        "NF-FJ-03"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FJ-03.json",
+        "sha256": "b3e0c18575067a258ddaf8fdd9af10cb51c68b5ed8ce3f291d3be5dd9a94960b",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FB-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 7,
+      "task_id": "NF-FJ-04",
+      "source_members": [
+        "NF-FJ-04"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FJ-04.json",
+        "sha256": "77f0aef557019632aa3f8def134e5d78c1c12ada7a594f8569c87bcae4285876",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FB-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 8,
+      "task_id": "NF-FJ-05",
+      "source_members": [
+        "NF-FJ-05"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FJ-05.json",
+        "sha256": "6238ab2bb3aae8a5d6c5451076dad644d8a12bf4d9764b3031ddab98317c8882",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FB-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 9,
+      "task_id": "NF-FJ-06",
+      "source_members": [
+        "NF-FJ-06"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FJ-06.json",
+        "sha256": "527a4404e09d81f545ede5f1acc1f75c0c222a461ad8d151126205e4a6181553",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FB-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 10,
+      "task_id": "NF-FJ-07",
+      "source_members": [
+        "NF-FJ-07"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FJ-07.json",
+        "sha256": "6985d6384f9b8f9ce37d3e1c8f3732112834f122a726319423dbb8b28355af64",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FB-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 11,
+      "task_id": "DECK-PANEL-01",
+      "source_members": [
+        "NF-DECK-01",
+        "NF-DECK-02",
+        "NF-DECK-03",
+        "NF-DECK-04",
+        "NF-DECK-05",
+        "NF-DECK-06",
+        "NF-DECK-07"
+      ],
+      "family": "DECK_PANEL",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "offsite_planar_module_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/DECK-PANEL-01.json",
+        "sha256": "3dc2a372e2c7315bc11e7796439e8fcb811f21971e6260a91d2c71b63fc8f67d",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-01",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-04",
+        "NF-FJ-05",
+        "NF-FJ-06",
+        "NF-FJ-07"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 12,
+      "task_id": "DECK-PANEL-02",
+      "source_members": [
+        "NF-DECK-08",
+        "NF-DECK-09",
+        "NF-DECK-10",
+        "NF-DECK-11",
+        "NF-DECK-12",
+        "NF-DECK-13",
+        "NF-DECK-14"
+      ],
+      "family": "DECK_PANEL",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "offsite_planar_module_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/DECK-PANEL-02.json",
+        "sha256": "34527afe8ebb76e9097e0d3e28e3c14e5140020c95ae9bfdde713ac22f6138a0",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-01",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-04",
+        "NF-FJ-05",
+        "NF-FJ-06",
+        "NF-FJ-07"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 13,
+      "task_id": "NF-FE-01",
+      "source_members": [
+        "NF-FE-01"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FE-01.json",
+        "sha256": "b8d80a214bc42fb5b4f5d52dbcfe9fcd38a3b30d7c66544232b14a91ff0540a9",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-01",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-04",
+        "NF-FJ-05",
+        "NF-FJ-06",
+        "NF-FJ-07"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 14,
+      "task_id": "NF-FE-02",
+      "source_members": [
+        "NF-FE-02"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-FE-02.json",
+        "sha256": "081437cf10a4cd73c98964b7a1044f2564a5c9158574799707d73870f93cc5c9",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-01",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-04",
+        "NF-FJ-05",
+        "NF-FJ-06",
+        "NF-FJ-07"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 15,
+      "task_id": "UPPER-END-FRAME-WEST",
+      "source_members": [
+        "NF-PLATE-01",
+        "NF-RAIL-03",
+        "NF-RAIL-04",
+        "NF-UB-07",
+        "NF-UB-08",
+        "NF-UP-01",
+        "NF-UP-05",
+        "NF-UP-06"
+      ],
+      "family": "PLANAR_END_FRAME",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "offsite_planar_module_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/UPPER-END-FRAME-WEST.json",
+        "sha256": "ecabff144b0e8d131c47cb745dbde913660bf1ee6197abb5193f766408e7df10",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-02",
+        "DECK-PANEL-01",
+        "DECK-PANEL-02",
+        "NF-FE-01",
+        "NF-FE-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 16,
+      "task_id": "UPPER-END-EAST-CORE",
+      "source_members": [
+        "NF-UP-02"
+      ],
+      "family": "PLANAR_END_FRAME",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "east_post_shoe_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/UPPER-END-EAST-CORE.json",
+        "sha256": "5adca18b5394e7bb97d790b0b291743019554b05a4c7b9cc13adf5f2cd231b0a",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-01",
+        "DECK-PANEL-01",
+        "DECK-PANEL-02",
+        "NF-FE-01",
+        "NF-FE-02"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 17,
+      "task_id": "UPPER-END-EAST-SOUTH",
+      "source_members": [
+        "NF-RAIL-02",
+        "NF-UB-05",
+        "NF-UP-04"
+      ],
+      "family": "PLANAR_END_FRAME",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "offsite_planar_module_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/UPPER-END-EAST-SOUTH.json",
+        "sha256": "88e1d78c3f5fb10ad9926bc5b057dee2734ca13b5dd70963eaaf53fb22c2b767",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-01",
+        "DECK-PANEL-01",
+        "DECK-PANEL-02",
+        "NF-FE-01",
+        "NF-FE-02",
+        "UPPER-END-EAST-CORE"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 18,
+      "task_id": "UPPER-END-EAST-NORTH",
+      "source_members": [
+        "NF-RAIL-01",
+        "NF-UB-06",
+        "NF-UP-03"
+      ],
+      "family": "PLANAR_END_FRAME",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "offsite_planar_module_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/UPPER-END-EAST-NORTH.json",
+        "sha256": "8abbf8a70fb95d39dbeafbd13442310bb6fbebe0a397936a41ce9d9c5cf3635b",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-01",
+        "DECK-PANEL-01",
+        "DECK-PANEL-02",
+        "NF-FE-01",
+        "NF-FE-02",
+        "UPPER-END-EAST-CORE"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 19,
+      "task_id": "UPPER-END-EAST-CAP",
+      "source_members": [
+        "NF-PLATE-02"
+      ],
+      "family": "PLANAR_END_FRAME",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/UPPER-END-EAST-CAP.json",
+        "sha256": "9f8c2b2849f513a946e3b60777cf6a2ced48c8463789c1339b70aecd2cf66297",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FJ-01",
+        "DECK-PANEL-01",
+        "DECK-PANEL-02",
+        "NF-FE-01",
+        "NF-FE-02",
+        "UPPER-END-EAST-CORE",
+        "UPPER-END-EAST-SOUTH",
+        "UPPER-END-EAST-NORTH"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 20,
+      "task_id": "NF-UB-01",
+      "source_members": [
+        "NF-UB-01"
+      ],
+      "family": "UPPER_BRACE",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-UB-01.json",
+        "sha256": "134579abed8c6781f419da27de9d6db2aa943f130a0c5f244728af267d638509",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FE-01",
+        "UPPER-END-FRAME-WEST"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 21,
+      "task_id": "NF-UB-02",
+      "source_members": [
+        "NF-UB-02"
+      ],
+      "family": "UPPER_BRACE",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-UB-02.json",
+        "sha256": "244a0304db9e1600c159bf83cf256eda3171fa50e85cd8173cd162522f57a2af",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-FE-01",
+        "UPPER-END-EAST-CAP"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 22,
+      "task_id": "NF-UB-03",
+      "source_members": [
+        "NF-UB-03"
+      ],
+      "family": "UPPER_BRACE",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_GUARDED_DECK_ACCESS",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "guided_five_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FE-02",
+        "UPPER-END-FRAME-WEST"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 23,
+      "task_id": "NF-UB-04",
+      "source_members": [
+        "NF-UB-04"
+      ],
+      "family": "UPPER_BRACE",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_GUARDED_DECK_ACCESS",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "guided_five_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FE-02",
+        "UPPER-END-EAST-CAP"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 24,
+      "task_id": "NF-PURLIN-01",
+      "source_members": [
+        "NF-PURLIN-01"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_STAGE_THEN_GUIDED_TWO_PERSON_FROM_GUARDED_DECK",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "guided_five_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "UPPER-END-FRAME-WEST",
+        "UPPER-END-EAST-CAP"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 25,
+      "task_id": "NF-PURLIN-02",
+      "source_members": [
+        "NF-PURLIN-02"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_STAGE_THEN_GUIDED_TWO_PERSON_FROM_GUARDED_DECK",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "guided_five_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "UPPER-END-FRAME-WEST",
+        "UPPER-END-EAST-CAP"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 26,
+      "task_id": "NF-PURLIN-03",
+      "source_members": [
+        "NF-PURLIN-03"
+      ],
+      "family": "HORIZONTAL_MEMBER",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/NF-PURLIN-03.json",
+        "sha256": "1c5dda20496e25e65072f7262baa871f877abb030f80a2aec5fdc408c0108424",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "UPPER-END-FRAME-WEST",
+        "UPPER-END-EAST-CAP"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 27,
+      "task_id": "ROOF-RAFTER-PAIR-01",
+      "source_members": [
+        "NF-RAF-01",
+        "NF-RAF-11"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-01.json",
+        "sha256": "d08bfc51afd7396892378adc2d062fd85581701ea939a873441d72428f8b4bda",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 28,
+      "task_id": "ROOF-RAFTER-PAIR-02",
+      "source_members": [
+        "NF-RAF-02",
+        "NF-RAF-12"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-02.json",
+        "sha256": "762063535daabe931e11c9cd61608e58ac21d9c5e93fc1b79c14edaf7800d56e",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 29,
+      "task_id": "ROOF-RAFTER-PAIR-03",
+      "source_members": [
+        "NF-RAF-03",
+        "NF-RAF-13"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-03.json",
+        "sha256": "5cb810f39dbf7177a4c5c732b34ad1bb42cc83a8f19a43e27e90dec4ffd44963",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 30,
+      "task_id": "ROOF-RAFTER-PAIR-04",
+      "source_members": [
+        "NF-RAF-04",
+        "NF-RAF-14"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-04.json",
+        "sha256": "784444233ee36184081aa3c1db75afac5c45f00565364769faf29285d70923c1",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 31,
+      "task_id": "ROOF-RAFTER-PAIR-05",
+      "source_members": [
+        "NF-RAF-05",
+        "NF-RAF-15"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-05.json",
+        "sha256": "1f148cc52e076f51edbdf38b928a2329a1dc3c6ce661cc379f56afdbeda3ef0f",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 32,
+      "task_id": "ROOF-RAFTER-PAIR-06",
+      "source_members": [
+        "NF-RAF-06",
+        "NF-RAF-16"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-06.json",
+        "sha256": "25e2854f1f092719cda16dbaa77eb26952f4bbb1ffd60d18d14202089e613e91",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 33,
+      "task_id": "ROOF-RAFTER-PAIR-07",
+      "source_members": [
+        "NF-RAF-07",
+        "NF-RAF-17"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-07.json",
+        "sha256": "c225fb243043e54bbdb681f0190085c2a44877e35a14c58d95b29120a6a0177b",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 34,
+      "task_id": "ROOF-RAFTER-PAIR-08",
+      "source_members": [
+        "NF-RAF-08",
+        "NF-RAF-18"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-08.json",
+        "sha256": "89591c6e253525c83ff712a6aa5cd1087f762b4ea521876b8399abc834eb2c56",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 35,
+      "task_id": "ROOF-RAFTER-PAIR-09",
+      "source_members": [
+        "NF-RAF-09",
+        "NF-RAF-19"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-09.json",
+        "sha256": "ac58cdd7fb8d923992f7516b71a70344bdf4a51bc19faa5ba4222d3b63d15f01",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 36,
+      "task_id": "ROOF-RAFTER-PAIR-10",
+      "source_members": [
+        "NF-RAF-10",
+        "NF-RAF-20"
+      ],
+      "family": "PLANAR_ROOF_RAFTER_PAIR",
+      "installation_mode": "ROBOT_A_PLACEMENT",
+      "offsite_joint_geometry_evidence": "ridge_internal_screw_qa",
+      "site_fixing_geometry_evidence": "robot_site_fixing_qa",
+      "conditional_robot_transfer": {
+        "success": true,
+        "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/transfers/ROOF-RAFTER-PAIR-10.json",
+        "sha256": "aa911b340d37dd742a310ca5aba2e802bc53a3fc6ff542f0003c147c0dc7555b",
+        "current_programme_bound": true,
+        "current_connections_bound": true
+      },
+      "prior_tasks": [
+        "NF-PURLIN-01",
+        "NF-PURLIN-02",
+        "NF-PURLIN-03"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 37,
+      "task_id": "ROOF-SKIN-01-SOUTH-FULL",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-08"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 38,
+      "task_id": "ROOF-SKIN-01-NORTH-FULL",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-01"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 39,
+      "task_id": "ROOF-SKIN-02-SOUTH-WEST",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-08"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 40,
+      "task_id": "ROOF-SKIN-02-SOUTH-EAST",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-07",
+        "NF-COVER-08"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 41,
+      "task_id": "ROOF-SKIN-02-NORTH-WEST",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-01",
+        "NF-COVER-02"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 42,
+      "task_id": "ROOF-SKIN-02-NORTH-EAST",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-01",
+        "NF-COVER-02"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 43,
+      "task_id": "ROOF-SKIN-03-SOUTH-WEST",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-07"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 44,
+      "task_id": "ROOF-SKIN-03-SOUTH-EAST",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-07"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 45,
+      "task_id": "ROOF-SKIN-03-NORTH-WEST",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-02"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 46,
+      "task_id": "ROOF-SKIN-03-NORTH-EAST",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-02",
+        "NF-COVER-03"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 47,
+      "task_id": "ROOF-SKIN-04-SOUTH-WEST",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-06",
+        "NF-COVER-07"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 48,
+      "task_id": "ROOF-SKIN-04-SOUTH-EAST",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-06"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 49,
+      "task_id": "ROOF-SKIN-04-NORTH-WEST",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-03"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 50,
+      "task_id": "ROOF-SKIN-04-NORTH-EAST",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-03"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 51,
+      "task_id": "ROOF-SKIN-05-SOUTH-WEST",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-05",
+        "NF-COVER-06"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 52,
+      "task_id": "ROOF-SKIN-05-SOUTH-EAST",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-05",
+        "NF-COVER-06"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 53,
+      "task_id": "ROOF-SKIN-05-NORTH-WEST",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-03",
+        "NF-COVER-04"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 54,
+      "task_id": "ROOF-SKIN-05-NORTH-EAST",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-04"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 55,
+      "task_id": "ROOF-SKIN-06-SOUTH-FULL",
+      "source_members": [
+        "NF-BATTEN-01",
+        "NF-BATTEN-02",
+        "NF-BATTEN-03",
+        "NF-BATTEN-04",
+        "NF-BATTEN-05",
+        "NF-COVER-05"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 56,
+      "task_id": "ROOF-SKIN-06-NORTH-FULL",
+      "source_members": [
+        "NF-BATTEN-06",
+        "NF-BATTEN-07",
+        "NF-BATTEN-08",
+        "NF-BATTEN-09",
+        "NF-BATTEN-10",
+        "NF-COVER-04"
+      ],
+      "family": "ROOF_COVER_PANEL",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_PLATFORM_HAND_CARRY",
+      "offsite_joint_geometry_evidence": "roof_skin_fixing_qa",
+      "site_fixing_geometry_evidence": "roof_skin_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-RAFTER-PAIR-01",
+        "ROOF-RAFTER-PAIR-02",
+        "ROOF-RAFTER-PAIR-03",
+        "ROOF-RAFTER-PAIR-04",
+        "ROOF-RAFTER-PAIR-05",
+        "ROOF-RAFTER-PAIR-06",
+        "ROOF-RAFTER-PAIR-07",
+        "ROOF-RAFTER-PAIR-08",
+        "ROOF-RAFTER-PAIR-09",
+        "ROOF-RAFTER-PAIR-10"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 57,
+      "task_id": "ROOF-RIDGE-CAP-01",
+      "source_members": [
+        "NF-COVER-01",
+        "NF-COVER-08"
+      ],
+      "family": "GUIDED_RIDGE_CAP",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_ONE_REUSABLE_DECK_WORK_PLATFORM",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "ridge_cap_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-SKIN-01-SOUTH-FULL",
+        "ROOF-SKIN-01-NORTH-FULL",
+        "ROOF-SKIN-02-SOUTH-WEST",
+        "ROOF-SKIN-02-SOUTH-EAST",
+        "ROOF-SKIN-02-NORTH-WEST",
+        "ROOF-SKIN-02-NORTH-EAST",
+        "ROOF-SKIN-03-SOUTH-WEST",
+        "ROOF-SKIN-03-SOUTH-EAST",
+        "ROOF-SKIN-03-NORTH-WEST",
+        "ROOF-SKIN-03-NORTH-EAST",
+        "ROOF-SKIN-04-SOUTH-WEST",
+        "ROOF-SKIN-04-SOUTH-EAST",
+        "ROOF-SKIN-04-NORTH-WEST",
+        "ROOF-SKIN-04-NORTH-EAST",
+        "ROOF-SKIN-05-SOUTH-WEST",
+        "ROOF-SKIN-05-SOUTH-EAST",
+        "ROOF-SKIN-05-NORTH-WEST",
+        "ROOF-SKIN-05-NORTH-EAST",
+        "ROOF-SKIN-06-SOUTH-FULL",
+        "ROOF-SKIN-06-NORTH-FULL"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 58,
+      "task_id": "ROOF-RIDGE-CAP-02",
+      "source_members": [
+        "NF-COVER-01",
+        "NF-COVER-02",
+        "NF-COVER-07",
+        "NF-COVER-08"
+      ],
+      "family": "GUIDED_RIDGE_CAP",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_ONE_REUSABLE_DECK_WORK_PLATFORM",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "ridge_cap_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-SKIN-01-SOUTH-FULL",
+        "ROOF-SKIN-01-NORTH-FULL",
+        "ROOF-SKIN-02-SOUTH-WEST",
+        "ROOF-SKIN-02-SOUTH-EAST",
+        "ROOF-SKIN-02-NORTH-WEST",
+        "ROOF-SKIN-02-NORTH-EAST",
+        "ROOF-SKIN-03-SOUTH-WEST",
+        "ROOF-SKIN-03-SOUTH-EAST",
+        "ROOF-SKIN-03-NORTH-WEST",
+        "ROOF-SKIN-03-NORTH-EAST",
+        "ROOF-SKIN-04-SOUTH-WEST",
+        "ROOF-SKIN-04-SOUTH-EAST",
+        "ROOF-SKIN-04-NORTH-WEST",
+        "ROOF-SKIN-04-NORTH-EAST",
+        "ROOF-SKIN-05-SOUTH-WEST",
+        "ROOF-SKIN-05-SOUTH-EAST",
+        "ROOF-SKIN-05-NORTH-WEST",
+        "ROOF-SKIN-05-NORTH-EAST",
+        "ROOF-SKIN-06-SOUTH-FULL",
+        "ROOF-SKIN-06-NORTH-FULL"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 59,
+      "task_id": "ROOF-RIDGE-CAP-03",
+      "source_members": [
+        "NF-COVER-02",
+        "NF-COVER-03",
+        "NF-COVER-07"
+      ],
+      "family": "GUIDED_RIDGE_CAP",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_ONE_REUSABLE_DECK_WORK_PLATFORM",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "ridge_cap_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-SKIN-01-SOUTH-FULL",
+        "ROOF-SKIN-01-NORTH-FULL",
+        "ROOF-SKIN-02-SOUTH-WEST",
+        "ROOF-SKIN-02-SOUTH-EAST",
+        "ROOF-SKIN-02-NORTH-WEST",
+        "ROOF-SKIN-02-NORTH-EAST",
+        "ROOF-SKIN-03-SOUTH-WEST",
+        "ROOF-SKIN-03-SOUTH-EAST",
+        "ROOF-SKIN-03-NORTH-WEST",
+        "ROOF-SKIN-03-NORTH-EAST",
+        "ROOF-SKIN-04-SOUTH-WEST",
+        "ROOF-SKIN-04-SOUTH-EAST",
+        "ROOF-SKIN-04-NORTH-WEST",
+        "ROOF-SKIN-04-NORTH-EAST",
+        "ROOF-SKIN-05-SOUTH-WEST",
+        "ROOF-SKIN-05-SOUTH-EAST",
+        "ROOF-SKIN-05-NORTH-WEST",
+        "ROOF-SKIN-05-NORTH-EAST",
+        "ROOF-SKIN-06-SOUTH-FULL",
+        "ROOF-SKIN-06-NORTH-FULL"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 60,
+      "task_id": "ROOF-RIDGE-CAP-04",
+      "source_members": [
+        "NF-COVER-03",
+        "NF-COVER-06",
+        "NF-COVER-07"
+      ],
+      "family": "GUIDED_RIDGE_CAP",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_ONE_REUSABLE_DECK_WORK_PLATFORM",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "ridge_cap_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-SKIN-01-SOUTH-FULL",
+        "ROOF-SKIN-01-NORTH-FULL",
+        "ROOF-SKIN-02-SOUTH-WEST",
+        "ROOF-SKIN-02-SOUTH-EAST",
+        "ROOF-SKIN-02-NORTH-WEST",
+        "ROOF-SKIN-02-NORTH-EAST",
+        "ROOF-SKIN-03-SOUTH-WEST",
+        "ROOF-SKIN-03-SOUTH-EAST",
+        "ROOF-SKIN-03-NORTH-WEST",
+        "ROOF-SKIN-03-NORTH-EAST",
+        "ROOF-SKIN-04-SOUTH-WEST",
+        "ROOF-SKIN-04-SOUTH-EAST",
+        "ROOF-SKIN-04-NORTH-WEST",
+        "ROOF-SKIN-04-NORTH-EAST",
+        "ROOF-SKIN-05-SOUTH-WEST",
+        "ROOF-SKIN-05-SOUTH-EAST",
+        "ROOF-SKIN-05-NORTH-WEST",
+        "ROOF-SKIN-05-NORTH-EAST",
+        "ROOF-SKIN-06-SOUTH-FULL",
+        "ROOF-SKIN-06-NORTH-FULL"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 61,
+      "task_id": "ROOF-RIDGE-CAP-05",
+      "source_members": [
+        "NF-COVER-03",
+        "NF-COVER-04",
+        "NF-COVER-05",
+        "NF-COVER-06"
+      ],
+      "family": "GUIDED_RIDGE_CAP",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_ONE_REUSABLE_DECK_WORK_PLATFORM",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "ridge_cap_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-SKIN-01-SOUTH-FULL",
+        "ROOF-SKIN-01-NORTH-FULL",
+        "ROOF-SKIN-02-SOUTH-WEST",
+        "ROOF-SKIN-02-SOUTH-EAST",
+        "ROOF-SKIN-02-NORTH-WEST",
+        "ROOF-SKIN-02-NORTH-EAST",
+        "ROOF-SKIN-03-SOUTH-WEST",
+        "ROOF-SKIN-03-SOUTH-EAST",
+        "ROOF-SKIN-03-NORTH-WEST",
+        "ROOF-SKIN-03-NORTH-EAST",
+        "ROOF-SKIN-04-SOUTH-WEST",
+        "ROOF-SKIN-04-SOUTH-EAST",
+        "ROOF-SKIN-04-NORTH-WEST",
+        "ROOF-SKIN-04-NORTH-EAST",
+        "ROOF-SKIN-05-SOUTH-WEST",
+        "ROOF-SKIN-05-SOUTH-EAST",
+        "ROOF-SKIN-05-NORTH-WEST",
+        "ROOF-SKIN-05-NORTH-EAST",
+        "ROOF-SKIN-06-SOUTH-FULL",
+        "ROOF-SKIN-06-NORTH-FULL"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 62,
+      "task_id": "ROOF-RIDGE-CAP-06",
+      "source_members": [
+        "NF-COVER-04",
+        "NF-COVER-05"
+      ],
+      "family": "GUIDED_RIDGE_CAP",
+      "installation_mode": "GUIDED_TWO_PERSON_FROM_ONE_REUSABLE_DECK_WORK_PLATFORM",
+      "offsite_joint_geometry_evidence": null,
+      "site_fixing_geometry_evidence": "ridge_cap_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "ROOF-SKIN-01-SOUTH-FULL",
+        "ROOF-SKIN-01-NORTH-FULL",
+        "ROOF-SKIN-02-SOUTH-WEST",
+        "ROOF-SKIN-02-SOUTH-EAST",
+        "ROOF-SKIN-02-NORTH-WEST",
+        "ROOF-SKIN-02-NORTH-EAST",
+        "ROOF-SKIN-03-SOUTH-WEST",
+        "ROOF-SKIN-03-SOUTH-EAST",
+        "ROOF-SKIN-03-NORTH-WEST",
+        "ROOF-SKIN-03-NORTH-EAST",
+        "ROOF-SKIN-04-SOUTH-WEST",
+        "ROOF-SKIN-04-SOUTH-EAST",
+        "ROOF-SKIN-04-NORTH-WEST",
+        "ROOF-SKIN-04-NORTH-EAST",
+        "ROOF-SKIN-05-SOUTH-WEST",
+        "ROOF-SKIN-05-SOUTH-EAST",
+        "ROOF-SKIN-05-NORTH-WEST",
+        "ROOF-SKIN-05-NORTH-EAST",
+        "ROOF-SKIN-06-SOUTH-FULL",
+        "ROOF-SKIN-06-NORTH-FULL"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 63,
+      "task_id": "CLAD-GUIDED-EAST-01",
+      "source_members": [
+        "NF-CLAD-29",
+        "NF-CLAD-30",
+        "NF-CLAD-31"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FJ-01",
+        "DECK-PANEL-01",
+        "NF-FE-01",
+        "UPPER-END-EAST-CAP",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 64,
+      "task_id": "CLAD-GUIDED-EAST-02",
+      "source_members": [
+        "NF-CLAD-32",
+        "NF-CLAD-33",
+        "NF-CLAD-34"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FJ-01",
+        "DECK-PANEL-01",
+        "NF-FE-01",
+        "UPPER-END-EAST-CAP",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 65,
+      "task_id": "CLAD-GUIDED-EAST-03",
+      "source_members": [
+        "NF-CLAD-35",
+        "NF-CLAD-36",
+        "NF-CLAD-37"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FJ-01",
+        "DECK-PANEL-01",
+        "NF-FE-01",
+        "UPPER-END-EAST-CAP",
+        "NF-FB-02",
+        "DECK-PANEL-02",
+        "NF-FE-02",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 66,
+      "task_id": "CLAD-GUIDED-EAST-04",
+      "source_members": [
+        "NF-CLAD-38",
+        "NF-CLAD-39",
+        "NF-CLAD-40"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-02",
+        "NF-FJ-01",
+        "DECK-PANEL-02",
+        "NF-FE-02",
+        "UPPER-END-EAST-CAP",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 67,
+      "task_id": "CLAD-GUIDED-EAST-05",
+      "source_members": [
+        "NF-CLAD-41",
+        "NF-CLAD-42"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-02",
+        "NF-FJ-01",
+        "DECK-PANEL-02",
+        "NF-FE-02",
+        "UPPER-END-EAST-CAP",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 68,
+      "task_id": "CLAD-GUIDED-SOUTH-01",
+      "source_members": [
+        "NF-CLAD-15",
+        "NF-CLAD-16",
+        "NF-CLAD-17"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-LB-04",
+        "NF-FB-01",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-06",
+        "NF-FJ-07",
+        "NF-FE-01",
+        "NF-UB-01",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 69,
+      "task_id": "CLAD-GUIDED-SOUTH-02",
+      "source_members": [
+        "NF-CLAD-18",
+        "NF-CLAD-19",
+        "NF-CLAD-20"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-LB-04",
+        "NF-FB-01",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-06",
+        "NF-FJ-07",
+        "NF-FE-01",
+        "NF-UB-01",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 70,
+      "task_id": "CLAD-GUIDED-SOUTH-03",
+      "source_members": [
+        "NF-CLAD-21",
+        "NF-CLAD-22",
+        "NF-CLAD-23"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-LB-04",
+        "NF-FB-01",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-06",
+        "NF-FJ-07",
+        "NF-FE-01",
+        "NF-UB-01",
+        "NF-LB-03",
+        "NF-FJ-01",
+        "NF-FJ-04",
+        "NF-FJ-05",
+        "NF-UB-02",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 71,
+      "task_id": "CLAD-GUIDED-SOUTH-04",
+      "source_members": [
+        "NF-CLAD-24",
+        "NF-CLAD-25",
+        "NF-CLAD-26"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-LB-03",
+        "NF-FB-01",
+        "NF-FJ-01",
+        "NF-FJ-03",
+        "NF-FJ-04",
+        "NF-FJ-05",
+        "NF-FE-01",
+        "NF-UB-02",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 72,
+      "task_id": "CLAD-GUIDED-SOUTH-05",
+      "source_members": [
+        "NF-CLAD-27",
+        "NF-CLAD-28"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-LB-03",
+        "NF-FB-01",
+        "NF-FJ-01",
+        "NF-FJ-03",
+        "NF-FJ-04",
+        "NF-FJ-05",
+        "NF-FE-01",
+        "NF-UB-02",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 73,
+      "task_id": "CLAD-GUIDED-NORTH-01",
+      "source_members": [
+        "NF-CLAD-43",
+        "NF-CLAD-44",
+        "NF-CLAD-45"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-LB-07",
+        "NF-FB-02",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-06",
+        "NF-FJ-07",
+        "NF-FE-02",
+        "NF-UB-03",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 74,
+      "task_id": "CLAD-GUIDED-NORTH-02",
+      "source_members": [
+        "NF-CLAD-46",
+        "NF-CLAD-47",
+        "NF-CLAD-48"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-LB-07",
+        "NF-FB-02",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-06",
+        "NF-FJ-07",
+        "NF-FE-02",
+        "NF-UB-03",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 75,
+      "task_id": "CLAD-GUIDED-NORTH-03",
+      "source_members": [
+        "NF-CLAD-49",
+        "NF-CLAD-50"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-LB-07",
+        "NF-FB-02",
+        "NF-FJ-02",
+        "NF-FJ-03",
+        "NF-FJ-06",
+        "NF-FJ-07",
+        "NF-FE-02",
+        "NF-UB-03",
+        "NF-FJ-01",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 76,
+      "task_id": "CLAD-GUIDED-WEST-01",
+      "source_members": [
+        "NF-CLAD-14",
+        "NF-CLAD-13",
+        "NF-CLAD-12"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FJ-02",
+        "DECK-PANEL-01",
+        "NF-FE-01",
+        "UPPER-END-FRAME-WEST",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 77,
+      "task_id": "CLAD-GUIDED-WEST-02",
+      "source_members": [
+        "NF-CLAD-11",
+        "NF-CLAD-10",
+        "NF-CLAD-09"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FJ-02",
+        "DECK-PANEL-01",
+        "NF-FE-01",
+        "UPPER-END-FRAME-WEST",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 78,
+      "task_id": "CLAD-GUIDED-WEST-03",
+      "source_members": [
+        "NF-CLAD-08",
+        "NF-CLAD-07",
+        "NF-CLAD-06"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-01",
+        "NF-FJ-02",
+        "DECK-PANEL-01",
+        "NF-FE-01",
+        "UPPER-END-FRAME-WEST",
+        "NF-FB-02",
+        "DECK-PANEL-02",
+        "NF-FE-02",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 79,
+      "task_id": "CLAD-GUIDED-WEST-04",
+      "source_members": [
+        "NF-CLAD-05",
+        "NF-CLAD-04",
+        "NF-CLAD-03"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-02",
+        "NF-FJ-02",
+        "DECK-PANEL-02",
+        "NF-FE-02",
+        "UPPER-END-FRAME-WEST",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    },
+    {
+      "site_step": 80,
+      "task_id": "CLAD-GUIDED-WEST-05",
+      "source_members": [
+        "NF-CLAD-02",
+        "NF-CLAD-01"
+      ],
+      "family": "GUIDED_CLADDING_STRIP",
+      "installation_mode": "GUIDED_TWO_PERSON_EXTERIOR_FINISH",
+      "offsite_joint_geometry_evidence": "section_connections_nominal_cleat_graph",
+      "site_fixing_geometry_evidence": "guided_finish_site_fixing_qa",
+      "conditional_robot_transfer": null,
+      "prior_tasks": [
+        "NF-FB-02",
+        "NF-FJ-02",
+        "DECK-PANEL-02",
+        "NF-FE-02",
+        "UPPER-END-FRAME-WEST",
+        "ROOF-RIDGE-CAP-06"
+      ],
+      "physical_capacity_and_worker_access_accepted": false,
+      "installation_committed": false
+    }
+  ],
+  "physical_joint_capacity_qualified": false,
+  "worker_access_and_handling_accepted": false,
+  "tool_delivery_and_partner_parking_accepted": false,
+  "preceding_task_to_next_task_connections_accepted": false,
+  "source_committed": false,
+  "full_assembly_success": false
+}

@@ -1,0 +1,14 @@
+{
+  "source": "public/proposals/computational-pages/media/v2/bridge-original-graph.jpg",
+  "source_sha256": "b713c938fbe3b2aac0d96b4f0e302d04d34f46b172b0395e3b378759a4b24b27",
+  "derivative": "public/proposals/computational-pages/media/v7/bridge-visible-wire-trace.svg",
+  "derivative_sha256": "a1f32ddd6a4b604014b1bf32ec729b1c2328520e79beb9a838c53d0f5566ced6",
+  "visible_connections": [
+    "Assemble Model / Model to Analyse ThII / Model",
+    "Analyse ThII / Analysed Model to Model View / Model",
+    "Model View / Model to Beam View / Model",
+    "Beam View / Legend Colours to stress legend / Colour",
+    "Assemble Model / Mass [kg] to yellow Panel"
+  ],
+  "limits": "The source is a saved screenshot crop, not a complete native GH definition. The inputs left of Assemble and the exact case behind the stress legend are unseen."
+}

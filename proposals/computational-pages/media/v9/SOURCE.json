@@ -1,0 +1,31 @@
+{
+  "source": "public/proposals/computational-pages/media/hokm-replay.json",
+  "source_sha256": "502a2928927ad251cdcb9975b28e74bbc5a0c2f42119a2449a8636cb028f3329",
+  "actions": [
+    {
+      "step": 0,
+      "player": 0,
+      "card": "K♠"
+    },
+    {
+      "step": 1,
+      "player": 1,
+      "card": "9♠"
+    },
+    {
+      "step": 2,
+      "player": 2,
+      "card": "2♠"
+    },
+    {
+      "step": 3,
+      "player": 3,
+      "card": "A♠"
+    }
+  ],
+  "outputs": {
+    "hokm-trick-table.svg": "278da698c39ce847745b3a69e38a19ded255044273b73ef4f94c57e15c93da2f",
+    "hokm-trick-table-portrait.svg": "d1144cfab59fed83f968dbed788bd1daba221e5c45f1c5cb07f9975775da1c9f",
+    "games-work.svg": "9ff68ae564643b9736c122232012c3f858329d44833953a25be532887afd465e"
+  }
+}

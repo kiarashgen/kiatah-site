@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+    <title id="title">A saved Hokm decision</title>
+    <desc id="desc">After a spade lead, player 2 can use only three spades from a thirteen-card hand. The saved checkpoint chooses 2 spades.</desc>
+    <style>
+      .micro{font:24px Consolas,monospace;letter-spacing:2px;fill:#b7b7ac}
+      .big{font:700 220px Arial,sans-serif;fill:#f0ece3}
+      .card{font:700 205px Arial,sans-serif;fill:#20231f}
+      .small{font:700 40px Arial,sans-serif;fill:#f0ece3}
+      .chip{font:700 48px Arial,sans-serif;fill:#20231f}
+    </style>
+    <rect width="1200" height="760" fill="#111512"/>
+    <path d="M70 77 H1130 M70 685 H1130" stroke="#697369" stroke-width="2"/>
+    <text class="micro" x="70" y="58">SAVED HOKM DECISION / P2</text>
+    <text class="micro" x="1130" y="58" text-anchor="end">FOLLOW ♠</text>
+    <rect x="105" y="140" width="390" height="475" fill="#f1ede5" stroke="#98b1dc" stroke-width="8"/>
+    <text class="micro" x="133" y="190" style="fill:#4e5e78">SELECTED CARD</text>
+    <text class="card" x="300" y="440" text-anchor="middle">2♠</text>
+    <text class="micro" x="133" y="572" style="fill:#4e5e78">Q 1.85 / LEGAL TOP</text>
+    <text class="big" x="610" y="330">3</text>
+    <text class="small" x="790" y="284">/ 13 CARDS</text>
+    <text class="micro" x="612" y="370">CAN FOLLOW THE LEAD SUIT</text>
+    <rect x="610" y="445" width="135" height="125" fill="#dce6f3" stroke="#90acd5" stroke-width="3"/>
+    <rect x="760" y="445" width="135" height="125" fill="#f1ede5"/>
+    <rect x="910" y="445" width="135" height="125" fill="#f1ede5"/>
+    <text class="chip" x="677" y="526" text-anchor="middle">2♠</text>
+    <text class="chip" x="827" y="526" text-anchor="middle">5♠</text>
+    <text class="chip" x="977" y="526" text-anchor="middle">8♠</text>
+    <text class="micro" x="70" y="725">LEAD K♠ → LEGAL MASK → HIGHEST LEGAL Q</text>
+    </svg>

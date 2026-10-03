@@ -1,0 +1,92 @@
+[
+  {
+    "public": "media/v2/tower-state-0.png",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\geometry\\tower-0.png",
+    "sha256": "57ed6934e9e8bf0d246bb65ef63d819ac6077cc65c652af76d09865e91913186"
+  },
+  {
+    "public": "media/v2/tower-state-1.png",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\geometry\\tower-1.png",
+    "sha256": "20e5af68bb43bb507e5da1ead7004a639aac3461deeb089ceb3056e43e747a0d"
+  },
+  {
+    "public": "media/v2/tower-state-2.png",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\geometry\\tower-2.png",
+    "sha256": "5aaf9efea21f588041a1642d968941e036ba88781c11804e160ec9f0cb382bdc"
+  },
+  {
+    "public": "media/v2/tower-state-3.png",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\geometry\\tower-3.png",
+    "sha256": "167339e34c0f8644be8a91cc9d615b678ad0a6bda13abcc9f439a59fe7ce9245"
+  },
+  {
+    "public": "media/v2/tower-state-4.png",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\geometry\\tower-4.png",
+    "sha256": "22319961e99f1855e8090de0b9a7fd1fa3350b279f8b307b9a26a79d3ba774ca"
+  },
+  {
+    "public": "media/v2/tower-profiles.svg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\analysis\\tower-envelope-profiles.svg",
+    "sha256": "483a3be9fc450c3f1cb8b70a7aa4626f8ceda4820b2e1a45e5c1ae2b77108ed0"
+  },
+  {
+    "public": "media/v2/shell-topology.svg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\analysis\\shell-topology-and-seams.svg",
+    "sha256": "057ad7a423983f978e0f88d589909d589fc28381cabd96c5af8e2abaea4b57fc"
+  },
+  {
+    "public": "media/v2/shell-field.svg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\analysis\\shell-inclination-field.svg",
+    "sha256": "d6d0e29001d2d7901267794bcf30a73ac65ba7442689f613c5a1b414a6d39a3b"
+  },
+  {
+    "public": "media/v2/shell-wireframe.svg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\geometry\\shell-native-wireframe.svg",
+    "sha256": "4892c65dba628553e94db60cf98eb22c5b1ca6cd43aad0ce0d421ee1cc7774d7"
+  },
+  {
+    "public": "media/v2/bridge-state-1.jpg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\karamba\\bridge\\t1.JPG",
+    "sha256": "0b7a2c6796d2931113d9245ae08c109698c8f091e18adbbc1c0aba0125fb32e1"
+  },
+  {
+    "public": "media/v2/bridge-state-2.jpg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\karamba\\bridge\\t2.JPG",
+    "sha256": "b7e442ff25d0112c1cb6a0bc50904209ee6edd0aa75ef8ddd22a17fcaa92f873"
+  },
+  {
+    "public": "media/v2/bridge-state-3.jpg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\karamba\\bridge\\t3.JPG",
+    "sha256": "3bb4d93b721047abcf8d6e835f99386276ca3a3eeb53ee078c754b4b57a74c79"
+  },
+  {
+    "public": "media/v2/bridge-state-4.jpg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\karamba\\bridge\\t4.JPG",
+    "sha256": "4eeac9dc80aa9ba4474e93dd92358d10fd6a3b722fcaf4583f8eaecd6fa32906"
+  },
+  {
+    "public": "media/v2/bridge-state-5.jpg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\karamba\\bridge\\t5.JPG",
+    "sha256": "263b65bbcf528555d85389bd72945bb628a58556a75aa9e65c41f042d8661571"
+  },
+  {
+    "public": "media/v2/bridge-original-graph.jpg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\karamba\\bridge\\2.JPG",
+    "sha256": "b713c938fbe3b2aac0d96b4f0e302d04d34f46b172b0395e3b378759a4b24b27"
+  },
+  {
+    "public": "media/v2/bridge-original-loads.jpg",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\karamba\\bridge\\3.JPG",
+    "sha256": "e61b39788d751fe6723d10850c7d4ab8740fb748a5060034524dd251bbb7ee14"
+  },
+  {
+    "public": "media/v2/bridge-force-model.glb",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_projects_v2_2026-09-28\\models\\bridge-member-force-model.glb",
+    "sha256": "2243d422b6b3475eebfdb72c8db204d8a85cd672c1a3e0b38f07c8e9883204a6"
+  },
+  {
+    "public": "media/v2/bridge-displacement-model.glb",
+    "original": "C:\\Users\\kiarash\\Desktop\\compute\\computational_projects_v2_2026-09-28\\models\\bridge-displacement-model.glb",
+    "sha256": "e6cf8aaee4b0b18e94327454b4698fbdec7d907b3086c12eac4b36a16c37dda3"
+  }
+]

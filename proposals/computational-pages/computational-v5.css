@@ -1,0 +1,70 @@
+/* Fifth editorial pass: source drawings are the primary visual layer. */
+.v5-diagram{margin:22px 0 26px;min-width:0;background:#f5f2eb;border:1px solid #c9c4b9;padding:12px}
+.v5-diagram>img{display:block;width:100%;height:auto;background:#f5f2eb}
+.v5-diagram figcaption,.v5-load-source figcaption,.v5-tower-extra figcaption{font:11px/1.55 Mono,monospace;color:#5f5b54;margin:10px 2px 0}
+.v5-diagram figcaption a{color:#294b8d}
+.v5-scroll{overflow-x:auto;overflow-y:hidden;scrollbar-color:#a6a096 #eeeae2}
+.v5-scroll img{display:block;width:2290px;max-width:none;height:auto}
+.v5-dynamo .v5-scroll img{width:3460px}
+.v5-brief{margin-top:0}
+#bridge .v5-bridge-gallery{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+#bridge .v5-bridge-gallery figure{padding:6px}
+#bridge .v5-bridge-gallery img{height:150px}
+#bridge .v5-bridge-gallery figcaption{font-size:9px;line-height:1.35}
+.v5-load-source{display:flex;align-items:center;gap:18px;margin:8px 0 24px;padding:12px;border:1px solid #c9c4b9;background:#eae6de}
+.v5-load-source img{display:block;width:min(62%,640px);height:200px;object-fit:contain;background:#eae6de}
+.v5-load-source figcaption{max-width:25ch}
+#analysis>.v2-panel{margin-top:16px!important}
+#analysis .force-intro{padding-bottom:10px}
+#analysis .force-stage{margin-top:0}
+.v5-tower-profiles{background:#171817;border-color:#494943}
+.v5-tower-profiles>img{background:#171817}
+.dark .v5-diagram figcaption,.dark .v5-tower-extra figcaption{color:#bab6ae}
+#tower .v2-two{display:grid;grid-template-columns:minmax(0,.55fr) minmax(0,.45fr);gap:14px}
+#tower .v2-two>.v2-panel{min-height:320px!important;margin:0}
+#tower .v2-two img#tower-large{height:315px!important}
+#tower .struct-chain img{max-height:270px;object-fit:contain}
+.v5-tower-extra{display:grid;grid-template-columns:minmax(0,.42fr) minmax(0,.58fr);gap:22px;align-items:center;margin-top:18px;border-top:1px solid #494943;padding-top:18px}
+.v5-tower-extra figure{margin:0}
+.v5-tower-extra img{display:block;width:100%;max-height:260px;object-fit:contain;background:#eae6de}
+.v5-tower-extra b{display:block;font:700 21px/1.2 Display,Arial,sans-serif;margin:10px 0}
+.v5-tower-extra p{font-size:13px;line-height:1.5;color:#bab6ae;max-width:50ch}
+.v5-tower-extra a{font:11px Mono,monospace;color:#b5c8ed}
+.v5-tower-source-links{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:12px;font:11px/1.5 Mono,monospace;color:#aaa69d}
+.v5-tower-source-links a{color:#b5c8ed}
+.v5-shell{padding-top:43px!important;padding-bottom:43px!important}
+.v5-shell .v2-head{margin-bottom:15px}
+#shell .v2-two{display:grid;grid-template-columns:minmax(0,.45fr) minmax(0,.55fr);gap:14px}
+#shell .v2-two>div:first-child .v2-panel{max-width:none;padding:8px}
+#shell .v2-model{height:215px!important}
+#shell .struct-chain img{max-height:260px;object-fit:contain}
+#shell .shell-evidence{grid-template-columns:minmax(0,.52fr) minmax(0,.48fr);gap:14px;margin-top:14px}
+#shell .shell-wireframe img{max-height:250px}
+#shell .shell-topology-data{padding:17px}
+#shell .shell-topology-data h3{font-size:23px;margin:8px 0 12px}
+#shell .shell-topology-numbers{padding:9px 0;gap:6px}
+#shell .shell-topology-numbers b{font-size:20px}
+#shell .shell-topology-data p{font-size:12px;margin:9px 0}
+.v5-shell-field img{max-height:260px;object-fit:contain}
+.v5-shell-field{margin-bottom:0}
+.v5-eval-diagram{background:#171817;border-color:#555}
+.v5-eval-diagram img{background:#171817}
+.reg-hero{min-height:0!important;padding-top:38px!important;padding-bottom:27px!important}
+.reg-hero-source img{height:auto!important;max-height:265px;object-fit:contain!important;object-position:center!important;background:#f5f2eb!important}
+.reg-hero-source{background:#f5f2eb!important}
+.reg-section{padding-top:45px!important;padding-bottom:50px!important}
+.v5-pdf-source{float:right;width:min(42%,410px);margin:0 0 16px 28px}
+.v5-pdf-source img{max-height:265px;object-fit:contain}
+#source:after{content:"";display:block;clear:both}
+.v5-dynamo,.v5-ifc-chains,.v5-route-atlas{margin-top:4px}
+.v5-route-bench{margin:18px 0 0}
+.v5-route-bench figcaption{color:#5f5b54!important}
+.v5-route-bench figcaption a{color:#294b8d!important}
+.v5-ifc-chains img,.v5-route-atlas img{object-fit:contain}
+.v5-route-atlas picture,.v5-route-atlas picture img{display:block;width:100%;height:auto}
+.site-footer{display:flex;gap:28px;align-items:center;justify-content:space-between;padding:22px 4.4%;border-top:1px solid #c9c4b9!important;background:#0d0d0c!important;color:#e8e3d8;font:11px Mono,monospace}
+.site-footer a{color:#e8e3d8!important;text-decoration:none}
+.site-footer a:hover{text-decoration:underline}
+@media(max-width:1050px){#bridge .v5-bridge-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}#bridge .v5-bridge-gallery img{height:155px}}
+@media(max-width:850px){#tower .v2-two,#shell .v2-two{grid-template-columns:1fr}.v5-tower-extra{grid-template-columns:1fr 1fr}.v5-pdf-source{float:none;width:100%;max-width:450px;margin:0 0 18px}.v5-shell{padding-top:35px!important}}
+@media(max-width:600px){#bridge .v5-bridge-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}#bridge .v5-bridge-gallery img{height:125px}.v5-load-source{display:block}.v5-load-source img{width:100%}.v5-load-source figcaption{max-width:none}.v5-tower-extra{grid-template-columns:1fr}.v5-tower-extra img{max-height:230px}#shell .shell-evidence{grid-template-columns:1fr}.v5-diagram{padding:7px}.v5-scroll img{width:1800px}.v5-dynamo .v5-scroll img{width:2700px}.site-footer{padding:21px 5%}}

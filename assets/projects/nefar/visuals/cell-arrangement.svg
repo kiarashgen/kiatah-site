@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 610" role="img" aria-label="Plan of source-frame footprint, retained cell rail extents, saved A and B stations and one computed TCP route">
+<g font-family="Arial,sans-serif" fill="#294B8D">
+<text x="52" y="60" font-size="25" font-weight="700">COOPERATIVE CELL / PLAN</text>
+<text x="52" y="91" font-size="16" letter-spacing="1.4">SOURCE FRAME + PROPOSED TRAVERSE SYSTEM</text>
+</g>
+<rect x="418.75" y="224.31" width="262.5" height="231.38" fill="#DCE6F1" fill-opacity=".48" stroke="#294B8D" stroke-width="2"/>
+<path d="M418.75,224.31 L681.25,455.69 M681.25,224.31 L418.75,455.69" stroke="#9FB8D2" stroke-width="1.4"/>
+<rect x="413.75" y="450.69" width="10" height="10" fill="#294B8D"/>
+<rect x="413.75" y="219.31" width="10" height="10" fill="#294B8D"/>
+<rect x="676.25" y="450.69" width="10" height="10" fill="#294B8D"/>
+<rect x="676.25" y="219.31" width="10" height="10" fill="#294B8D"/>
+<path d="M122.5,457.0 L782.5,457.0" fill="none" stroke="#294B8D" stroke-width="5"/>
+<path d="M122.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M197.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M272.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M347.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M422.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M497.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M572.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M647.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M722.5,450.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M122.5,544.75 L782.5,544.75" fill="none" stroke="#294B8D" stroke-width="2.5"/>
+<path d="M122.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M197.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M272.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M347.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M422.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M497.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M572.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M647.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M722.5,537.75 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M122.5,223.0 L782.5,223.0" fill="none" stroke="#294B8D" stroke-width="5"/>
+<path d="M122.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M197.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M272.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M347.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M422.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M497.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M572.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M647.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M722.5,216.0 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M122.5,135.25 L782.5,135.25" fill="none" stroke="#294B8D" stroke-width="2.5"/>
+<path d="M122.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M197.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M272.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M347.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M422.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M497.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M572.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M647.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<path d="M722.5,128.25 v14" stroke="#7F9DC0" stroke-width="1"/>
+<rect x="535.88" y="436.0" width="62" height="42" rx="4" fill="#294B8D"/>
+<text x="566.88" y="466.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="white">A</text>
+<rect x="729.0" y="202.0" width="62" height="42" rx="4" fill="#5A708A"/>
+<text x="760.0" y="232.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="white">B</text>
+<path d="M285.63,317.05 L285.63,317.3 L285.63,317.54 L285.63,317.79 L285.63,318.03 L285.63,318.27 L285.63,318.52 L285.63,318.76 L285.63,319.0 L285.63,319.25 L285.63,319.49 L285.63,319.74 L285.63,319.98 L285.63,320.22 L285.63,320.47 L285.63,320.71 L285.63,320.95 L285.63,321.2 L285.63,321.44 L285.63,321.69 L285.63,321.93 L285.63,322.17 L285.63,322.42 L285.63,322.66 L285.63,322.9 L285.63,323.15 L285.63,323.39 L285.63,323.64 L285.63,323.88 L285.63,324.12 L285.63,324.37 L285.63,324.61 L285.63,324.85 L285.63,325.1 L285.63,325.34 L285.63,325.59 L285.63,325.83 L285.63,326.07 L285.63,326.32 L285.63,326.56 L285.63,326.8 L285.63,326.8 L285.63,326.8 L285.63,326.8 L285.63,333.3 L566.88,333.3 L566.88,398.3 L566.88,398.3 L566.88,398.71 L566.88,399.12 L566.88,399.52 L566.88,399.93 L566.88,400.34 L566.88,400.74 L566.88,401.15 L566.88,401.55 L566.88,401.96 L566.88,402.37 L566.88,402.77 L566.88,403.18 L566.88,403.59 L566.88,403.99 L566.88,404.4 L566.88,404.8 L566.88,405.21 L566.88,405.62 L566.88,406.02 L566.88,406.43 L566.88,406.84 L566.88,407.24 L566.88,407.65 L566.88,408.05 L566.88,408.46 L566.88,408.87 L566.88,409.27 L566.88,409.68 L566.88,410.09 L566.88,410.49 L566.88,410.9 L566.88,411.3 L566.88,411.71 L566.88,412.12 L566.88,412.52 L566.88,412.93 L566.88,413.34 L566.88,413.74 L566.88,414.15 L566.88,414.55 L566.88,414.55 L566.88,414.15 L566.88,413.74 L566.88,413.34 L566.88,412.93 L566.88,412.52 L566.88,412.12 L566.88,411.71 L566.88,411.3 L566.88,410.9 L566.88,410.49 L566.88,410.09 L566.88,409.68 L566.88,409.27 L566.88,408.87 L566.88,408.46 L566.88,408.05 L566.88,407.65 L566.88,407.24 L566.88,406.84 L566.88,406.43 L566.88,406.02 L566.88,405.62 L566.88,405.21 L566.88,404.8 L566.88,404.4 L566.88,403.99 L566.88,403.59 L566.88,403.18 L566.88,402.77 L566.88,402.37 L566.88,401.96 L566.88,401.55 L566.88,401.15 L566.88,400.74 L566.88,400.34 L566.88,399.93 L566.88,399.52 L566.88,399.12 L566.88,398.71 L566.88,398.3" fill="none" stroke="#294B8D" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="285.63" cy="317.05" r="7" fill="#294B8D" stroke="#294B8D" stroke-width="2"/>
+<circle cx="566.88" cy="398.3" r="10" fill="none" stroke="#294B8D" stroke-width="2"/>
+<path d="M696.25,269.31 h58" stroke="#294B8D" stroke-width="1.5"/>
+<text x="764.25" y="275.31" font-family="Arial,sans-serif" font-size="18" fill="#171715">source frame footprint</text>
+<path d="M790,455 h55" stroke="#294B8D" stroke-width="3"/>
+<text x="855" y="462" font-family="Arial,sans-serif" font-size="18" fill="#171715">saved rail extent</text>
+<path d="M790,500 h55" stroke="#294B8D" stroke-width="4"/>
+<text x="855" y="507" font-family="Arial,sans-serif" font-size="18" fill="#171715">one sampled TCP path</text>
+</svg>

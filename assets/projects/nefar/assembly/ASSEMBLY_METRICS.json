@@ -1,0 +1,17 @@
+{
+  "status": "conditional digital study, not an executable physical method statement",
+  "site_steps": 80,
+  "accepted_baseline_source_members": 18,
+  "represented_remaining_source_member_equivalents": 137,
+  "represented_source_members_total": 155,
+  "checked_loaded_robot_route_steps": 31,
+  "guided_discrete_site_steps": 49,
+  "checked_nominal_site_fixing_steps": 80,
+  "animation_duration_seconds": 29.333,
+  "physical_build_qualified": false,
+  "unchecked_interfaces": [
+    "robot-to-next-pickup and tool-change transitions",
+    "fastener capacity and installation access",
+    "guarded access and manual handling"
+  ]
+}

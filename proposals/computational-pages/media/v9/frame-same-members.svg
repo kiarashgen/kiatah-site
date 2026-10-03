@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 790" role="img" aria-labelledby="title desc">
+<title id="title">The same two truss members across five declared structural cases</title>
+<desc id="desc">A blue end diagonal and umber upper chord from the later 104-member frame are identified by the same Rhino curve IDs in five calculated cases. Changing only steel section mainly changes movement, while changing rise also changes their signed axial force. These results do not describe the group-built bridge test.</desc>
+<rect x="0.00" y="0.00" width="1280.00" height="790.00" fill="#eeeae2" stroke="none" stroke-width="0.00"/>
+<text x="40.00" y="39.00" fill="#2b5799" font-family="Consolas,monospace" font-size="18" font-weight="700">SAME TWO SOURCE MEMBERS / FIVE DECLARED CASES</text>
+<text x="40.00" y="67.00" fill="#202522" font-family="Arial,sans-serif" font-size="20" font-weight="400">Section changes movement; rise changes the path of force.</text>
+<rect x="40.00" y="86.00" width="570.00" height="230.00" fill="#f8f6f1" stroke="#b9b5ab" stroke-width="1.00"/>
+<text x="59.00" y="113.00" fill="#2b5799" font-family="Consolas,monospace" font-size="14" font-weight="700">CASE 02 / ONE SIDE PLANE</text>
+<path d="M71.00,259.24 L107.19,218.35" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M107.19,218.35 L151.78,185.79" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M151.78,185.79 L203.52,164.75" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M203.52,164.75 L259.16,156.30" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M259.16,156.30 L315.50,158.80" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M315.50,158.80 L370.76,169.62" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M370.76,169.62 L424.33,186.45" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M424.33,186.45 L476.14,207.68" stroke="#a16643" stroke-width="6" fill="none"/>
+<path d="M476.14,207.68 L526.30,232.20" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M526.30,232.20 L575.00,259.24" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M71.00,259.24 L121.40,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M121.40,291.00 L151.78,185.79" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M151.78,185.79 L222.20,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M222.20,291.00 L259.16,156.30" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M259.16,156.30 L323.00,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M323.00,291.00 L370.76,169.62" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M370.76,169.62 L423.80,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M423.80,291.00 L476.14,207.68" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M476.14,207.68 L524.60,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M524.60,291.00 L575.00,259.24" stroke="#2b5799" stroke-width="6" fill="none"/>
+<path d="M71.00,259.24 L71.00,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M107.19,218.35 L121.40,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M151.78,185.79 L171.80,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M203.52,164.75 L222.20,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M259.16,156.30 L272.60,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M315.50,158.80 L323.00,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M370.76,169.62 L373.40,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M424.33,186.45 L423.80,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M476.14,207.68 L474.20,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M526.30,232.20 L524.60,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M575.00,259.24 L575.00,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M71.00,291.00 L121.40,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M121.40,291.00 L171.80,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M171.80,291.00 L222.20,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M222.20,291.00 L272.60,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M272.60,291.00 L323.00,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M323.00,291.00 L373.40,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M373.40,291.00 L423.80,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M423.80,291.00 L474.20,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M474.20,291.00 L524.60,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<path d="M524.60,291.00 L575.00,291.00" stroke="#a6aaa4" stroke-width="1.8" fill="none"/>
+<rect x="636.00" y="86.00" width="604.00" height="230.00" fill="#f8f6f1" stroke="#b9b5ab" stroke-width="1.00"/>
+<text x="656.00" y="115.00" fill="#202522" font-family="Consolas,monospace" font-size="15" font-weight="700">ONE IDENTIFIED DIAGONAL AND ONE CHORD</text>
+<rect x="657.00" y="141.00" width="23.00" height="7.00" fill="#2b5799" stroke="none" stroke-width="0.00"/>
+<text x="694.00" y="151.00" fill="#202522" font-family="Arial,sans-serif" font-size="18" font-weight="700">End diagonal / tension</text>
+<text x="694.00" y="176.00" fill="#2b5799" font-family="Consolas,monospace" font-size="14" font-weight="400">Rhino curve f5accf94…</text>
+<rect x="657.00" y="206.00" width="23.00" height="7.00" fill="#a16643" stroke="none" stroke-width="0.00"/>
+<text x="694.00" y="216.00" fill="#202522" font-family="Arial,sans-serif" font-size="18" font-weight="700">Upper chord / compression</text>
+<text x="694.00" y="241.00" fill="#a16643" font-family="Consolas,monospace" font-size="14" font-weight="400">Rhino curve 651184d2…</text>
+<text x="656.00" y="290.00" fill="#747973" font-family="Consolas,monospace" font-size="12" font-weight="400">IDENTITY HELD; CENTERLINE CHANGES ONLY WITH RISE</text>
+<path d="M40 334H1240" stroke="#989a91"/>
+<text x="50.00" y="367.00" fill="#2b5799" font-family="Consolas,monospace" font-size="17" font-weight="700">01 / SAME CENTERLINES · CHS SECTION CHANGES</text>
+<text x="374.00" y="398.00" fill="#2b5799" font-family="Consolas,monospace" font-size="13" font-weight="700">END DIAGONAL / + kN</text>
+<text x="653.00" y="398.00" fill="#a16643" font-family="Consolas,monospace" font-size="13" font-weight="700">UPPER CHORD / − kN</text>
+<text x="972.00" y="398.00" fill="#747973" font-family="Consolas,monospace" font-size="13" font-weight="700">PEAK MOVE</text>
+<text x="58.00" y="433.00" fill="#202522" font-family="Arial,sans-serif" font-size="17" font-weight="700">01 · Ø120×6</text>
+<text x="374.00" y="433.00" fill="#2b5799" font-family="Consolas,monospace" font-size="18" font-weight="700">+42.69</text>
+<rect x="462.00" y="422.00" width="117.41" height="9.00" fill="#2b5799" stroke="none" stroke-width="0.00"/>
+<text x="653.00" y="433.00" fill="#a16643" font-family="Consolas,monospace" font-size="18" font-weight="700">-52.04</text>
+<rect x="744.00" y="422.00" width="124.90" height="9.00" fill="#a16643" stroke="none" stroke-width="0.00"/>
+<text x="972.00" y="433.00" fill="#202522" font-family="Consolas,monospace" font-size="18" font-weight="700">3.35 mm</text>
+<rect x="1096.00" y="422.00" width="107.28" height="9.00" fill="#747973" stroke="none" stroke-width="0.00"/>
+<path d="M50 448H1230" stroke="#cdc9c0"/>
+<text x="58.00" y="475.00" fill="#202522" font-family="Arial,sans-serif" font-size="17" font-weight="700">02 · Ø160×6</text>
+<text x="374.00" y="475.00" fill="#2b5799" font-family="Consolas,monospace" font-size="18" font-weight="700">+42.35</text>
+<rect x="462.00" y="464.00" width="116.46" height="9.00" fill="#2b5799" stroke="none" stroke-width="0.00"/>
+<text x="653.00" y="475.00" fill="#a16643" font-family="Consolas,monospace" font-size="18" font-weight="700">-52.04</text>
+<rect x="744.00" y="464.00" width="124.89" height="9.00" fill="#a16643" stroke="none" stroke-width="0.00"/>
+<text x="972.00" y="475.00" fill="#202522" font-family="Consolas,monospace" font-size="18" font-weight="700">2.48 mm</text>
+<rect x="1096.00" y="464.00" width="79.27" height="9.00" fill="#747973" stroke="none" stroke-width="0.00"/>
+<path d="M50 490H1230" stroke="#cdc9c0"/>
+<text x="58.00" y="517.00" fill="#202522" font-family="Arial,sans-serif" font-size="17" font-weight="700">03 · Ø200×8</text>
+<text x="374.00" y="517.00" fill="#2b5799" font-family="Consolas,monospace" font-size="18" font-weight="700">+41.94</text>
+<rect x="462.00" y="506.00" width="115.33" height="9.00" fill="#2b5799" stroke="none" stroke-width="0.00"/>
+<text x="653.00" y="517.00" fill="#a16643" font-family="Consolas,monospace" font-size="18" font-weight="700">-52.03</text>
+<rect x="744.00" y="506.00" width="124.87" height="9.00" fill="#a16643" stroke="none" stroke-width="0.00"/>
+<text x="972.00" y="517.00" fill="#202522" font-family="Consolas,monospace" font-size="18" font-weight="700">1.49 mm</text>
+<rect x="1096.00" y="506.00" width="47.58" height="9.00" fill="#747973" stroke="none" stroke-width="0.00"/>
+<path d="M50 532H1230" stroke="#cdc9c0"/>
+<text x="50.00" y="573.00" fill="#2b5799" font-family="Consolas,monospace" font-size="17" font-weight="700">02 / SAME CHS Ø160×6 · RISE CHANGES</text>
+<text x="374.00" y="604.00" fill="#2b5799" font-family="Consolas,monospace" font-size="13" font-weight="700">END DIAGONAL / + kN</text>
+<text x="653.00" y="604.00" fill="#a16643" font-family="Consolas,monospace" font-size="13" font-weight="700">UPPER CHORD / − kN</text>
+<text x="972.00" y="604.00" fill="#747973" font-family="Consolas,monospace" font-size="13" font-weight="700">PEAK MOVE</text>
+<text x="58.00" y="639.00" fill="#202522" font-family="Arial,sans-serif" font-size="17" font-weight="700">04 · LOWER</text>
+<text x="374.00" y="639.00" fill="#2b5799" font-family="Consolas,monospace" font-size="18" font-weight="700">+47.86</text>
+<rect x="462.00" y="628.00" width="131.60" height="9.00" fill="#2b5799" stroke="none" stroke-width="0.00"/>
+<text x="653.00" y="639.00" fill="#a16643" font-family="Consolas,monospace" font-size="18" font-weight="700">-60.78</text>
+<rect x="744.00" y="628.00" width="145.86" height="9.00" fill="#a16643" stroke="none" stroke-width="0.00"/>
+<text x="972.00" y="639.00" fill="#202522" font-family="Consolas,monospace" font-size="18" font-weight="700">3.11 mm</text>
+<rect x="1096.00" y="628.00" width="99.48" height="9.00" fill="#747973" stroke="none" stroke-width="0.00"/>
+<path d="M50 654H1230" stroke="#cdc9c0"/>
+<text x="58.00" y="681.00" fill="#202522" font-family="Arial,sans-serif" font-size="17" font-weight="700">02 · RETAINED</text>
+<text x="374.00" y="681.00" fill="#2b5799" font-family="Consolas,monospace" font-size="18" font-weight="700">+42.35</text>
+<rect x="462.00" y="670.00" width="116.46" height="9.00" fill="#2b5799" stroke="none" stroke-width="0.00"/>
+<text x="653.00" y="681.00" fill="#a16643" font-family="Consolas,monospace" font-size="18" font-weight="700">-52.04</text>
+<rect x="744.00" y="670.00" width="124.89" height="9.00" fill="#a16643" stroke="none" stroke-width="0.00"/>
+<text x="972.00" y="681.00" fill="#202522" font-family="Consolas,monospace" font-size="18" font-weight="700">2.48 mm</text>
+<rect x="1096.00" y="670.00" width="79.27" height="9.00" fill="#747973" stroke="none" stroke-width="0.00"/>
+<path d="M50 696H1230" stroke="#cdc9c0"/>
+<text x="58.00" y="723.00" fill="#202522" font-family="Arial,sans-serif" font-size="17" font-weight="700">05 · HIGHER</text>
+<text x="374.00" y="723.00" fill="#2b5799" font-family="Consolas,monospace" font-size="18" font-weight="700">+37.97</text>
+<rect x="462.00" y="712.00" width="104.42" height="9.00" fill="#2b5799" stroke="none" stroke-width="0.00"/>
+<text x="653.00" y="723.00" fill="#a16643" font-family="Consolas,monospace" font-size="18" font-weight="700">-46.25</text>
+<rect x="744.00" y="712.00" width="111.00" height="9.00" fill="#a16643" stroke="none" stroke-width="0.00"/>
+<text x="972.00" y="723.00" fill="#202522" font-family="Consolas,monospace" font-size="18" font-weight="700">2.15 mm</text>
+<rect x="1096.00" y="712.00" width="68.73" height="9.00" fill="#747973" stroke="none" stroke-width="0.00"/>
+<path d="M50 738H1230" stroke="#cdc9c0"/>
+<text x="40.00" y="773.00" fill="#747973" font-family="Consolas,monospace" font-size="13" font-weight="400">FIRST-ORDER CALCULATION / DECLARED LOADS · NOT THE GROUP BRIDGE TEST</text>
+</svg>

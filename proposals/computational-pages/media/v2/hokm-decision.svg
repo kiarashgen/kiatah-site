@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Hokm saved decision 01: state, legal mask, scored actions and selected K of spades</title><desc id="desc">A source-derived diagram based on the first event of the retained 40-decision replay. Player 0 has 13 cards, all legal at the opening trick. The selected K of spades has the highest saved legal Q score, 1.863.</desc>
+<rect width="1200" height="390" fill="#f1eee7"/>
+<g font-family="IBM Plex Mono,monospace" font-size="15" fill="#294b8d"><text x="38" y="36">01 / STATE</text><text x="438" y="36">02 / LEGAL ACTIONS</text><text x="816" y="36">03 / SCORED CHOICE</text></g>
+<g stroke="#c4bdb2" fill="none"><path d="M38 49H378M438 49H758M816 49H1162"/><path d="M398 173H420M776 173H798" stroke="#294b8d" stroke-width="2"/></g>
+<g fill="#171715" font-family="Noto Sans Display,Arial,sans-serif"><text x="38" y="82" font-size="27" font-weight="700">Player 0 · trump ♦</text><text x="438" y="82" font-size="27" font-weight="700">13 of 13 allowed</text><text x="816" y="82" font-size="27" font-weight="700">K♠ is selected</text></g>
+<g font-family="IBM Plex Mono,monospace" font-size="13" fill="#67635d"><text x="38" y="107">OPENING TRICK / NO LEAD SUIT YET</text><text x="438" y="107">RULE FILTER FROM SAVED EVENT</text><text x="816" y="107">Q IS A LEARNED VALUE</text></g>
+<g fill="#fff" stroke="#c4bdb2" stroke-width="1.5"><rect x="38" y="140" width="76" height="108"/><rect x="124" y="140" width="76" height="108"/><rect x="210" y="140" width="76" height="108"/><rect x="296" y="140" width="76" height="108"/></g>
+<rect x="296" y="140" width="76" height="108" fill="none" stroke="#294b8d" stroke-width="3"/>
+<g font-family="Noto Sans Display,Arial,sans-serif" font-size="31" font-weight="700" fill="#242424"><text x="49" y="183">6♠</text><text x="135" y="183">7♠</text><text x="221" y="183">J♠</text><text x="307" y="183">K♠</text></g>
+<text x="39" y="278" font-family="IBM Plex Mono,monospace" font-size="13" fill="#67635d">4 SHOWN OF 13 SAVED HAND CARDS</text>
+<g fill="#294b8d"><rect x="438" y="147" width="286" height="32"/><rect x="438" y="190" width="286" height="32"/><rect x="438" y="233" width="286" height="32"/></g>
+<g fill="#fff" font-family="IBM Plex Mono,monospace" font-size="14"><text x="449" y="169">✓ 6♠ · legal</text><text x="449" y="212">✓ J♣ · legal</text><text x="449" y="255">✓ K♠ · legal</text></g>
+<g fill="#d4cfc5"><rect x="816" y="151" width="197" height="13"/><rect x="816" y="193" width="183" height="13"/><rect x="816" y="235" width="175" height="13"/></g><rect x="816" y="151" width="197" height="13" fill="#294b8d"/>
+<g font-family="IBM Plex Mono,monospace" font-size="15" fill="#33312d"><text x="1027" y="163">K♠ 1.863</text><text x="1013" y="205">6♠ 1.802</text><text x="1005" y="247">J♣ 1.795</text></g>
+<g font-family="IBM Plex Mono,monospace" font-size="13" fill="#67635d"><text x="38" y="352">SOURCE: HOKM-REPLAY.JSON / EVENTS[0]</text><text x="816" y="352">DISPLAYED TOP THREE LEGAL Q VALUES</text></g>
+</svg>

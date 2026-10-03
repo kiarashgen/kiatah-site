@@ -1,0 +1,342 @@
+{
+  "source": "public/proposals/computational-pages/force-study-data.json",
+  "source_sha256": "d10e80ea3ed60656498d6ddaba121f8ba7504e06d3b4f02db76136b480edbcfd",
+  "evidence_class": "new diagram from later declared first-order frame solve",
+  "claim_boundary": "not the group bridge test or a native full-size Karamba result",
+  "common_graph_scale_mm": [
+    0,
+    3.5
+  ],
+  "cases": [
+    {
+      "id": "retained_12",
+      "label": "RETAINED RISE / CHS 120 \u00d7 6",
+      "asset": "public/proposals/computational-pages/media/v7/frame-force-movement-01.svg",
+      "sha256": "736320246373370710a89928da361961cd855e978628c12c68c344125f8a487d",
+      "portrait_asset": "public/proposals/computational-pages/media/v7/frame-force-movement-01-portrait.svg",
+      "portrait_sha256": "033910cea65bec84e8472f701cb9b6b17023edfce4394fa2783c519cc9df7afb",
+      "deck_nodes": [
+        {
+          "node": 16,
+          "x_m": 0.0,
+          "downward_mm": -0.0
+        },
+        {
+          "node": 11,
+          "x_m": 3.0000000000000018,
+          "downward_mm": 1.08557839971046
+        },
+        {
+          "node": 17,
+          "x_m": 6.0000000000000036,
+          "downward_mm": 1.905743762140588
+        },
+        {
+          "node": 12,
+          "x_m": 9.000000000000004,
+          "downward_mm": 2.4023982966061137
+        },
+        {
+          "node": 18,
+          "x_m": 12.000000000000004,
+          "downward_mm": 2.9982862486260635
+        },
+        {
+          "node": 13,
+          "x_m": 15.000000000000004,
+          "downward_mm": 3.1725145775729713
+        },
+        {
+          "node": 19,
+          "x_m": 18.0,
+          "downward_mm": 3.3521883881335084
+        },
+        {
+          "node": 14,
+          "x_m": 21.0,
+          "downward_mm": 3.050267435897683
+        },
+        {
+          "node": 20,
+          "x_m": 23.999999999999996,
+          "downward_mm": 2.575493680699845
+        },
+        {
+          "node": 15,
+          "x_m": 26.999999999999996,
+          "downward_mm": 1.5722637264993933
+        },
+        {
+          "node": 21,
+          "x_m": 30.000000000000004,
+          "downward_mm": -0.0
+        }
+      ],
+      "peak_downward_mm": 3.3521883881335084
+    },
+    {
+      "id": "retained_16",
+      "label": "RETAINED RISE / CHS 160 \u00d7 6",
+      "asset": "public/proposals/computational-pages/media/v7/frame-force-movement-02.svg",
+      "sha256": "0b522e49100a9381be2b5666365e063fe0368b8f013b53e52496d76b80afdba0",
+      "portrait_asset": "public/proposals/computational-pages/media/v7/frame-force-movement-02-portrait.svg",
+      "portrait_sha256": "d82b603956bebe0b9958b4d3ec3800009ab46c2280986177193f84bf1f1d3325",
+      "deck_nodes": [
+        {
+          "node": 16,
+          "x_m": 0.0,
+          "downward_mm": -0.0
+        },
+        {
+          "node": 11,
+          "x_m": 3.0000000000000018,
+          "downward_mm": 0.8021313151367221
+        },
+        {
+          "node": 17,
+          "x_m": 6.0000000000000036,
+          "downward_mm": 1.40809189940713
+        },
+        {
+          "node": 12,
+          "x_m": 9.000000000000004,
+          "downward_mm": 1.776235412540229
+        },
+        {
+          "node": 18,
+          "x_m": 12.000000000000004,
+          "downward_mm": 2.2152019557675264
+        },
+        {
+          "node": 13,
+          "x_m": 15.000000000000004,
+          "downward_mm": 2.3453907860087915
+        },
+        {
+          "node": 19,
+          "x_m": 18.0,
+          "downward_mm": 2.4768610282293064
+        },
+        {
+          "node": 14,
+          "x_m": 21.0,
+          "downward_mm": 2.2544089286365683
+        },
+        {
+          "node": 20,
+          "x_m": 23.999999999999996,
+          "downward_mm": 1.9026477134929318
+        },
+        {
+          "node": 15,
+          "x_m": 26.999999999999996,
+          "downward_mm": 1.1606502033752921
+        },
+        {
+          "node": 21,
+          "x_m": 30.000000000000004,
+          "downward_mm": -0.0
+        }
+      ],
+      "peak_downward_mm": 2.4768610282293064
+    },
+    {
+      "id": "retained_20",
+      "label": "RETAINED RISE / CHS 200 \u00d7 8",
+      "asset": "public/proposals/computational-pages/media/v7/frame-force-movement-03.svg",
+      "sha256": "740a903ab9481f8822e413ac3ddd9cb2b9ff3ebc8f3fd848af62569c3ab4de29",
+      "portrait_asset": "public/proposals/computational-pages/media/v7/frame-force-movement-03-portrait.svg",
+      "portrait_sha256": "b4b6d141570a485a1e1fb40fac5388c511ba1df83714765462fb6ab8a615b3d3",
+      "deck_nodes": [
+        {
+          "node": 16,
+          "x_m": 0.0,
+          "downward_mm": -0.0
+        },
+        {
+          "node": 11,
+          "x_m": 3.0000000000000018,
+          "downward_mm": 0.4814749895975124
+        },
+        {
+          "node": 17,
+          "x_m": 6.0000000000000036,
+          "downward_mm": 0.8451566613439756
+        },
+        {
+          "node": 12,
+          "x_m": 9.000000000000004,
+          "downward_mm": 1.0669598528337554
+        },
+        {
+          "node": 18,
+          "x_m": 12.000000000000004,
+          "downward_mm": 1.3295080904987402
+        },
+        {
+          "node": 13,
+          "x_m": 15.000000000000004,
+          "downward_mm": 1.4086653126016162
+        },
+        {
+          "node": 19,
+          "x_m": 18.0,
+          "downward_mm": 1.4866662494947496
+        },
+        {
+          "node": 14,
+          "x_m": 21.0,
+          "downward_mm": 1.3535818126872896
+        },
+        {
+          "node": 20,
+          "x_m": 23.999999999999996,
+          "downward_mm": 1.1417564567530247
+        },
+        {
+          "node": 15,
+          "x_m": 26.999999999999996,
+          "downward_mm": 0.6958900327125646
+        },
+        {
+          "node": 21,
+          "x_m": 30.000000000000004,
+          "downward_mm": -0.0
+        }
+      ],
+      "peak_downward_mm": 1.4866662494947496
+    },
+    {
+      "id": "lower_rise_16",
+      "label": "LOWER RISE / CHS 160 \u00d7 6",
+      "asset": "public/proposals/computational-pages/media/v7/frame-force-movement-04.svg",
+      "sha256": "4e9d9940d467e51e10f15d408eb210c28408821075b77d326bf0c69d4024a8ae",
+      "portrait_asset": "public/proposals/computational-pages/media/v7/frame-force-movement-04-portrait.svg",
+      "portrait_sha256": "3a6fcfe73a8ac34e81bd781e55799e81298f048ed50f702356b17d64b10babd4",
+      "deck_nodes": [
+        {
+          "node": 16,
+          "x_m": 0.0,
+          "downward_mm": -0.0
+        },
+        {
+          "node": 11,
+          "x_m": 3.0000000000000018,
+          "downward_mm": 1.0040187405389398
+        },
+        {
+          "node": 17,
+          "x_m": 6.0000000000000036,
+          "downward_mm": 1.7528901933281387
+        },
+        {
+          "node": 12,
+          "x_m": 9.000000000000004,
+          "downward_mm": 2.3216799654979763
+        },
+        {
+          "node": 18,
+          "x_m": 12.000000000000004,
+          "downward_mm": 2.8150360312696217
+        },
+        {
+          "node": 13,
+          "x_m": 15.000000000000004,
+          "downward_mm": 3.0292431713873533
+        },
+        {
+          "node": 19,
+          "x_m": 18.0,
+          "downward_mm": 3.108537751493997
+        },
+        {
+          "node": 14,
+          "x_m": 21.0,
+          "downward_mm": 2.841802425524174
+        },
+        {
+          "node": 20,
+          "x_m": 23.999999999999996,
+          "downward_mm": 2.3241621798072423
+        },
+        {
+          "node": 15,
+          "x_m": 26.999999999999996,
+          "downward_mm": 1.4176688451072033
+        },
+        {
+          "node": 21,
+          "x_m": 30.000000000000004,
+          "downward_mm": -0.0
+        }
+      ],
+      "peak_downward_mm": 3.108537751493997
+    },
+    {
+      "id": "higher_rise_16",
+      "label": "HIGHER RISE / CHS 160 \u00d7 6",
+      "asset": "public/proposals/computational-pages/media/v7/frame-force-movement-05.svg",
+      "sha256": "0c381fba32459b6d5af9f58f0e362c068ddc59b929b965579313b96ba5706bfd",
+      "portrait_asset": "public/proposals/computational-pages/media/v7/frame-force-movement-05-portrait.svg",
+      "portrait_sha256": "09c30a0ef6f872623e07e33b34fe50e55cf08c04efde475c518c8f8b8f37c2a9",
+      "deck_nodes": [
+        {
+          "node": 16,
+          "x_m": 0.0,
+          "downward_mm": -0.0
+        },
+        {
+          "node": 11,
+          "x_m": 3.0000000000000018,
+          "downward_mm": 0.7020716692757815
+        },
+        {
+          "node": 17,
+          "x_m": 6.0000000000000036,
+          "downward_mm": 1.234364754004769
+        },
+        {
+          "node": 12,
+          "x_m": 9.000000000000004,
+          "downward_mm": 1.4814697916980486
+        },
+        {
+          "node": 18,
+          "x_m": 12.000000000000004,
+          "downward_mm": 1.9029613319753687
+        },
+        {
+          "node": 13,
+          "x_m": 15.000000000000004,
+          "downward_mm": 1.9779366886024135
+        },
+        {
+          "node": 19,
+          "x_m": 18.0,
+          "downward_mm": 2.14760890688816
+        },
+        {
+          "node": 14,
+          "x_m": 21.0,
+          "downward_mm": 1.940103567455232
+        },
+        {
+          "node": 20,
+          "x_m": 23.999999999999996,
+          "downward_mm": 1.679819319425579
+        },
+        {
+          "node": 15,
+          "x_m": 26.999999999999996,
+          "downward_mm": 1.0204356752217234
+        },
+        {
+          "node": 21,
+          "x_m": 30.000000000000004,
+          "downward_mm": -0.0
+        }
+      ],
+      "peak_downward_mm": 2.14760890688816
+    }
+  ]
+}

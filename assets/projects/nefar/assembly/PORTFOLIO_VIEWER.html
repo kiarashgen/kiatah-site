@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>NEFAR / full 3D construction sequence</title>
+<style>
+:root{--paper:#F1EEE7;--ink:#171715;--muted:#5C5750;--blue:#294B8D;--line:#CBC5BB}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);font:13px/1.5 system-ui,sans-serif}
+body{display:flex;flex-direction:column}button,select{font:12px/1.2 Consolas,monospace;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:3px;padding:8px 11px;cursor:pointer}button:hover,select:hover{border-color:var(--blue)}button[aria-pressed="true"]{background:var(--blue);color:white;border-color:var(--blue)}a{color:var(--blue);text-decoration:none}
+header{flex:none;display:flex;align-items:center;gap:11px;flex-wrap:wrap;padding:14px 21px;border-bottom:1px solid var(--line)}.brand{font:11px Consolas,monospace;letter-spacing:.1em;margin-right:10px;white-space:nowrap}.title{font-weight:650;margin-right:auto;min-width:180px}.header-group{display:flex;gap:7px;align-items:center;flex-wrap:wrap}#stepSelect{max-width:280px}
+#view{position:relative;flex:1;min-height:340px;overflow:hidden}#view canvas{display:block;width:100%;height:100%}.badge{position:absolute;left:24px;top:19px;pointer-events:none;color:var(--muted);font:11px/1.7 Consolas,monospace;letter-spacing:.09em}.counter{position:absolute;right:24px;top:20px;background:#F1EEE7e8;border:1px solid var(--line);padding:10px 15px;text-align:right;font:11px Consolas,monospace;color:var(--blue)}.counter strong{display:block;font:700 25px/1.1 system-ui;color:var(--ink)}
+.panel{flex:none;padding:12px 21px 15px;border-top:1px solid var(--line);background:var(--paper)}.row{display:flex;align-items:center;gap:12px}#seek{flex:1;min-width:100px;accent-color:var(--blue)}#time{font:11px Consolas,monospace;min-width:115px;text-align:right}.status{font:12px/1.45 Consolas,monospace;margin-top:9px}.note{font:11px/1.4 system-ui;color:var(--muted);margin-top:5px}.swatches{display:flex;gap:15px;flex-wrap:wrap;font:10px Consolas,monospace;color:var(--muted);margin-top:8px}.swatches span:before{content:'';display:inline-block;width:8px;height:8px;margin-right:5px;background:var(--blue)}.swatches span:nth-child(2):before{background:#AAA69D}.swatches span:nth-child(3):before{background:#E7E2D8;border:1px solid var(--line)}
+.capture header,.capture .panel,.capture .badge,.capture .counter{display:none}.capture #view{height:100vh;flex:none}
+@media(max-width:760px){header{padding:10px 12px}.header-group{width:100%}#view{min-height:330px}.badge{left:12px;top:10px;font-size:9px}.counter{right:10px;top:10px}.panel{padding:9px 12px}.note{max-height:32px;overflow:hidden}}
+</style><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script><style>
+/* Portfolio control layout only. The playback code and data remain the source package. */
+@media(max-width:760px){
+  html,body{width:100%;overflow-x:hidden}
+  header{display:block;padding:8px 12px}
+  header .brand{display:none}
+  header .title{display:block;min-width:0;margin:0;font-size:12px}
+  header .header-group{display:none}
+  #view{min-height:250px}
+  .badge{display:none}
+  .counter{right:8px;top:8px;padding:5px 7px;font-size:9px}
+  .counter strong{font-size:16px}
+  .panel{padding:8px 10px 11px}
+  .row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:7px}
+  #seek{grid-column:1/-1;grid-row:1;width:100%;min-width:0;margin:5px 0}
+  #play{grid-column:1;grid-row:2}
+  #speed{grid-column:3;grid-row:2}
+  #time{grid-column:2;grid-row:2;text-align:center;min-width:0;align-self:center;font-size:10px}
+  .status{margin-top:5px;font-size:10px;line-height:1.3}
+  .note,.swatches{display:none}
+}
+</style></head>
+<body><header><a class="brand" href="index.html">NEFAR / FULL ASSEMBLY</a><strong class="title" id="title">Empty site → complete structure</strong><div class="header-group"><select id="stepSelect" aria-label="Jump to placement"></select><button id="whole">Whole cell</button><button id="detail">Active detail</button><button id="path" aria-pressed="true">TCP route</button><button id="proxies" aria-pressed="false">Envelopes</button></div></header>
+<main id="view"><div class="badge">ALAM KOLA / GABLE CAD<br>DUAL-GANTRY CONSTRUCTION STUDY<br>GRID 1 m / Z UP</div><div class="counter"><strong id="count">0 / 155</strong><span id="stepCount">0 / 98 placements</span></div></main>
+<section class="panel"><div class="row"><button id="play" aria-pressed="false">Play</button><input id="seek" type="range" min="0" step="any" value="0" aria-label="Full assembly time"><select id="speed" aria-label="Playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select><span id="time">0.0 / 0.0 s</span></div><div class="status" id="status" role="status">Loading full source-bound playback…</div><div class="note" id="note">Recorded robot routes are shown as computed. Guided and external operations are distinguished in the timeline; physical fixing capacity, worker access and transitions between robot jobs remain unqualified.</div><div class="swatches"><span>active member / checked robot task</span><span>assembled source timber</span><span>concept cell hardware</span></div></section>
+<script type="module" src="full_assembly_viewer.js"></script></body></html>

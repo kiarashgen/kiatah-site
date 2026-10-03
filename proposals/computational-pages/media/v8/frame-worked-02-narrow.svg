@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 890" role="img" aria-labelledby="title description">
+<title id="title">Case 02 force and movement, narrow reading</title>
+<desc id="description">A source-linked near side plane carries nine 10 kN deck loads. The upper chord compresses by 52.04 kN at highlighted member 7; the right end diagonal tensions by 42.35 kN at member 19. The deck moves down by up to 2.48 mm.</desc>
+<rect width="420" height="890" fill="#f5f1e9"/>
+<text x="20.0" y="32.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="18" font-weight="700">CASE 02 / WHERE DOES LOAD GO?</text>
+<path d="M20.0,46.0 L400.0,46.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="72.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="13" font-weight="400">01 / BOUNDARY</text>
+<text x="20.0" y="97.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="16" font-weight="700">9 × 10 kN down on this plane</text>
+<text x="20.0" y="117.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">+ 9 mirrored · 180 kN total</text>
+<path d="M28.0,275.0 L54.1,237.7" fill="none" stroke="#aa6157" stroke-width="2.97"/>
+<path d="M54.1,237.7 L86.2,207.9" fill="none" stroke="#aa6157" stroke-width="2.75"/>
+<path d="M86.2,207.9 L123.4,188.7" fill="none" stroke="#aa6157" stroke-width="3.11"/>
+<path d="M123.4,188.7 L163.5,181.0" fill="none" stroke="#aa6157" stroke-width="3.04"/>
+<path d="M163.5,181.0 L204.1,183.3" fill="none" stroke="#aa6157" stroke-width="3.31"/>
+<path d="M204.1,183.3 L243.9,193.2" fill="none" stroke="#aa6157" stroke-width="3.37"/>
+<path d="M243.9,193.2 L282.5,208.6" fill="none" stroke="#aa6157" stroke-width="3.54"/>
+<path d="M282.5,208.6 L319.8,227.9" fill="none" stroke="#aa6157" stroke-width="3.61"/>
+<path d="M319.8,227.9 L355.9,250.3" fill="none" stroke="#aa6157" stroke-width="3.10"/>
+<path d="M355.9,250.3 L391.0,275.0" fill="none" stroke="#aa6157" stroke-width="3.14"/>
+<path d="M28.0,275.0 L64.3,304.0" fill="none" stroke="#315c96" stroke-width="2.57"/>
+<path d="M64.3,304.0 L86.2,207.9" fill="none" stroke="#aa6157" stroke-width="1.99"/>
+<path d="M86.2,207.9 L136.9,304.0" fill="none" stroke="#315c96" stroke-width="1.77"/>
+<path d="M136.9,304.0 L163.5,181.0" fill="none" stroke="#aa6157" stroke-width="1.70"/>
+<path d="M163.5,181.0 L209.5,304.0" fill="none" stroke="#315c96" stroke-width="1.65"/>
+<path d="M209.5,304.0 L243.9,193.2" fill="none" stroke="#aa6157" stroke-width="1.50"/>
+<path d="M243.9,193.2 L282.1,304.0" fill="none" stroke="#315c96" stroke-width="1.34"/>
+<path d="M282.1,304.0 L319.8,227.9" fill="none" stroke="#315c96" stroke-width="1.52"/>
+<path d="M319.8,227.9 L354.7,304.0" fill="none" stroke="#aa6157" stroke-width="2.13"/>
+<path d="M354.7,304.0 L391.0,275.0" fill="none" stroke="#315c96" stroke-width="3.18"/>
+<path d="M28.0,275.0 L28.0,304.0" fill="none" stroke="#aa6157" stroke-width="3.29"/>
+<path d="M54.1,237.7 L64.3,304.0" fill="none" stroke="#315c96" stroke-width="1.70"/>
+<path d="M86.2,207.9 L100.6,304.0" fill="none" stroke="#315c96" stroke-width="1.75"/>
+<path d="M123.4,188.7 L136.9,304.0" fill="none" stroke="#315c96" stroke-width="1.74"/>
+<path d="M163.5,181.0 L173.2,304.0" fill="none" stroke="#315c96" stroke-width="1.74"/>
+<path d="M204.1,183.3 L209.5,304.0" fill="none" stroke="#315c96" stroke-width="1.62"/>
+<path d="M243.9,193.2 L245.8,304.0" fill="none" stroke="#315c96" stroke-width="1.74"/>
+<path d="M282.5,208.6 L282.1,304.0" fill="none" stroke="#315c96" stroke-width="1.51"/>
+<path d="M319.8,227.9 L318.4,304.0" fill="none" stroke="#315c96" stroke-width="1.74"/>
+<path d="M355.9,250.3 L354.7,304.0" fill="none" stroke="#315c96" stroke-width="1.41"/>
+<path d="M391.0,275.0 L391.0,304.0" fill="none" stroke="#aa6157" stroke-width="3.29"/>
+<path d="M28.0,304.0 L64.3,304.0" fill="none" stroke="#aa6157" stroke-width="2.75"/>
+<path d="M64.3,304.0 L100.6,304.0" fill="none" stroke="#aa6157" stroke-width="1.44"/>
+<path d="M100.6,304.0 L136.9,304.0" fill="none" stroke="#aa6157" stroke-width="1.36"/>
+<path d="M136.9,304.0 L173.2,304.0" fill="none" stroke="#315c96" stroke-width="1.66"/>
+<path d="M173.2,304.0 L209.5,304.0" fill="none" stroke="#315c96" stroke-width="1.70"/>
+<path d="M209.5,304.0 L245.8,304.0" fill="none" stroke="#315c96" stroke-width="1.93"/>
+<path d="M245.8,304.0 L282.1,304.0" fill="none" stroke="#315c96" stroke-width="1.94"/>
+<path d="M282.1,304.0 L318.4,304.0" fill="none" stroke="#315c96" stroke-width="1.84"/>
+<path d="M318.4,304.0 L354.7,304.0" fill="none" stroke="#315c96" stroke-width="1.83"/>
+<path d="M354.7,304.0 L391.0,304.0" fill="none" stroke="#aa6157" stroke-width="2.74"/>
+<path d="M64.3,320.0 L64.3,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M61.3 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M136.9,320.0 L136.9,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M133.9 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M209.5,320.0 L209.5,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M206.5 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M282.1,320.0 L282.1,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M279.1 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M354.7,320.0 L354.7,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M351.7 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M100.6,320.0 L100.6,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M97.6 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M173.2,320.0 L173.2,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M170.2 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M245.8,320.0 L245.8,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M242.8 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M318.4,320.0 L318.4,306.0" fill="none" stroke="#625d55" stroke-width="1.10"/>
+<path d="M315.4 310l3 5 3-5" fill="none" stroke="#625d55"/>
+<path d="M28.0 307l-7 9h14z" fill="#f5f1e9" stroke="#242320"/>
+<path d="M391.0 307l-7 9h14z" fill="#f5f1e9" stroke="#242320"/>
+<circle cx="301.1" cy="218.2" r="11" fill="#aa6157" stroke="#f5f1e9" stroke-width="2"/>
+<text x="301.1" y="222.2" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700">1</text>
+<circle cx="372.8" cy="289.5" r="11" fill="#315c96" stroke="#f5f1e9" stroke-width="2"/>
+<text x="372.8" y="293.5" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700">2</text>
+<path d="M20.0,340.0 L400.0,340.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="363.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="13" font-weight="400">02 / SIGNED AXIAL FORCE</text>
+<text x="20.0" y="395.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="17" font-weight="700">1  Upper chord</text>
+<text x="400.0" y="395.0" text-anchor="end" fill="#aa6157" font-family="Arial,sans-serif" font-size="16" font-weight="700">−52.04 kN</text>
+<text x="20.0" y="427.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="17" font-weight="700">2  End diagonal</text>
+<text x="400.0" y="427.0" text-anchor="end" fill="#315c96" font-family="Arial,sans-serif" font-size="16" font-weight="700">+42.35 kN</text>
+<path d="M20.0,446.0 L400.0,446.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="472.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="13" font-weight="400">03 / DECK NODES MOVE DOWN</text>
+<path d="M28.0,523.0 L391.0,523.0" fill="none" stroke="#d5cec3" stroke-width="1.00" stroke-dasharray="3 4"/>
+<text x="21.0" y="527.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">0</text>
+<path d="M28.0,598.0 L391.0,598.0" fill="none" stroke="#d5cec3" stroke-width="1.00" stroke-dasharray="3 4"/>
+<text x="21.0" y="602.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">1</text>
+<path d="M28.0,673.0 L391.0,673.0" fill="none" stroke="#d5cec3" stroke-width="1.00" stroke-dasharray="3 4"/>
+<text x="21.0" y="677.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">2</text>
+<path d="M28.0,748.0 L391.0,748.0" fill="none" stroke="#d5cec3" stroke-width="1.00" stroke-dasharray="3 4"/>
+<text x="21.0" y="752.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">3</text>
+<path d="M28.0,523.0 L64.3,583.2 L100.6,628.6 L136.9,656.2 L173.2,689.1 L209.5,698.9 L245.8,708.8 L282.1,692.1 L318.4,665.7 L354.7,610.0 L391.0,523.0" fill="none" stroke="#315c96" stroke-width="3"/>
+<circle cx="28.0" cy="523.0" r="3.5" fill="#315c96"/>
+<circle cx="64.3" cy="583.2" r="3.5" fill="#315c96"/>
+<circle cx="100.6" cy="628.6" r="3.5" fill="#315c96"/>
+<circle cx="136.9" cy="656.2" r="3.5" fill="#315c96"/>
+<circle cx="173.2" cy="689.1" r="3.5" fill="#315c96"/>
+<circle cx="209.5" cy="698.9" r="3.5" fill="#315c96"/>
+<circle cx="245.8" cy="708.8" r="3.5" fill="#315c96"/>
+<circle cx="282.1" cy="692.1" r="3.5" fill="#315c96"/>
+<circle cx="318.4" cy="665.7" r="3.5" fill="#315c96"/>
+<circle cx="354.7" cy="610.0" r="3.5" fill="#315c96"/>
+<circle cx="391.0" cy="523.0" r="3.5" fill="#315c96"/>
+<text x="28.0" y="782.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">0</text>
+<text x="100.6" y="782.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">6</text>
+<text x="173.2" y="782.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">12</text>
+<text x="245.8" y="782.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">18</text>
+<text x="318.4" y="782.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">24</text>
+<text x="391.0" y="782.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">30</text>
+<text x="400.0" y="807.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">POSITION / M</text>
+<path d="M20.0,823.0 L400.0,823.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="851.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="13" font-weight="400">PEAK AT 18 M</text>
+<text x="400.0" y="858.0" text-anchor="end" fill="#315c96" font-family="Arial,sans-serif" font-size="28" font-weight="700">2.48 mm</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 575" role="img" aria-labelledby="title description">
+<title id="title">Five declared bridge-frame cases at common scales</title>
+<desc id="description">The first three hold the rise and change steel tube section. Cases 02, 04 and 05 hold section Ø160 by 6 and change rise. Every case has the same 180 kN load. Movement, mass and compression are shown on separate shared scales.</desc>
+<rect width="1320" height="575" fill="#f5f1e9"/>
+<text x="35.0" y="47.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="24" font-weight="700">CHANGE ONE THING AT A TIME</text>
+<text x="1280.0" y="47.0" text-anchor="end" fill="#315c96" font-family="monospace" font-size="14" font-weight="400">SAME 180 kN LOAD / FIVE DECLARED CASES</text>
+<path d="M35.0,65.0 L1285.0,65.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="40.0" y="99.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="14" font-weight="400">FORM / SECTION</text>
+<text x="515.0" y="99.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="14" font-weight="400">MAX MOVE · MM</text>
+<text x="875.0" y="99.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="14" font-weight="400">MEMBER MASS · T</text>
+<text x="1275.0" y="99.0" text-anchor="end" fill="#315c96" font-family="monospace" font-size="14" font-weight="400">PEAK COMPRESSION · kN</text>
+<text x="40.0" y="138.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">01 / SECTION</text>
+<text x="40.0" y="166.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="22" font-weight="700">Ø120 × 6</text>
+<path d="M40.0,183.0 L1280.0,183.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<path d="M515.0,162.0 L720.9,162.0" fill="none" stroke="#315c96" stroke-width="8.00"/>
+<text x="760.0" y="168.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">3.35</text>
+<path d="M875.0,162.0 L951.8,162.0" fill="none" stroke="#242320" stroke-width="8.00"/>
+<text x="1090.0" y="168.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">8.08</text>
+<text x="1275.0" y="168.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="17" font-weight="700">−52.04</text>
+<text x="40.0" y="217.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">02 / SECTION</text>
+<text x="40.0" y="245.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="22" font-weight="700">Ø160 × 6</text>
+<path d="M40.0,262.0 L1280.0,262.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<path d="M515.0,241.0 L667.2,241.0" fill="none" stroke="#315c96" stroke-width="8.00"/>
+<text x="760.0" y="247.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">2.48</text>
+<path d="M875.0,241.0 L978.7,241.0" fill="none" stroke="#242320" stroke-width="8.00"/>
+<text x="1090.0" y="247.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">10.92</text>
+<text x="1275.0" y="247.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="17" font-weight="700">−52.04</text>
+<text x="40.0" y="296.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">03 / SECTION</text>
+<text x="40.0" y="324.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="22" font-weight="700">Ø200 × 8</text>
+<path d="M40.0,341.0 L1280.0,341.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<path d="M515.0,320.0 L606.3,320.0" fill="none" stroke="#315c96" stroke-width="8.00"/>
+<text x="760.0" y="326.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">1.49</text>
+<path d="M875.0,320.0 L1047.4,320.0" fill="none" stroke="#242320" stroke-width="8.00"/>
+<text x="1090.0" y="326.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">18.14</text>
+<text x="1275.0" y="326.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="17" font-weight="700">−52.03</text>
+<path d="M35.0,344.0 L1285.0,344.0" fill="none" stroke="#c7bfb3" stroke-width="2.00"/>
+<text x="40.0" y="375.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">04 / RISE</text>
+<text x="40.0" y="403.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="22" font-weight="700">LOWER RISE</text>
+<path d="M40.0,420.0 L1280.0,420.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<path d="M515.0,399.0 L706.0,399.0" fill="none" stroke="#315c96" stroke-width="8.00"/>
+<text x="760.0" y="405.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">3.11</text>
+<path d="M875.0,399.0 L969.7,399.0" fill="none" stroke="#242320" stroke-width="8.00"/>
+<text x="1090.0" y="405.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">9.97</text>
+<text x="1275.0" y="405.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="17" font-weight="700">−60.78</text>
+<text x="40.0" y="454.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">05 / RISE</text>
+<text x="40.0" y="482.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="22" font-weight="700">HIGHER RISE</text>
+<path d="M40.0,499.0 L1280.0,499.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<path d="M515.0,478.0 L646.9,478.0" fill="none" stroke="#315c96" stroke-width="8.00"/>
+<text x="760.0" y="484.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">2.15</text>
+<path d="M875.0,478.0 L987.9,478.0" fill="none" stroke="#242320" stroke-width="8.00"/>
+<text x="1090.0" y="484.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="17" font-weight="700">11.88</text>
+<text x="1275.0" y="484.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="17" font-weight="700">−46.25</text>
+<text x="40.0" y="556.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="13" font-weight="400">01–03: retained rise, changing section</text>
+<text x="1280.0" y="556.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="13" font-weight="400">02, 04, 05: Ø160×6, changing rise</text>
+</svg>

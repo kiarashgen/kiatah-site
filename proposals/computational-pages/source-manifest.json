@@ -1,0 +1,100 @@
+[
+  {
+    "asset": "bridge-1.jpg",
+    "source": "compute/karamba/bridge/1.JPG",
+    "source_sha256": "776a43f468d8556033f779622a32fc918995fc8b14d64f466b382ee3b6153cba",
+    "bytes": 93271,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "bridge-3.jpg",
+    "source": "compute/karamba/bridge/3.JPG",
+    "source_sha256": "e61b39788d751fe6723d10850c7d4ab8740fb748a5060034524dd251bbb7ee14",
+    "bytes": 135375,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "bridge-t1.jpg",
+    "source": "compute/karamba/bridge/t1.JPG",
+    "source_sha256": "0b7a2c6796d2931113d9245ae08c109698c8f091e18adbbc1c0aba0125fb32e1",
+    "bytes": 155521,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "bridge-t2.jpg",
+    "source": "compute/karamba/bridge/t2.JPG",
+    "source_sha256": "b7e442ff25d0112c1cb6a0bc50904209ee6edd0aa75ef8ddd22a17fcaa92f873",
+    "bytes": 136071,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "bridge-t3.jpg",
+    "source": "compute/karamba/bridge/t3.JPG",
+    "source_sha256": "3bb4d93b721047abcf8d6e835f99386276ca3a3eeb53ee078c754b4b57a74c79",
+    "bytes": 119608,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "bridge-t4.jpg",
+    "source": "compute/karamba/bridge/t4.JPG",
+    "source_sha256": "4eeac9dc80aa9ba4474e93dd92358d10fd6a3b722fcaf4583f8eaecd6fa32906",
+    "bytes": 106152,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "bridge-t5.jpg",
+    "source": "compute/karamba/bridge/t5.JPG",
+    "source_sha256": "263b65bbcf528555d85389bd72945bb628a58556a75aa9e65c41f042d8661571",
+    "bytes": 133460,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "tower.png",
+    "source": "compute/computational_assets_2026-09-28/geometry/tower-2.png",
+    "source_sha256": "5aaf9efea21f588041a1642d968941e036ba88781c11804e160ec9f0cb382bdc",
+    "bytes": 433986,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "shell.png",
+    "source": "compute/computational_assets_2026-09-28/geometry/shell-2.png",
+    "source_sha256": "990616d9c5ed9942ac70f48ae6925f7ac6e2eae628250eed9e63b86d57da9e24",
+    "bytes": 71267,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "rag-interface.png",
+    "source": "compute/computational_assets_2026-09-28/diagrams/rag-retained-interface.png",
+    "source_sha256": "0791886b21d790d1a454d01744b5d8860b2168fb3d61473e1a24c68871f319d0",
+    "bytes": 357453,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "game-decision.png",
+    "source": "compute/computational_assets_2026-09-28/analysis/game-policy-action-trace.png",
+    "source_sha256": "b12f73556ef11e0c67a1c752551f2a55d4fbe31cd561970cf6f4c989e702a796",
+    "bytes": 133081,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "ifc-route.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/ifc-room-route-plan.png",
+    "source_sha256": "3c5a4d4ba0785022298434fc65e9e239b554dc291d3e5ff87990f746391cd59d",
+    "bytes": 105390,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "dynamo-graph.png",
+    "source": "compute/computational_assets_2026-09-28/diagrams/dynamo-geometry-to-area.png",
+    "source_sha256": "b0da411586577049acc04bb26565f3963dbebcfc10a91bedcd4dcc7316f29f5d",
+    "bytes": 148990,
+    "treatment": "review copy; no modification"
+  },
+  {
+    "asset": "truss-source.png",
+    "source": "compute/computational_assets_2026-09-28/geometry/truss-axonometric-linework.png",
+    "source_sha256": "4bf8ea0f143c859be63170c0a235012d231a5296721c1a0d6c9ad97373d70e35",
+    "bytes": 339575,
+    "treatment": "review copy; no modification"
+  }
+]

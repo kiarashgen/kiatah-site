@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 650" role="img" aria-label="Source-derived section of Nefar native post and base, proposed stepped bracket, clamp shoe and offset driver with saved screw and offset dimensions">
+<title>Nefar / connection access study</title>
+<text x="36" y="43" fill="#294b8d" font-family="Arial,sans-serif" font-size="24" font-weight="700">CONNECTION ACCESS / SOURCE SECTION</text>
+<text x="36" y="71" fill="#5b666c" font-family="Arial,sans-serif" font-size="14">RETYPESET FROM THE RETAINED STAGE 5 GEOMETRY AND DETAIL FIGURE</text>
+<path d="M36 93H1124" stroke="#9eb0bf" stroke-width="1"/>
+<rect x="132.5" y="413.6" width="127.5" height="76.0" fill="#c3cbd0" stroke="#1b334b" stroke-width="1.6"/>
+<rect x="132.5" y="185.6" width="63.75" height="228.0" fill="#d8ddde" stroke="#1b334b" stroke-width="1.6"/>
+<text x="80" y="150" fill="#465866" font-family="Arial,sans-serif" font-size="16">NATIVE UPRIGHT</text>
+<text x="80" y="549" fill="#465866" font-family="Arial,sans-serif" font-size="16">NATIVE BASE</text>
+<path d="M80 156L126 202 M80 530L126 488" stroke="#667886" stroke-width="1.5"/>
+<rect x="196.25" y="356.6" width="4.25" height="53.2" fill="#294b8d" stroke="#294b8d" stroke-width="1.6"/>
+<rect x="200.5" y="409.8" width="59.5" height="3.8" fill="#294b8d" stroke="#294b8d" stroke-width="1.6"/>
+<rect x="260.0" y="413.6" width="4.25" height="76.0" fill="#294b8d" stroke="#294b8d" stroke-width="1.6"/>
+<rect x="196.25" y="219.8" width="25.5" height="129.2" fill="#abc1d2" stroke="#294b8d" stroke-width="1.6"/>
+<text x="234.5" y="150" fill="#294b8d" font-family="Arial,sans-serif" font-size="15">RETAINED CLAMP SHOE</text>
+<rect x="487.8" y="292.0" width="34.0" height="91.2" fill="#7895ad" stroke="#365873" stroke-width="1.6"/>
+<rect x="334.8" y="303.4" width="153.0" height="68.4" fill="#7895ad" stroke="#365873" stroke-width="1.6"/>
+<rect x="285.92" y="318.6" width="55.25" height="152.0" fill="#7895ad" stroke="#365873" stroke-width="1.6"/>
+<rect x="288.05" y="436.4" width="51.0" height="30.4" fill="#7895ad" stroke="#365873" stroke-width="1.6"/>
+<rect x="266.8" y="444.0" width="21.25" height="15.2" fill="#7895ad" stroke="#365873" stroke-width="1.6"/>
+<circle cx="200.5" cy="368.0" r="5" fill="#294b8d"/>
+<circle cx="264.25" cy="451.6" r="5" fill="#294b8d"/>
+<path d="M192.0 307.8l14 14m0-14l-14 14" stroke="#294b8d" stroke-width="2"/>
+<path d="M570.25 337.6v114.0M562.25 337.6h16M562.25 451.6h16" stroke="#294b8d" stroke-width="2"/>
+<text x="585.25" y="398.4" fill="#294b8d" font-family="Arial,sans-serif" font-size="17" font-weight="700">150 mm</text>
+<text x="748" y="134" fill="#142b40" font-family="Arial,sans-serif" font-size="21" font-weight="700">POST + BASE / TOOL ACCESS</text>
+<path d="M748 151H1120" stroke="#9eb0bf"/>
+<text x="748" y="197" fill="#294b8d" font-family="Arial,sans-serif" font-size="16" font-weight="700">01 / SAVED SOURCE TIMBER</text>
+<text x="748" y="224" fill="#142b40" font-family="Arial,sans-serif" font-size="16">Upright on native base, shown in section.</text>
+<text x="748" y="283" fill="#294b8d" font-family="Arial,sans-serif" font-size="16" font-weight="700">02 / PROPOSED RETENTION</text>
+<text x="748" y="310" fill="#142b40" font-family="Arial,sans-serif" font-size="16">5 mm stepped bracket and clamp shoe.</text>
+<text x="748" y="369" fill="#294b8d" font-family="Arial,sans-serif" font-size="16" font-weight="700">03 / NOMINAL ACCESS</text>
+<text x="748" y="396" fill="#142b40" font-family="Arial,sans-serif" font-size="16">Two post screws at Z = 260 mm, 40 mm apart.</text>
+<text x="748" y="423" fill="#142b40" font-family="Arial,sans-serif" font-size="16">Two base screws at Z = 150 mm, 70 mm apart.</text>
+<text x="748" y="478" fill="#294b8d" font-family="Arial,sans-serif" font-size="16" font-weight="700">REJECTED</text>
+<text x="748" y="505" fill="#142b40" font-family="Arial,sans-serif" font-size="16">Upper screw blocked by the clamp shoe.</text>
+<path d="M36 572H1124" stroke="#9eb0bf"/>
+<text x="36" y="602" fill="#566675" font-family="Arial,sans-serif" font-size="14">Diagram of saved concept geometry. Screw sizes, feed, torque, holes and structural capacity are unverified.</text>
+</svg>

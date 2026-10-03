@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+<title id="title">Bridge alternative 02: source-derived elevation trace</title><desc id="desc">A clean elevation diagram tracing the centered arched truss arrangement visible in retained t2.JPG. It is a visual redraw, not a solver result or exact measured survey.</desc>
+<rect width="1200" height="510" fill="#eae6de"/>
+<g fill="none" stroke="#c6bfb4" stroke-width="1"><path d="M70 388H1130M70 384v8M1130 384v8"/><path d="M70 435H1130"/></g>
+<g fill="#77736e" font-family="IBM Plex Mono,monospace" font-size="16"><text x="70" y="62">ALTERNATIVE 02 / RETAINED BRIDGE STUDY</text><text x="70" y="471">CENTERED CROWN</text><text x="1015" y="471">ELEVATION</text><text x="588" y="427" text-anchor="middle">SPAN / 30 M DESIGN BRIEF</text></g>
+<g fill="none" stroke="#7f4545" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M70 350 L150 265 L245 204 L345 158 L445 132 L545 124 L645 130 L745 152 L845 186 L945 231 L1035 287 L1130 350"/>
+<path d="M70 350 H1130"/>
+<path d="M70 350 L150 350 L245 350 L345 350 L445 350 L545 350 L645 350 L745 350 L845 350 L945 350 L1035 350 L1130 350"/>
+</g>
+<g fill="none" stroke="#a16d62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 265V350M245 204V350M345 158V350M445 132V350M545 124V350M645 130V350M745 152V350M845 186V350M945 231V350M1035 287V350"/>
+<path d="M70 350L150 265L150 350L245 204L245 350L345 158L345 350L445 132L445 350L545 124L545 350L645 130L645 350L745 152L745 350L845 186L845 350L945 231L945 350L1035 287L1035 350L1130 350" opacity=".4"/>
+<path d="M70 350L150 265M150 350L245 204M245 350L345 158M345 350L445 132M445 350L545 124M545 350L645 130M645 350L745 152M745 350L845 186M845 350L945 231M945 350L1035 287M1035 350L1130 350"/>
+</g>
+<g fill="#7f4545"><circle cx="70" cy="350" r="5"/><circle cx="150" cy="265" r="5"/><circle cx="245" cy="204" r="5"/><circle cx="345" cy="158" r="5"/><circle cx="445" cy="132" r="5"/><circle cx="545" cy="124" r="5"/><circle cx="645" cy="130" r="5"/><circle cx="745" cy="152" r="5"/><circle cx="845" cy="186" r="5"/><circle cx="945" cy="231" r="5"/><circle cx="1035" cy="287" r="5"/><circle cx="1130" cy="350" r="5"/></g>
+<g fill="#4d4b48"><path d="M58 362h24l-12 15zM1118 362h24l-12 15z"/></g>
+</svg>

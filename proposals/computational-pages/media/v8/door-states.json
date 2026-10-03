@@ -1,0 +1,95 @@
+{
+  "derivation": "Closed states remove the open route mesh and add source IfcDoor geometry; disconnection is checked against the saved 0.10 m scenarios.",
+  "open_model": "../ifc-cutaway.glb",
+  "source_files": {
+    "open_glb": {
+      "path": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\proposals\\computational-pages\\media\\ifc-cutaway.glb",
+      "sha256": "eb968619d5b2f77b3eb8adb278768640b2426ccf0cfb7321cbeedf1eba656604"
+    },
+    "door_geometry": {
+      "path": "C:\\Users\\kiarash\\Desktop\\compute\\computational_projects_v2_2026-09-28\\data\\spatial_geometry.npz",
+      "sha256": "06c2a18b192fc36e62cef5bf7780ec89faa46176cd963025f556f13273195820"
+    },
+    "voxel_record": {
+      "path": "C:\\Users\\kiarash\\Desktop\\compute\\computational_projects_v2_2026-09-28\\data\\spatial_voxel_record.json",
+      "sha256": "59cd389028079284dd530ce26419a26acb12080c7ab58d222758f6acb8e85957"
+    },
+    "saved_scenarios": {
+      "path": "C:\\Users\\kiarash\\Desktop\\compute\\computational_projects_v2_2026-09-28\\data\\spatial_scenarios.json",
+      "sha256": "47395ad0cd56adf656662309467df018229b8a47d7f168d568408d5d37ec9d21"
+    },
+    "selected_route": {
+      "path": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\proposals\\computational-pages\\media\\ifc-selected-route.json",
+      "sha256": "7fb4b699ac21fb1ea2ad303ce94763a54c03c0a95a535fe4d41ebb9c3ed207ef"
+    }
+  },
+  "grid": {
+    "origin_m": [
+      -0.7000000000000001,
+      -0.8,
+      -0.4
+    ],
+    "pitch_m": 0.1,
+    "shape": [
+      136,
+      117,
+      71
+    ]
+  },
+  "doors": {
+    "17468": {
+      "relation": "Bedroom / corridor",
+      "ifc_id": 17468,
+      "source_vertices": 20,
+      "source_faces": 40,
+      "bounds_m": [
+        [
+          7.41,
+          4.5575,
+          0.0
+        ],
+        [
+          7.51,
+          5.4425,
+          2.01
+        ]
+      ],
+      "center_m": [
+        7.46,
+        5.0,
+        1.005
+      ],
+      "model": "ifc-cutaway-door-17468-closed.glb",
+      "model_sha256": "034747536eb882e25665d331f1da8581809b7ba79af49ee48c115c8759cc561a",
+      "route_status": "disconnected in saved study",
+      "saved_case_status": "disconnected"
+    },
+    "19504": {
+      "relation": "Corridor / office",
+      "ifc_id": 19504,
+      "source_vertices": 20,
+      "source_faces": 40,
+      "bounds_m": [
+        [
+          1.6075,
+          5.75,
+          0.0
+        ],
+        [
+          2.4924999999999997,
+          5.85,
+          2.01
+        ]
+      ],
+      "center_m": [
+        2.05,
+        5.8,
+        1.005
+      ],
+      "model": "ifc-cutaway-door-19504-closed.glb",
+      "model_sha256": "282087610f933f223baecbbcf4684f50d10d792f59a15f7f4b2bc3a6306c22c3",
+      "route_status": "disconnected in saved study",
+      "saved_case_status": "disconnected"
+    }
+  }
+}

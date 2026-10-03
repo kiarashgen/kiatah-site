@@ -1,0 +1,153 @@
+{
+  "success": true,
+  "task_id": "UPPER-END-EAST-SOUTH",
+  "conditional_held_transfer_only": true,
+  "selected": {
+    "guide": "historical source route independently replayed in current exact world",
+    "vertices": [
+      [
+        0.9581546583825493,
+        1.0591558508845418,
+        0.12910864984778309,
+        0.9929761126263114,
+        1.7871215917491317,
+        -1.2527915648197985,
+        2.562500000000001,
+        0.65,
+        0.0
+      ],
+      [
+        0.9581546583825493,
+        1.0591558508845418,
+        0.12910864984778309,
+        0.9929761126263114,
+        1.7871215917491317,
+        -1.2527915648197985,
+        2.562500000000001,
+        2.820540425009889,
+        0.0
+      ],
+      [
+        0.9581546583825493,
+        1.0591558508845418,
+        0.12910864984778309,
+        0.9929761126263114,
+        1.7871215917491317,
+        -1.2527915648197985,
+        2.7,
+        2.820540425009889,
+        0.0
+      ],
+      [
+        0.8760580505981919,
+        0.8971021338896737,
+        1.215846036257071,
+        0.9508462577554516,
+        1.2341509472141716,
+        -2.004197951486371,
+        2.7,
+        2.820540425009889,
+        0.0
+      ],
+      [
+        0.8760580505981919,
+        0.8971021338896737,
+        1.215846036257071,
+        0.9508462577554516,
+        1.2341509472141716,
+        -2.004197951486371,
+        2.7,
+        2.820540425009889,
+        0.0
+      ],
+      [
+        0.8760580505981919,
+        0.8971021338896737,
+        1.215846036257071,
+        0.9508462577554516,
+        1.2341509472141716,
+        -2.004197951486371,
+        1.375,
+        2.820540425009889,
+        0.0
+      ],
+      [
+        0.8760580505981919,
+        0.8971021338896737,
+        1.215846036257071,
+        0.9508462577554516,
+        1.2341509472141716,
+        -2.004197951486371,
+        1.375,
+        2.820540425009889,
+        0.0
+      ]
+    ]
+  },
+  "landing_path": [
+    [
+      0.8760580505981919,
+      0.8971021338896737,
+      1.215846036257071,
+      0.9508462577554516,
+      1.2341509472141716,
+      -2.004197951486371,
+      1.375,
+      2.820540425009889,
+      0.0
+    ],
+    [
+      0.8760580505981919,
+      0.8971021338896737,
+      1.215846036257071,
+      0.9508462577554516,
+      1.2341509472141716,
+      -2.004197951486371,
+      1.375,
+      2.520540425009889,
+      0.0
+    ]
+  ],
+  "failed_edges": [],
+  "historical_route": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/transfers/UPPER-END-EAST-SOUTH.json",
+    "sha256": "9bb0f0ca196831f68f9feb5844a5fe0da78c9121837132d1dfeacb19df1ff8cd",
+    "endpoint_path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/endpoints/UPPER-END-EAST-SOUTH.json",
+    "endpoint_sha256": "517e3bb22e4e8a197999d1369fcd26daa896d566a78f697ae58b819acfcd8099",
+    "physical_handler_side": "south",
+    "source_programme_sha256": "730b10967c1e560ddecbf90acfd6f8b4db6b23cfb4e43e042d8607435ad898bd",
+    "source_connections_sha256": "1feca18be4765bc33ccf96faf741bb7bcfa691f1ce7057a7dd2ff627cab8f1f8",
+    "old_prior_solids": 40,
+    "new_prior_solids": 40,
+    "monotonic_prior_subset": true,
+    "new_or_changed_prior_solids": {},
+    "historical_conditional_path_success": true,
+    "final_world_replay_accepted": false
+  },
+  "seconds": 29.35899999999674,
+  "loaded_landing_fine_check_pass": true,
+  "source_joint_limits_and_original_fine_edges_retained": true,
+  "exact_input_cache": {
+    "statistics": {
+      "native_queries": 12493,
+      "reused_queries": 238534,
+      "native_aabbs": 34032,
+      "reused_aabbs": 379794,
+      "native_fk": 1168,
+      "reused_fk": 1170,
+      "native_rotation": 401,
+      "reused_rotation": 93119
+    },
+    "samples_reduced": false,
+    "collision_policy_changes": false
+  },
+  "partner_parking_transition_accepted": false,
+  "bench_connections_accepted": false,
+  "site_fixing_accepted": false,
+  "preceding_task_connection_accepted": false,
+  "source_committed": false,
+  "full_assembly_success": false,
+  "programme_sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d",
+  "connections_sha256": "75e2848910753f8b7d078eda8eee1d50805e3b4d170963696905c17df0db6926",
+  "physical_handler_side": "south"
+}

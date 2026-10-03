@@ -1,0 +1,25 @@
+#graph .compute-hero{background:#101211;color:#f3efe7}
+#graph .compute-hero .art{background:#111312}
+#graph .compute-hero .hero-image{background:#111312;overflow:hidden}
+#graph .compute-hero .hero-image img{display:block;object-fit:contain;object-position:center;width:100%;height:100%;filter:none;mix-blend-mode:normal;padding:24px;box-sizing:border-box}
+#graph .compute-hero .media-label{background:#111312;color:#c6c0b5}
+#graph .compute-hero .project-head p{max-width:50ch}
+#graph .compute-landing{background:#f2eee7;color:#1d1e1c}
+#graph .compute-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:32px}
+#graph .compute-card{color:#1d1e1c;text-decoration:none;border:1px solid #c8c2b6;display:grid;grid-template-rows:240px 1fr;min-width:0;background:#f8f5ef;transition:transform .2s ease,border-color .2s ease}
+#graph .compute-card:hover,#graph .compute-card:focus{transform:translateY(-3px);border-color:#252725}
+#graph .compute-card-art{margin:0;display:grid;place-items:center;overflow:hidden;background:#eeeae2}
+#graph .compute-card-art img{width:100%;height:100%;object-fit:contain}
+#graph .compute-card-art.structure,#graph .compute-card-art.regulation,#graph .compute-card-art.building{background:#111312}
+#graph .compute-card-art.structure img{padding:18px;box-sizing:border-box}
+#graph .compute-card-art.regulation img{object-fit:cover;object-position:center}
+#graph .compute-card-art.building img{padding:10px;box-sizing:border-box}
+#graph .compute-card>div{padding:19px 22px 21px;display:flex;flex-direction:column}
+#graph .compute-card small{font:11px/1.4 var(--mono,monospace);color:#6b665c;letter-spacing:.02em}
+#graph .compute-card h3{font-size:clamp(26px,3vw,38px);line-height:1.05;margin:10px 0}
+#graph .compute-card p{font-size:14px;line-height:1.55;color:#56534d;max-width:49ch;margin:0 0 18px}
+#graph .compute-card b{font:11px/1.4 var(--mono,monospace);margin-top:auto;text-transform:uppercase}
+#graph .compute-boundary{font-size:13px;line-height:1.6;color:#615d56;border-top:1px solid #c8c2b6;padding-top:18px;margin:29px 0 0;max-width:93ch}
+#graph .compute-boundary a{color:#273f6b}
+@media(max-width:850px){#graph .compute-index{grid-template-columns:1fr}#graph .compute-card{grid-template-rows:210px 1fr}}
+@media(max-width:540px){#graph .compute-card{grid-template-rows:175px 1fr}#graph .compute-card>div{padding:17px}#graph .compute-card h3{font-size:29px}}

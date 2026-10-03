@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 930" role="img" aria-labelledby="title description">
+<title id="title">Five frame cases, narrow comparison</title>
+<desc id="description">Movement and member mass are plotted with fixed scales for five separately declared structural cases under the same load.</desc>
+<rect width="420" height="930" fill="#f5f1e9"/>
+<text x="20.0" y="32.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="19" font-weight="700">FIVE CASES / SAME LOAD</text>
+<text x="20.0" y="55.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">180 kN TOTAL · ONE CHANGE AT A TIME</text>
+<path d="M20.0,71.0 L400.0,71.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="103.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">01</text>
+<text x="54.0" y="104.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="18" font-weight="700">Ø120 × 6</text>
+<text x="20.0" y="135.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MOVE</text>
+<path d="M106.0,129.0 L302.4,129.0" fill="none" stroke="#315c96" stroke-width="7.00"/>
+<text x="400.0" y="135.0" text-anchor="end" fill="#315c96" font-family="monospace" font-size="14" font-weight="700">3.35 mm</text>
+<text x="20.0" y="167.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MASS</text>
+<path d="M106.0,161.0 L188.8,161.0" fill="none" stroke="#242320" stroke-width="7.00"/>
+<text x="400.0" y="167.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="14" font-weight="700">8.08 t</text>
+<text x="20.0" y="199.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="11" font-weight="400">MAX COMPRESSION</text>
+<text x="400.0" y="199.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="14" font-weight="700">−52.04 kN</text>
+<path d="M20.0,216.0 L400.0,216.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="261.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">02</text>
+<text x="54.0" y="262.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="18" font-weight="700">Ø160 × 6</text>
+<text x="20.0" y="293.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MOVE</text>
+<path d="M106.0,287.0 L251.1,287.0" fill="none" stroke="#315c96" stroke-width="7.00"/>
+<text x="400.0" y="293.0" text-anchor="end" fill="#315c96" font-family="monospace" font-size="14" font-weight="700">2.48 mm</text>
+<text x="20.0" y="325.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MASS</text>
+<path d="M106.0,319.0 L217.9,319.0" fill="none" stroke="#242320" stroke-width="7.00"/>
+<text x="400.0" y="325.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="14" font-weight="700">10.92 t</text>
+<text x="20.0" y="357.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="11" font-weight="400">MAX COMPRESSION</text>
+<text x="400.0" y="357.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="14" font-weight="700">−52.04 kN</text>
+<path d="M20.0,374.0 L400.0,374.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="419.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">03</text>
+<text x="54.0" y="420.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="18" font-weight="700">Ø200 × 8</text>
+<text x="20.0" y="451.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MOVE</text>
+<path d="M106.0,445.0 L193.1,445.0" fill="none" stroke="#315c96" stroke-width="7.00"/>
+<text x="400.0" y="451.0" text-anchor="end" fill="#315c96" font-family="monospace" font-size="14" font-weight="700">1.49 mm</text>
+<text x="20.0" y="483.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MASS</text>
+<path d="M106.0,477.0 L292.0,477.0" fill="none" stroke="#242320" stroke-width="7.00"/>
+<text x="400.0" y="483.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="14" font-weight="700">18.14 t</text>
+<text x="20.0" y="515.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="11" font-weight="400">MAX COMPRESSION</text>
+<text x="400.0" y="515.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="14" font-weight="700">−52.03 kN</text>
+<path d="M20.0,532.0 L400.0,532.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<path d="M20.0,553.0 L400.0,553.0" fill="none" stroke="#242320" stroke-width="2.00"/>
+<text x="20.0" y="573.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="11" font-weight="400">HOLD Ø160×6 / CHANGE RISE</text>
+<text x="20.0" y="595.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">04</text>
+<text x="54.0" y="596.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="18" font-weight="700">LOWER RISE</text>
+<text x="20.0" y="627.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MOVE</text>
+<path d="M106.0,621.0 L288.1,621.0" fill="none" stroke="#315c96" stroke-width="7.00"/>
+<text x="400.0" y="627.0" text-anchor="end" fill="#315c96" font-family="monospace" font-size="14" font-weight="700">3.11 mm</text>
+<text x="20.0" y="659.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MASS</text>
+<path d="M106.0,653.0 L208.2,653.0" fill="none" stroke="#242320" stroke-width="7.00"/>
+<text x="400.0" y="659.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="14" font-weight="700">9.97 t</text>
+<text x="20.0" y="691.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="11" font-weight="400">MAX COMPRESSION</text>
+<text x="400.0" y="691.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="14" font-weight="700">−60.78 kN</text>
+<path d="M20.0,708.0 L400.0,708.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="735.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="12" font-weight="400">05</text>
+<text x="54.0" y="736.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="18" font-weight="700">HIGHER RISE</text>
+<text x="20.0" y="767.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MOVE</text>
+<path d="M106.0,761.0 L231.8,761.0" fill="none" stroke="#315c96" stroke-width="7.00"/>
+<text x="400.0" y="767.0" text-anchor="end" fill="#315c96" font-family="monospace" font-size="14" font-weight="700">2.15 mm</text>
+<text x="20.0" y="799.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">MASS</text>
+<path d="M106.0,793.0 L227.8,793.0" fill="none" stroke="#242320" stroke-width="7.00"/>
+<text x="400.0" y="799.0" text-anchor="end" fill="#242320" font-family="monospace" font-size="14" font-weight="700">11.88 t</text>
+<text x="20.0" y="831.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="11" font-weight="400">MAX COMPRESSION</text>
+<text x="400.0" y="831.0" text-anchor="end" fill="#aa6157" font-family="monospace" font-size="14" font-weight="700">−46.25 kN</text>
+<path d="M20.0,848.0 L400.0,848.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="20.0" y="913.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="12" font-weight="400">01–03 / SECTION · 02,04,05 / RISE</text>
+</svg>

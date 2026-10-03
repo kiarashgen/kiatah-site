@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 201" role="img" aria-label="Stage 02: 99 of 310 candidate endpoints clear; cell A 34 of 155 and cell B 65 of 155">
+<text x="0" y="47" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#294B8D">99 / 310</text>
+<text x="1" y="70" font-family="Arial,sans-serif" font-size="13" fill="#171715">clear endpoint poses · two cell positions</text>
+<text x="1" y="111" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#171715">CELL A</text>
+<rect x="78" y="101" width="211" height="12" fill="#D7E0E9"/>
+<rect x="78" y="101" width="46.3" height="12" fill="#294B8D"/>
+<text x="298" y="111" font-family="Arial,sans-serif" font-size="13" fill="#171715">34/155</text>
+<text x="1" y="152" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#171715">CELL B</text>
+<rect x="78" y="142" width="211" height="12" fill="#D7E0E9"/>
+<rect x="78" y="142" width="88.5" height="12" fill="#294B8D"/>
+<text x="298" y="152" font-family="Arial,sans-serif" font-size="13" fill="#171715">65/155</text>
+<text x="1" y="190" font-family="Arial,sans-serif" font-size="11" fill="#294B8D">ENDPOINT TEST · ROUTE NOT ESTABLISHED</text>
+</svg>

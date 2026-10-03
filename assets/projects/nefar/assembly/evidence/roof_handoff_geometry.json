@@ -1,0 +1,832 @@
+{
+  "success": true,
+  "rows": [
+    {
+      "task_id": "ROOF-SKIN-01-SOUTH-FULL",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -1.671797566982864,
+        -2.616460201064781,
+        3.983531779369001
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -1.83338428,
+          -3.54135337,
+          3.28698959
+        ],
+        [
+          -1.50999999,
+          -1.69578809,
+          4.72403111
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 2,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-01-NORTH-FULL",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -1.6726328088048692,
+        2.6060734095367866,
+        3.977027235485594
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -1.83338395,
+          1.69578809,
+          3.28627028
+        ],
+        [
+          -1.50999996,
+          3.51601281,
+          4.70046886
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 2,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-02-SOUTH-WEST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -1.3211594345029538,
+        -2.6166810952337736,
+        3.9847732016088746
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -1.50999999,
+          -3.5291729199999997,
+          3.2859052699999998
+        ],
+        [
+          -1.13249993,
+          -1.69578809,
+          4.69879332
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 2,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-02-SOUTH-EAST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -0.9365753234913455,
+        -2.6176076122099348,
+        3.9824442839757173
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -1.13249993,
+          -3.54135337,
+          3.28627028
+        ],
+        [
+          -0.755,
+          -1.69578809,
+          4.72403111
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 4,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-02-NORTH-WEST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -1.2693730207368095,
+        2.6086998947626485,
+        3.979132743503435
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -1.50999999,
+          1.69578809,
+          3.2859052699999998
+        ],
+        [
+          -1.05700001,
+          3.5160128,
+          4.7004689200000005
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 6,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-02-NORTH-EAST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -0.9136055194076014,
+        2.6120519803712567,
+        3.977003729370565
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -1.05700004,
+          1.69578809,
+          3.28627028
+        ],
+        [
+          -0.755,
+          3.51911857,
+          4.706899190000001
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 11,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-03-SOUTH-WEST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -0.5661649876480606,
+        -2.6162528258234508,
+        3.983205509463097
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -0.75500001,
+          -3.5291729199999997,
+          3.2859052699999998
+        ],
+        [
+          -0.3775,
+          -1.69578809,
+          4.69879332
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 6,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-03-SOUTH-EAST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -0.18891605955949298,
+        -2.6165903113652815,
+        3.983930139115453
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -0.37750001,
+          -3.5284724499999998,
+          3.28627028
+        ],
+        [
+          0.0,
+          -1.69578809,
+          4.69736096
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 4,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-03-NORTH-WEST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -0.5668997696206648,
+        2.606756561314725,
+        3.978145221478949
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -0.75500001,
+          1.69578809,
+          3.2859052699999998
+        ],
+        [
+          -0.3775,
+          3.5069378899999997,
+          4.68165758
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 6,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-03-NORTH-EAST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        -0.1886004293833866,
+        2.607333836357884,
+        3.9790097922436263
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          -0.37750001,
+          1.69578809,
+          3.28796711
+        ],
+        [
+          0.0,
+          3.51911857,
+          4.706899190000001
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 4,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-04-SOUTH-WEST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        0.18868640616451415,
+        -2.6162608172343544,
+        3.9837073444174984
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          0.0,
+          -3.54135337,
+          3.28667035
+        ],
+        [
+          0.3775,
+          -1.69578809,
+          4.72403111
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 2,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-04-SOUTH-EAST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        0.5662111505069863,
+        -2.6165315489622554,
+        3.9839947700807508
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          0.3775,
+          -3.5291729199999997,
+          3.2859052699999998
+        ],
+        [
+          0.75500001,
+          -1.69578809,
+          4.69879332
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 3,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-04-NORTH-WEST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        0.19003603948844935,
+        2.60668881242852,
+        3.9775644083198247
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          0.0,
+          1.69578809,
+          3.28627028
+        ],
+        [
+          0.37750001,
+          3.50403502,
+          4.675667130000001
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 3,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-04-NORTH-EAST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        0.5662541475678089,
+        2.6069831109890274,
+        3.9790093162311098
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          0.3775,
+          1.69578809,
+          3.2859052699999998
+        ],
+        [
+          0.75500001,
+          3.5069378899999997,
+          4.68165758
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 7,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-05-SOUTH-WEST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        0.9174490837351278,
+        -2.6218760572266073,
+        3.9820284292775487
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          0.755,
+          -3.54135337,
+          3.28627028
+        ],
+        [
+          1.05700004,
+          -1.69578809,
+          4.72403111
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 7,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-05-SOUTH-EAST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        1.2678005906558634,
+        -2.6184078878344117,
+        3.984174764417435
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          1.05700004,
+          -3.53824761,
+          3.2859052699999998
+        ],
+        [
+          1.50999999,
+          -1.69578809,
+          4.71760085
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 2,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-05-NORTH-WEST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        0.9377824287448054,
+        2.608083817242403,
+        3.9773888003249973
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          0.755,
+          1.69578809,
+          3.28627028
+        ],
+        [
+          1.13250007,
+          3.51911857,
+          4.706899190000001
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 7,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-05-NORTH-EAST",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        1.3208781447897135,
+        2.6068906566413177,
+        3.9788279975481697
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          1.13250005,
+          1.69578809,
+          3.2859052699999998
+        ],
+        [
+          1.51000002,
+          3.5069378899999997,
+          4.681657700000001
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 7,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-06-SOUTH-FULL",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        -1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        1.6793855237313997,
+        -2.6165572328827826,
+        3.9825760416634144
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          1.50999999,
+          -3.53824761,
+          3.28627028
+        ],
+        [
+          1.85097367,
+          -1.69578809,
+          4.71760067
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          -3.85,
+          3.05
+        ],
+        [
+          2.1,
+          -2.95,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 2,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    },
+    {
+      "task_id": "ROOF-SKIN-06-NORTH-FULL",
+      "success": true,
+      "stage_shift_world_m": [
+        0.0,
+        1.65,
+        -0.35
+      ],
+      "stage_centre_m": [
+        1.6793529115058734,
+        2.607769329656815,
+        3.97820365164833
+      ],
+      "panel_and_removable_handle_bounds_m": [
+        [
+          1.50999999,
+          1.69578809,
+          3.28698959
+        ],
+        [
+          1.85097367,
+          3.51911857,
+          4.706899190000001
+        ]
+      ],
+      "guarded_platform_envelope_m": [
+        [
+          -2.1,
+          2.95,
+          3.05
+        ],
+        [
+          2.1,
+          3.85,
+          3.2
+        ]
+      ],
+      "broadphase_pairs": 6,
+      "maximum_source_solid_interference_m3": 0.0,
+      "conflicts": []
+    }
+  ],
+  "static_source_solid_and_provisional_platform_screen_only": true,
+  "robot_loaded_stage_paths_accepted": false,
+  "platform_design_and_worker_access_accepted": false,
+  "programme_sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d",
+  "connections_sha256": "75e2848910753f8b7d078eda8eee1d50805e3b4d170963696905c17df0db6926",
+  "source_committed": false,
+  "full_assembly_success": false
+}

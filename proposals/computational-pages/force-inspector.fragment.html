@@ -1,0 +1,10 @@
+<div class="force-workbench">
+  <div class="force-intro"><p>Orbit the declared frame. Select a member to read its signed axial force and source Rhino curve. Compare section and rise cases under the saved load setup.</p><div class="force-mode"><button type="button" data-force-mode="force" aria-pressed="true">Signed force</button><button type="button" data-force-mode="displacement" aria-pressed="false">Movement</button></div></div>
+  <div class="force-cases" id="force-cases" aria-label="Five declared structural cases"></div>
+  <div class="force-stage">
+    <div class="force-viewport" id="force-viewport"><p id="force-canvas-message">Loading the declared frame data…</p></div>
+    <div class="force-detail" id="force-detail" aria-live="polite"><span class="reg-index">Select a member in the 3D model</span><p>Orbit to read the two truss planes. Tap a member to see its signed axial force and source curve.</p></div>
+  </div>
+  <div class="force-summary" id="force-summary" aria-live="polite"></div>
+  <div class="force-footer"><div class="force-legend"><span><i class="force-tension"></i>Positive tension</span><span><i class="force-compression"></i>Negative compression</span><span><i class="force-near"></i>Near zero ±0.01 kN</span></div><div class="force-actions"><label><input id="force-boundaries" type="checkbox"> Loads + supports</label><button id="force-reset" type="button">Reset view</button></div></div>
+</div>

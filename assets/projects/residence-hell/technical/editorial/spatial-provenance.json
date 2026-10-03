@@ -1,0 +1,15 @@
+{
+  "status": "source-derived spatial projections, not engine screenshots or a new run",
+  "sources": {
+    "C:\\Users\\kiarash\\Desktop\\hell\\asset_production\\STAGE_02_REVIEW\\bundles\\RH-SRC-01\\C01\\state.npz": "01f4c2016c154b05bda3406fc6beed95420dfa9588ceff7a63884743705f878c",
+    "C:\\Users\\kiarash\\Desktop\\hell\\asset_production\\STAGE_02_REVIEW\\next-stage\\STAGE_03_P0\\placement\\candidate_trace.json": "2a93b980a132ded88a8a50dc2758fe2b8c35d8e0bb80fd3223dddcada8a0da3d",
+    "C:\\Users\\kiarash\\Desktop\\hell\\asset_production\\STAGE_02_REVIEW\\bundles\\RH-SRC-01\\C01\\checkpoints.npz": "84c7b310ca963f31d058a9ba5f3231bfc1ae662adc1ce67e6ae46316f18efa95"
+  },
+  "method": "C01 cells and cached fields are isometrically projected at their saved XYZ coordinates; field values are read at occupied home voxels; candidates are from a later checkpoint-6 replay",
+  "diagrams": {
+    "candidate-positions.svg": "a68b839ad6c9c7213621a1587258a2ace8be40df5096ce4739b799aa06531405",
+    "placement-validity.svg": "faf491fdc0446f7af637609f79c48609495004b9ee87639a32e91baf066de740",
+    "shahrak-field-atlas.svg": "cdd85bfb41635aa2600bfbf83cd2f349ba86ad35f68c428b38fa6fa921226a6e",
+    "shahrak-spatial-layers.svg": "b66b2f7152e3fc05f3af5833c752bb2c4081993973aca9cd6f4a5e20f1198ea0"
+  }
+}

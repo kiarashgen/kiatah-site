@@ -1,0 +1,45 @@
+/* The retained self-play deal, presented as a complete inspectable record. */
+.hokm-hero-art{margin:0;background:#111312;border:1px solid #393a36;position:relative}
+.hokm-hero-art img{display:block;width:100%;height:auto;max-height:480px;object-fit:contain}
+.hokm-hero-art figcaption{position:absolute;right:14px;bottom:9px;color:#bfb9ac;font:10px/1.4 Mono,monospace;background:#111312;padding:4px}
+.hokm-heading{margin-bottom:22px}
+.hokm-heading p{max-width:43ch}
+.hokm-deal-controls{display:flex;align-items:center;gap:8px;margin:22px 0 12px}
+.hokm-deal-controls button{border:1px solid #98938a;background:#f7f5f0;color:#1b1c19;padding:9px 11px;font:11px Mono,monospace;white-space:nowrap}
+.hokm-deal-controls button:hover,.hokm-deal-controls button:focus-visible{background:#294b8d;color:white;border-color:#294b8d}
+.hokm-deal-controls input{flex:1;accent-color:#294b8d;min-width:60px}
+.hokm-deal-controls output{font:11px Mono,monospace;min-width:62px;text-align:right}
+.hokm-deal{background:#171a19;color:#ede9e0;border:1px solid #3d403d}
+.hokm-deal-header{display:flex;gap:14px 26px;align-items:center;flex-wrap:wrap;padding:16px 18px;border-bottom:1px solid #4c4e49;font:11px Mono,monospace}
+.hokm-deal-header strong{font-weight:700;font-size:14px;color:white}
+.hokm-hands{display:grid;gap:0}
+.hokm-hand-row{display:grid;grid-template-columns:90px minmax(0,1fr) 61px;gap:10px;align-items:center;padding:14px 18px;border-bottom:1px solid #3f423e;min-width:0}
+.hokm-hand-row.is-playing{background:#252d34;box-shadow:inset 4px 0 #6287bb}
+.hokm-seat{font:13px Mono,monospace;display:grid;gap:2px}
+.hokm-seat b{font-size:18px;color:#fff}
+.hokm-seat small,.hokm-hand-count{font:10px Mono,monospace;color:#b2aca2}
+.hokm-hand-cards{display:flex;gap:4px;overflow-x:auto;padding:4px 3px 5px;min-width:0;scrollbar-width:thin}
+.hokm-card{display:grid;place-items:center;flex:0 0 40px;width:40px;height:56px;background:#f4f1e9;color:#1c1d1c;border:1px solid #c9c2b5;border-radius:2px;font:700 16px/1 Inter,Arial,sans-serif;font-variant-numeric:tabular-nums}
+.hokm-card.red{color:#a04852}
+.hokm-card.masked{opacity:.3}
+.hokm-card.legal{border-color:#81a0c8}
+.hokm-card.chosen{outline:3px solid #76a3df;outline-offset:1px;background:#e8eef5}
+.hokm-trick{padding:18px;background:#202321}
+.hokm-trick-heading{display:flex;justify-content:space-between;gap:10px;font:11px Mono,monospace;color:#c8c5bc;margin-bottom:12px}
+.hokm-trick-heading strong{color:#f2f0e9}
+.hokm-trick-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.hokm-trick-slot{border:1px solid #565a54;min-height:97px;padding:8px 10px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.hokm-trick-slot.current{border:2px solid #76a3df;background:#2e3843}
+.hokm-trick-slot small{font:10px Mono,monospace;color:#c3bfb5}
+.hokm-trick-slot .hokm-card{flex-basis:48px;width:48px;height:67px;font-size:21px}
+.hokm-trick-slot .pending{background:transparent;border:1px dashed #6d7069;color:#9c9d94}
+.hokm-decision{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,.7fr);gap:24px;border:1px solid #cbc5b9;border-top:0;background:#faf8f4;padding:22px 25px}
+.hokm-decision .eyebrow{margin:0 0 9px}
+.hokm-decision strong{display:block;font:700 30px/1.1 Display,Arial,sans-serif}
+.hokm-decision p{margin:9px 0 0;font-size:13px;line-height:1.5;color:#56534d}
+.hokm-decision details{border-left:1px solid #cbc5b9;padding-left:22px}
+.hokm-decision summary{font:11px Mono,monospace;color:#294b8d;cursor:pointer;padding:8px 0}
+.hokm-decision .q-bars{margin-top:12px;max-height:280px;overflow:auto}
+.hokm-decision .caption{font-size:10px}
+@media(max-width:850px){.hokm-deal-controls{flex-wrap:wrap}.hokm-deal-controls input{order:4;flex-basis:100%}.hokm-deal-controls output{margin-left:auto}.hokm-card{flex-basis:34px;width:34px;height:49px;font-size:14px}.hokm-hand-row{grid-template-columns:67px minmax(0,1fr);padding:10px}.hokm-hand-count{display:none}.hokm-trick-slot{display:grid;justify-content:center;text-align:center}.hokm-trick-slot .hokm-card{margin:auto}}
+@media(max-width:560px){.hokm-hero-art img{min-height:220px;object-fit:cover}.hokm-hero-art figcaption{font-size:8px}.hokm-deal-header{padding:12px;gap:7px 12px}.hokm-hand-row{grid-template-columns:49px minmax(0,1fr);gap:5px}.hokm-seat b{font-size:14px}.hokm-seat small{font-size:8px}.hokm-hand-cards{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;overflow:visible}.hokm-card{min-width:0;width:auto;height:40px;font-size:12px}.hokm-trick{padding:10px}.hokm-trick-cards{gap:3px}.hokm-trick-slot{padding:5px 2px;min-height:80px}.hokm-trick-slot small{font-size:8px}.hokm-trick-slot .hokm-card{width:37px;height:51px;font-size:15px}.hokm-decision{grid-template-columns:1fr;padding:16px}.hokm-decision details{border-left:0;border-top:1px solid #cbc5b9;padding:7px 0 0}.hokm-deal-controls button{font-size:9px;padding:8px 6px}}

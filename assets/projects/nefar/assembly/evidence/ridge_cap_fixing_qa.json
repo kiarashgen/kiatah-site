@@ -1,0 +1,2456 @@
+{
+  "success": true,
+  "caps": 6,
+  "unresolved": [],
+  "rows": [
+    {
+      "task_id": "ROOF-RIDGE-CAP-01",
+      "success": true,
+      "site_screws": [
+        {
+          "members": [
+            "NF-COVER-08__GABLE_01__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_01__PANEL_ROOF-SKIN-01-SOUTH-FULL",
+            "NF-RAF-20"
+          ],
+          "source_cover_component_id": "NF-COVER-08",
+          "source_host_component_id": "NF-RAF-20",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.7000000000000077,
+            -0.08,
+            5.040532350314323
+          ],
+          "length_m": 0.11,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-08__GABLE_01__RIDGE_CAP": 0.001,
+            "NF-RAF-20": 0.02,
+            "NF-BATTEN-05__GABLE_01__PANEL_ROOF-SKIN-01-SOUTH-FULL": 0.005
+          },
+          "tip_required_member": "NF-RAF-20",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-08__GABLE_01__RIDGE_CAP": 0.03337325349301397,
+            "NF-BATTEN-05__GABLE_01__PANEL_ROOF-SKIN-01-SOUTH-FULL": 0.03161676646706587,
+            "NF-RAF-20": 0.027445109780439122
+          },
+          "tip_inside": {
+            "NF-COVER-08__GABLE_01__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_01__PANEL_ROOF-SKIN-01-SOUTH-FULL": false,
+            "NF-RAF-20": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-08__GABLE_01__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_01__PANEL_ROOF-SKIN-01-SOUTH-FULL",
+            "NF-RAF-20"
+          ],
+          "source_cover_component_id": "NF-COVER-08",
+          "source_host_component_id": "NF-RAF-20",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.7200000000000077,
+            -0.08,
+            5.029699998427526
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-08__GABLE_01__RIDGE_CAP": 0.001,
+            "NF-RAF-20": 0.02,
+            "NF-BATTEN-05__GABLE_01__PANEL_ROOF-SKIN-01-SOUTH-FULL": 0.005
+          },
+          "tip_required_member": "NF-RAF-20",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-08__GABLE_01__RIDGE_CAP": 0.03333333333333333,
+            "NF-BATTEN-05__GABLE_01__PANEL_ROOF-SKIN-01-SOUTH-FULL": 0.03153692614770459,
+            "NF-RAF-20": 0.028343313373253496
+          },
+          "tip_inside": {
+            "NF-COVER-08__GABLE_01__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_01__PANEL_ROOF-SKIN-01-SOUTH-FULL": false,
+            "NF-RAF-20": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-01__GABLE_01__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_01__PANEL_ROOF-SKIN-01-NORTH-FULL",
+            "NF-RAF-10"
+          ],
+          "source_cover_component_id": "NF-COVER-01",
+          "source_host_component_id": "NF-RAF-10",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.6999999999999835,
+            0.08,
+            5.009557757316774
+          ],
+          "length_m": 0.08,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-01__GABLE_01__RIDGE_CAP": 0.001,
+            "NF-RAF-10": 0.02,
+            "NF-BATTEN-06__GABLE_01__PANEL_ROOF-SKIN-01-NORTH-FULL": 0.005
+          },
+          "tip_required_member": "NF-RAF-10",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-01__GABLE_01__RIDGE_CAP": 0.01996007984031936,
+            "NF-BATTEN-06__GABLE_01__PANEL_ROOF-SKIN-01-NORTH-FULL": 0.03161676646706587,
+            "NF-RAF-10": 0.02842315369261477
+          },
+          "tip_inside": {
+            "NF-COVER-01__GABLE_01__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_01__PANEL_ROOF-SKIN-01-NORTH-FULL": false,
+            "NF-RAF-10": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-01__GABLE_01__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_01__PANEL_ROOF-SKIN-01-NORTH-FULL",
+            "NF-RAF-10"
+          ],
+          "source_cover_component_id": "NF-COVER-01",
+          "source_host_component_id": "NF-RAF-10",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.7199999999999835,
+            0.08,
+            5.014303032759427
+          ],
+          "length_m": 0.085,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-01__GABLE_01__RIDGE_CAP": 0.001,
+            "NF-RAF-10": 0.02,
+            "NF-BATTEN-06__GABLE_01__PANEL_ROOF-SKIN-01-NORTH-FULL": 0.005
+          },
+          "tip_required_member": "NF-RAF-10",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-01__GABLE_01__RIDGE_CAP": 0.024770459081836328,
+            "NF-BATTEN-06__GABLE_01__PANEL_ROOF-SKIN-01-NORTH-FULL": 0.03155688622754491,
+            "NF-RAF-10": 0.028672654690618762
+          },
+          "tip_inside": {
+            "NF-COVER-01__GABLE_01__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_01__PANEL_ROOF-SKIN-01-NORTH-FULL": false,
+            "NF-RAF-10": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "cap_cover_parts": [
+        "NF-COVER-08__GABLE_01__RIDGE_CAP",
+        "NF-COVER-01__GABLE_01__RIDGE_CAP"
+      ],
+      "rejection_counts": {},
+      "removable_shared_saddle_retains_both_parts_until_fixed": true,
+      "saddle_physical_capacity_and_robot_feed_unqualified": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-02",
+      "success": true,
+      "site_screws": [
+        {
+          "members": [
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-WEST",
+            "NF-RAF-19"
+          ],
+          "source_cover_component_id": "NF-COVER-08",
+          "source_host_component_id": "NF-RAF-19",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.3223506200000075,
+            -0.08,
+            5.065182588463105
+          ],
+          "length_m": 0.135,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-19": 0.02,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-19",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03341317365269462,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-WEST": 0.031526946107784434,
+            "NF-RAF-19": 0.028023952095808387
+          },
+          "tip_inside": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-WEST": false,
+            "NF-RAF-19": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-WEST",
+            "NF-RAF-19"
+          ],
+          "source_cover_component_id": "NF-COVER-08",
+          "source_host_component_id": "NF-RAF-19",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.3423506200000075,
+            -0.08,
+            5.078844031308175
+          ],
+          "length_m": 0.15,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-19": 0.02,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-19",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03353293413173653,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-WEST": 0.03143712574850299,
+            "NF-RAF-19": 0.02934131736526946
+          },
+          "tip_inside": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-WEST": false,
+            "NF-RAF-19": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-EAST",
+            "NF-RAF-18"
+          ],
+          "source_cover_component_id": "NF-COVER-08",
+          "source_host_component_id": "NF-RAF-18",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.944701240000005,
+            -0.08,
+            5.025819488374342
+          ],
+          "length_m": 0.095,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-18": 0.02,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-18",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.03337325349301397,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-EAST": 0.031477045908183635,
+            "NF-RAF-18": 0.027305389221556887
+          },
+          "tip_inside": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-EAST": false,
+            "NF-RAF-18": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-EAST",
+            "NF-RAF-18"
+          ],
+          "source_cover_component_id": "NF-COVER-08",
+          "source_host_component_id": "NF-RAF-18",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.964701240000005,
+            -0.08,
+            5.032917069994171
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-18": 0.02,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-18",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.03353293413173653,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-EAST": 0.03153692614770459,
+            "NF-RAF-18": 0.025149700598802397
+          },
+          "tip_inside": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_02__PANEL_ROOF-SKIN-02-SOUTH-EAST": false,
+            "NF-RAF-18": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-WEST",
+            "NF-RAF-09"
+          ],
+          "source_cover_component_id": "NF-COVER-01",
+          "source_host_component_id": "NF-RAF-09",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.3211950199999918,
+            0.08,
+            5.0622895637879575
+          ],
+          "length_m": 0.13,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-09": 0.02,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-09",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.03347305389221557,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-WEST": 0.03165668662674651,
+            "NF-RAF-09": 0.02568862275449102
+          },
+          "tip_inside": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-WEST": false,
+            "NF-RAF-09": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-WEST",
+            "NF-RAF-09"
+          ],
+          "source_cover_component_id": "NF-COVER-01",
+          "source_host_component_id": "NF-RAF-09",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.3411950199999918,
+            0.08,
+            5.041635252621164
+          ],
+          "length_m": 0.11,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-09": 0.02,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-09",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.03337325349301397,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-WEST": 0.03161676646706587,
+            "NF-RAF-09": 0.026347305389221556
+          },
+          "tip_inside": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-WEST": false,
+            "NF-RAF-09": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST",
+            "NF-RAF-08"
+          ],
+          "source_cover_component_id": "NF-COVER-01",
+          "source_host_component_id": "NF-RAF-08",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.9235456399999966,
+            0.08,
+            5.03064863952075
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.0001,
+            "NF-RAF-08": 0.02,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-08",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03333333333333333,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.007784431137724552,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": 0.03153692614770459,
+            "NF-RAF-08": 0.027345309381237526
+          },
+          "tip_inside": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": false,
+            "NF-RAF-08": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST",
+            "NF-RAF-08"
+          ],
+          "source_cover_component_id": "NF-COVER-01",
+          "source_host_component_id": "NF-RAF-08",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.9235456399999966,
+            0.1,
+            5.015238673311135
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.0001,
+            "NF-RAF-08": 0.02,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-08",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03333333333333333,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.007784431137724552,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": 0.03153692614770459,
+            "NF-RAF-08": 0.027345309381237526
+          },
+          "tip_inside": {
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": false,
+            "NF-RAF-08": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST",
+            "NF-RAF-08"
+          ],
+          "source_cover_component_id": "NF-COVER-02",
+          "source_host_component_id": "NF-RAF-08",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.9435456399999966,
+            0.08,
+            5.0432051485519365
+          ],
+          "length_m": 0.115,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.0001,
+            "NF-RAF-08": 0.02,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-08",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03259481037924152,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.021117764471057884,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": 0.031447105788423156,
+            "NF-RAF-08": 0.029840319361277446
+          },
+          "tip_inside": {
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": false,
+            "NF-RAF-08": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST",
+            "NF-RAF-08"
+          ],
+          "source_cover_component_id": "NF-COVER-02",
+          "source_host_component_id": "NF-RAF-08",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.9635456399999967,
+            0.08,
+            5.043433730828787
+          ],
+          "length_m": 0.115,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.0001,
+            "NF-RAF-08": 0.02,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-08",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.013542914171656687,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03328343313373253,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": 0.031447105788423156,
+            "NF-RAF-08": 0.029610778443113776
+          },
+          "tip_inside": {
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_02__PANEL_ROOF-SKIN-02-NORTH-EAST": false,
+            "NF-RAF-08": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-07__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-PURLIN-03"
+          ],
+          "source_cover_component_id": "NF-COVER-07",
+          "source_host_component_id": "NF-PURLIN-03",
+          "type": "nominal long sealed ridge screw into continuous ridge purlin",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.8136521898774708,
+            0.0,
+            5.104183803268053
+          ],
+          "length_m": 0.20500000000000002,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-07__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.0001,
+            "NF-PURLIN-03": 0.02
+          },
+          "tip_required_member": "NF-PURLIN-03",
+          "clearance_hole_and_sealing_washer_required": true,
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-07__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.0270059880239521,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03355289421157685,
+            "NF-PURLIN-03": 0.02577844311377246
+          },
+          "tip_inside": {
+            "NF-COVER-07__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-PURLIN-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-PURLIN-03"
+          ],
+          "source_cover_component_id": "NF-COVER-02",
+          "source_host_component_id": "NF-PURLIN-03",
+          "type": "nominal long sealed ridge screw into continuous ridge purlin",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -1.0890602498263064,
+            0.0,
+            5.118781855130396
+          ],
+          "length_m": 0.22,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.0001,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.0001,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-PURLIN-03": 0.02
+          },
+          "tip_required_member": "NF-PURLIN-03",
+          "clearance_hole_and_sealing_washer_required": true,
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.030738522954091817,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.03337325349301397,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.010978043912175649,
+            "NF-PURLIN-03": 0.026347305389221556
+          },
+          "tip_inside": {
+            "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-PURLIN-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "cap_cover_parts": [
+        "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+        "NF-COVER-07__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+        "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+        "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+        "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+        "NF-COVER-01__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+        "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP"
+      ],
+      "rejection_counts": {
+        "RAY_LAYER_MISS": 36,
+        "(['NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__RIDGE_CAP', 'NF-COVER-": 4
+      },
+      "removable_shared_saddle_retains_both_parts_until_fixed": true,
+      "saddle_physical_capacity_and_robot_feed_unqualified": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-03",
+      "success": true,
+      "site_screws": [
+        {
+          "members": [
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-WEST",
+            "NF-RAF-17"
+          ],
+          "source_cover_component_id": "NF-COVER-07",
+          "source_host_component_id": "NF-RAF-17",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.5670518700000011,
+            -0.08,
+            5.054044920426616
+          ],
+          "length_m": 0.125,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-17": 0.02,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-17",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03318363273453094,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-WEST": 0.031686626746506984,
+            "NF-RAF-17": 0.028942115768463075
+          },
+          "tip_inside": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-WEST": false,
+            "NF-RAF-17": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-WEST",
+            "NF-RAF-17"
+          ],
+          "source_cover_component_id": "NF-COVER-07",
+          "source_host_component_id": "NF-RAF-17",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.5870518700000011,
+            -0.08,
+            5.026870501177575
+          ],
+          "length_m": 0.095,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-17": 0.02,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-17",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03356287425149701,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-WEST": 0.031477045908183635,
+            "NF-RAF-17": 0.02616766467065868
+          },
+          "tip_inside": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-WEST": false,
+            "NF-RAF-17": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-EAST",
+            "NF-RAF-16"
+          ],
+          "source_cover_component_id": "NF-COVER-07",
+          "source_host_component_id": "NF-RAF-16",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.1894024900000001,
+            -0.08,
+            5.050992808575361
+          ],
+          "length_m": 0.12,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-16": 0.02,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-16",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.03353293413173653,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-EAST": 0.03161676646706587,
+            "NF-RAF-16": 0.027065868263473052
+          },
+          "tip_inside": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-EAST": false,
+            "NF-RAF-16": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-EAST",
+            "NF-RAF-16"
+          ],
+          "source_cover_component_id": "NF-COVER-07",
+          "source_host_component_id": "NF-RAF-16",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.20940249000000008,
+            -0.08,
+            5.069516414323002
+          ],
+          "length_m": 0.14,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-16": 0.02,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-16",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.03353293413173653,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-EAST": 0.031576846307385234,
+            "NF-RAF-16": 0.02850299401197605
+          },
+          "tip_inside": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_03__PANEL_ROOF-SKIN-03-SOUTH-EAST": false,
+            "NF-RAF-16": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-WEST",
+            "NF-RAF-07"
+          ],
+          "source_cover_component_id": "NF-COVER-02",
+          "source_host_component_id": "NF-RAF-07",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.5858962699999989,
+            0.08,
+            5.0381725902953995
+          ],
+          "length_m": 0.11,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-07": 0.02,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-07",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.033153692614770455,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-WEST": 0.03161676646706587,
+            "NF-RAF-07": 0.029860279441117767
+          },
+          "tip_inside": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-WEST": false,
+            "NF-RAF-07": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-WEST",
+            "NF-RAF-07"
+          ],
+          "source_cover_component_id": "NF-COVER-02",
+          "source_host_component_id": "NF-RAF-07",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.5658962699999989,
+            0.1,
+            4.993114746180564
+          ],
+          "length_m": 0.08,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-07": 0.02,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-07",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.01900199600798403,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-WEST": 0.03145708582834331,
+            "NF-RAF-07": 0.029540918163672655
+          },
+          "tip_inside": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-WEST": false,
+            "NF-RAF-07": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-EAST",
+            "NF-RAF-06"
+          ],
+          "source_cover_component_id": "NF-COVER-02",
+          "source_host_component_id": "NF-RAF-06",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.1882468899999999,
+            0.08,
+            5.038024037602605
+          ],
+          "length_m": 0.11,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-06": 0.02,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-06",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03337325349301397,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-EAST": 0.031397205588822356,
+            "NF-RAF-06": 0.030079840319361277
+          },
+          "tip_inside": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-EAST": false,
+            "NF-RAF-06": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-EAST",
+            "NF-RAF-06"
+          ],
+          "source_cover_component_id": "NF-COVER-02",
+          "source_host_component_id": "NF-RAF-06",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.20824688999999988,
+            0.08,
+            5.034858923021263
+          ],
+          "length_m": 0.105,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-06": 0.02,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-06",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.033323353293413176,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-EAST": 0.03143712574850299,
+            "NF-RAF-06": 0.028293413173652693
+          },
+          "tip_inside": {
+            "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_03__PANEL_ROOF-SKIN-03-NORTH-EAST": false,
+            "NF-RAF-06": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-COVER-03__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-PURLIN-03"
+          ],
+          "source_cover_component_id": "NF-COVER-03",
+          "source_host_component_id": "NF-PURLIN-03",
+          "type": "nominal long sealed ridge screw into continuous ridge purlin",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            -0.05606644885150345,
+            0.0,
+            5.109757457267639
+          ],
+          "length_m": 0.21,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.0001,
+            "NF-COVER-03__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-PURLIN-03": 0.02
+          },
+          "tip_required_member": "NF-PURLIN-03",
+          "clearance_hole_and_sealing_washer_required": true,
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.030179640718562873,
+            "NF-COVER-03__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03353293413173653,
+            "NF-PURLIN-03": 0.0255688622754491
+          },
+          "tip_inside": {
+            "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-COVER-03__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-PURLIN-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "cap_cover_parts": [
+        "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+        "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+        "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+        "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+        "NF-COVER-03__GABLE_03__ROOF_SKIN_NORTH_EAST__RIDGE_CAP"
+      ],
+      "rejection_counts": {
+        "('Unrelated timber interference', ['NF-COVER-02__GABLE_03__ROOF_SKIN_N": 2,
+        "RAY_LAYER_MISS": 18
+      },
+      "removable_shared_saddle_retains_both_parts_until_fixed": true,
+      "saddle_physical_capacity_and_robot_feed_unqualified": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-04",
+      "success": true,
+      "site_screws": [
+        {
+          "members": [
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-WEST",
+            "NF-RAF-15"
+          ],
+          "source_cover_component_id": "NF-COVER-06",
+          "source_host_component_id": "NF-RAF-15",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.1882468899999999,
+            -0.08,
+            5.035844835958767
+          ],
+          "length_m": 0.105,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-15": 0.02,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-15",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.033323353293413176,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-WEST": 0.03143712574850299,
+            "NF-RAF-15": 0.02724550898203593
+          },
+          "tip_inside": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-WEST": false,
+            "NF-RAF-15": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-WEST",
+            "NF-RAF-15"
+          ],
+          "source_cover_component_id": "NF-COVER-06",
+          "source_host_component_id": "NF-RAF-15",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.1682468899999999,
+            -0.08,
+            5.032808449931196
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-15": 0.02,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-15",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03333333333333333,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-WEST": 0.03153692614770459,
+            "NF-RAF-15": 0.025149700598802397
+          },
+          "tip_inside": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-WEST": false,
+            "NF-RAF-15": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-EAST",
+            "NF-RAF-14"
+          ],
+          "source_cover_component_id": "NF-COVER-06",
+          "source_host_component_id": "NF-RAF-14",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.5658962699999989,
+            -0.08,
+            5.0265628026433085
+          ],
+          "length_m": 0.095,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-14": 0.02,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-14",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.03337325349301397,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-EAST": 0.031477045908183635,
+            "NF-RAF-14": 0.02654690618762475
+          },
+          "tip_inside": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-EAST": false,
+            "NF-RAF-14": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-EAST",
+            "NF-RAF-14"
+          ],
+          "source_cover_component_id": "NF-COVER-06",
+          "source_host_component_id": "NF-RAF-14",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.5458962699999989,
+            -0.08,
+            5.0542877297503805
+          ],
+          "length_m": 0.125,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-14": 0.02,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-14",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.03343313373253493,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-EAST": 0.031686626746506984,
+            "NF-RAF-14": 0.02869261477045908
+          },
+          "tip_inside": {
+            "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_04__PANEL_ROOF-SKIN-04-SOUTH-EAST": false,
+            "NF-RAF-14": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-WEST",
+            "NF-RAF-05"
+          ],
+          "source_cover_component_id": "NF-COVER-03",
+          "source_host_component_id": "NF-RAF-05",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.1894024900000001,
+            0.08,
+            5.009280778930189
+          ],
+          "length_m": 0.08,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-05": 0.02,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-05",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.019640718562874252,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-WEST": 0.03161676646706587,
+            "NF-RAF-05": 0.02874251497005988
+          },
+          "tip_inside": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-WEST": false,
+            "NF-RAF-05": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-WEST",
+            "NF-RAF-05"
+          ],
+          "source_cover_component_id": "NF-COVER-03",
+          "source_host_component_id": "NF-RAF-05",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.1694024900000001,
+            0.08,
+            5.014935033472726
+          ],
+          "length_m": 0.085,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-05": 0.02,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-05",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.02527944111776447,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-WEST": 0.03155688622754491,
+            "NF-RAF-05": 0.028163672654690622
+          },
+          "tip_inside": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-WEST": false,
+            "NF-RAF-05": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-EAST",
+            "NF-RAF-04"
+          ],
+          "source_cover_component_id": "NF-COVER-03",
+          "source_host_component_id": "NF-RAF-04",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.5670518700000011,
+            0.08,
+            5.04349448544064
+          ],
+          "length_m": 0.115,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-04": 0.02,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-04",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.033512974051896204,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-EAST": 0.031447105788423156,
+            "NF-RAF-04": 0.029610778443113776
+          },
+          "tip_inside": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-EAST": false,
+            "NF-RAF-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-EAST",
+            "NF-RAF-04"
+          ],
+          "source_cover_component_id": "NF-COVER-03",
+          "source_host_component_id": "NF-RAF-04",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.5870518700000011,
+            0.08,
+            5.033543241897463
+          ],
+          "length_m": 0.105,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-04": 0.02,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-04",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03311377245508982,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-EAST": 0.03143712574850299,
+            "NF-RAF-04": 0.029550898203592815
+          },
+          "tip_inside": {
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_04__PANEL_ROOF-SKIN-04-NORTH-EAST": false,
+            "NF-RAF-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-07__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-PURLIN-03"
+          ],
+          "source_cover_component_id": "NF-COVER-07",
+          "source_host_component_id": "NF-PURLIN-03",
+          "type": "nominal long sealed ridge screw into continuous ridge purlin",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.06470696528416194,
+            0.0,
+            5.106687797939656
+          ],
+          "length_m": 0.21,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-07__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.0001,
+            "NF-PURLIN-03": 0.02
+          },
+          "tip_required_member": "NF-PURLIN-03",
+          "clearance_hole_and_sealing_washer_required": true,
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-07__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.0016766467065868263,
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.03353293413173653,
+            "NF-PURLIN-03": 0.028502994011976045
+          },
+          "tip_inside": {
+            "NF-COVER-07__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-PURLIN-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "cap_cover_parts": [
+        "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+        "NF-COVER-07__GABLE_04__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+        "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+        "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+        "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__RIDGE_CAP"
+      ],
+      "rejection_counts": {
+        "RAY_LAYER_MISS": 18,
+        "('Unrelated timber interference', ['NF-COVER-03__GABLE_04__ROOF_SKIN_N": 1
+      },
+      "removable_shared_saddle_retains_both_parts_until_fixed": true,
+      "saddle_physical_capacity_and_robot_feed_unqualified": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-05",
+      "success": true,
+      "site_screws": [
+        {
+          "members": [
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST",
+            "NF-RAF-13"
+          ],
+          "source_cover_component_id": "NF-COVER-05",
+          "source_host_component_id": "NF-RAF-13",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.9435456399999966,
+            -0.08,
+            5.0448257882775
+          ],
+          "length_m": 0.115,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.0001,
+            "NF-RAF-13": 0.02,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-13",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03328343313373253,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.010099800399201598,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": 0.031447105788423156,
+            "NF-RAF-13": 0.02823353293413174
+          },
+          "tip_inside": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": false,
+            "NF-RAF-13": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST",
+            "NF-RAF-13"
+          ],
+          "source_cover_component_id": "NF-COVER-05",
+          "source_host_component_id": "NF-RAF-13",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.9235456399999966,
+            -0.08,
+            5.0586529884234075
+          ],
+          "length_m": 0.13,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.0001,
+            "NF-RAF-13": 0.02,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-13",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03347305389221557,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03347305389221557,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": 0.03165668662674651,
+            "NF-RAF-13": 0.029321357285429145
+          },
+          "tip_inside": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": false,
+            "NF-RAF-13": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST",
+            "NF-RAF-13"
+          ],
+          "source_cover_component_id": "NF-COVER-06",
+          "source_host_component_id": "NF-RAF-13",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.9635456399999967,
+            -0.08,
+            5.062904160561359
+          ],
+          "length_m": 0.13,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.0001,
+            "NF-RAF-13": 0.02,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-13",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03347305389221557,
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03347305389221557,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": 0.03165668662674651,
+            "NF-RAF-13": 0.02516966067864272
+          },
+          "tip_inside": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": false,
+            "NF-RAF-13": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST",
+            "NF-RAF-13"
+          ],
+          "source_cover_component_id": "NF-COVER-06",
+          "source_host_component_id": "NF-RAF-13",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.9635456399999967,
+            -0.1,
+            5.047466319126751
+          ],
+          "length_m": 0.13,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.001,
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.0001,
+            "NF-RAF-13": 0.02,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-13",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03321357285429142,
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.03347305389221557,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": 0.03165668662674651,
+            "NF-RAF-13": 0.02516966067864272
+          },
+          "tip_inside": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-WEST": false,
+            "NF-RAF-13": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-EAST",
+            "NF-RAF-12"
+          ],
+          "source_cover_component_id": "NF-COVER-05",
+          "source_host_component_id": "NF-RAF-12",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.3211950199999918,
+            -0.08,
+            5.065005701763161
+          ],
+          "length_m": 0.135,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-12": 0.02,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-12",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.03341317365269462,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-EAST": 0.031526946107784434,
+            "NF-RAF-12": 0.028023952095808387
+          },
+          "tip_inside": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-EAST": false,
+            "NF-RAF-12": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-EAST",
+            "NF-RAF-12"
+          ],
+          "source_cover_component_id": "NF-COVER-05",
+          "source_host_component_id": "NF-RAF-12",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.3011950199999918,
+            -0.08,
+            5.0329367706807355
+          ],
+          "length_m": 0.105,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-12": 0.02,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-12",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.033323353293413176,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-EAST": 0.03143712574850299,
+            "NF-RAF-12": 0.030179640718562873
+          },
+          "tip_inside": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_05__PANEL_ROOF-SKIN-05-SOUTH-EAST": false,
+            "NF-RAF-12": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-WEST",
+            "NF-RAF-03"
+          ],
+          "source_cover_component_id": "NF-COVER-04",
+          "source_host_component_id": "NF-RAF-03",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.944701240000005,
+            0.08,
+            5.029767580611903
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-03": 0.02,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-03",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.03333333333333333,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-WEST": 0.03153692614770459,
+            "NF-RAF-03": 0.028343313373253496
+          },
+          "tip_inside": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-WEST": false,
+            "NF-RAF-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-WEST",
+            "NF-RAF-03"
+          ],
+          "source_cover_component_id": "NF-COVER-04",
+          "source_host_component_id": "NF-RAF-03",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.924701240000005,
+            0.08,
+            5.041741075334118
+          ],
+          "length_m": 0.11,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-RAF-03": 0.02,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-WEST": 0.005
+          },
+          "tip_required_member": "NF-RAF-03",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.03337325349301397,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-WEST": 0.031397205588822356,
+            "NF-RAF-03": 0.026347305389221556
+          },
+          "tip_inside": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-WEST": false,
+            "NF-RAF-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-EAST",
+            "NF-RAF-02"
+          ],
+          "source_cover_component_id": "NF-COVER-04",
+          "source_host_component_id": "NF-RAF-02",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.3423506200000075,
+            0.08,
+            5.051331292013007
+          ],
+          "length_m": 0.12,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-02": 0.02,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-02",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03353293413173653,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-EAST": 0.031377245508982035,
+            "NF-RAF-02": 0.02682634730538922
+          },
+          "tip_inside": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-EAST": false,
+            "NF-RAF-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-EAST",
+            "NF-RAF-02"
+          ],
+          "source_cover_component_id": "NF-COVER-04",
+          "source_host_component_id": "NF-RAF-02",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.3423506200000075,
+            0.1,
+            5.035921325087817
+          ],
+          "length_m": 0.12,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.001,
+            "NF-RAF-02": 0.02,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-EAST": 0.005
+          },
+          "tip_required_member": "NF-RAF-02",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": 0.03353293413173653,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-EAST": 0.031377245508982035,
+            "NF-RAF-02": 0.02682634730538922
+          },
+          "tip_inside": {
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_05__PANEL_ROOF-SKIN-05-NORTH-EAST": false,
+            "NF-RAF-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+            "NF-PURLIN-03"
+          ],
+          "source_cover_component_id": "NF-COVER-06",
+          "source_host_component_id": "NF-PURLIN-03",
+          "type": "nominal long sealed ridge screw into continuous ridge purlin",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.1020452242820025,
+            0.0,
+            5.112017623021282
+          ],
+          "length_m": 0.215,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.0001,
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.0001,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.001,
+            "NF-PURLIN-03": 0.02
+          },
+          "tip_required_member": "NF-PURLIN-03",
+          "clearance_hole_and_sealing_washer_required": true,
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.0030039920159680637,
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.03347305389221557,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": 0.01802395209580838,
+            "NF-PURLIN-03": 0.027894211576846305
+          },
+          "tip_inside": {
+            "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP": false,
+            "NF-PURLIN-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+            "NF-COVER-03__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+            "NF-PURLIN-03"
+          ],
+          "source_cover_component_id": "NF-COVER-03",
+          "source_host_component_id": "NF-PURLIN-03",
+          "type": "nominal long sealed ridge screw into continuous ridge purlin",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            0.8240522057978185,
+            0.0,
+            5.104834779220281
+          ],
+          "length_m": 0.20500000000000002,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.0001,
+            "NF-COVER-03__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.001,
+            "NF-PURLIN-03": 0.02
+          },
+          "tip_required_member": "NF-PURLIN-03",
+          "clearance_hole_and_sealing_washer_required": true,
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": 0.00941117764471058,
+            "NF-COVER-03__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": 0.0331437125748503,
+            "NF-PURLIN-03": 0.02536926147704591
+          },
+          "tip_inside": {
+            "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP": false,
+            "NF-COVER-03__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP": false,
+            "NF-PURLIN-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "cap_cover_parts": [
+        "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+        "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+        "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+        "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+        "NF-COVER-03__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+        "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+        "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__RIDGE_CAP"
+      ],
+      "rejection_counts": {
+        "(['NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP', 'NF-COVER-": 4,
+        "RAY_LAYER_MISS": 36,
+        "('Unrelated timber interference', ['NF-COVER-04__GABLE_05__ROOF_SKIN_N": 4
+      },
+      "removable_shared_saddle_retains_both_parts_until_fixed": true,
+      "saddle_physical_capacity_and_robot_feed_unqualified": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-06",
+      "success": true,
+      "site_screws": [
+        {
+          "members": [
+            "NF-COVER-05__GABLE_06__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_06",
+            "NF-RAF-11"
+          ],
+          "source_cover_component_id": "NF-COVER-05",
+          "source_host_component_id": "NF-RAF-11",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.6999999999999835,
+            -0.08,
+            5.050859344545727
+          ],
+          "length_m": 0.12,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-05__GABLE_06__RIDGE_CAP": 0.001,
+            "NF-RAF-11": 0.02,
+            "NF-BATTEN-05__GABLE_06": 0.005
+          },
+          "tip_required_member": "NF-RAF-11",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-05__GABLE_06__RIDGE_CAP": 0.0332934131736527,
+            "NF-BATTEN-05__GABLE_06": 0.031377245508982035,
+            "NF-RAF-11": 0.027305389221556887
+          },
+          "tip_inside": {
+            "NF-COVER-05__GABLE_06__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_06": false,
+            "NF-RAF-11": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-05__GABLE_06__RIDGE_CAP",
+            "NF-BATTEN-05__GABLE_06",
+            "NF-RAF-11"
+          ],
+          "source_cover_component_id": "NF-COVER-05",
+          "source_host_component_id": "NF-RAF-11",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.6799999999999835,
+            -0.08,
+            5.066230698728756
+          ],
+          "length_m": 0.135,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-05__GABLE_06__RIDGE_CAP": 0.001,
+            "NF-RAF-11": 0.02,
+            "NF-BATTEN-05__GABLE_06": 0.005
+          },
+          "tip_required_member": "NF-RAF-11",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-05__GABLE_06__RIDGE_CAP": 0.03341317365269462,
+            "NF-BATTEN-05__GABLE_06": 0.031526946107784434,
+            "NF-RAF-11": 0.02694610778443114
+          },
+          "tip_inside": {
+            "NF-COVER-05__GABLE_06__RIDGE_CAP": false,
+            "NF-BATTEN-05__GABLE_06": false,
+            "NF-RAF-11": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-04__GABLE_06__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_06",
+            "NF-RAF-01"
+          ],
+          "source_cover_component_id": "NF-COVER-04",
+          "source_host_component_id": "NF-RAF-01",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.7000000000000077,
+            0.08,
+            5.047807308298753
+          ],
+          "length_m": 0.115,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-04__GABLE_06__RIDGE_CAP": 0.001,
+            "NF-RAF-01": 0.02,
+            "NF-BATTEN-06__GABLE_06": 0.005
+          },
+          "tip_required_member": "NF-RAF-01",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-04__GABLE_06__RIDGE_CAP": 0.03328343313373253,
+            "NF-BATTEN-06__GABLE_06": 0.031447105788423156,
+            "NF-RAF-01": 0.025249500998003993
+          },
+          "tip_inside": {
+            "NF-COVER-04__GABLE_06__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_06": false,
+            "NF-RAF-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-COVER-04__GABLE_06__RIDGE_CAP",
+            "NF-BATTEN-06__GABLE_06",
+            "NF-RAF-01"
+          ],
+          "source_cover_component_id": "NF-COVER-04",
+          "source_host_component_id": "NF-RAF-01",
+          "type": "nominal sealed roof cap screw into native rafter",
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "entry_point_world_m": [
+            1.6800000000000077,
+            0.08,
+            5.041490210407832
+          ],
+          "length_m": 0.11,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-COVER-04__GABLE_06__RIDGE_CAP": 0.001,
+            "NF-RAF-01": 0.02,
+            "NF-BATTEN-06__GABLE_06": 0.005
+          },
+          "tip_required_member": "NF-RAF-01",
+          "clearance_hole_and_sealing_washer_required": true,
+          "covering_material_identity": "unknown in source",
+          "physical_capacity_qualified": false,
+          "site_robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-COVER-04__GABLE_06__RIDGE_CAP": 0.03337325349301397,
+            "NF-BATTEN-06__GABLE_06": 0.03161676646706587,
+            "NF-RAF-01": 0.026566866267465072
+          },
+          "tip_inside": {
+            "NF-COVER-04__GABLE_06__RIDGE_CAP": false,
+            "NF-BATTEN-06__GABLE_06": false,
+            "NF-RAF-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "cap_cover_parts": [
+        "NF-COVER-05__GABLE_06__RIDGE_CAP",
+        "NF-COVER-04__GABLE_06__RIDGE_CAP"
+      ],
+      "rejection_counts": {},
+      "removable_shared_saddle_retains_both_parts_until_fixed": true,
+      "saddle_physical_capacity_and_robot_feed_unqualified": true
+    }
+  ],
+  "exact_cover_and_host_solids_checked": true,
+  "saddle_and_site_robot_feed_not_yet_qualified": true,
+  "source_committed": false,
+  "full_assembly_success": false,
+  "programme": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/section_programme.json",
+    "sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d"
+  }
+}

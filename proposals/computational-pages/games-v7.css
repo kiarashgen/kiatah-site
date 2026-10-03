@@ -1,0 +1,115 @@
+/* Case-specific presentation for the two retained game records. */
+.hokm-hero-art{margin:0;background:#111312;border:1px solid #393a36;position:relative}
+.hokm-hero-art img{display:block;width:100%;height:auto;object-fit:contain}
+.hokm-hero-art figcaption{position:absolute;right:14px;bottom:9px;color:#bfb9ac;font:10px/1.4 Mono,monospace;background:#111312;padding:4px}
+.hokm-heading{margin-bottom:20px}
+.hokm-heading p{max-width:43ch}
+.hokm-timeline{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:3px;margin:18px 0 9px}
+.hokm-timeline-step{min-width:0;border:1px solid #c7c0b4;background:#f4f1eb;color:#252522;text-align:left;padding:8px 7px;cursor:pointer;display:grid;gap:5px}
+.hokm-timeline-step span{font:700 15px/1 Display,Arial,sans-serif}
+.hokm-timeline-step strong{font:9px/1.2 Mono,monospace;color:#68635c;white-space:nowrap}
+.hokm-timeline-step.active{background:#294b8d;color:white;border-color:#294b8d}
+.hokm-timeline-step.active strong{color:#e7edf8}
+.hokm-timeline-step:hover,.hokm-timeline-step:focus-visible{outline:2px solid #294b8d;outline-offset:1px}
+.hokm-deal-controls{display:flex;align-items:center;gap:8px;margin:9px 0 13px}
+.hokm-deal-controls button{border:1px solid #98938a;background:#f7f5f0;color:#1b1c19;padding:9px 11px;font:11px Mono,monospace;white-space:nowrap;cursor:pointer}
+.hokm-deal-controls button:hover,.hokm-deal-controls button:focus-visible{background:#294b8d;color:white;border-color:#294b8d}
+.hokm-deal-controls input{flex:1;accent-color:#294b8d;min-width:60px}
+.hokm-deal-controls output{font:11px Mono,monospace;min-width:62px;text-align:right}
+.hokm-deal{background:#171a19;color:#ede9e0;border:1px solid #3d403d}
+.hokm-deal-header{display:flex;gap:12px 22px;align-items:center;flex-wrap:wrap;padding:14px 17px;border-bottom:1px solid #4c4e49;font:11px Mono,monospace}
+.hokm-deal-header strong{font-weight:700;font-size:14px;color:white}
+.hokm-table{padding:10px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-areas:'p2 p1' 'trick trick' 'p3 p0';gap:8px;background:#1b1d1c}
+.hokm-hands{display:contents}
+.hokm-hand-row{min-width:0;padding:13px;background:#272a28;border:1px solid #464b47;display:grid;grid-template-rows:auto 1fr auto;gap:10px}
+.hokm-hand-row[data-seat='0']{grid-area:p0}.hokm-hand-row[data-seat='1']{grid-area:p1}
+.hokm-hand-row[data-seat='2']{grid-area:p2}.hokm-hand-row[data-seat='3']{grid-area:p3}
+.hokm-hand-row.is-playing{border-color:#8eb1e3;box-shadow:inset 0 0 0 2px #527ab1;background:#28323a}
+.hokm-seat{display:flex;align-items:baseline;gap:9px;font:11px Mono,monospace}
+.hokm-seat b{font:700 19px/1 Display,Arial,sans-serif;color:white}
+.hokm-seat small,.hokm-hand-count{font:10px Mono,monospace;color:#b2aca2}
+.hokm-hand-cards{width:100%;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;align-content:start}
+.hokm-card{display:grid;place-items:center;min-width:0;width:100%;height:51px;background:#f4f1e9;color:#1c1d1c;border:1px solid #c9c2b5;border-radius:2px;font:700 15px/1 Inter,Arial,sans-serif;font-variant-numeric:tabular-nums}
+.hokm-card.red{color:#a04852}.hokm-card.masked{opacity:.28}
+.hokm-card.legal{border-color:#81a0c8}.hokm-card.chosen{outline:3px solid #86afe7;outline-offset:1px;background:#e8eef5}
+.hokm-trick{grid-area:trick;padding:17px;background:#202622;border:1px solid #66726a}
+.hokm-trick-heading{display:flex;justify-content:space-between;gap:10px;font:11px Mono,monospace;color:#c8c5bc;margin-bottom:12px}
+.hokm-trick-heading strong{color:#f2f0e9}
+.hokm-trick-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.hokm-trick-slot{border:1px solid #565a54;min-height:91px;padding:9px;display:flex;align-items:center;justify-content:center;gap:10px}
+.hokm-trick-slot.current{border:2px solid #76a3df;background:#2e3843}
+.hokm-trick-slot small{font:10px/1.3 Mono,monospace;color:#c3bfb5}
+.hokm-trick-slot .hokm-card{flex:0 0 48px;width:48px;height:66px;font-size:20px}
+.hokm-trick-slot .pending{background:transparent;border:1px dashed #6d7069;color:#9c9d94}
+.hokm-decision{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,.7fr);gap:24px;border:1px solid #cbc5b9;border-top:0;background:#faf8f4;padding:22px 25px}
+.hokm-decision .eyebrow{margin:0 0 9px}
+.hokm-decision strong{display:block;font:700 30px/1.1 Display,Arial,sans-serif}
+.hokm-decision p{margin:9px 0 0;font-size:13px;line-height:1.5;color:#56534d}
+.hokm-reveal{margin-top:17px;border:1px solid #294b8d;background:#294b8d;color:#fff;padding:10px 15px;font:11px Mono,monospace;cursor:pointer}
+.hokm-reveal:hover,.hokm-reveal:focus-visible{outline:2px solid #294b8d;outline-offset:3px}
+.hokm-reveal[aria-pressed='true']{background:#faf8f4;color:#294b8d}
+.hokm-decision details{border-left:1px solid #cbc5b9;padding-left:22px}
+.hokm-decision summary{font:11px Mono,monospace;color:#294b8d;cursor:pointer;padding:8px 0}
+.hokm-decision .q-bars{margin-top:12px;max-height:280px;overflow:auto}
+.hokm-decision .caption{font-size:10px}
+.xo-comparison{align-items:stretch}
+.xo-comparison>.data-panel{height:100%}
+.xo-inspector{display:grid;align-content:start;gap:12px}
+.xo-inspector .eyebrow{margin:0}
+.xo-inspector .v2-small{font-size:11px;margin:0}
+.xo-inputs{display:grid;gap:6px}
+.xo-input-row{display:grid;grid-template-columns:83px minmax(0,1fr);align-items:center;gap:8px}
+.xo-input-row strong{font:9px/1.3 Mono,monospace;color:#66615a}
+.xo-bits{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:2px}
+.xo-bits span{background:#eceae4;color:#88827a;text-align:center;padding:5px 1px;font:10px Mono,monospace}
+.xo-bits span.on{background:#294b8d;color:white}
+.xo-network-path{font:10px/1.5 Mono,monospace;border-top:1px solid #c8c3ba;border-bottom:1px solid #c8c3ba;padding:9px 0;color:#514f49;letter-spacing:.02em}
+.xo-network-path span{color:#294b8d;padding:0 5px}
+.xo-score-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;max-width:550px}
+.xo-score-cell{min-width:0;min-height:94px;padding:7px 8px;background:#f5f3ee;border:1px solid #c7c0b4;display:grid;grid-template-columns:1fr auto;grid-template-rows:auto 1fr auto auto;align-items:start;gap:2px}
+.xo-score-cell span{font:10px Mono,monospace;color:#64615b}
+.xo-score-cell b{grid-column:2;grid-row:1;font:700 17px/1 Display,Arial,sans-serif;color:#242523}
+.xo-score-cell strong{grid-column:1/-1;grid-row:2;font:700 23px/1 Display,Arial,sans-serif;color:#242523;font-variant-numeric:tabular-nums;white-space:nowrap}
+.xo-score-cell small{grid-column:1/-1;font:9px Mono,monospace;color:#726e67}
+.xo-score-cell i{grid-column:1/-1;background:#9eafc6;height:3px;display:block}
+.xo-score-cell.occupied{opacity:.43}
+.xo-score-cell.raw-best{border-color:#294b8d}
+.xo-score-cell.selected{border:2px solid #294b8d;background:#e8eef5}
+.xo-score-cell.selected strong,.xo-score-cell.selected small,.xo-score-cell.selected b{color:#294b8d}
+.xo-policy-result{margin:0;padding:11px 0 0;border-top:1px solid #c8c3ba;font:12px/1.5 Inter,Arial,sans-serif;color:#2b2b29;min-height:51px}
+.xo-policy-comparison{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:13px}
+.xo-policy-comparison[hidden]{display:none}
+.xo-policy-card{min-width:0;text-align:left;border:1px solid #bdb7ac;background:#f6f4ef;color:#22231f;padding:13px;display:grid;grid-template-columns:minmax(0,1fr) 83px;grid-template-rows:auto 1fr;gap:5px 12px;cursor:pointer}
+.xo-policy-card:hover,.xo-policy-card:focus-visible{outline:2px solid #294b8d;outline-offset:1px}
+.xo-policy-card.active{background:#e7edf6;border-color:#294b8d;box-shadow:inset 0 0 0 1px #294b8d}
+.xo-policy-card>strong{font:700 16px/1.1 Display,Arial,sans-serif}
+.xo-policy-card>small{font:10px/1.5 Mono,monospace;color:#666158;align-self:end}
+.xo-policy-mini{grid-column:2;grid-row:1/3;display:grid;grid-template-columns:repeat(3,1fr);gap:2px;width:83px;height:83px}
+.xo-policy-mini>span{display:grid;place-items:center;background:#fff;border:1px solid #c7c1b7;font:700 16px/1 Display,Arial,sans-serif}
+.xo-policy-mini>span.chosen{background:#294b8d;color:white;border-color:#294b8d}
+.xo-comparison .game-grid{max-width:100%;width:min(100%,430px)}
+.xo-comparison .game-grid button:focus-visible{outline:3px solid #294b8d;outline-offset:-4px}
+@media(max-width:850px){
+  .hokm-deal-controls{flex-wrap:wrap}.hokm-deal-controls input{order:4;flex-basis:100%}.hokm-deal-controls output{margin-left:auto}
+  .hokm-trick-slot{display:grid;justify-items:center;text-align:center}.hokm-trick-slot .hokm-card{margin:auto}
+  .xo-comparison>.data-panel{height:auto}
+  .xo-policy-comparison{grid-template-columns:1fr}.xo-policy-card{grid-template-columns:minmax(0,1fr) 83px}
+}
+@media(max-width:560px){
+  .hokm-hero-art figcaption{font-size:8px}
+  .hokm-timeline{grid-template-columns:repeat(5,minmax(0,1fr))}
+  .hokm-deal-header{padding:12px;gap:7px 12px}
+  .hokm-table{padding:5px;gap:5px}
+  .hokm-hand-row{padding:7px;gap:6px}
+  .hokm-seat b{font-size:15px}.hokm-seat small{font-size:8px}.hokm-hand-count{font-size:8px}
+  .hokm-hand-cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}
+  .hokm-card{height:39px;font-size:11px}
+  .hokm-trick{padding:9px}.hokm-trick-cards{gap:4px}
+  .hokm-trick-slot{padding:5px 2px;min-height:75px}.hokm-trick-slot small{font-size:8px}
+  .hokm-trick-slot .hokm-card{width:35px;height:46px;font-size:14px}
+  .hokm-decision{grid-template-columns:1fr;padding:16px}.hokm-decision details{border-left:0;border-top:1px solid #cbc5b9;padding:7px 0 0}
+  .hokm-deal-controls button{font-size:9px;padding:8px 6px}
+  .xo-input-row{grid-template-columns:68px minmax(0,1fr)}.xo-input-row strong{font-size:8px}
+  .xo-bits span{font-size:9px;padding:4px 0}
+  .xo-score-cell{min-height:78px;padding:5px}.xo-score-cell strong{font-size:17px}.xo-score-cell small{font-size:8px}
+}

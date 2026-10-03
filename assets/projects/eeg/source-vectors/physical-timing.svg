@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1340" viewBox="0 0 1920 1340" role="img">
+  <title>One event, several clocks</title>
+  <desc>Proposed physical timing-validation diagram. Software intent, stream marker timestamps, display rendering, optical onset detection and EEG acquisition are distinct. The optical-pickup route is schematic and requires verified hardware compatibility. Timelines and repeated-event diagrams are illustrative, with no measured latency or jitter asserted.</desc>
+  <defs/>
+  <g id="geometry">
+    <rect x="65" y="300" width="250" height="141" fill="none" stroke="#171715" stroke-width="1.15" opacity="1" rx="0"/>
+    <line x1="65" y1="323" x2="315" y2="323" stroke="#CBC5BB" stroke-width="1" opacity="1" stroke-linecap="round"/>
+    <circle cx="78" cy="312" r="2" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1"/>
+    <circle cx="88" cy="312" r="2" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1"/>
+    <circle cx="98" cy="312" r="2" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1"/>
+    <rect x="423" y="292" width="145" height="110" fill="#F1EEE7" stroke="#CBC5BB" stroke-width="1" opacity="1" rx="0"/>
+    <line x1="433" y1="312" x2="557" y2="312" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="433" y1="322" x2="557" y2="322" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="433" y1="332" x2="557" y2="332" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="433" y1="342" x2="557" y2="342" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="433" y1="352" x2="557" y2="352" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="433" y1="362" x2="557" y2="362" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="433" y1="372" x2="557" y2="372" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="433" y1="382" x2="557" y2="382" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <rect x="406" y="308" width="145" height="110" fill="#F1EEE7" stroke="#CBC5BB" stroke-width="1" opacity="1" rx="0"/>
+    <line x1="416" y1="328" x2="540" y2="328" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="416" y1="338" x2="540" y2="338" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="416" y1="348" x2="540" y2="348" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="416" y1="358" x2="540" y2="358" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="416" y1="368" x2="540" y2="368" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="416" y1="378" x2="540" y2="378" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="416" y1="388" x2="540" y2="388" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="416" y1="398" x2="540" y2="398" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <rect x="389" y="324" width="145" height="110" fill="#F1EEE7" stroke="#171715" stroke-width="1" opacity="1" rx="0"/>
+    <line x1="399" y1="344" x2="523" y2="344" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="399" y1="354" x2="523" y2="354" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="399" y1="364" x2="523" y2="364" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="399" y1="374" x2="523" y2="374" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="399" y1="384" x2="523" y2="384" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="399" y1="394" x2="523" y2="394" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="399" y1="404" x2="523" y2="404" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <line x1="399" y1="414" x2="523" y2="414" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linecap="round"/>
+    <rect x="404" y="396" width="28" height="23" fill="#294B8D" stroke="#294B8D" stroke-width="0.8" opacity="0.22" rx="0"/>
+    <line x1="399" y1="346" x2="523" y2="346" stroke="#294B8D" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+    <polyline points="526,352 526,387" fill="none" stroke="#294B8D" stroke-width="1" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="524.2,383.0 526,387 527.8,383.0" fill="none" stroke="#294B8D" stroke-width="1" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="322,366 381,366" fill="none" stroke="#294B8D" stroke-width="1.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="374.0,369.15 381,366 374.0,362.85" fill="none" stroke="#294B8D" stroke-width="1.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="570,376 672,376" fill="none" stroke="#294B8D" stroke-width="1.6" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="665.0,379.15 672,376 665.0,372.85" fill="none" stroke="#294B8D" stroke-width="1.6" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="714,296 887,347 887,513 714,462" fill="none" stroke="#5C5750" stroke-width="1" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="726" y1="302" x2="714" y2="296" stroke="#5C5750" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <line x1="899" y1="353" x2="887" y2="347" stroke="#5C5750" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <line x1="726" y1="468" x2="714" y2="462" stroke="#5C5750" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <polygon points="726,302 899,353 899,519 726,468" fill="#F1EEE7" stroke="#171715" stroke-width="1.4" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,315.02 736.38,461.1" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="749.0667,318.76 749.0667,464.84" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="761.7533,322.5 761.7533,468.58" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="774.44,326.24 774.44,472.32" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="787.1267,329.98 787.1267,476.06" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="799.8133,333.72 799.8133,479.8" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="812.5,337.46 812.5,483.54" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="825.1867,341.2 825.1867,487.28" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="837.8733,344.94 837.8733,491.02" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="850.56,348.68 850.56,494.76" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="863.2467,352.42 863.2467,498.5" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="875.9333,356.16 875.9333,502.24" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="888.62,359.9 888.62,505.98" fill="none" stroke="#CBC5BB" stroke-width="0.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,315.02 888.62,359.9" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,325.4543 888.62,370.3343" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,335.8886 888.62,380.7686" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,346.3229 888.62,391.2029" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,356.7571 888.62,401.6371" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,367.1914 888.62,412.0714" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,377.6257 888.62,422.5057" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,388.06 888.62,432.94" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,398.4943 888.62,443.3743" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,408.9286 888.62,453.8086" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,419.3629 888.62,464.2429" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,429.7971 888.62,474.6771" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,440.2314 888.62,485.1114" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,450.6657 888.62,495.5457" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,461.1 888.62,505.98" fill="none" stroke="#CBC5BB" stroke-width="0.55" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="746.76,404.4 788.28,416.64 788.28,453.16 746.76,440.92" fill="#294B8D" stroke="#294B8D" stroke-width="1.1" opacity="0.28" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="736.38,399.68 888.62,444.56" fill="none" stroke="#294B8D" stroke-width="1.4" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="994" cy="405" rx="35" ry="99" fill="none" stroke="#171715" stroke-width="1.15" opacity="1"/>
+    <ellipse cx="1001" cy="405" rx="35" ry="99" fill="none" stroke="#CBC5BB" stroke-width="0.85" opacity="1"/>
+    <path d="M 994 306 C 1021 335 1025 476 994 504" stroke="#5C5750" stroke-width="0.75" fill="none" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+    <path d="M 994 306 C 981 359 981 451 994 504" stroke="#CBC5BB" stroke-width="0.75" fill="none" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+    <polyline points="769.25,417.67 994,382 1130,416" fill="none" stroke="#294B8D" stroke-width="0.8" opacity="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="769.25,429.29 994,405 1130,416" fill="none" stroke="#294B8D" stroke-width="1.4" opacity="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="769.25,440.91 994,428 1130,416" fill="none" stroke="#294B8D" stroke-width="0.8" opacity="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="1123,398 1145,394 1154,405 1154,435 1132,439 1123,428" fill="#F1EEE7" stroke="#171715" stroke-width="1.3" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1123,398 1132,409 1154,405" fill="none" stroke="#5C5750" stroke-width="0.85" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="1132" y1="409" x2="1132" y2="439" stroke="#5C5750" stroke-width="0.85" opacity="1" stroke-linecap="round"/>
+    <ellipse cx="1128" cy="416" rx="4" ry="8" fill="#294B8D" stroke="#294B8D" stroke-width="1.25" opacity="0.55"/>
+    <circle cx="1144" cy="407" r="1.5" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1"/>
+    <circle cx="1144" cy="427" r="1.5" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1"/>
+    <polyline points="1135,439 1135,484 1088,500 1162,519 1209,503 1135,484" fill="none" stroke="#5C5750" stroke-width="0.9" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M 1154 421 C 1188 421 1188 452 1238 452" stroke="#294B8D" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round" opacity="1"/>
+    <polyline points="751.95,447.43 742,512 742,542" fill="none" stroke="#5C5750" stroke-width="0.85" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="994" y1="508" x2="994" y2="525" stroke="#5C5750" stroke-width="0.85" opacity="1" stroke-linecap="round"/>
+    <line x1="1185" y1="520" x2="1185" y2="549" stroke="#5C5750" stroke-width="0.85" opacity="1" stroke-linecap="round"/>
+    <polygon points="1496.94,446.8 1651.8546,536.24 1651.8546,481.12 1496.94,391.68" fill="#5C5750" stroke="none" stroke-width="1.4" opacity="0.08" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="1496.94,446.8 1651.8546,536.24 1651.8546,481.12 1496.94,391.68" fill="none" stroke="#171715" stroke-width="0.95" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="1732.9146,489.44 1651.8546,536.24 1651.8546,481.12 1732.9146,434.32" fill="#5C5750" stroke="none" stroke-width="1.4" opacity="0.16" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="1732.9146,489.44 1651.8546,536.24 1651.8546,481.12 1732.9146,434.32" fill="none" stroke="#171715" stroke-width="0.95" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="1578.0,344.88 1732.9146,434.32 1651.8546,481.12 1496.94,391.68" fill="#5C5750" stroke="none" stroke-width="1.4" opacity="0.025" stroke-linejoin="round" stroke-linecap="round"/>
+    <polygon points="1578.0,344.88 1732.9146,434.32 1651.8546,481.12 1496.94,391.68" fill="none" stroke="#171715" stroke-width="0.95" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1594.212,369.84 1561.788,388.56" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1605.02,376.08 1572.596,394.8" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1615.828,382.32 1583.404,401.04" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1626.636,388.56 1594.212,407.28" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1637.444,394.8 1605.02,413.52" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1648.252,401.04 1615.828,419.76" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1659.06,407.28 1626.636,426.0" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1669.868,413.52 1637.444,432.24" fill="none" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="1514.9534" cy="428.08" rx="5.5" ry="6.5" fill="none" stroke="#171715" stroke-width="0.8" opacity="1"/>
+    <ellipse cx="1514.9534" cy="428.08" rx="2.2" ry="3" fill="none" stroke="#5C5750" stroke-width="0.6" opacity="1"/>
+    <ellipse cx="1546.4767" cy="446.28" rx="5.5" ry="6.5" fill="none" stroke="#171715" stroke-width="0.8" opacity="1"/>
+    <ellipse cx="1546.4767" cy="446.28" rx="2.2" ry="3" fill="none" stroke="#5C5750" stroke-width="0.6" opacity="1"/>
+    <ellipse cx="1578.0" cy="464.48" rx="5.5" ry="6.5" fill="none" stroke="#171715" stroke-width="0.8" opacity="1"/>
+    <ellipse cx="1578.0" cy="464.48" rx="2.2" ry="3" fill="none" stroke="#5C5750" stroke-width="0.6" opacity="1"/>
+    <ellipse cx="1609.5233" cy="482.68" rx="5.5" ry="6.5" fill="none" stroke="#171715" stroke-width="0.8" opacity="1"/>
+    <ellipse cx="1609.5233" cy="482.68" rx="2.2" ry="3" fill="none" stroke="#5C5750" stroke-width="0.6" opacity="1"/>
+    <circle cx="1695.9873" cy="428.6" r="2.4" fill="#294B8D" stroke="none" stroke-width="1.2" opacity="1"/>
+    <line x1="1578.0" y1="415.6" x2="1578.0" y2="422.6" stroke="#5C5750" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <line x1="1700.4906" y1="486.32" x2="1700.4906" y2="493.32" stroke="#5C5750" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <line x1="1524.8607" y1="446.28" x2="1524.8607" y2="453.28" stroke="#5C5750" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <line x1="1647.3513" y1="517.0" x2="1647.3513" y2="524.0" stroke="#5C5750" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <polyline points="1238,452 1330,452 1330,491 1494.9534,491 1514.9534,428.08" fill="none" stroke="#294B8D" stroke-width="1.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1515.8348,435.7053 1514.9534,428.08 1509.8309,433.7969" fill="none" stroke="#294B8D" stroke-width="1.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1372.0,300.3818 1373.1461,302.3152 1374.2921,302.0573 1375.4382,301.9207 1376.5843,302.3855 1377.7303,303.0068 1378.8764,303.5271 1380.0225,301.0499 1381.1685,299.3976 1382.3146,300.0604 1383.4607,299.0379 1384.6067,297.2812 1385.7528,297.1439 1386.8989,297.8122 1388.0449,297.8146 1389.191,297.4087 1390.3371,297.5909 1391.4831,300.0048 1392.6292,301.2004 1393.7753,300.7669 1394.9213,301.9333 1396.0674,302.8365 1397.2135,303.9447 1398.3596,302.3963 1399.5056,300.8811 1400.6517,300.9578 1401.7978,301.4146 1402.9438,299.8824 1404.0899,297.5126 1405.236,296.9143 1406.382,299.1632 1407.5281,297.923 1408.6742,297.0431 1409.8202,297.3318 1410.9663,299.6926 1412.1124,301.0366 1413.2584,299.7596 1414.4045,300.9272 1415.5506,303.3481 1416.6966,304.7792 1417.8427,302.5877 1418.9888,301.0563 1420.1348,301.4227 1421.2809,302.0039 1422.427,299.083 1423.573,297.5022 1424.7191,298.6623 1425.8652,298.2361 1427.0112,296.9852 1428.1573,295.9675 1429.3034,298.1493 1430.4494,300.1063 1431.5955,299.6715 1432.7416,299.1995 1433.8876,301.1461 1435.0337,303.7997 1436.1798,303.5912 1437.3258,301.6642 1438.4719,302.1146 1439.618,302.9854 1440.764,301.8462 1441.9101,299.5903 1443.0562,298.2215 1444.2022,298.3649 1445.3483,298.0504 1446.4944,296.1881 1447.6404,295.6898 1448.7865,296.9908 1449.9326,299.3601 1451.0787,299.2796 1452.2247,299.2627 1453.3708,301.3578 1454.5169,303.0673 1455.6629,302.5337 1456.809,302.0698 1457.9551,302.3607 1459.1011,303.1196 1460.2472,301.0705 1461.3933,299.4799 1462.5393,299.1318 1463.6854,299.1191 1464.8315,297.9788 1465.9775,295.8269 1467.1236,296.0318 1468.2697,298.451 1469.4157,298.3933 1470.5618,298.6643 1471.7079,298.6409 1472.8539,301.5648 1474.0,302.405" fill="none" stroke="#5C5750" stroke-width="1.0" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1372.0,324.9578 1373.1461,325.9433 1374.2921,325.566 1375.4382,325.6166 1376.5843,327.4301 1377.7303,327.1295 1378.8764,325.534 1380.0225,324.2444 1381.1685,324.4395 1382.3146,324.1432 1383.4607,321.2732 1384.6067,320.078 1385.7528,321.0027 1386.8989,322.0668 1388.0449,321.377 1389.191,321.9143 1390.3371,323.2297 1391.4831,326.5816 1392.6292,326.0974 1393.7753,326.1583 1394.9213,326.1476 1396.0674,327.5775 1397.2135,326.8 1398.3596,325.357 1399.5056,323.8603 1400.6517,324.6184 1401.7978,322.5834 1402.9438,321.444 1404.0899,320.0754 1405.236,320.9796 1406.382,321.6305 1407.5281,322.1019 1408.6742,322.5611 1409.8202,325.1057 1410.9663,326.594 1412.1124,326.4747 1413.2584,326.6313 1414.4045,326.8921 1415.5506,327.5365 1416.6966,325.5339 1417.8427,322.9248 1418.9888,323.1908 1420.1348,323.9957 1421.2809,321.5659 1422.427,321.2227 1423.573,320.9369 1424.7191,322.549 1425.8652,323.2088 1427.0112,322.5463 1428.1573,323.8265 1429.3034,326.7577 1430.4494,326.7845 1431.5955,326.2168 1432.7416,325.6452 1433.8876,327.1234 1435.0337,328.0155 1436.1798,324.9982 1437.3258,322.4236 1438.4719,322.1488 1439.618,322.9572 1440.764,321.4105 1441.9101,319.8804 1443.0562,321.9542 1444.2022,323.2452 1445.3483,323.535 1446.4944,323.5907 1447.6404,325.5022 1448.7865,326.9391 1449.9326,326.9024 1451.0787,326.696 1452.2247,326.1477 1453.3708,326.3309 1454.5169,325.866 1455.6629,323.0849 1456.809,322.3072 1457.9551,323.8855 1459.1011,322.8637 1460.2472,320.4143 1461.3933,319.9498 1462.5393,322.328 1463.6854,323.382 1464.8315,323.814 1465.9775,324.2762 1467.1236,326.4741 1468.2697,327.6822 1469.4157,326.3925 1470.5618,325.7895 1471.7079,326.1424 1472.8539,326.3712 1474.0,324.9824" fill="none" stroke="#294B8D" stroke-width="1.7" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1372.0,348.4901 1373.1461,348.8235 1374.2921,349.04 1375.4382,350.6943 1376.5843,352.1893 1377.7303,350.2614 1378.8764,349.6657 1380.0225,347.6333 1381.1685,349.1004 1382.3146,346.4548 1383.4607,344.0877 1384.6067,344.9017 1385.7528,346.1467 1386.8989,346.5744 1388.0449,346.3755 1389.191,347.0139 1390.3371,349.8338 1391.4831,350.8554 1392.6292,350.1496 1393.7753,350.1002 1394.9213,351.8373 1396.0674,350.8648 1397.2135,347.8329 1398.3596,346.9161 1399.5056,346.7817 1400.6517,346.4232 1401.7978,345.2532 1402.9438,344.4752 1404.0899,345.8848 1405.236,347.6864 1406.382,348.0729 1407.5281,347.6791 1408.6742,349.8577 1409.8202,352.1607 1410.9663,350.9795 1412.1124,349.636 1413.2584,349.4048 1414.4045,350.3206 1415.5506,348.1258 1416.6966,346.3177 1417.8427,344.9357 1418.9888,345.9636 1420.1348,345.9458 1421.2809,344.7059 1422.427,345.1835 1423.573,348.4272 1424.7191,349.4141 1425.8652,349.6383 1427.0112,349.9666 1428.1573,350.6044 1429.3034,352.2463 1430.4494,350.0691 1431.5955,348.0771 1432.7416,347.8378 1433.8876,347.5582 1435.0337,346.038 1436.1798,345.1403 1437.3258,344.8008 1438.4719,345.9015 1439.618,346.5092 1440.764,347.3639 1441.9101,348.1204 1443.0562,351.3067 1444.2022,350.7875 1445.3483,349.8764 1446.4944,349.6728 1447.6404,350.5078 1448.7865,350.0633 1449.9326,347.6661 1451.0787,345.367 1452.2247,345.9109 1453.3708,345.8241 1454.5169,344.5993 1455.6629,344.9927 1456.809,346.9108 1457.9551,348.3101 1459.1011,348.6517 1460.2472,348.1983 1461.3933,350.4428 1462.5393,351.0743 1463.6854,351.0223 1464.8315,349.5234 1465.9775,349.4309 1467.1236,349.0865 1468.2697,347.4581 1469.4157,344.7547 1470.5618,343.7578 1471.7079,345.4741 1472.8539,345.0911 1474.0,345.1024" fill="none" stroke="#5C5750" stroke-width="1.0" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1474,323 1514,323 1514,394 1559.9867,454.08" fill="none" stroke="#294B8D" stroke-width="1.25" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1553.2306,450.436 1559.9867,454.08 1558.2334,446.6068" fill="none" stroke="#294B8D" stroke-width="1.25" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="1384" y1="666" x2="1840" y2="666" stroke="#CBC5BB" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <line x1="1414.0" y1="654.5" x2="1414.0" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1428.3478" y1="654.5" x2="1428.3478" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1442.6957" y1="654.5" x2="1442.6957" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1457.0435" y1="654.5" x2="1457.0435" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1471.3913" y1="654.5" x2="1471.3913" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1485.7391" y1="654.5" x2="1485.7391" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1500.087" y1="654.5" x2="1500.087" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1514.4348" y1="654.5" x2="1514.4348" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1528.7826" y1="654.5" x2="1528.7826" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1543.1304" y1="654.5" x2="1543.1304" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1557.4783" y1="654.5" x2="1557.4783" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1571.8261" y1="654.5" x2="1571.8261" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1586.1739" y1="654.5" x2="1586.1739" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1600.5217" y1="654.5" x2="1600.5217" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1614.8696" y1="654.5" x2="1614.8696" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1629.2174" y1="654.5" x2="1629.2174" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1643.5652" y1="654.5" x2="1643.5652" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1657.913" y1="654.5" x2="1657.913" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1672.2609" y1="654.5" x2="1672.2609" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1686.6087" y1="654.5" x2="1686.6087" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1700.9565" y1="654.5" x2="1700.9565" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1715.3043" y1="654.5" x2="1715.3043" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1729.6522" y1="654.5" x2="1729.6522" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1744.0" y1="654.5" x2="1744.0" y2="661.5" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <polyline points="1414,690 1555,690 1555,675 1744,675" fill="none" stroke="#294B8D" stroke-width="1.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1695.9873,483.72 1820,451 1820,630 1770,630" fill="none" stroke="#294B8D" stroke-width="1.35" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="1777.0,626.85 1770,630 1777.0,633.15" fill="none" stroke="#294B8D" stroke-width="1.35" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="315,420 350,420 350,617 638,617 638,696 1284,696 1284,772 1479,772" fill="none" stroke="#5C5750" stroke-width="1.35" opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+    <polyline points="1472.0,775.15 1479,772 1472.0,768.85" fill="none" stroke="#5C5750" stroke-width="1.35" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="60" y1="833" x2="1860" y2="833" stroke="#CBC5BB" stroke-width="1" opacity="1" stroke-linecap="round"/>
+    <line x1="485" y1="978" x2="485" y2="1170" stroke="#CBC5BB" stroke-width="0.9" opacity="1" stroke-dasharray="3 5" stroke-linecap="round"/>
+    <line x1="722" y1="978" x2="722" y2="1170" stroke="#CBC5BB" stroke-width="0.9" opacity="1" stroke-dasharray="3 5" stroke-linecap="round"/>
+    <line x1="990" y1="978" x2="990" y2="1170" stroke="#CBC5BB" stroke-width="0.9" opacity="1" stroke-dasharray="3 5" stroke-linecap="round"/>
+    <line x1="345" y1="1007" x2="1250" y2="1007" stroke="#CBC5BB" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <line x1="345" y1="1074" x2="1250" y2="1074" stroke="#CBC5BB" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <line x1="345" y1="1141" x2="1250" y2="1141" stroke="#CBC5BB" stroke-width="0.8" opacity="1" stroke-linecap="round"/>
+    <polyline points="345,1007 485,1007 485,988 507,988 507,1007 1250,1007" fill="none" stroke="#5C5750" stroke-width="1.5" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="722" y1="1051" x2="722" y2="1089" stroke="#294B8D" stroke-width="2.3" opacity="1" stroke-linecap="round"/>
+    <circle cx="722" cy="1074" r="4" fill="#F1EEE7" stroke="#294B8D" stroke-width="1.5" opacity="1"/>
+    <polyline points="345,1141 990,1141 990,1117 1250,1117" fill="none" stroke="#294B8D" stroke-width="1.9" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="345.0" y1="1158.0" x2="345.0" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="365.5682" y1="1158.0" x2="365.5682" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="386.1364" y1="1158.0" x2="386.1364" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="406.7045" y1="1158.0" x2="406.7045" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="427.2727" y1="1158.0" x2="427.2727" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="447.8409" y1="1158.0" x2="447.8409" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="468.4091" y1="1158.0" x2="468.4091" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="488.9773" y1="1158.0" x2="488.9773" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="509.5455" y1="1158.0" x2="509.5455" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="530.1136" y1="1158.0" x2="530.1136" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="550.6818" y1="1158.0" x2="550.6818" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="571.25" y1="1158.0" x2="571.25" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="591.8182" y1="1158.0" x2="591.8182" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="612.3864" y1="1158.0" x2="612.3864" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="632.9545" y1="1158.0" x2="632.9545" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="653.5227" y1="1158.0" x2="653.5227" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="674.0909" y1="1158.0" x2="674.0909" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="694.6591" y1="1158.0" x2="694.6591" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="715.2273" y1="1158.0" x2="715.2273" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="735.7955" y1="1158.0" x2="735.7955" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="756.3636" y1="1158.0" x2="756.3636" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="776.9318" y1="1158.0" x2="776.9318" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="797.5" y1="1158.0" x2="797.5" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="818.0682" y1="1158.0" x2="818.0682" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="838.6364" y1="1158.0" x2="838.6364" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="859.2045" y1="1158.0" x2="859.2045" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="879.7727" y1="1158.0" x2="879.7727" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="900.3409" y1="1158.0" x2="900.3409" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="920.9091" y1="1158.0" x2="920.9091" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="941.4773" y1="1158.0" x2="941.4773" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="962.0455" y1="1158.0" x2="962.0455" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="982.6136" y1="1158.0" x2="982.6136" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1003.1818" y1="1158.0" x2="1003.1818" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1023.75" y1="1158.0" x2="1023.75" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1044.3182" y1="1158.0" x2="1044.3182" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1064.8864" y1="1158.0" x2="1064.8864" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1085.4545" y1="1158.0" x2="1085.4545" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1106.0227" y1="1158.0" x2="1106.0227" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1126.5909" y1="1158.0" x2="1126.5909" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1147.1591" y1="1158.0" x2="1147.1591" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1167.7273" y1="1158.0" x2="1167.7273" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1188.2955" y1="1158.0" x2="1188.2955" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1208.8636" y1="1158.0" x2="1208.8636" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1229.4318" y1="1158.0" x2="1229.4318" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <line x1="1250.0" y1="1158.0" x2="1250.0" y2="1164.0" stroke="#5C5750" stroke-width="0.7" opacity="1" stroke-linecap="round"/>
+    <polyline points="722,1187 722,1192 990,1192 990,1187" fill="none" stroke="#5C5750" stroke-width="1" opacity="1" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="1505" y1="975" x2="1805" y2="975" stroke="#CBC5BB" stroke-width="0.75" opacity="1" stroke-linecap="round"/>
+    <line x1="1530" y1="964" x2="1530" y2="986" stroke="#5C5750" stroke-width="1.2" opacity="1" stroke-linecap="round"/>
+    <circle cx="1592" cy="975" r="4.2" fill="#294B8D" stroke="none" stroke-width="1.2" opacity="1"/>
+    <line x1="1530" y1="975" x2="1592" y2="975" stroke="#294B8D" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+    <line x1="1505" y1="1020" x2="1805" y2="1020" stroke="#CBC5BB" stroke-width="0.75" opacity="1" stroke-linecap="round"/>
+    <line x1="1530" y1="1009" x2="1530" y2="1031" stroke="#5C5750" stroke-width="1.2" opacity="1" stroke-linecap="round"/>
+    <circle cx="1613" cy="1020" r="4.2" fill="#294B8D" stroke="none" stroke-width="1.2" opacity="1"/>
+    <line x1="1530" y1="1020" x2="1613" y2="1020" stroke="#294B8D" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+    <line x1="1505" y1="1065" x2="1805" y2="1065" stroke="#CBC5BB" stroke-width="0.75" opacity="1" stroke-linecap="round"/>
+    <line x1="1530" y1="1054" x2="1530" y2="1076" stroke="#5C5750" stroke-width="1.2" opacity="1" stroke-linecap="round"/>
+    <circle cx="1600" cy="1065" r="4.2" fill="#294B8D" stroke="none" stroke-width="1.2" opacity="1"/>
+    <line x1="1530" y1="1065" x2="1600" y2="1065" stroke="#294B8D" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+    <line x1="1505" y1="1110" x2="1805" y2="1110" stroke="#CBC5BB" stroke-width="0.75" opacity="1" stroke-linecap="round"/>
+    <line x1="1530" y1="1099" x2="1530" y2="1121" stroke="#5C5750" stroke-width="1.2" opacity="1" stroke-linecap="round"/>
+    <circle cx="1594" cy="1110" r="5" fill="none" stroke="#5C5750" stroke-width="1.1" opacity="1"/>
+    <line x1="1587" y1="1117" x2="1601" y2="1103" stroke="#5C5750" stroke-width="0.9" opacity="1" stroke-linecap="round"/>
+    <line x1="60" y1="1265" x2="1860" y2="1265" stroke="#CBC5BB" stroke-width="1" opacity="1" stroke-linecap="round"/>
+  </g>
+  <g id="labels">
+    <g data-label="METHODS / PHYSICAL TIMING" data-font="Inter" data-size="15" data-weight="500" data-x="60" data-y="43" data-spacing="1.05" fill="#294B8D">
+      <text x="60" y="43" font-size="15" font-family="Inter" font-weight="500" letter-spacing="1.05">METHODS / PHYSICAL TIMING</text>
+    </g>
+    <g data-label="One event, several clocks" data-font="Noto Sans Display SemiCondensed" data-size="43" data-weight="600" data-x="60" data-y="98" data-spacing="0" fill="#171715">
+      <text x="60" y="98" font-size="43" font-family="Noto Sans Display" font-weight="600" letter-spacing="0" font-stretch="semi-condensed">One event, several clocks</text>
+    </g>
+    <g data-label="From an intended stimulus to a measured display onset." data-font="Inter" data-size="19" data-weight="400" data-x="62" data-y="138" data-spacing="0" fill="#5C5750">
+      <text x="62" y="138" font-size="19" font-family="Inter" font-weight="400" letter-spacing="0">From an intended stimulus to a measured display onset.</text>
+    </g>
+    <g data-label="PROPOSED VALIDATION" data-font="Inter" data-size="14" data-weight="500" data-x="1681.717578125" data-y="43" data-spacing="0.85" fill="#294B8D">
+      <text x="1681.717578125" y="43" font-size="14" font-family="Inter" font-weight="500" letter-spacing="0.85">PROPOSED VALIDATION</text>
+    </g>
+    <g data-label="Physical qualification pending" data-font="Inter" data-size="15" data-weight="400" data-x="1648.447265625" data-y="70" data-spacing="0" fill="#5C5750">
+      <text x="1648.447265625" y="70" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Physical qualification pending</text>
+    </g>
+    <g data-label="01 / INTENT" data-font="Inter" data-size="14" data-weight="500" data-x="65" data-y="214" data-spacing="0.7" fill="#294B8D">
+      <text x="65" y="214" font-size="14" font-family="Inter" font-weight="500" letter-spacing="0.7">01 / INTENT</text>
+    </g>
+    <g data-label="Software event" data-font="Noto Sans Display SemiCondensed" data-size="23" data-weight="600" data-x="65" data-y="247" data-spacing="0" fill="#171715">
+      <text x="65" y="247" font-size="23" font-family="Noto Sans Display" font-weight="600" letter-spacing="0" font-stretch="semi-condensed">Software event</text>
+    </g>
+    <g data-label="02 / PHYSICAL OUTPUT" data-font="Inter" data-size="14" data-weight="500" data-x="692" data-y="214" data-spacing="0.7" fill="#294B8D">
+      <text x="692" y="214" font-size="14" font-family="Inter" font-weight="500" letter-spacing="0.7">02 / PHYSICAL OUTPUT</text>
+    </g>
+    <g data-label="Display-to-sensor path" data-font="Noto Sans Display SemiCondensed" data-size="23" data-weight="600" data-x="692" data-y="247" data-spacing="0" fill="#171715">
+      <text x="692" y="247" font-size="23" font-family="Noto Sans Display" font-weight="600" letter-spacing="0" font-stretch="semi-condensed">Display-to-sensor path</text>
+    </g>
+    <g data-label="03 / OBSERVATION" data-font="Inter" data-size="14" data-weight="500" data-x="1384" data-y="214" data-spacing="0.7" fill="#294B8D">
+      <text x="1384" y="214" font-size="14" font-family="Inter" font-weight="500" letter-spacing="0.7">03 / OBSERVATION</text>
+    </g>
+    <g data-label="Sample the onset" data-font="Noto Sans Display SemiCondensed" data-size="23" data-weight="600" data-x="1384" data-y="247" data-spacing="0" fill="#171715">
+      <text x="1384" y="247" font-size="23" font-family="Noto Sans Display" font-weight="600" letter-spacing="0" font-stretch="semi-condensed">Sample the onset</text>
+    </g>
+    <g data-label="event_id" data-font="Inter" data-size="15" data-weight="500" data-x="81" data-y="351" data-spacing="0" fill="#294B8D">
+      <text x="81" y="351" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">event_id</text>
+    </g>
+    <g data-label="command timestamp" data-font="Inter" data-size="15" data-weight="500" data-x="81" data-y="375" data-spacing="0" fill="#5C5750">
+      <text x="81" y="375" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">command timestamp</text>
+    </g>
+    <g data-label="marker timestamp" data-font="Inter" data-size="15" data-weight="500" data-x="81" data-y="399" data-spacing="0" fill="#5C5750">
+      <text x="81" y="399" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">marker timestamp</text>
+    </g>
+    <g data-label="Command" data-font="Inter" data-size="17" data-weight="600" data-x="65" data-y="476" data-spacing="0" fill="#171715">
+      <text x="65" y="476" font-size="17" font-family="Inter" font-weight="600" letter-spacing="0">Command</text>
+    </g>
+    <g data-label="Capture intent, not display light." data-font="Inter" data-size="15" data-weight="400" data-x="65" data-y="503" data-spacing="0" fill="#5C5750">
+      <text x="65" y="503" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Capture intent, not display light.</text>
+    </g>
+    <g data-label="Queued frames" data-font="Inter" data-size="17" data-weight="600" data-x="395" data-y="479" data-spacing="0" fill="#171715">
+      <text x="395" y="479" font-size="17" font-family="Inter" font-weight="600" letter-spacing="0">Queued frames</text>
+    </g>
+    <g data-label="Rendering and scanout" data-font="Inter" data-size="15" data-weight="400" data-x="395" data-y="506" data-spacing="0" fill="#5C5750">
+      <text x="395" y="506" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Rendering and scanout</text>
+    </g>
+    <g data-label="add their own timing." data-font="Inter" data-size="15" data-weight="400" data-x="395" data-y="528" data-spacing="0" fill="#5C5750">
+      <text x="395" y="528" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">add their own timing.</text>
+    </g>
+    <g data-label="Display patch" data-font="Inter" data-size="17" data-weight="600" data-x="754" data-y="552" data-spacing="0" fill="#171715">
+      <text x="754" y="552" font-size="17" font-family="Inter" font-weight="600" letter-spacing="0">Display patch</text>
+    </g>
+    <g data-label="Lens" data-font="Inter" data-size="17" data-weight="600" data-x="974.298095703125" data-y="550" data-spacing="0" fill="#171715">
+      <text x="974.298095703125" y="550" font-size="17" font-family="Inter" font-weight="600" letter-spacing="0">Lens</text>
+    </g>
+    <g data-label="Optical pickup" data-font="Inter" data-size="17" data-weight="600" data-x="1089.827880859375" data-y="574" data-spacing="0" fill="#171715">
+      <text x="1089.827880859375" y="574" font-size="17" font-family="Inter" font-weight="600" letter-spacing="0">Optical pickup</text>
+    </g>
+    <g data-label="Probe at an observable patch; fixation is not assumed." data-font="Inter" data-size="15" data-weight="400" data-x="693" data-y="618" data-spacing="0" fill="#5C5750">
+      <text x="693" y="618" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Probe at an observable patch; fixation is not assumed.</text>
+    </g>
+    <g data-label="Acquisition clock" data-font="Noto Sans Display SemiCondensed" data-size="23" data-weight="600" data-x="1531" data-y="310" data-spacing="0" fill="#171715">
+      <text x="1531" y="310" font-size="23" font-family="Noto Sans Display" font-weight="600" letter-spacing="0" font-stretch="semi-condensed">Acquisition clock</text>
+    </g>
+    <g data-label="Compatible auxiliary input" data-font="Inter" data-size="17" data-weight="600" data-x="1467.658447265625" data-y="561" data-spacing="0" fill="#171715">
+      <text x="1467.658447265625" y="561" font-size="17" font-family="Inter" font-weight="600" letter-spacing="0">Compatible auxiliary input</text>
+    </g>
+    <g data-label="Verify the shared acquisition time base" data-font="Inter" data-size="15" data-weight="400" data-x="1437.3193359375" data-y="589" data-spacing="0" fill="#5C5750">
+      <text x="1437.3193359375" y="589" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Verify the shared acquisition time base</text>
+    </g>
+    <g data-label="Electrical edge" data-font="Inter" data-size="15" data-weight="500" data-x="1275" data-y="421" data-spacing="0" fill="#5C5750">
+      <text x="1275" y="421" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">Electrical edge</text>
+    </g>
+    <g data-label="EEG" data-font="Inter" data-size="16" data-weight="600" data-x="1403.3203125" data-y="384" data-spacing="0" fill="#171715">
+      <text x="1403.3203125" y="384" font-size="16" font-family="Inter" font-weight="600" letter-spacing="0">EEG</text>
+    </g>
+    <g data-label="Sampled detector channel" data-font="Inter" data-size="15" data-weight="400" data-x="1390" data-y="730" data-spacing="0" fill="#5C5750">
+      <text x="1390" y="730" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Sampled detector channel</text>
+    </g>
+    <g data-label="Retain signal + event identity" data-font="Inter" data-size="15" data-weight="400" data-x="1530" data-y="772" data-spacing="0" fill="#5C5750">
+      <text x="1530" y="772" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Retain signal + event identity</text>
+    </g>
+    <g data-label="Marker stream" data-font="Inter" data-size="18" data-weight="600" data-x="65" data-y="656" data-spacing="0" fill="#171715">
+      <text x="65" y="656" font-size="18" font-family="Inter" font-weight="600" letter-spacing="0">Marker stream</text>
+    </g>
+    <g data-label="Keep clock-offset estimates and event IDs." data-font="Inter" data-size="16" data-weight="400" data-x="65" data-y="686" data-spacing="0" fill="#5C5750">
+      <text x="65" y="686" font-size="16" font-family="Inter" font-weight="400" letter-spacing="0">Keep clock-offset estimates and event IDs.</text>
+    </g>
+    <g data-label="A received marker is not a light measurement." data-font="Inter" data-size="16" data-weight="400" data-x="65" data-y="710" data-spacing="0" fill="#5C5750">
+      <text x="65" y="710" font-size="16" font-family="Inter" font-weight="400" letter-spacing="0">A received marker is not a light measurement.</text>
+    </g>
+    <g data-label="Map clocks before comparing timestamps." data-font="Inter" data-size="16" data-weight="600" data-x="664" data-y="738" data-spacing="0" fill="#171715">
+      <text x="664" y="738" font-size="16" font-family="Inter" font-weight="600" letter-spacing="0">Map clocks before comparing timestamps.</text>
+    </g>
+    <g data-label="Clock alignment does not remove device latency." data-font="Inter" data-size="15" data-weight="400" data-x="664" data-y="765" data-spacing="0" fill="#5C5750">
+      <text x="664" y="765" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Clock alignment does not remove device latency.</text>
+    </g>
+    <g data-label="Read the difference on one time reference" data-font="Noto Sans Display SemiCondensed" data-size="25" data-weight="600" data-x="65" data-y="880" data-spacing="0" fill="#171715">
+      <text x="65" y="880" font-size="25" font-family="Noto Sans Display" font-weight="600" letter-spacing="0" font-stretch="semi-condensed">Read the difference on one time reference</text>
+    </g>
+    <g data-label="Schematic order only; the real marker–light offset may have either sign." data-font="Inter" data-size="16" data-weight="400" data-x="65" data-y="910" data-spacing="0" fill="#5C5750">
+      <text x="65" y="910" font-size="16" font-family="Inter" font-weight="400" letter-spacing="0">Schematic order only; the real marker–light offset may have either sign.</text>
+    </g>
+    <g data-label="t_cmd" data-font="Inter" data-size="15" data-weight="500" data-x="463.349609375" data-y="963" data-spacing="0" fill="#294B8D">
+      <text x="463.349609375" y="963" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">t_cmd</text>
+    </g>
+    <g data-label="t_marker" data-font="Inter" data-size="15" data-weight="500" data-x="690.45458984375" data-y="963" data-spacing="0" fill="#294B8D">
+      <text x="690.45458984375" y="963" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">t_marker</text>
+    </g>
+    <g data-label="t_detect" data-font="Inter" data-size="15" data-weight="500" data-x="961.168212890625" data-y="963" data-spacing="0" fill="#294B8D">
+      <text x="961.168212890625" y="963" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">t_detect</text>
+    </g>
+    <g data-label="Command issued" data-font="Inter" data-size="18" data-weight="600" data-x="65" data-y="1013" data-spacing="0" fill="#171715">
+      <text x="65" y="1013" font-size="18" font-family="Inter" font-weight="600" letter-spacing="0">Command issued</text>
+    </g>
+    <g data-label="Marker timestamp" data-font="Inter" data-size="18" data-weight="600" data-x="65" data-y="1080" data-spacing="0" fill="#171715">
+      <text x="65" y="1080" font-size="18" font-family="Inter" font-weight="600" letter-spacing="0">Marker timestamp</text>
+    </g>
+    <g data-label="Detector edge" data-font="Inter" data-size="18" data-weight="600" data-x="65" data-y="1147" data-spacing="0" fill="#171715">
+      <text x="65" y="1147" font-size="18" font-family="Inter" font-weight="600" letter-spacing="0">Detector edge</text>
+    </g>
+    <g data-label="Δ = t_detect − t_marker" data-font="Inter" data-size="17" data-weight="500" data-x="761.19677734375" data-y="1220" data-spacing="0" fill="#171715">
+      <text x="761.19677734375" y="1220" font-size="17" font-family="Inter" font-weight="500" letter-spacing="0">Δ = t_detect − t_marker</text>
+    </g>
+    <g data-label="Repeat the probe" data-font="Noto Sans Display SemiCondensed" data-size="25" data-weight="600" data-x="1390" data-y="880" data-spacing="0" fill="#171715">
+      <text x="1390" y="880" font-size="25" font-family="Noto Sans Display" font-weight="600" letter-spacing="0" font-stretch="semi-condensed">Repeat the probe</text>
+    </g>
+    <g data-label="Paired events across the run" data-font="Inter" data-size="16" data-weight="400" data-x="1390" data-y="910" data-spacing="0" fill="#5C5750">
+      <text x="1390" y="910" font-size="16" font-family="Inter" font-weight="400" letter-spacing="0">Paired events across the run</text>
+    </g>
+    <g data-label="event 1" data-font="Inter" data-size="15" data-weight="500" data-x="1390" data-y="980" data-spacing="0" fill="#5C5750">
+      <text x="1390" y="980" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">event 1</text>
+    </g>
+    <g data-label="event 2" data-font="Inter" data-size="15" data-weight="500" data-x="1390" data-y="1025" data-spacing="0" fill="#5C5750">
+      <text x="1390" y="1025" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">event 2</text>
+    </g>
+    <g data-label="event 3" data-font="Inter" data-size="15" data-weight="500" data-x="1390" data-y="1070" data-spacing="0" fill="#5C5750">
+      <text x="1390" y="1070" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">event 3</text>
+    </g>
+    <g data-label="event 4" data-font="Inter" data-size="15" data-weight="500" data-x="1390" data-y="1115" data-spacing="0" fill="#5C5750">
+      <text x="1390" y="1115" font-size="15" font-family="Inter" font-weight="500" letter-spacing="0">event 4</text>
+    </g>
+    <g data-label="Marker" data-font="Inter" data-size="14" data-weight="500" data-x="1506.2451171875" data-y="1169" data-spacing="0" fill="#5C5750">
+      <text x="1506.2451171875" y="1169" font-size="14" font-family="Inter" font-weight="500" letter-spacing="0">Marker</text>
+    </g>
+    <g data-label="Detected edge / missing pair" data-font="Inter" data-size="14" data-weight="500" data-x="1562.0029296875" data-y="1201" data-spacing="0" fill="#5C5750">
+      <text x="1562.0029296875" y="1201" font-size="14" font-family="Inter" font-weight="500" letter-spacing="0">Detected edge / missing pair</text>
+    </g>
+    <g data-label="Assess bias · jitter · misses · drift" data-font="Inter" data-size="16" data-weight="600" data-x="1390" data-y="1231" data-spacing="0" fill="#171715">
+      <text x="1390" y="1231" font-size="16" font-family="Inter" font-weight="600" letter-spacing="0">Assess bias · jitter · misses · drift</text>
+    </g>
+    <g data-label="All traces, offsets and fixture geometry are illustrative; no timing performance is reported." data-font="Inter" data-size="15" data-weight="400" data-x="60" data-y="1307" data-spacing="0" fill="#5C5750">
+      <text x="60" y="1307" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">All traces, offsets and fixture geometry are illustrative; no timing performance is reported.</text>
+    </g>
+    <g data-label="Detection is an onset proxy; characterize the detector and input delays." data-font="Inter" data-size="15" data-weight="400" data-x="1354.59228515625" data-y="1307" data-spacing="0" fill="#5C5750">
+      <text x="1354.59228515625" y="1307" font-size="15" font-family="Inter" font-weight="400" letter-spacing="0">Detection is an onset proxy; characterize the detector and input delays.</text>
+    </g>
+  </g>
+</svg>

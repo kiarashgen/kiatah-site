@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Hokm decision two: the legal rule overrides a raw network preference</title>
+<desc id="desc">The saved replay has a king of spades lead. Player one holds only a nine of spades. The raw network argmax is ace of diamonds, but follow-suit rules mask it. The legal nine of spades is played.</desc>
+<rect width="1200" height="390" fill="#ede9e1"/>
+<g font-family="IBM Plex Mono,monospace" font-size="14" fill="#6a5f55"><text x="37" y="38">DECISION 02 / RECORDED STATE</text><text x="432" y="38">HAND + RULE</text><text x="827" y="38">SCORED ACTION</text></g>
+<g stroke="#b9b1a6" fill="none"><path d="M37 51H376M432 51H770M827 51H1163"/></g>
+<g font-family="Arial,sans-serif" fill="#1c1b19"><text x="37" y="90" font-size="27" font-weight="700">K♠ starts the trick</text><text x="432" y="90" font-size="27" font-weight="700">Follow spades</text><text x="827" y="90" font-size="27" font-weight="700">9♠ is played</text></g>
+<g font-family="IBM Plex Mono,monospace" font-size="14" fill="#625f58"><text x="37" y="119">LEAD SUIT / SPADES</text><text x="432" y="119">1 OF 13 CARDS IS LEGAL</text><text x="827" y="119">Q(9♠) = 1.792</text></g>
+<g fill="#faf8f4" stroke="#b5afa6"><rect x="37" y="146" width="170" height="140"/><rect x="432" y="146" width="104" height="140"/><rect x="551" y="146" width="104" height="140"/><rect x="670" y="146" width="104" height="140"/><rect x="827" y="146" width="145" height="140"/><rect x="991" y="146" width="172" height="140"/></g>
+<path d="M37 146H207" stroke="#252525" stroke-width="5"/><path d="M432 146H536" stroke="#254d8c" stroke-width="5"/><path d="M551 146H655M670 146H774M991 146H1163" stroke="#9b6b6b" stroke-width="5"/><path d="M827 146H972" stroke="#254d8c" stroke-width="5"/>
+<g font-family="Georgia,serif" font-size="57" font-weight="700"><text x="83" y="235" fill="#1d1e1b">K♠</text><text x="455" y="235" fill="#254d8c">9♠</text><text x="570" y="235" fill="#9b6b6b">A♦</text><text x="689" y="235" fill="#9b6b6b">+11</text><text x="857" y="235" fill="#254d8c">9♠</text><text x="1010" y="235" fill="#9b6b6b">A♦</text></g>
+<g font-family="IBM Plex Mono,monospace" font-size="12" fill="#67625a"><text x="61" y="269">PLAYER 0 LEAD</text><text x="444" y="269">LEGAL</text><text x="561" y="269">MASKED</text><text x="678" y="269">MASKED</text><text x="840" y="269">CHOSEN</text><text x="1002" y="269">RAW TOP / ILLEGAL</text></g>
+<g stroke="#254d8c" stroke-width="2" fill="none"><path d="M215 216H405"/><path d="M782 216H815"/></g><path d="M405 216l-10-6v12zM815 216l-10-6v12z" fill="#254d8c"/>
+<g font-family="IBM Plex Mono,monospace" font-size="13" fill="#4f4c47"><text x="37" y="347">SOURCE / HOKM-REPLAY.JSON · EVENTS[1]</text><text x="827" y="347">RULE APPLIED BEFORE CHOICE</text></g>
+</svg>

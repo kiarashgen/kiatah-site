@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-labelledby="title desc">
+    <title id="title">Four recorded cards in the first trick</title>
+    <desc id="desc">P0 K spades, P1 9 spades, P2 2 spades, P3 A spades. P3 wins.</desc>
+    <style>
+      .micro,.number,.result{font:12px Consolas,monospace;letter-spacing:.7px;fill:#bbb8ae}
+      .play{font:700 60px Arial,sans-serif;fill:#f3efe6}
+      .result{fill:#9db7e4}
+    </style>
+    <rect width="600" height="700" fill="#111512"/>
+    <text class="micro" x="24" y="47">SAVED SELF-PLAY / TRICK 01</text>
+    <text class="micro" x="576" y="47" text-anchor="end">TRUMP ♦</text>
+    
+        <g transform="translate(24 91)">
+          <rect width="552" height="124" fill="#1b211d" stroke="#566057"/>
+          <text class="number" x="17" y="28">01 / P0 · TEAM 0</text>
+          <text class="play" x="20" y="91">K♠</text>
+          <text class="result" x="530" y="77" text-anchor="end">LEADS</text>
+        </g>
+        <g transform="translate(24 236)">
+          <rect width="552" height="124" fill="#1b211d" stroke="#566057"/>
+          <text class="number" x="17" y="28">02 / P1 · TEAM 1</text>
+          <text class="play" x="20" y="91">9♠</text>
+          <text class="result" x="530" y="77" text-anchor="end">FOLLOWS</text>
+        </g>
+        <g transform="translate(24 381)">
+          <rect width="552" height="124" fill="#1b211d" stroke="#566057"/>
+          <text class="number" x="17" y="28">03 / P2 · TEAM 0</text>
+          <text class="play" x="20" y="91">2♠</text>
+          <text class="result" x="530" y="77" text-anchor="end">FOLLOWS</text>
+        </g>
+        <g transform="translate(24 526)">
+          <rect width="552" height="124" fill="#24373d" stroke="#9db7e4"/>
+          <text class="number" x="17" y="28">04 / P3 · TEAM 1</text>
+          <text class="play" x="20" y="91">A♠</text>
+          <text class="result" x="530" y="77" text-anchor="end">WINS TRICK</text>
+        </g>
+    <text class="micro" x="24" y="684">SOURCE / SAVED ACTIONS 01–04</text>
+    </svg>

@@ -1,0 +1,9 @@
+<section class="chapter ifc-graph-chapter" id="relationships">
+  <div class="chapter-head"><div><span class="eyebrow">Saved IFC / selected extract</span><h2>Follow the relationships.</h2></div><p>Select an entity to see its IFC links. A host link between a wall and door is derived through their shared opening; the two underlying relation IDs stay visible. This <code>simple.ifc</code> extract is separate from the room-route model.</p></div>
+  <div class="ifc-browser">
+    <div class="ifc-browser-controls"><label for="ifc-type">Entity type</label><select id="ifc-type"><option value="all">All selected types</option></select><label for="ifc-entity">Entity</label><select id="ifc-entity"></select><span class="mono" id="ifc-graph-count">59 entities / 67 direct / 9 derived host links</span></div>
+    <div class="ifc-neighborhood"><svg id="ifc-neighborhood" viewBox="0 0 860 420" role="img" aria-label="Selected IFC entity, direct IFC relationships and labeled derived host links"></svg><div class="ifc-entity-detail" id="ifc-entity-detail" aria-live="polite">Loading source relationships…</div></div>
+  </div>
+  <p class="caption">Asterisks mark derived host links: wall → opening → door. Direct links display their relation IDs in the detail list. These links do not prove geometric adjacency or passability.</p>
+  <p class="source-note">The extract selects 59 entities, 67 direct IFC links and nine derived wall–door host links from a 10,824-entity IFC4X3 sample. It does not validate geometry, egress, or a live Revit query. <a href="media/ifc-graph.json">Open exact graph data ↗</a></p>
+</section>

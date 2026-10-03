@@ -1,0 +1,63 @@
+{
+  "source": "C:\\Users\\kiarash\\Desktop\\compute\\code\\needcleaning\\Machine_Learning_LangChain\\source\\simple.ifc",
+  "source_sha256": "196d21ef82488245cb3e451689be8e072addf09e5f0903ee867a61dba9111d76",
+  "graph_extract": "public/proposals/computational-pages/media/ifc-graph.json",
+  "graph_sha256": "2220959f92c3fd9c10e485c06044c825eb8fc251643e0ccf91ab254e007e9c3c",
+  "ifcopenshell_version": "0.9.0",
+  "unit_scale_to_metres": 0.001,
+  "entity_ids": [
+    243,
+    10710,
+    8411
+  ],
+  "relation_ids": [
+    10711,
+    10712
+  ],
+  "body_bounds_m": {
+    "243": {
+      "min": [
+        -4.494491092413109,
+        5.068081866034224,
+        0.0
+      ],
+      "max": [
+        5.7055089075869025,
+        5.268081866034225,
+        3.3000000000000003
+      ]
+    },
+    "10710": {
+      "min": [
+        3.5555089075868875,
+        5.068081866034226,
+        0.0
+      ],
+      "max": [
+        4.405508907586888,
+        5.268081866034226,
+        2.1
+      ]
+    },
+    "8411": {
+      "min": [
+        3.5555089075868875,
+        5.030081866034226,
+        0.0
+      ],
+      "max": [
+        4.405508907586888,
+        5.243081866034226,
+        2.1
+      ]
+    }
+  },
+  "body_triangle_counts": {
+    "243": 12,
+    "10710": 12,
+    "8411": 3024
+  },
+  "output_sha256": "1a7db78dbc76160873a1e83990645bcb8def452932db603539c32ca2ab5b2285",
+  "portrait_output_sha256": "47c0ca510f33b479f7edd7dffbd67718329760e39c6e3b020e95b09d508f320a",
+  "treatment": "Exact IFC body mesh elevation and placement, with the void subtracted from the wall in 2D according to the verified IfcRelVoidsElement. Front-facing door triangles are projected; colours and enlarged detail are editorial. Host relations do not establish room adjacency or route passability."
+}

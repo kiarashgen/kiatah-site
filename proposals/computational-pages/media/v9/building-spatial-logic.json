@@ -1,0 +1,33 @@
+{
+  "source_voxels": "C:\\Users\\kiarash\\Desktop\\compute\\computational_projects_v2_2026-09-28\\data\\spatial_voxels.npz",
+  "source_voxels_sha256": "d72a0f7884ea9eff06053ece8ecf9b8fd3c88f90521fd02b5578b39b75f72816",
+  "source_route": "public/proposals/computational-pages/media/ifc-selected-route.json",
+  "source_route_sha256": "7fb4b699ac21fb1ea2ad303ce94763a54c03c0a95a535fe4d41ebb9c3ed207ef",
+  "source_door_bounds": "public/proposals/computational-pages/media/v8/door-states.json",
+  "source_door_bounds_sha256": "92637813110872d03db8f5ecf17d099d73b3a1ab1ada0e2ba03b877cf37a94df",
+  "output_sha256": "739200972aab96353a84b59b773c82a4e5f9969e26b3dcbec1fd6629c1388be7",
+  "portrait_output_sha256": "07cdab6136133955566d0f3a552820120756009c7c2642c96e4a2e94f8116361",
+  "grid": {
+    "origin_m": [
+      -0.7000000000000001,
+      -0.8,
+      -0.4
+    ],
+    "pitch_m": 0.1,
+    "shape": [
+      136,
+      117,
+      71
+    ]
+  },
+  "worked_location": {
+    "door_ifc_id": 17468,
+    "route_cell": [
+      82,
+      59
+    ],
+    "plan_layer": 12,
+    "section_y": 59
+  },
+  "treatment": "Exact source-derived plan and array section. Door outline uses source mesh bounds; open route uses the saved path. Labels describe the saved scenario, not a live solve or code approval."
+}

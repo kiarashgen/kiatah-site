@@ -1,0 +1,85 @@
+{
+  "asset": "public/proposals/computational-pages/media/v7/tower-midheight-sections.svg",
+  "asset_sha256": "48715f60e145366992043e9d77ff0a2186fafc3cf91837bbe5139e10439b5ccd",
+  "portrait_asset": "public/proposals/computational-pages/media/v7/tower-midheight-sections-portrait.svg",
+  "portrait_sha256": "f42ac9e49156e4e503e3a5d902d0ad025e210f609f0f3a66da2d394a423164bf",
+  "source_states": [
+    {
+      "state": 1,
+      "source": "C:\\Users\\kiarash\\Desktop\\compute\\computational_portfolio_2026-09-28\\data\\tower-0.npz",
+      "source_sha256": "a678fdb30ddc6d1c6685c06fe8c14ef13370d26625bd646aaae67ae5bcd55f1e",
+      "plane_z_cm": 78.0,
+      "cut_paths": 54,
+      "cut_bounds_x_cm": [
+        -52.703922271728516,
+        -39.574734428879644
+      ],
+      "cut_bounds_y_cm": [
+        -4.552887661957419,
+        7.5398265106064235
+      ]
+    },
+    {
+      "state": 2,
+      "source": "C:\\Users\\kiarash\\Desktop\\compute\\computational_portfolio_2026-09-28\\data\\tower-1.npz",
+      "source_sha256": "0f8f85979537b2c668b2a43d30aafa5c2c21b9113157c2120bd06e26bf0f018f",
+      "plane_z_cm": 78.0,
+      "cut_paths": 54,
+      "cut_bounds_x_cm": [
+        -95.47271728515625,
+        -82.34352345245014
+      ],
+      "cut_bounds_y_cm": [
+        -4.552887661957419,
+        7.5398265106064235
+      ]
+    },
+    {
+      "state": 3,
+      "source": "C:\\Users\\kiarash\\Desktop\\compute\\computational_portfolio_2026-09-28\\data\\tower-2.npz",
+      "source_sha256": "d199f9a8abdb5d6366fb96a720b2ce46810505f53d71a9f263de0d3dafbd13b7",
+      "plane_z_cm": 78.00000305101275,
+      "cut_paths": 54,
+      "cut_bounds_x_cm": [
+        -139.54345491918986,
+        -118.06340637189332
+      ],
+      "cut_bounds_y_cm": [
+        -10.909652754694317,
+        10.909652754694317
+      ]
+    },
+    {
+      "state": 4,
+      "source": "C:\\Users\\kiarash\\Desktop\\compute\\computational_portfolio_2026-09-28\\data\\tower-3.npz",
+      "source_sha256": "c7bdbd01e9ffc6a2b752fde36a24691069d8c49c1385cd53246563a1395894da",
+      "plane_z_cm": 78.00000305101275,
+      "cut_paths": 18,
+      "cut_bounds_x_cm": [
+        -173.440788302345,
+        -157.4368209505847
+      ],
+      "cut_bounds_y_cm": [
+        -8.001987490577406,
+        3.0503420573199844
+      ]
+    },
+    {
+      "state": 5,
+      "source": "C:\\Users\\kiarash\\Desktop\\compute\\computational_portfolio_2026-09-28\\data\\tower-4.npz",
+      "source_sha256": "a8c5cd18028a7769b7970f98ca7ae4b183ccf1890ad47a5452ca9eface2712cc",
+      "plane_z_cm": 78.00000305101275,
+      "cut_paths": 48,
+      "cut_bounds_x_cm": [
+        -208.697532798186,
+        -192.11151108603315
+      ],
+      "cut_bounds_y_cm": [
+        -8.293012286591528,
+        8.293012286591528
+      ]
+    }
+  ],
+  "method": "trimesh face-plane intersection at 50% of each source mesh height; common XY scale; blue convex hull of cut points",
+  "claim_boundary": "source-derived geometry only; not continuous building sections or structural analysis"
+}

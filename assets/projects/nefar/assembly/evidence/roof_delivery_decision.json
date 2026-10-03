@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "decision": "Guided exterior platform delivery replaces unplanned loaded robot staging",
+  "robot_staging_failure_evidence": [
+    {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/roof_stage/transfers/ROOF-SKIN-01-SOUTH-FULL.json",
+      "sha256": "d1ea8776b239fcbfb3bbf17973b3a5f1f6f00b5d62d89b91dd9320c1c410bd39"
+    },
+    {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/roof_stage/transfers/ROOF-SKIN-01-NORTH-FULL.json",
+      "sha256": "fbaa93f2547cb5f631bc09366471e140bfad07556aca35ad0524e6e45f4b8171"
+    },
+    {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/roof_stage/transfers/ROOF-SKIN-05-SOUTH-EAST.json",
+      "sha256": "07905a47b0d58ee5acb689ac224ae96262f74129d178714e6a7391e756a1de6c"
+    },
+    {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/roof_stage/transfers/ROOF-SKIN-06-NORTH-FULL.json",
+      "sha256": "ad4ccb7204eec7c3f5b26c72faf7cd2d73ef204095c5dfe398e424f65041ae3a"
+    }
+  ],
+  "source_solid_handoff_geometry": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/roof_handoff_geometry.json",
+    "sha256": "1b62a8fd5a1be7dac59dd402371ca2b547d0f66227e3569070ce0284428860cc"
+  },
+  "roof_skin_panels": 20,
+  "maximum_panel_mass_kg": 34.083378014261065,
+  "guarded_scaffold_stair_and_manual_handling_physically_qualified": false,
+  "source_committed": false,
+  "full_assembly_success": false,
+  "programme": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/section_programme.json",
+    "sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d"
+  }
+}

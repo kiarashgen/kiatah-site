@@ -1,0 +1,153 @@
+{
+  "success": true,
+  "task_id": "UPPER-END-EAST-CAP",
+  "conditional_held_transfer_only": true,
+  "selected": {
+    "guide": "historical source route independently replayed in current exact world",
+    "vertices": [
+      [
+        -1.2068173702836436,
+        0.942034562536961,
+        0.39841787350139435,
+        1.485834113306656e-14,
+        0.23034389075653938,
+        0.3639789565112388,
+        2.3999999999999897,
+        0.65,
+        0.0
+      ],
+      [
+        -1.2068173702836436,
+        0.942034562536961,
+        0.39841787350139435,
+        1.485834113306656e-14,
+        0.23034389075653938,
+        0.3639789565112388,
+        2.3999999999999897,
+        3.1500000000000017,
+        0.0
+      ],
+      [
+        -1.2068173702836436,
+        0.942034562536961,
+        0.39841787350139435,
+        1.485834113306656e-14,
+        0.23034389075653938,
+        0.3639789565112388,
+        2.7,
+        3.1500000000000017,
+        0.0
+      ],
+      [
+        -1.5707963267948977,
+        0.14606827727622917,
+        0.3729218175991741,
+        4.411124980060486e-15,
+        1.051806231919737,
+        -3.270114626717509e-15,
+        2.7,
+        3.1500000000000017,
+        0.0
+      ],
+      [
+        -1.5707963267948977,
+        0.14606827727622917,
+        0.3729218175991741,
+        4.411124980060486e-15,
+        1.051806231919737,
+        -3.270114626717509e-15,
+        2.7,
+        3.1500000000000017,
+        0.0
+      ],
+      [
+        -1.5707963267948977,
+        0.14606827727622917,
+        0.3729218175991741,
+        4.411124980060486e-15,
+        1.051806231919737,
+        -3.270114626717509e-15,
+        1.2624999999999922,
+        3.1500000000000017,
+        0.0
+      ],
+      [
+        -1.5707963267948977,
+        0.14606827727622917,
+        0.3729218175991741,
+        4.411124980060486e-15,
+        1.051806231919737,
+        -3.270114626717509e-15,
+        1.2624999999999922,
+        3.1500000000000017,
+        0.0
+      ]
+    ]
+  },
+  "landing_path": [
+    [
+      -1.5707963267948977,
+      0.14606827727622917,
+      0.3729218175991741,
+      4.411124980060486e-15,
+      1.051806231919737,
+      -3.270114626717509e-15,
+      1.2624999999999922,
+      3.1500000000000017,
+      0.0
+    ],
+    [
+      -1.5707963267948977,
+      0.14606827727622917,
+      0.3729218175991741,
+      4.411124980060486e-15,
+      1.051806231919737,
+      -3.270114626717509e-15,
+      1.2624999999999922,
+      2.850000000000002,
+      0.0
+    ]
+  ],
+  "failed_edges": [],
+  "historical_route": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/transfers/UPPER-END-EAST-CAP.json",
+    "sha256": "a26f6c5f22720218c1ee4edc2dd86e8c23feb1e8daafabaa1a5eb94e54e77495",
+    "endpoint_path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/endpoints/UPPER-END-EAST-CAP_north_handler.json",
+    "endpoint_sha256": "a7c65c2a07a5febb2ac7e0362add7deafdc243b261eae2908b13fee0bf10cba3",
+    "physical_handler_side": "north",
+    "source_programme_sha256": "730b10967c1e560ddecbf90acfd6f8b4db6b23cfb4e43e042d8607435ad898bd",
+    "source_connections_sha256": "1feca18be4765bc33ccf96faf741bb7bcfa691f1ce7057a7dd2ff627cab8f1f8",
+    "old_prior_solids": 46,
+    "new_prior_solids": 46,
+    "monotonic_prior_subset": true,
+    "new_or_changed_prior_solids": {},
+    "historical_conditional_path_success": true,
+    "final_world_replay_accepted": false
+  },
+  "seconds": 43.32799999999406,
+  "loaded_landing_fine_check_pass": true,
+  "source_joint_limits_and_original_fine_edges_retained": true,
+  "exact_input_cache": {
+    "statistics": {
+      "native_queries": 17187,
+      "reused_queries": 260831,
+      "native_aabbs": 29815,
+      "reused_aabbs": 421889,
+      "native_fk": 1275,
+      "reused_fk": 1277,
+      "native_rotation": 0,
+      "reused_rotation": 0
+    },
+    "samples_reduced": false,
+    "collision_policy_changes": false
+  },
+  "partner_parking_transition_accepted": false,
+  "bench_connections_accepted": false,
+  "site_fixing_accepted": false,
+  "preceding_task_connection_accepted": false,
+  "source_committed": false,
+  "full_assembly_success": false,
+  "programme_sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d",
+  "connections_sha256": "75e2848910753f8b7d078eda8eee1d50805e3b4d170963696905c17df0db6926",
+  "physical_handler_side": "north"
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 850" role="img" aria-label="First saved trick: K spades, 9 spades, 2 spades, A spades; player 3 takes the trick">
+<style>
+  .micro{font:14px Consolas,monospace;letter-spacing:.5px;fill:#c7c4bc}
+  .corner{font:700 27px Arial,sans-serif;fill:#20211f}
+  .face{font:700 83px Arial,sans-serif;fill:#20211f}
+  .tag{font:14px Consolas,monospace;fill:#514e48}
+  .label{font:14px Consolas,monospace;letter-spacing:.3px;fill:#ddd8cd}
+</style>
+<rect width="580" height="850" fill="#151917"/>
+<path d="M44 72H536M44 817H536" stroke="#565c55"/>
+<text x="44" y="48" class="micro">SAVED SELF-PLAY / TRICK 01</text>
+<text x="44" y="800" class="micro">TRUMP ♦ / P3 TAKES THE TRICK</text>
+<g transform="translate(44 100)">
+      <rect x="0" y="0" width="220" height="264" fill="#f4f0e7" stroke="#d6d0c5" stroke-width="2"/>
+      <text x="16" y="34" class="corner">K♠</text>
+      <text x="110.0" y="152.0" class="face" text-anchor="middle">K♠</text>
+      <line x1="16" y1="220" x2="204" y2="220" stroke="#c7c0b4"/>
+      <text x="16" y="247" class="tag">P0 / TEAM 0</text>
+      <text x="0" y="296" class="label">01 / LEAD</text>
+    </g>
+<g transform="translate(307 100)">
+      <rect x="0" y="0" width="220" height="264" fill="#f4f0e7" stroke="#d6d0c5" stroke-width="2"/>
+      <text x="16" y="34" class="corner">9♠</text>
+      <text x="110.0" y="152.0" class="face" text-anchor="middle">9♠</text>
+      <line x1="16" y1="220" x2="204" y2="220" stroke="#c7c0b4"/>
+      <text x="16" y="247" class="tag">P1 / TEAM 1</text>
+      <text x="0" y="296" class="label">02 / FOLLOW</text>
+    </g>
+<g transform="translate(44 458)">
+      <rect x="0" y="0" width="220" height="264" fill="#f4f0e7" stroke="#d6d0c5" stroke-width="2"/>
+      <text x="16" y="34" class="corner">2♠</text>
+      <text x="110.0" y="152.0" class="face" text-anchor="middle">2♠</text>
+      <line x1="16" y1="220" x2="204" y2="220" stroke="#c7c0b4"/>
+      <text x="16" y="247" class="tag">P2 / TEAM 0</text>
+      <text x="0" y="296" class="label">03 / FOLLOW</text>
+    </g>
+<g transform="translate(307 446)">
+      <rect x="0" y="0" width="220" height="264" fill="#f4f0e7" stroke="#83a7d8" stroke-width="4"/>
+      <text x="16" y="34" class="corner">A♠</text>
+      <text x="110.0" y="152.0" class="face" text-anchor="middle">A♠</text>
+      <line x1="16" y1="220" x2="204" y2="220" stroke="#c7c0b4"/>
+      <text x="16" y="247" class="tag">P3 / TEAM 1</text>
+      <text x="0" y="296" class="label">04 / WINNER</text>
+    </g>
+</svg>

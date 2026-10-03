@@ -1,0 +1,1825 @@
+{
+  "success": true,
+  "groups": 18,
+  "nominal_site_screws": 36,
+  "unresolved": [],
+  "rows": [
+    {
+      "task_id": "CLAD-GUIDED-EAST-01",
+      "success": true,
+      "candidates_generated": 21,
+      "candidates_validated": 5,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-31",
+            "NF-RAIL-02"
+          ],
+          "moving_board": "NF-CLAD-31",
+          "host_source_id": "NF-RAIL-02",
+          "source_contact_joint_id": "NF-J-0646",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            -0.6942307692241073,
+            2.4000000000000017
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-31": 0.01,
+            "NF-RAIL-02": 0.02
+          },
+          "tip_required_member": "NF-RAIL-02",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-31": 0.024870259481037927,
+            "NF-RAIL-02": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-31": false,
+            "NF-RAIL-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-29",
+            "NF-BASE-04"
+          ],
+          "moving_board": "NF-CLAD-29",
+          "host_source_id": "NF-BASE-04",
+          "source_contact_joint_id": "NF-J-0626",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            -1.1250000000022242,
+            0.02500000000000078
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-29": 0.01,
+            "NF-BASE-04": 0.02
+          },
+          "tip_required_member": "NF-BASE-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-29": 0.024870259481037927,
+            "NF-BASE-04": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-29": false,
+            "NF-BASE-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.375000000000001,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 141,
+        "AssertionError((['NF-CLAD-29', 'NF-BASE-04'], {'NF-CLAD-29': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-29':": 2,
+        "AssertionError((['NF-CLAD-29', 'NF-BASE-04'], {'NF-CLAD-29': 0.024870259481037927, 'NF-BASE-04': 0.0": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-EAST-02",
+      "success": true,
+      "candidates_generated": 25,
+      "candidates_validated": 5,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-34",
+            "NF-RAIL-02"
+          ],
+          "moving_board": "NF-CLAD-34",
+          "host_source_id": "NF-RAIL-02",
+          "source_contact_joint_id": "NF-J-0665",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            -0.198076923070262,
+            2.4000000000000017
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-34": 0.01,
+            "NF-RAIL-02": 0.02
+          },
+          "tip_required_member": "NF-RAIL-02",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-34": 0.024870259481037927,
+            "NF-RAIL-02": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-34": false,
+            "NF-RAIL-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-34",
+            "NF-BASE-03"
+          ],
+          "moving_board": "NF-CLAD-34",
+          "host_source_id": "NF-BASE-03",
+          "source_contact_joint_id": "NF-J-0660",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            -0.198076923070262,
+            0.14000000000000073
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-34": 0.01,
+            "NF-BASE-03": 0.02
+          },
+          "tip_required_member": "NF-BASE-03",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-34": 0.024910179640718563,
+            "NF-BASE-03": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-34": false,
+            "NF-BASE-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.260000000000001,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 137,
+        "AssertionError((['NF-CLAD-33', 'NF-UB-05'], {'NF-CLAD-33': 0.0, 'NF-UB-05': 0.0}, {'NF-CLAD-33': Fal": 1,
+        "AssertionError((['NF-CLAD-34', 'NF-RAIL-02'], {'NF-CLAD-34': 0.0, 'NF-RAIL-02': 0.03003992015968064}": 1,
+        "AssertionError((['NF-CLAD-34', 'NF-BASE-03'], {'NF-CLAD-34': 0.0, 'NF-BASE-03': 0.025039920159680637": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-EAST-03",
+      "success": true,
+      "candidates_generated": 31,
+      "candidates_validated": 4,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-37",
+            "NF-RAIL-01"
+          ],
+          "moving_board": "NF-CLAD-37",
+          "host_source_id": "NF-RAIL-01",
+          "source_contact_joint_id": "NF-J-0685",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            0.2980769230835868,
+            2.400000000000007
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-37": 0.01,
+            "NF-RAIL-01": 0.02
+          },
+          "tip_required_member": "NF-RAIL-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-37": 0.024870259481037927,
+            "NF-RAIL-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-37": false,
+            "NF-RAIL-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-35",
+            "NF-BASE-03"
+          ],
+          "moving_board": "NF-CLAD-35",
+          "host_source_id": "NF-BASE-03",
+          "source_contact_joint_id": "NF-J-0666",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            -0.13269230768564313,
+            0.14000000000000073
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-35": 0.01,
+            "NF-BASE-03": 0.02
+          },
+          "tip_required_member": "NF-BASE-03",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-35": 0.024910179640718563,
+            "NF-BASE-03": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-35": false,
+            "NF-BASE-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.2600000000000064,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 131,
+        "AssertionError((['NF-CLAD-36', 'NF-UP-02'], {'NF-CLAD-36': 0.0, 'NF-UP-02': 0.03003992015968064}, {'": 1,
+        "AssertionError((['NF-CLAD-35', 'NF-BASE-03'], {'NF-CLAD-35': 0.0, 'NF-BASE-03': 0.025039920159680637": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-EAST-04",
+      "success": true,
+      "candidates_generated": 21,
+      "candidates_validated": 5,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-40",
+            "NF-RAIL-01"
+          ],
+          "moving_board": "NF-CLAD-40",
+          "host_source_id": "NF-RAIL-01",
+          "source_contact_joint_id": "NF-J-0704",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            0.7942307692374321,
+            2.400000000000007
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-40": 0.01,
+            "NF-RAIL-01": 0.02
+          },
+          "tip_required_member": "NF-RAIL-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-40": 0.024870259481037927,
+            "NF-RAIL-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-40": false,
+            "NF-RAIL-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-40",
+            "NF-BASE-03"
+          ],
+          "moving_board": "NF-CLAD-40",
+          "host_source_id": "NF-BASE-03",
+          "source_contact_joint_id": "NF-J-0699",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            0.7942307692374321,
+            0.14000000000000024
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-40": 0.01,
+            "NF-BASE-03": 0.02
+          },
+          "tip_required_member": "NF-BASE-03",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-40": 0.024910179640718563,
+            "NF-BASE-03": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-40": false,
+            "NF-BASE-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.260000000000007,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 141,
+        "AssertionError((['NF-CLAD-38', 'NF-UB-06'], {'NF-CLAD-38': 0.0, 'NF-UB-06': 0.0}, {'NF-CLAD-38': Fal": 1,
+        "AssertionError((['NF-CLAD-40', 'NF-RAIL-01'], {'NF-CLAD-40': 0.0, 'NF-RAIL-01': 0.03003992015968064}": 1,
+        "AssertionError((['NF-CLAD-40', 'NF-BASE-03'], {'NF-CLAD-40': 0.0, 'NF-BASE-03': 0.025039920159680637": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-EAST-05",
+      "success": true,
+      "candidates_generated": 21,
+      "candidates_validated": 5,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-41",
+            "NF-RAIL-01"
+          ],
+          "moving_board": "NF-CLAD-41",
+          "host_source_id": "NF-RAIL-01",
+          "source_contact_joint_id": "NF-J-0710",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            0.959615384622046,
+            2.400000000000007
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-41": 0.01,
+            "NF-RAIL-01": 0.02
+          },
+          "tip_required_member": "NF-RAIL-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-41": 0.024870259481037927,
+            "NF-RAIL-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-41": false,
+            "NF-RAIL-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-42",
+            "NF-BASE-01"
+          ],
+          "moving_board": "NF-CLAD-42",
+          "host_source_id": "NF-BASE-01",
+          "source_contact_joint_id": "NF-J-0711",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.2899,
+            1.1249999999977773,
+            0.024999999999999932
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-42": 0.01,
+            "NF-BASE-01": 0.02
+          },
+          "tip_required_member": "NF-BASE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-42": 0.024870259481037927,
+            "NF-BASE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-42": false,
+            "NF-BASE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.375000000000007,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 141,
+        "AssertionError((['NF-CLAD-42', 'NF-BASE-01'], {'NF-CLAD-42': 0.0, 'NF-BASE-01': 0.0}, {'NF-CLAD-42':": 2,
+        "AssertionError((['NF-CLAD-42', 'NF-BASE-01'], {'NF-CLAD-42': 0.024870259481037927, 'NF-BASE-01': 0.0": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-SOUTH-01",
+      "success": true,
+      "candidates_generated": 31,
+      "candidates_validated": 5,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-15",
+            "NF-FE-01"
+          ],
+          "moving_board": "NF-CLAD-15",
+          "host_source_id": "NF-FE-01",
+          "source_contact_joint_id": "NF-J-0559",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.1250000000000129,
+            -1.2899,
+            2.4220000000000104
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-15": 0.01,
+            "NF-FE-01": 0.02
+          },
+          "tip_required_member": "NF-FE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-15": 0.024870259481037927,
+            "NF-FE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-15": false,
+            "NF-FE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-17",
+            "NF-BASE-04"
+          ],
+          "moving_board": "NF-CLAD-17",
+          "host_source_id": "NF-BASE-04",
+          "source_contact_joint_id": "NF-J-0564",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -0.6942307692308646,
+            -1.2899,
+            0.025000000000002177
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-17": 0.01,
+            "NF-BASE-04": 0.02
+          },
+          "tip_required_member": "NF-BASE-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-17": 0.024910179640718563,
+            "NF-BASE-04": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-17": false,
+            "NF-BASE-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.3970000000000082,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 131,
+        "AssertionError((['NF-CLAD-17', 'NF-BASE-04'], {'NF-CLAD-17': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-17':": 1,
+        "AssertionError((['NF-CLAD-15', 'NF-BASE-04'], {'NF-CLAD-15': 0.024910179640718563, 'NF-BASE-04': 0.0": 1,
+        "AssertionError((['NF-CLAD-15', 'NF-BASE-04'], {'NF-CLAD-15': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-15':": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-SOUTH-02",
+      "success": true,
+      "candidates_generated": 27,
+      "candidates_validated": 11,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-19",
+            "NF-FE-01"
+          ],
+          "moving_board": "NF-CLAD-19",
+          "host_source_id": "NF-FE-01",
+          "source_contact_joint_id": "NF-J-0577",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -0.4634615384615429,
+            -1.2899,
+            2.4000000000000083
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-19": 0.01,
+            "NF-FE-01": 0.02
+          },
+          "tip_required_member": "NF-FE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-19": 0.024870259481037927,
+            "NF-FE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-19": false,
+            "NF-FE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-20",
+            "NF-BASE-04"
+          ],
+          "moving_board": "NF-CLAD-20",
+          "host_source_id": "NF-BASE-04",
+          "source_contact_joint_id": "NF-J-0579",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -0.19807692307701216,
+            -1.2899,
+            0.025000000000002232
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-20": 0.01,
+            "NF-BASE-04": 0.02
+          },
+          "tip_required_member": "NF-BASE-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-20": 0.024910179640718563,
+            "NF-BASE-04": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-20": false,
+            "NF-BASE-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.375000000000006,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 135,
+        "AssertionError((['NF-CLAD-19', 'NF-UB-01'], {'NF-CLAD-19': 0.0, 'NF-UB-01': 0.03003992015968064}, {'": 1,
+        "AssertionError((['NF-CLAD-19', 'NF-UB-01'], {'NF-CLAD-19': 0.0, 'NF-UB-01': 0.0}, {'NF-CLAD-19': Fal": 1,
+        "AssertionError((['NF-CLAD-19', 'NF-FE-01'], {'NF-CLAD-19': 0.0, 'NF-FE-01': 0.03003992015968064}, {'": 1,
+        "AssertionError((['NF-CLAD-20', 'NF-BASE-04'], {'NF-CLAD-20': 0.024910179640718563, 'NF-BASE-04': 0.0": 1,
+        "AssertionError((['NF-CLAD-20', 'NF-BASE-04'], {'NF-CLAD-20': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-20':": 1,
+        "AssertionError((['NF-CLAD-18', 'NF-BASE-04'], {'NF-CLAD-18': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-18':": 2,
+        "AssertionError((['NF-CLAD-19', 'NF-BASE-04'], {'NF-CLAD-19': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-19':": 1,
+        "AssertionError((['NF-CLAD-20', 'NF-BASE-04'], {'NF-CLAD-20': 0.0, 'NF-BASE-04': 0.025039920159680637": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-SOUTH-03",
+      "success": true,
+      "candidates_generated": 28,
+      "candidates_validated": 4,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-22",
+            "NF-FE-01"
+          ],
+          "moving_board": "NF-CLAD-22",
+          "host_source_id": "NF-FE-01",
+          "source_contact_joint_id": "NF-J-0594",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            0.1326923076923047,
+            -1.2899,
+            2.410000000000006
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-22": 0.01,
+            "NF-FE-01": 0.02
+          },
+          "tip_required_member": "NF-FE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-22": 0.024870259481037927,
+            "NF-FE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-22": false,
+            "NF-FE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-23",
+            "NF-BASE-04"
+          ],
+          "moving_board": "NF-CLAD-23",
+          "host_source_id": "NF-BASE-04",
+          "source_contact_joint_id": "NF-J-0595",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            0.2980769230768331,
+            -1.2899,
+            0.025000000000002284
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-23": 0.01,
+            "NF-BASE-04": 0.02
+          },
+          "tip_required_member": "NF-BASE-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-23": 0.024910179640718563,
+            "NF-BASE-04": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-23": false,
+            "NF-BASE-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.385000000000004,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 134,
+        "AssertionError((['NF-CLAD-22', 'NF-FE-01'], {'NF-CLAD-22': 0.0, 'NF-FE-01': 0.03003992015968064}, {'": 1,
+        "AssertionError((['NF-CLAD-23', 'NF-BASE-04'], {'NF-CLAD-23': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-23':": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-SOUTH-04",
+      "success": true,
+      "candidates_generated": 28,
+      "candidates_validated": 9,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-25",
+            "NF-FE-01"
+          ],
+          "moving_board": "NF-CLAD-25",
+          "host_source_id": "NF-FE-01",
+          "source_contact_joint_id": "NF-J-0608",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            0.6288461538461462,
+            -1.2899,
+            2.4000000000000044
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-25": 0.01,
+            "NF-FE-01": 0.02
+          },
+          "tip_required_member": "NF-FE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-25": 0.024870259481037927,
+            "NF-FE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-25": false,
+            "NF-FE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-26",
+            "NF-BASE-04"
+          ],
+          "moving_board": "NF-CLAD-26",
+          "host_source_id": "NF-BASE-04",
+          "source_contact_joint_id": "NF-J-0609",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            0.7942307692306713,
+            -1.2899,
+            0.025000000000002198
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-26": 0.01,
+            "NF-BASE-04": 0.02
+          },
+          "tip_required_member": "NF-BASE-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-26": 0.024910179640718563,
+            "NF-BASE-04": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-26": false,
+            "NF-BASE-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.375000000000002,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 134,
+        "AssertionError((['NF-CLAD-24', 'NF-UB-02'], {'NF-CLAD-24': 0.0, 'NF-UB-02': 0.0}, {'NF-CLAD-24': Fal": 1,
+        "AssertionError((['NF-CLAD-25', 'NF-FE-01'], {'NF-CLAD-25': 0.0, 'NF-FE-01': 0.0}, {'NF-CLAD-25': Fal": 1,
+        "AssertionError((['NF-CLAD-26', 'NF-BASE-04'], {'NF-CLAD-26': 0.024910179640718563, 'NF-BASE-04': 0.0": 1,
+        "AssertionError((['NF-CLAD-26', 'NF-BASE-04'], {'NF-CLAD-26': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-26':": 1,
+        "AssertionError((['NF-CLAD-24', 'NF-BASE-04'], {'NF-CLAD-24': 0.024910179640718563, 'NF-BASE-04': 0.0": 1,
+        "AssertionError((['NF-CLAD-24', 'NF-BASE-04'], {'NF-CLAD-24': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-24':": 1,
+        "AssertionError((['NF-CLAD-26', 'NF-BASE-04'], {'NF-CLAD-26': 0.0, 'NF-BASE-04': 0.025039920159680637": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-SOUTH-05",
+      "success": true,
+      "candidates_generated": 33,
+      "candidates_validated": 3,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-27",
+            "NF-FE-01"
+          ],
+          "moving_board": "NF-CLAD-27",
+          "host_source_id": "NF-FE-01",
+          "source_contact_joint_id": "NF-J-0617",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            0.9596153846153785,
+            -1.2899,
+            2.417961538461542
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-27": 0.01,
+            "NF-FE-01": 0.02
+          },
+          "tip_required_member": "NF-FE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-27": 0.024870259481037927,
+            "NF-FE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-27": false,
+            "NF-FE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-27",
+            "NF-BASE-04"
+          ],
+          "moving_board": "NF-CLAD-27",
+          "host_source_id": "NF-BASE-04",
+          "source_contact_joint_id": "NF-J-0614",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            0.9596153846152887,
+            -1.2899,
+            0.02500000000000203
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-27": 0.01,
+            "NF-BASE-04": 0.02
+          },
+          "tip_required_member": "NF-BASE-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-27": 0.024910179640718563,
+            "NF-BASE-04": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-27": false,
+            "NF-BASE-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.39296153846154,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 129,
+        "AssertionError((['NF-CLAD-27', 'NF-BASE-04'], {'NF-CLAD-27': 0.0, 'NF-BASE-04': 0.0}, {'NF-CLAD-27':": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-NORTH-01",
+      "success": true,
+      "candidates_generated": 37,
+      "candidates_validated": 5,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-43",
+            "NF-FE-02"
+          ],
+          "moving_board": "NF-CLAD-43",
+          "host_source_id": "NF-FE-02",
+          "source_contact_joint_id": "NF-J-0727",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.0046391752577422,
+            1.2899,
+            2.4100000000000015
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-43": 0.01,
+            "NF-FE-02": 0.02
+          },
+          "tip_required_member": "NF-FE-02",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-43": 0.024870259481037927,
+            "NF-FE-02": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-43": false,
+            "NF-FE-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-45",
+            "NF-BASE-01"
+          ],
+          "moving_board": "NF-CLAD-45",
+          "host_source_id": "NF-BASE-01",
+          "source_contact_joint_id": "NF-J-0732",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -0.7942307692308624,
+            1.2899,
+            0.01723076923076621
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-45": 0.01,
+            "NF-BASE-01": 0.02
+          },
+          "tip_required_member": "NF-BASE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-45": 0.024870259481037927,
+            "NF-BASE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-45": false,
+            "NF-BASE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.392769230769235,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 125,
+        "AssertionError((['NF-CLAD-44', 'NF-FE-02'], {'NF-CLAD-44': 0.0, 'NF-FE-02': 0.0}, {'NF-CLAD-44': Fal": 2,
+        "AssertionError((['NF-CLAD-45', 'NF-BASE-01'], {'NF-CLAD-45': 0.0, 'NF-BASE-01': 0.03003992015968064}": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-NORTH-02",
+      "success": true,
+      "candidates_generated": 20,
+      "candidates_validated": 4,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-48",
+            "NF-FE-02"
+          ],
+          "moving_board": "NF-CLAD-48",
+          "host_source_id": "NF-FE-02",
+          "source_contact_joint_id": "NF-J-0750",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -0.29807692307692546,
+            1.2899,
+            2.3999999999999995
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-48": 0.01,
+            "NF-FE-02": 0.02
+          },
+          "tip_required_member": "NF-FE-02",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-48": 0.024870259481037927,
+            "NF-FE-02": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-48": false,
+            "NF-FE-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-46",
+            "NF-BASE-01"
+          ],
+          "moving_board": "NF-CLAD-46",
+          "host_source_id": "NF-BASE-01",
+          "source_contact_joint_id": "NF-J-0737",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -0.6288461538462519,
+            1.2899,
+            0.023846153846150582
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-46": 0.01,
+            "NF-BASE-01": 0.02
+          },
+          "tip_required_member": "NF-BASE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-46": 0.024870259481037927,
+            "NF-BASE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-46": false,
+            "NF-BASE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.3761538461538487,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 142,
+        "AssertionError((['NF-CLAD-47', 'NF-UB-03'], {'NF-CLAD-47': 0.0, 'NF-UB-03': 0.0}, {'NF-CLAD-47': Fal": 1,
+        "AssertionError((['NF-CLAD-48', 'NF-FE-02'], {'NF-CLAD-48': 0.0, 'NF-FE-02': 0.0}, {'NF-CLAD-48': Fal": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-NORTH-03",
+      "success": true,
+      "candidates_generated": 43,
+      "candidates_validated": 4,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-50",
+            "NF-FE-02"
+          ],
+          "moving_board": "NF-CLAD-50",
+          "host_source_id": "NF-FE-02",
+          "source_contact_joint_id": "NF-J-0762",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            1.0249999999999926,
+            1.2899,
+            2.417499999999995
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-50": 0.01,
+            "NF-FE-02": 0.02
+          },
+          "tip_required_member": "NF-FE-02",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-50": 0.024870259481037927,
+            "NF-FE-02": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-50": false,
+            "NF-FE-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-49",
+            "NF-BASE-01"
+          ],
+          "moving_board": "NF-CLAD-49",
+          "host_source_id": "NF-BASE-01",
+          "source_contact_joint_id": "NF-J-0751",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            -0.0,
+            -1.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -0.13269230769240373,
+            1.2899,
+            0.04000000000000048
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-49": 0.01,
+            "NF-BASE-01": 0.02
+          },
+          "tip_required_member": "NF-BASE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-49": 0.024870259481037927,
+            "NF-BASE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-49": false,
+            "NF-BASE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.3774999999999946,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 119,
+        "AssertionError((['NF-CLAD-50', 'NF-FE-02'], {'NF-CLAD-50': 0.0, 'NF-FE-02': 0.03003992015968064}, {'": 1,
+        "AssertionError((['NF-CLAD-49', 'NF-BASE-01'], {'NF-CLAD-49': 0.0, 'NF-BASE-01': 0.03003992015968064}": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-WEST-01",
+      "success": true,
+      "candidates_generated": 26,
+      "candidates_validated": 6,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-12",
+            "NF-RAIL-04"
+          ],
+          "moving_board": "NF-CLAD-12",
+          "host_source_id": "NF-RAIL-04",
+          "source_contact_joint_id": "NF-J-0536",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            -0.7942307692241058,
+            2.4000000000000035
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-12": 0.01,
+            "NF-RAIL-04": 0.02
+          },
+          "tip_required_member": "NF-RAIL-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-12": 0.024870259481037927,
+            "NF-RAIL-04": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-12": false,
+            "NF-RAIL-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-14",
+            "NF-BASE-04"
+          ],
+          "moving_board": "NF-CLAD-14",
+          "host_source_id": "NF-BASE-04",
+          "source_contact_joint_id": "NF-J-0544",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            -1.1249999999933373,
+            0.04000000000000212
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-14": 0.01,
+            "NF-BASE-04": 0.02
+          },
+          "tip_required_member": "NF-BASE-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-14": 0.024870259481037927,
+            "NF-BASE-04": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-14": false,
+            "NF-BASE-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.360000000000001,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 136,
+        "AssertionError((['NF-CLAD-12', 'NF-RAIL-04'], {'NF-CLAD-12': 0.0, 'NF-RAIL-04': 0.0}, {'NF-CLAD-12':": 2,
+        "AssertionError((['NF-CLAD-12', 'NF-RAIL-04'], {'NF-CLAD-12': 0.0, 'NF-RAIL-04': 0.03003992015968064}": 1,
+        "AssertionError((['NF-CLAD-14', 'NF-BASE-04'], {'NF-CLAD-14': 0.0, 'NF-BASE-04': 0.03003992015968064}": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-WEST-02",
+      "success": true,
+      "candidates_generated": 23,
+      "candidates_validated": 7,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-09",
+            "NF-RAIL-04"
+          ],
+          "moving_board": "NF-CLAD-09",
+          "host_source_id": "NF-RAIL-04",
+          "source_contact_joint_id": "NF-J-0517",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            -0.2980769230702641,
+            2.4000000000000035
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-09": 0.01,
+            "NF-RAIL-04": 0.02
+          },
+          "tip_required_member": "NF-RAIL-04",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-09": 0.024870259481037927,
+            "NF-RAIL-04": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-09": false,
+            "NF-RAIL-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-09",
+            "NF-BASE-02"
+          ],
+          "moving_board": "NF-CLAD-09",
+          "host_source_id": "NF-BASE-02",
+          "source_contact_joint_id": "NF-J-0512",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            -0.3107057890496454,
+            0.14000000000000165
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-09": 0.01,
+            "NF-BASE-02": 0.02
+          },
+          "tip_required_member": "NF-BASE-02",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-09": 0.024910179640718563,
+            "NF-BASE-02": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-09": false,
+            "NF-BASE-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.260000000000002,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 139,
+        "AssertionError((['NF-CLAD-09', 'NF-RAIL-04'], {'NF-CLAD-09': 0.0, 'NF-RAIL-04': 0.0}, {'NF-CLAD-09':": 1,
+        "AssertionError((['NF-CLAD-10', 'NF-UB-08'], {'NF-CLAD-10': 0.0, 'NF-UB-08': 0.03003992015968064}, {'": 1,
+        "AssertionError((['NF-CLAD-10', 'NF-UB-08'], {'NF-CLAD-10': 0.0, 'NF-UB-08': 0.0}, {'NF-CLAD-10': Fal": 1,
+        "AssertionError((['NF-CLAD-11', 'NF-RAIL-04'], {'NF-CLAD-11': 0.0, 'NF-RAIL-04': 0.0}, {'NF-CLAD-11':": 2
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-WEST-03",
+      "success": true,
+      "candidates_generated": 26,
+      "candidates_validated": 8,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-06",
+            "NF-RAIL-03"
+          ],
+          "moving_board": "NF-CLAD-06",
+          "host_source_id": "NF-RAIL-03",
+          "source_contact_joint_id": "NF-J-0497",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            0.19807692308358468,
+            2.4000000000000052
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-06": 0.01,
+            "NF-RAIL-03": 0.02
+          },
+          "tip_required_member": "NF-RAIL-03",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-06": 0.024870259481037927,
+            "NF-RAIL-03": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-06": false,
+            "NF-RAIL-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-06",
+            "NF-BASE-02"
+          ],
+          "moving_board": "NF-CLAD-06",
+          "host_source_id": "NF-BASE-02",
+          "source_contact_joint_id": "NF-J-0492",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            0.19807692308358468,
+            0.1400000000000014
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-06": 0.01,
+            "NF-BASE-02": 0.02
+          },
+          "tip_required_member": "NF-BASE-02",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-06": 0.024910179640718563,
+            "NF-BASE-02": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-06": false,
+            "NF-BASE-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.260000000000004,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 136,
+        "AssertionError((['NF-CLAD-08', 'NF-RAIL-04'], {'NF-CLAD-08': 0.0, 'NF-RAIL-04': 0.0}, {'NF-CLAD-08':": 2,
+        "AssertionError((['NF-CLAD-07', 'NF-UP-01'], {'NF-CLAD-07': 0.0, 'NF-UP-01': 0.0}, {'NF-CLAD-07': Fal": 1,
+        "AssertionError((['NF-CLAD-07', 'NF-UP-01'], {'NF-CLAD-07': 0.0, 'NF-UP-01': 0.03003992015968064}, {'": 1,
+        "AssertionError((['NF-CLAD-06', 'NF-RAIL-03'], {'NF-CLAD-06': 0.0, 'NF-RAIL-03': 0.03003992015968064}": 1,
+        "AssertionError((['NF-CLAD-06', 'NF-BASE-02'], {'NF-CLAD-06': 0.0, 'NF-BASE-02': 0.025039920159680637": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-WEST-04",
+      "success": true,
+      "candidates_generated": 20,
+      "candidates_validated": 5,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-03",
+            "NF-RAIL-03"
+          ],
+          "moving_board": "NF-CLAD-03",
+          "host_source_id": "NF-RAIL-03",
+          "source_contact_joint_id": "NF-J-0478",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            0.8182981492259075,
+            2.4099226431470226
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-03": 0.01,
+            "NF-RAIL-03": 0.02
+          },
+          "tip_required_member": "NF-RAIL-03",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-03": 0.024870259481037927,
+            "NF-RAIL-03": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-03": false,
+            "NF-RAIL-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-03",
+            "NF-BASE-02"
+          ],
+          "moving_board": "NF-CLAD-03",
+          "host_source_id": "NF-BASE-02",
+          "source_contact_joint_id": "NF-J-0473",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            0.7942307692374321,
+            0.14000000000000107
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-03": 0.01,
+            "NF-BASE-02": 0.02
+          },
+          "tip_required_member": "NF-BASE-02",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-03": 0.024910179640718563,
+            "NF-BASE-02": 0.025039920159680637
+          },
+          "tip_inside": {
+            "NF-CLAD-03": false,
+            "NF-BASE-02": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.2699226431470216,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 142,
+        "AssertionError((['NF-CLAD-05', 'NF-UB-07'], {'NF-CLAD-05': 0.0, 'NF-UB-07': 0.0}, {'NF-CLAD-05': Fal": 2,
+        "AssertionError((['NF-CLAD-03', 'NF-BASE-02'], {'NF-CLAD-03': 0.0, 'NF-BASE-02': 0.025039920159680637": 1
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    },
+    {
+      "task_id": "CLAD-GUIDED-WEST-05",
+      "success": true,
+      "candidates_generated": 21,
+      "candidates_validated": 2,
+      "nominal_site_screws": [
+        {
+          "members": [
+            "NF-CLAD-02",
+            "NF-RAIL-03"
+          ],
+          "moving_board": "NF-CLAD-02",
+          "host_source_id": "NF-RAIL-03",
+          "source_contact_joint_id": "NF-J-0472",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            0.959615384622046,
+            2.4174825174832724
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-02": 0.01,
+            "NF-RAIL-03": 0.02
+          },
+          "tip_required_member": "NF-RAIL-03",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-02": 0.024870259481037927,
+            "NF-RAIL-03": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-02": false,
+            "NF-RAIL-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-CLAD-01",
+            "NF-BASE-01"
+          ],
+          "moving_board": "NF-CLAD-01",
+          "host_source_id": "NF-BASE-01",
+          "source_contact_joint_id": "NF-J-0457",
+          "type": "nominal exterior timber screw across source 15mm standoff",
+          "axis": [
+            1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.2899,
+            1.1250000000066636,
+            0.04000000000000084
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-CLAD-01": 0.01,
+            "NF-BASE-01": 0.02
+          },
+          "tip_required_member": "NF-BASE-01",
+          "physical_capacity_qualified": false,
+          "site_worker_access_accepted": false,
+          "geometric_embedment_m": {
+            "NF-CLAD-01": 0.024870259481037927,
+            "NF-BASE-01": 0.03003992015968064
+          },
+          "tip_inside": {
+            "NF-CLAD-01": false,
+            "NF-BASE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "robot_feed_accepted": false
+        }
+      ],
+      "selected_distinct_hosts": 2,
+      "selected_height_span_m": 2.3774825174832714,
+      "rejection_counts": {
+        "RAY_MISSES_BOARD_OR_HOST": 141
+      },
+      "site_access_accepted": false,
+      "physical_joint_capacity_qualified": false
+    }
+  ],
+  "exact_source_and_added_cleat_solids_checked": true,
+  "worker_access_and_structural_capacity_not_qualified": true,
+  "installed_and_source_committed": false,
+  "full_assembly_success": false,
+  "bindings": [
+    {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/section_programme.json",
+      "sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d"
+    },
+    {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/section_connections.json",
+      "sha256": "75e2848910753f8b7d078eda8eee1d50805e3b4d170963696905c17df0db6926"
+    },
+    {
+      "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/site_interface_contact_preflight.json",
+      "sha256": "ac396d3152a2b33c0421bb54e3732d87ec1c1863528fd488688ec2f4486cd7ec"
+    }
+  ]
+}

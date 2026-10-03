@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 860" role="img" aria-labelledby="title desc">
+<title id="title">The five connections visible in the saved bridge Grasshopper screenshot</title>
+<desc id="desc">The recorded crop shows Assemble Model to Analyse ThII to Model View to Beam View to a stress legend. A separate wire takes Mass in kilograms from Assemble Model to a yellow panel. Upstream inputs and the numerical case are outside the screenshot.</desc>
+<rect width="390" height="860" fill="#eeeae2"/>
+<text x="23" y="37" fill="#2b548f" font-family="Consolas,monospace" font-size="18" font-weight="700">VISIBLE SAVED CHAIN</text>
+<text x="23" y="62" fill="#202522" font-family="Consolas,monospace" font-size="14" font-weight="400">Five traced wires / no unseen inputs</text>
+<path d="M23 77H367 M23 803H367" stroke="#b5b1a8"/>
+<rect x="35" y="98" width="320" height="75" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="48" y="135" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Assemble Model</text><text x="48" y="156" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">OUT / MODEL</text>
+<rect x="35" y="229" width="320" height="75" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="48" y="266" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Analyse ThII</text><text x="48" y="287" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">IN / MODEL</text>
+<rect x="35" y="360" width="320" height="75" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="48" y="397" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Model View</text><text x="48" y="418" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">IN / ANALYSED MODEL</text>
+<rect x="35" y="491" width="320" height="75" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="48" y="528" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Beam View</text><text x="48" y="549" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">IN / MODEL</text>
+<rect x="35" y="622" width="320" height="75" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="48" y="659" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Stress legend</text><text x="48" y="680" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">IN / COLOUR</text>
+<polyline points="35,138 15,138 15,268 35,268" fill="none" stroke="#2b548f" stroke-width="2.5"/><polygon points="35,268 27,263 27,273" fill="#2b548f"/>
+<polyline points="195,304 195,360" fill="none" stroke="#2b548f" stroke-width="2.5"/><polygon points="195,360 190,352 200,352" fill="#2b548f"/>
+<polyline points="195,435 195,491" fill="none" stroke="#2b548f" stroke-width="2.5"/><polygon points="195,491 190,483 200,483" fill="#2b548f"/>
+<polyline points="195,566 195,622" fill="none" stroke="#2b548f" stroke-width="2.5"/><polygon points="195,622 190,614 200,614" fill="#2b548f"/>
+<rect x="130" y="715" width="225" height="75" fill="#faf8f3" stroke="#986633" stroke-width="1.5"/><text x="143" y="752" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Yellow Panel</text><text x="143" y="773" fill="#986633" font-family="Consolas,monospace" font-size="13" font-weight="400">MASS [KG]</text>
+<polyline points="355,137 375,137 375,752 355,752" fill="none" stroke="#986633" stroke-width="2.5"/><polygon points="355,752 363,747 363,757" fill="#986633"/>
+<text x="23" y="837" fill="#777b75" font-family="Consolas,monospace" font-size="13" font-weight="400">UPSTREAM + CASE OUTSIDE CROP</text>
+</svg>

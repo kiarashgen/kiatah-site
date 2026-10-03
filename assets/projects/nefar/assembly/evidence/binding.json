@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "source_programme": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/section_programme.json",
+    "sha256": "730b10967c1e560ddecbf90acfd6f8b4db6b23cfb4e43e042d8607435ad898bd"
+  },
+  "source_connections": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_post_shoe/section_connections.json",
+    "sha256": "1feca18be4765bc33ccf96faf741bb7bcfa691f1ce7057a7dd2ff627cab8f1f8"
+  },
+  "branch_programme": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/section_programme.json",
+    "sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d"
+  },
+  "branch_connections": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/section_connections.json",
+    "sha256": "75e2848910753f8b7d078eda8eee1d50805e3b4d170963696905c17df0db6926"
+  },
+  "accepted_checkpoint": {
+    "path": "development_cooperative_assembly/records/committed_source_18_checkpoint.json",
+    "sha256": "ed666ed6b93cd4e306e7656d011a5174f71ad9b9dd22f8416e6f174a8cd3ae84"
+  },
+  "accepted_programme": {
+    "path": "CURRENT_PROGRAMME_RESULT.json",
+    "sha256": "83776b8e08e10de508a047b2568c23f06e1f8a6d683c986fe38929495d913c7f"
+  },
+  "accepted_tasks": [
+    "NF-LB-03",
+    "NF-LB-04"
+  ],
+  "pending_tasks": 80,
+  "remaining_source_count": 137,
+  "no_conditional_task_committed": true,
+  "two_robot_roof_paths_accepted": false,
+  "site_fixings_accepted": false,
+  "full_assembly_success": false
+}

@@ -1,0 +1,22 @@
+#hokm .v2-figure img{display:block;background:#ede9e1}
+.hokm-reason{background:#202320;color:#f2ede4;padding:18px 22px;display:grid;grid-template-columns:.55fr 1.1fr 1.3fr;align-items:center;gap:18px;border-top:3px solid #7e97b9}
+.hokm-reason span{font:11px/1.5 Mono,monospace;color:#b6c6df}
+.hokm-reason strong{font:700 21px/1.2 Display,Arial,sans-serif}
+.hokm-reason p{margin:0;color:#d9d4ca;font-size:14px;line-height:1.5}
+#xo .q-bar{grid-template-columns:36px minmax(0,1fr) 55px}
+#xo .q-bar span:last-child{font-size:11px;white-space:nowrap;overflow-wrap:normal}
+#xo .data-panel{overflow:hidden}
+#xo .data-panel>.v2-small{margin:8px 0 13px;font-size:10px}
+.game-eval{border-top:1px solid #585b58;border-bottom:1px solid #585b58;margin:30px 0;display:grid;gap:0}
+.game-eval>div{display:grid;grid-template-columns:210px minmax(0,1fr) 112px 145px;align-items:center;gap:16px;padding:19px 0;border-bottom:1px solid #454846}
+.game-eval>div:last-child{border:0}
+.game-eval span,.game-eval small{font:11px/1.5 Mono,monospace;color:#c7c3ba}
+.game-eval i{height:18px;display:block;background:linear-gradient(to right,#b9c9db var(--value),#434743 var(--value));position:relative}
+.game-eval i:after{content:"";position:absolute;left:50%;top:-5px;height:28px;border-left:1px solid #eee7d9}
+.game-eval strong{font:700 19px Display,Arial,sans-serif}
+.game-seat-comparison{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.game-seat-comparison>div{border-top:1px solid #777b76;padding:16px 0}
+.game-seat-comparison strong{display:block;font:700 19px/1.35 Display,Arial,sans-serif;margin:8px 0;color:#f4efe5}
+.game-seat-comparison p{font-size:13px;line-height:1.5;color:#c7c2b8;max-width:42ch}
+@media(max-width:850px){.hokm-reason{grid-template-columns:1fr 1fr}.hokm-reason p{grid-column:1/-1}.game-eval>div{grid-template-columns:1fr 1fr;gap:7px}.game-eval i{grid-column:1/-1;grid-row:2}.game-eval small{text-align:right}}
+@media(max-width:580px){.hokm-reason,.game-seat-comparison{grid-template-columns:1fr}.hokm-reason p{grid-column:auto}.game-eval>div{grid-template-columns:1fr 1fr}.game-eval small{font-size:10px}}

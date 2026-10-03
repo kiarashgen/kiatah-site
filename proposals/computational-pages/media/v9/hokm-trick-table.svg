@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+    <title id="title">First saved Hokm trick at four seats</title>
+    <desc id="desc">Player 0 leads K spades, player 1 follows 9 spades, player 2 follows 2 spades, and player 3 wins with A spades. Diamonds are trump.</desc>
+    <style>
+      .micro{font:11px Consolas,monospace;letter-spacing:1px;fill:#aaa79f}
+      .seat{font:11px Consolas,monospace;letter-spacing:.8px;fill:#d4d0c8}
+      .index,.caption{font:10px Consolas,monospace;fill:#5a5852}
+      .face{font:700 39px Arial,sans-serif;fill:#20221f}
+      .center-label{font:700 28px Arial,sans-serif;fill:#f1eee7}
+      .center-small{font:11px Consolas,monospace;letter-spacing:1px;fill:#a9bfe2}
+    </style>
+    <rect width="720" height="560" fill="#111512"/>
+    <path d="M20 42 H700 M20 538 H700" stroke="#575b54"/>
+    <text class="micro" x="22" y="27">SAVED SELF-PLAY / TRICK 01</text>
+    <text class="micro" x="699" y="27" text-anchor="end">TRUMP ♦</text>
+    <path d="M359 270 L236 288 M359 270 L359 222 M359 270 L488 288 M359 345 L359 382" stroke="#546159" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <circle cx="359" cy="305" r="78" fill="#19201c" stroke="#67776d"/>
+    <text class="center-small" x="359" y="283" text-anchor="middle">FOUR PLAYS / ONE TRICK</text>
+    <text class="center-label" x="359" y="314" text-anchor="middle">A♠ wins</text>
+    <text class="center-small" x="359" y="337" text-anchor="middle">P3 · TEAM 1</text>
+    
+    <g transform="translate(302 391)">
+      <text class="seat" x="0" y="-14">P0 / TEAM 0</text>
+      <rect x="0" y="0" width="112" height="136" fill="#f3efe6" stroke="#b9b3a8" stroke-width="1"/>
+      <text class="index" x="12" y="22">01</text>
+      <text class="face" x="56" y="87" text-anchor="middle">K♠</text>
+      <path d="M12 108 H100" stroke="#c8c0b4"/>
+      <text class="caption" x="12" y="124">PLAY 01</text>
+    </g>
+    <g transform="translate(84 222)">
+      <text class="seat" x="0" y="-14">P1 / TEAM 1</text>
+      <rect x="0" y="0" width="112" height="136" fill="#f3efe6" stroke="#b9b3a8" stroke-width="1"/>
+      <text class="index" x="12" y="22">02</text>
+      <text class="face" x="56" y="87" text-anchor="middle">9♠</text>
+      <path d="M12 108 H100" stroke="#c8c0b4"/>
+      <text class="caption" x="12" y="124">PLAY 02</text>
+    </g>
+    <g transform="translate(302 75)">
+      <text class="seat" x="0" y="-14">P2 / TEAM 0</text>
+      <rect x="0" y="0" width="112" height="136" fill="#f3efe6" stroke="#b9b3a8" stroke-width="1"/>
+      <text class="index" x="12" y="22">03</text>
+      <text class="face" x="56" y="87" text-anchor="middle">2♠</text>
+      <path d="M12 108 H100" stroke="#c8c0b4"/>
+      <text class="caption" x="12" y="124">PLAY 03</text>
+    </g>
+    <g transform="translate(520 222)">
+      <text class="seat" x="0" y="-14">P3 / TEAM 1</text>
+      <rect x="0" y="0" width="112" height="136" fill="#f3efe6" stroke="#9db7e4" stroke-width="3"/>
+      <text class="index" x="12" y="22">04</text>
+      <text class="face" x="56" y="87" text-anchor="middle">A♠</text>
+      <path d="M12 108 H100" stroke="#c8c0b4"/>
+      <text class="caption" x="12" y="124">TAKES THE TRICK</text>
+    </g>
+    <text class="micro" x="22" y="553">EXACT CARDS AND ORDER FROM SAVED ACTIONS 01–04</text>
+    </svg>

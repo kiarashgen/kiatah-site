@@ -1,0 +1,66 @@
+{
+  "asset": "public/proposals/computational-pages/media/v6/bridge-deck-movement.svg",
+  "sha256": "88a21a591088d03ca171379c6aa15af755b827282711854cc70b8f6790334a7d",
+  "source": "public/proposals/computational-pages/force-study-data.json",
+  "source_sha256": "d10e80ea3ed60656498d6ddaba121f8ba7504e06d3b4f02db76136b480edbcfd",
+  "case_id": "retained_16",
+  "deck_nodes": [
+    {
+      "node": 16,
+      "x_m": 0.0,
+      "downward_mm": -0.0
+    },
+    {
+      "node": 11,
+      "x_m": 3.0000000000000018,
+      "downward_mm": 0.8021313151367221
+    },
+    {
+      "node": 17,
+      "x_m": 6.0000000000000036,
+      "downward_mm": 1.40809189940713
+    },
+    {
+      "node": 12,
+      "x_m": 9.000000000000004,
+      "downward_mm": 1.776235412540229
+    },
+    {
+      "node": 18,
+      "x_m": 12.000000000000004,
+      "downward_mm": 2.2152019557675264
+    },
+    {
+      "node": 13,
+      "x_m": 15.000000000000004,
+      "downward_mm": 2.3453907860087915
+    },
+    {
+      "node": 19,
+      "x_m": 18.0,
+      "downward_mm": 2.4768610282293064
+    },
+    {
+      "node": 14,
+      "x_m": 21.0,
+      "downward_mm": 2.2544089286365683
+    },
+    {
+      "node": 20,
+      "x_m": 23.999999999999996,
+      "downward_mm": 1.9026477134929318
+    },
+    {
+      "node": 15,
+      "x_m": 26.999999999999996,
+      "downward_mm": 1.1606502033752921
+    },
+    {
+      "node": 21,
+      "x_m": 30.000000000000004,
+      "downward_mm": -0.0
+    }
+  ],
+  "evidence_class": "new diagram from later declared first-order frame solve",
+  "claim_boundary": "Not the group-built bridge, a native full-size Karamba result, or a geometric deformed-shape drawing"
+}

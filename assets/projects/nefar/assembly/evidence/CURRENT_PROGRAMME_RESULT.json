@@ -1,0 +1,196 @@
+{
+  "success": true,
+  "scope": "Earlier-order computational branch from a real accepted eleven-member common prefix",
+  "initial_source_count": 0,
+  "source_count_end_nominal": 18,
+  "source_total": 155,
+  "robot_placed_timbers": 18,
+  "externally_supplied_foundation_timbers": 0,
+  "connected_checked_states": 2005885,
+  "exact_foundation_to_ls01_joint_handoff": true,
+  "stock_cradle_strap_and_anchor_preparation_external": true,
+  "physical_joint_complete": false,
+  "full_assembly_success": false,
+  "ground_clamp_frames": 0,
+  "separate_hoist": false,
+  "source_sha256": "9d0cbf4b10ed166f7f2ea8d24efca62931f7f2a49fb5c7e9cf319e2214809d5a",
+  "current_task_states": 203364,
+  "last_member": "NF-LB-04",
+  "current_checkpoint": {
+    "path": "development_cooperative_assembly/records/committed_source_18_checkpoint.json",
+    "sha256": "ed666ed6b93cd4e306e7656d011a5174f71ad9b9dd22f8416e6f174a8cd3ae84"
+  },
+  "checkpoint_restoration": {
+    "path": "development_cooperative_assembly/qa/committed_source_18_restoration.json",
+    "sha256": "77589dd5b323d3aef5ad9b7fb4783323d1247e554dc0939ba42c11a4c35faa1d"
+  },
+  "branch_id": "LS04-before-LS03",
+  "branch_context": "development_cooperative_assembly/qa/LS04_before_north_branch_context.json",
+  "task_driver_variant": {
+    "name": "RECESSED_GEARCASE_NECK_80",
+    "gearcase_recess_m": 0.02,
+    "neck_length_m": 0.08,
+    "custom_concept": true,
+    "torque_and_drive_forces_qualified": false,
+    "research_reference": "https://ebooks.atlascopco.com/story/assembly-solutions/page/3"
+  },
+  "task_connection_details": [
+    {
+      "id": "LB04-FOOT-1",
+      "point": [
+        -0.14,
+        -1.175,
+        0.16
+      ],
+      "axis": [
+        0.0,
+        -0.4,
+        -0.916515138991168
+      ],
+      "members": [
+        "NF-LB-04",
+        "NF-BASE-04"
+      ],
+      "length_m": 0.16,
+      "radius_m": 0.0035,
+      "detail": "S4 explicit inboard-driving nominal proposal; native timbers unchanged; static all-future screen only; capacity unqualified",
+      "entry_gap_m": 0.012
+    },
+    {
+      "id": "LB04-FOOT-2",
+      "point": [
+        -0.18,
+        -1.175,
+        0.16
+      ],
+      "axis": [
+        0.0,
+        -0.4,
+        -0.916515138991168
+      ],
+      "members": [
+        "NF-LB-04",
+        "NF-BASE-04"
+      ],
+      "length_m": 0.16,
+      "radius_m": 0.0035,
+      "detail": "S4 explicit inboard-driving nominal proposal; native timbers unchanged; static all-future screen only; capacity unqualified",
+      "entry_gap_m": 0.012
+    },
+    {
+      "id": "LB04-HEAD-1",
+      "point": [
+        -1.2500000000000018,
+        -1.23,
+        0.96
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "members": [
+        "NF-LB-04",
+        "NF-LP-04"
+      ],
+      "length_m": 0.26,
+      "radius_m": 0.0035,
+      "detail": "S4 explicit inboard-driving nominal proposal; native timbers unchanged; static all-future screen only; capacity unqualified",
+      "entry_gap_m": 0.012
+    },
+    {
+      "id": "LB04-HEAD-2",
+      "point": [
+        -1.2500000000000018,
+        -1.23,
+        1.0199999999999998
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "members": [
+        "NF-LB-04",
+        "NF-LP-04"
+      ],
+      "length_m": 0.26,
+      "radius_m": 0.0035,
+      "detail": "S4 explicit inboard-driving nominal proposal; native timbers unchanged; static all-future screen only; capacity unqualified",
+      "entry_gap_m": 0.012
+    }
+  ],
+  "review_mode": "COMPUTATIONAL_TASK_EVIDENCE_DOCUMENTS_DEFERRED",
+  "sequence_branch_selection": {
+    "path": "development_cooperative_assembly/qa/sequence_selection_primary14_to_branch15.json",
+    "sha256": "d817824ed4014fbeab9af367bea4d6e843c035775950a550ea442cc524460221"
+  },
+  "receipts": [
+    {
+      "path": "development_cooperative_assembly/qa/LP04_evidence_receipt.json",
+      "sha256": "1bd8f52af1b32a458c9a5d29bbd4b5cbacccab0c47ee17d947de1abd8c366de3",
+      "artifacts": 42,
+      "implementation_files": 31
+    },
+    {
+      "path": "development_cooperative_north_post/qa/LP02_evidence_receipt.json",
+      "sha256": "b8ec1f6ca1b34c1d85cff5729ff24c752c17d72d481dd322544036ef476de0dc",
+      "artifacts": 27,
+      "implementation_files": 37
+    },
+    {
+      "path": "development_cooperative_foundation/qa/foundation_evidence_receipt.json",
+      "sha256": "21d34f93349cba69515c9e0e60300970c6eb3acddba10c3131b436755f02ec5a",
+      "artifacts": 79,
+      "implementation_files": 40
+    },
+    {
+      "path": "development_cooperative_remaining_main_post/qa/evidence_receipt.json",
+      "sha256": "9d917b8f6db9872ea9ac78f816bb8e50452009b0c118cb51b91992ac906842a7",
+      "artifacts": 31,
+      "implementation_files": 59
+    },
+    {
+      "path": "development_cooperative_front_post_branch/qa/evidence_receipt.json",
+      "sha256": "de438801ffdf4dd5210bddb8f30dfb3373987fae7c22b9272f6ccffdc637c80a",
+      "artifacts": 32,
+      "implementation_files": 80
+    },
+    {
+      "path": "development_cooperative_north_post_branch/qa/evidence_receipt.json",
+      "sha256": "5d8b34a2bf4f1b4b884f4c66131800051100bdb698da4a703320ece8fc01d5a4",
+      "artifacts": 32,
+      "implementation_files": 90
+    },
+    {
+      "path": "development_cooperative_north_east_brace_branch/qa/evidence_receipt.json",
+      "sha256": "d7809f0ae6e42578058aafb18b1e4c8a2df23f2f38ac88353b16872c3ab42de7",
+      "artifacts": 32,
+      "implementation_files": 101
+    },
+    {
+      "path": "development_cooperative_west_brace_branch/qa/evidence_receipt.json",
+      "sha256": "1e6b5b2fb064a70b24bb0528041e5d05539b952c3f50a6f34a186c9b92893360",
+      "artifacts": 28,
+      "implementation_files": 103
+    },
+    {
+      "path": "development_cooperative_west_north_brace/qa/evidence_receipt.json",
+      "sha256": "3ffd82249ec7b37c855fbcc7dfc4f68367bb6b4a51a09a756094ded0ab398d86",
+      "artifacts": 28,
+      "implementation_files": 97
+    },
+    {
+      "path": "development_cooperative_contained_south_east_brace/qa/evidence_receipt.json",
+      "sha256": "789656e8ed34f7967518614b003268b055497715531da1b4194753e63411801a",
+      "artifacts": 28,
+      "implementation_files": 104
+    },
+    {
+      "path": "development_cooperative_contained_south_west_brace/qa/evidence_receipt.json",
+      "sha256": "38417a65025366e65280267cede7257db357655460ba2b2265c9fb63096d63d2",
+      "artifacts": 28,
+      "implementation_files": 109
+    }
+  ]
+}

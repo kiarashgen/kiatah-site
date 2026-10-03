@@ -1,0 +1,11 @@
+{
+  "source": "public/proposals/computational-pages/media/dynamo-graphs.json",
+  "source_sha256": "a08075a6a2942a9c0af11cae8b29775a7d51263d5b30753e815e405e32285f57",
+  "definition": "kiarash taheri - mohammadreza hoseiny.dyn",
+  "nodes": 14,
+  "wires": 15,
+  "code_block": "0;",
+  "output_sha256": "af56b255a095323ad0fdd90fe61836b1288cb236e4fb40cd7fa372cc07464434",
+  "portrait_output_sha256": "26b4175642c2d47e9503b9c2412c761178e1a68d2d78cbe94e0729aba1d02be6",
+  "treatment": "All 14 node names and key paths verified against parsed source edges, reflowed for desktop and phone; some wire geometry is simplified. Source canvas coordinates and all 15 wires are retained separately in the complete strip. Typed labels express graph intent; no live Revit value is claimed."
+}

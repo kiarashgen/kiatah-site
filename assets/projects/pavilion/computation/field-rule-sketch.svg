@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Interpretation of Kiarash's hand sketch: a loose fan of lines descends from an upright to a long ground edge">
+  <g fill="none" stroke="#F1EEE7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M108 47 C105 88 110 126 107 167 C105 215 111 278 107 333 M107 333 C180 326 264 337 357 332 C441 330 515 334 568 332" stroke-width="2.2"/>
+    <path d="M109 52 C116 113 127 159 153 203 C183 255 244 302 338 330" stroke-width="1.9"/>
+    <path d="M108 71 C114 139 135 188 174 230 C218 281 292 315 401 332" stroke-width="1.7"/>
+    <path d="M107 107 C120 171 160 215 211 256 C273 304 350 325 463 332" stroke-width="2"/>
+    <path d="M108 147 C135 198 183 244 247 275 C324 311 406 328 518 332" stroke-width="1.6"/>
+    <path d="M106 191 C153 235 214 268 282 292 C370 322 462 330 563 333" stroke-width="1.8"/>
+    <path d="M109 233 C170 260 238 287 318 305 C418 327 511 331 568 332" stroke-width="1.5"/>
+    <path d="M108 276 C178 284 260 303 350 317 C449 332 523 333 568 332" stroke-width="1.5"/>
+    <path d="M110 309 C194 307 299 318 400 326 C493 334 540 333 568 332" stroke-width="1.3"/>
+    <path d="M133 163 C136 215 140 277 141 331 M169 225 C173 261 180 301 186 332 M218 261 C224 288 231 314 239 333" stroke-width="1.35" opacity=".8"/>
+  </g>
+</svg>

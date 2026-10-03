@@ -1,0 +1,90 @@
+{
+  "source": "public/proposals/computational-pages/force-study-data.json",
+  "source_sha256": "d10e80ea3ed60656498d6ddaba121f8ba7504e06d3b4f02db76136b480edbcfd",
+  "evidence_class": "new first-order calculation on retained geometry",
+  "not_historic_bridge_or_native_full_karamba_result": true,
+  "projection": "one y=0 side plane, common 30 m span and common 0 to 10 m z scale; nine visible 10 kN downward node loads, nine mirrored on the opposite plane",
+  "stroke_width": "encodes absolute axial force on common 0 to 60.78 kN scale; not member section",
+  "sign": {
+    "positive": "tension",
+    "negative": "compression",
+    "near_zero": "absolute <= 0.01 kN"
+  },
+  "cases": [
+    {
+      "id": "retained_12",
+      "name": "Retained rise / CHS 120 × 6",
+      "front_plane_members": 41,
+      "visible_plane_downward_loads": 9,
+      "transverse_near_zero_members": 22,
+      "max_tension_kN": 42.69493814000973,
+      "max_compression_kN": -52.04128876660032,
+      "max_displacement_mm": 3.3524170055197624,
+      "mass_t": 8.08009242042107,
+      "input_sha256": "2a8c0d4c6392089467f31dc825cc476cce1cb3e00bed67c18f98fd1b09c5ddf9",
+      "result_sha256": "595bf4dcaa22ce49bc46c363a818bd3ff2dc53520c1578af97462ef3441dd430",
+      "asset": "public/proposals/computational-pages/media/v6/force-plane-01.svg",
+      "sha256": "43443862e2610179cf77dda7c423d8d3dade601e293f115edd46d09e97f889bd"
+    },
+    {
+      "id": "retained_16",
+      "name": "Retained rise / CHS 160 × 6",
+      "front_plane_members": 41,
+      "visible_plane_downward_loads": 9,
+      "transverse_near_zero_members": 22,
+      "max_tension_kN": 42.34854941645282,
+      "max_compression_kN": -52.035788857648036,
+      "max_displacement_mm": 2.477034414102786,
+      "mass_t": 10.915212567937246,
+      "input_sha256": "3f2bcca45bea6b857d3422d9a3bf0f88801c7f20114d679636d67f793fa55bbb",
+      "result_sha256": "579e5ff60d5370bfe577bf0a24857cf8f7f567052e70296ac10f2fdb9cde1308",
+      "asset": "public/proposals/computational-pages/media/v6/force-plane-02.svg",
+      "sha256": "9d78465d33d21bda658b045126e04435b359d3be18be1542aff141797fb52bfb"
+    },
+    {
+      "id": "retained_20",
+      "name": "Retained rise / CHS 200 × 8",
+      "front_plane_members": 41,
+      "visible_plane_downward_loads": 9,
+      "transverse_near_zero_members": 22,
+      "max_tension_kN": 41.93716544176689,
+      "max_compression_kN": -52.02879100680647,
+      "max_displacement_mm": 1.4867735233568593,
+      "mass_t": 18.14476894410348,
+      "input_sha256": "1e87a26fb253aed5aa948f2de58b0a62bfe147511b529ebf5c056d7ad83f48aa",
+      "result_sha256": "27aac9dddeb33866ed1bb1a040263fb7368de61426953947fe7708bff362bebf",
+      "asset": "public/proposals/computational-pages/media/v6/force-plane-03.svg",
+      "sha256": "ae7ac3c9474e4ddc40bd171b0b2541d27e1cb5e24e34d6a34b85c98897e569ee"
+    },
+    {
+      "id": "lower_rise_16",
+      "name": "Lower rise / CHS 160 × 6",
+      "front_plane_members": 41,
+      "visible_plane_downward_loads": 9,
+      "transverse_near_zero_members": 22,
+      "max_tension_kN": 47.85545760275407,
+      "max_compression_kN": -60.77665819538797,
+      "max_displacement_mm": 3.108633962445252,
+      "mass_t": 9.971387505469197,
+      "input_sha256": "d4f4f5aba6c2a86743e42bce2fda9670a8f5865060affd3a4434cce4832ad213",
+      "result_sha256": "ab248a458b37b3a983e746a7e23e0ac9b454bfcd3505f2937cb799fcd255d147",
+      "asset": "public/proposals/computational-pages/media/v6/force-plane-04.svg",
+      "sha256": "43f210c59dcf82ec838bcb28edabaa1c0625c08b27ef2ab392f005408ef0c71e"
+    },
+    {
+      "id": "higher_rise_16",
+      "name": "Higher rise / CHS 160 × 6",
+      "front_plane_members": 41,
+      "visible_plane_downward_loads": 9,
+      "transverse_near_zero_members": 22,
+      "max_tension_kN": 37.972254479487546,
+      "max_compression_kN": -46.24956984793725,
+      "max_displacement_mm": 2.1478255518997127,
+      "mass_t": 11.883421106428576,
+      "input_sha256": "dd0ed1118937d57ed9ae758b62867a89465211b75f49ac7d718ae670b8c269d7",
+      "result_sha256": "554cb4a6b1db8f860ec3a46e84e7959eda50f85db2578f797e8ee2f195385c45",
+      "asset": "public/proposals/computational-pages/media/v6/force-plane-05.svg",
+      "sha256": "d1dedef2b752703222b626d9229571ea5c716e8e02921e8707655cfc7aa2e711"
+    }
+  ]
+}

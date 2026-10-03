@@ -1,0 +1,2149 @@
+{
+  "success": true,
+  "programme_sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d",
+  "connections_sha256": "75e2848910753f8b7d078eda8eee1d50805e3b4d170963696905c17df0db6926",
+  "tasks": [
+    {
+      "task_id": "DECK-PANEL-01",
+      "success": true,
+      "source_members": [
+        "NF-DECK-01",
+        "NF-DECK-02",
+        "NF-DECK-03",
+        "NF-DECK-04",
+        "NF-DECK-05",
+        "NF-DECK-06",
+        "NF-DECK-07"
+      ],
+      "permanent_cleats": [
+        "DECK-PANEL-01__CLEAT-1",
+        "DECK-PANEL-01__CLEAT-2"
+      ],
+      "connected_members": [
+        "DECK-PANEL-01__CLEAT-1",
+        "DECK-PANEL-01__CLEAT-2",
+        "NF-DECK-01",
+        "NF-DECK-02",
+        "NF-DECK-03",
+        "NF-DECK-04",
+        "NF-DECK-05",
+        "NF-DECK-06",
+        "NF-DECK-07"
+      ],
+      "nominal_screws": [
+        {
+          "members": [
+            "NF-DECK-01",
+            "DECK-PANEL-01__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            -0.28333333,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-01": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-01": false,
+            "DECK-PANEL-01__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-02",
+            "DECK-PANEL-01__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            -0.4416666699999998,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-02": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-02": false,
+            "DECK-PANEL-01__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-03",
+            "DECK-PANEL-01__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            -0.6000000000000001,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-03": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-03": false,
+            "DECK-PANEL-01__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-04",
+            "DECK-PANEL-01__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            -0.7583333299999999,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-04": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-04": false,
+            "DECK-PANEL-01__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-05",
+            "DECK-PANEL-01__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            -0.9166666699999996,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-05": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-05": false,
+            "DECK-PANEL-01__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-06",
+            "DECK-PANEL-01__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            -0.125,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-06": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-06": false,
+            "DECK-PANEL-01__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-07",
+            "DECK-PANEL-01__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            -1.0749999999999997,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-07": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-07": false,
+            "DECK-PANEL-01__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-01",
+            "DECK-PANEL-01__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            -0.28333333,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-01": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-01": false,
+            "DECK-PANEL-01__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-02",
+            "DECK-PANEL-01__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            -0.4416666699999998,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-02": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-02": false,
+            "DECK-PANEL-01__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-03",
+            "DECK-PANEL-01__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            -0.6000000000000001,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-03": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-03": false,
+            "DECK-PANEL-01__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-04",
+            "DECK-PANEL-01__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            -0.7583333299999999,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-04": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-04": false,
+            "DECK-PANEL-01__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-05",
+            "DECK-PANEL-01__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            -0.9166666699999996,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-05": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-05": false,
+            "DECK-PANEL-01__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-06",
+            "DECK-PANEL-01__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            -0.125,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-06": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-06": false,
+            "DECK-PANEL-01__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-07",
+            "DECK-PANEL-01__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            -1.0749999999999997,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-07": 0.025029940119760476,
+            "DECK-PANEL-01__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-07": false,
+            "DECK-PANEL-01__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        }
+      ],
+      "failed_joint_attempts": []
+    },
+    {
+      "task_id": "DECK-PANEL-02",
+      "success": true,
+      "source_members": [
+        "NF-DECK-08",
+        "NF-DECK-09",
+        "NF-DECK-10",
+        "NF-DECK-11",
+        "NF-DECK-12",
+        "NF-DECK-13",
+        "NF-DECK-14"
+      ],
+      "permanent_cleats": [
+        "DECK-PANEL-02__CLEAT-1",
+        "DECK-PANEL-02__CLEAT-2"
+      ],
+      "connected_members": [
+        "DECK-PANEL-02__CLEAT-1",
+        "DECK-PANEL-02__CLEAT-2",
+        "NF-DECK-08",
+        "NF-DECK-09",
+        "NF-DECK-10",
+        "NF-DECK-11",
+        "NF-DECK-12",
+        "NF-DECK-13",
+        "NF-DECK-14"
+      ],
+      "nominal_screws": [
+        {
+          "members": [
+            "NF-DECK-08",
+            "DECK-PANEL-02__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            0.9166666699999996,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-08": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-08": false,
+            "DECK-PANEL-02__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-09",
+            "DECK-PANEL-02__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            0.7583333299999999,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-09": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-09": false,
+            "DECK-PANEL-02__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-10",
+            "DECK-PANEL-02__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            0.6000000000000001,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-10": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-10": false,
+            "DECK-PANEL-02__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-11",
+            "DECK-PANEL-02__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            0.44166666999999976,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-11": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-11": false,
+            "DECK-PANEL-02__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-12",
+            "DECK-PANEL-02__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            0.28333333,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-12": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-12": false,
+            "DECK-PANEL-02__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-13",
+            "DECK-PANEL-02__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            1.0749999999999997,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-13": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-13": false,
+            "DECK-PANEL-02__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-14",
+            "DECK-PANEL-02__CLEAT-1"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            -0.6,
+            0.125,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-14": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-1": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-14": false,
+            "DECK-PANEL-02__CLEAT-1": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-08",
+            "DECK-PANEL-02__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            0.9166666699999996,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-08": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-08": false,
+            "DECK-PANEL-02__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-09",
+            "DECK-PANEL-02__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            0.7583333299999999,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-09": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-09": false,
+            "DECK-PANEL-02__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-10",
+            "DECK-PANEL-02__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            0.6000000000000001,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-10": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-10": false,
+            "DECK-PANEL-02__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-11",
+            "DECK-PANEL-02__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            0.44166666999999976,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-11": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-11": false,
+            "DECK-PANEL-02__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-12",
+            "DECK-PANEL-02__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            0.28333333,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-12": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-12": false,
+            "DECK-PANEL-02__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-13",
+            "DECK-PANEL-02__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            1.0749999999999997,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-13": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-13": false,
+            "DECK-PANEL-02__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-DECK-14",
+            "DECK-PANEL-02__CLEAT-2"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            0,
+            0,
+            -1
+          ],
+          "entry_point_world_m": [
+            0.6,
+            0.125,
+            2.375
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "capacity_qualified": false,
+          "geometric_embedment_m": {
+            "NF-DECK-14": 0.025029940119760476,
+            "DECK-PANEL-02__CLEAT-2": 0.03497005988023952
+          },
+          "tip_inside": {
+            "NF-DECK-14": false,
+            "DECK-PANEL-02__CLEAT-2": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        }
+      ],
+      "failed_joint_attempts": []
+    },
+    {
+      "task_id": "UPPER-END-FRAME-WEST",
+      "success": true,
+      "source_members": [
+        "NF-UP-01",
+        "NF-UP-05",
+        "NF-UP-06",
+        "NF-RAIL-03",
+        "NF-RAIL-04",
+        "NF-UB-07",
+        "NF-UB-08",
+        "NF-PLATE-01"
+      ],
+      "permanent_cleats": [],
+      "connected_members": [
+        "NF-PLATE-01",
+        "NF-RAIL-03",
+        "NF-RAIL-04",
+        "NF-UB-07",
+        "NF-UB-08",
+        "NF-UP-01",
+        "NF-UP-05",
+        "NF-UP-06"
+      ],
+      "nominal_screws": [
+        {
+          "members": [
+            "NF-UB-07",
+            "NF-UP-06"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.7647823592523465,
+            0.5620033019294141,
+            0.31505591820635714
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            1.138,
+            3.1990624472515226
+          ],
+          "length_m": 0.05,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UB-07": 0.02135728542914172,
+            "NF-UP-06": 0.028642714570858287
+          },
+          "tip_inside": {
+            "NF-UB-07": false,
+            "NF-UP-06": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UB-07",
+            "NF-UP-06"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.5524921658666714,
+            0.40600102467158233,
+            0.7279530030308137
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            1.138,
+            3.167365548551504
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UB-07": 0.029580838323353294,
+            "NF-UP-06": 0.03541916167664671
+          },
+          "tip_inside": {
+            "NF-UB-07": false,
+            "NF-UP-06": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UB-08",
+            "NF-UP-05"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6444220534512229,
+            -0.6684612497481073,
+            0.3713216592267516
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -1.127414265584112,
+            3.116351828332589
+          ],
+          "length_m": 0.055,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UB-08": 0.033812375249501,
+            "NF-UP-05": 0.021187624750499002
+          },
+          "tip_inside": {
+            "NF-UB-08": false,
+            "NF-UP-05": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UB-08",
+            "NF-UP-05"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.5054553299808817,
+            -0.8560263008672256,
+            0.10832304287404512
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -1.1044447775017632,
+            3.1290183617930256
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UB-08": 0.05323353293413174,
+            "NF-UP-05": 0.016766467065868266
+          },
+          "tip_inside": {
+            "NF-UB-08": false,
+            "NF-UP-05": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-03",
+            "NF-UP-01"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.7279962711417264,
+            -0.6651675056834464,
+            0.16605305955207372
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            0.06997937080420602,
+            2.387
+          ],
+          "length_m": 0.05,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-03": 0.03003992015968064,
+            "NF-UP-01": 0.01996007984031936
+          },
+          "tip_inside": {
+            "NF-RAIL-03": false,
+            "NF-UP-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-03",
+            "NF-UP-01"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.5503649578406615,
+            -0.7920455184633659,
+            -0.26412555700489243
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            0.08836947347625926,
+            2.4117802053441064
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-03": 0.048393213572854296,
+            "NF-UP-01": 0.01660678642714571
+          },
+          "tip_inside": {
+            "NF-RAIL-03": false,
+            "NF-UP-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-03",
+            "NF-UP-06"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6121681629039056,
+            0.5593357907438177,
+            0.5589218313144028
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            1.130020629195794,
+            2.413
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-03": 0.021437125748502994,
+            "NF-UP-06": 0.02431137724550898
+          },
+          "tip_inside": {
+            "NF-RAIL-03": false,
+            "NF-UP-06": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-03",
+            "NF-UP-06"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.4188974899438883,
+            0.6028470288285795,
+            0.6790437045958557
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            1.1116305265237407,
+            2.3882197946558934
+          ],
+          "length_m": 0.085,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-03": 0.054121756487025954,
+            "NF-UP-06": 0.021377245508982037
+          },
+          "tip_inside": {
+            "NF-RAIL-03": false,
+            "NF-UP-06": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-03",
+            "NF-UB-07"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6837779121293938,
+            -0.2754960577673863,
+            0.6756846076673614
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            0.47274977081358793,
+            2.413
+          ],
+          "length_m": 0.055,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-03": 0.01778443113772455,
+            "NF-UB-07": 0.02162674650698603
+          },
+          "tip_inside": {
+            "NF-RAIL-03": false,
+            "NF-UB-07": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-03",
+            "NF-UB-07"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.4976568991263133,
+            -0.11705167495287057,
+            0.8594396524147057
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            0.4668803666405799,
+            2.387141705834502
+          ],
+          "length_m": 0.075,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-03": 0.044011976047904196,
+            "NF-UB-07": 0.022005988023952098
+          },
+          "tip_inside": {
+            "NF-RAIL-03": false,
+            "NF-UB-07": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-04",
+            "NF-UP-01"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6120112844730528,
+            0.5591924515006346,
+            0.5592369711154248
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -0.06997937080420602,
+            2.413
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-04": 0.021437125748502994,
+            "NF-UP-01": 0.02431137724550898
+          },
+          "tip_inside": {
+            "NF-RAIL-04": false,
+            "NF-UP-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-04",
+            "NF-UP-01"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.4188082551281578,
+            0.6027186085233203,
+            0.6792127239504724
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -0.08836947347625926,
+            2.3882197946558934
+          ],
+          "length_m": 0.085,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-04": 0.054121756487025954,
+            "NF-UP-01": 0.021377245508982037
+          },
+          "tip_inside": {
+            "NF-RAIL-04": false,
+            "NF-UP-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-04",
+            "NF-UP-05"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6121681629039056,
+            -0.5593357907438177,
+            0.5589218313144028
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -1.130020629195794,
+            2.413
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-04": 0.021437125748502994,
+            "NF-UP-05": 0.02431137724550898
+          },
+          "tip_inside": {
+            "NF-RAIL-04": false,
+            "NF-UP-05": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-04",
+            "NF-UP-05"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.4188974899438883,
+            -0.6028470288285795,
+            0.6790437045958557
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -1.1116305265237407,
+            2.3882197946558934
+          ],
+          "length_m": 0.085,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-04": 0.054121756487025954,
+            "NF-UP-05": 0.021377245508982037
+          },
+          "tip_inside": {
+            "NF-RAIL-04": false,
+            "NF-UP-05": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-04",
+            "NF-UB-08"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6837779121293929,
+            0.27549605776739033,
+            0.6756846076673605
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -0.47274977081358804,
+            2.413
+          ],
+          "length_m": 0.055,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-04": 0.01778443113772455,
+            "NF-UB-08": 0.02162674650698603
+          },
+          "tip_inside": {
+            "NF-RAIL-04": false,
+            "NF-UB-08": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-04",
+            "NF-UB-08"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.49765689912631317,
+            0.11705167495287212,
+            0.8594396524147055
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -0.4668803666405799,
+            2.387141705834502
+          ],
+          "length_m": 0.075,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-04": 0.044011976047904196,
+            "NF-UB-08": 0.022005988023952098
+          },
+          "tip_inside": {
+            "NF-RAIL-04": false,
+            "NF-UB-08": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UP-01",
+            "NF-PLATE-01"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            0.0,
+            3.832
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UP-01": 0.0750499001996008,
+            "NF-PLATE-01": 0.0249500998003992
+          },
+          "tip_inside": {
+            "NF-UP-01": false,
+            "NF-PLATE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UP-01",
+            "NF-PLATE-01"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            0.0,
+            3.8679999999999994
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UP-01": 0.0750499001996008,
+            "NF-PLATE-01": 0.0249500998003992
+          },
+          "tip_inside": {
+            "NF-UP-01": false,
+            "NF-PLATE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UP-05",
+            "NF-PLATE-01"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -1.2,
+            3.832
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UP-05": 0.0750499001996008,
+            "NF-PLATE-01": 0.0249500998003992
+          },
+          "tip_inside": {
+            "NF-UP-05": false,
+            "NF-PLATE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UP-05",
+            "NF-PLATE-01"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            -1.2,
+            3.8679999999999994
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UP-05": 0.0750499001996008,
+            "NF-PLATE-01": 0.0249500998003992
+          },
+          "tip_inside": {
+            "NF-UP-05": false,
+            "NF-PLATE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UP-06",
+            "NF-PLATE-01"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            1.2,
+            3.832
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UP-06": 0.0750499001996008,
+            "NF-PLATE-01": 0.0249500998003992
+          },
+          "tip_inside": {
+            "NF-UP-06": false,
+            "NF-PLATE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UP-06",
+            "NF-PLATE-01"
+          ],
+          "type": "nominal timber screw",
+          "axis": [
+            -1.0,
+            -0.0,
+            -0.0
+          ],
+          "entry_point_world_m": [
+            -1.175,
+            1.2,
+            3.8679999999999994
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UP-06": 0.0750499001996008,
+            "NF-PLATE-01": 0.0249500998003992
+          },
+          "tip_inside": {
+            "NF-UP-06": false,
+            "NF-PLATE-01": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        }
+      ],
+      "failed_joint_attempts": []
+    },
+    {
+      "task_id": "UPPER-END-EAST-SOUTH",
+      "success": true,
+      "source_members": [
+        "NF-UP-04",
+        "NF-RAIL-02",
+        "NF-UB-05"
+      ],
+      "permanent_cleats": [],
+      "connected_members": [
+        "NF-RAIL-02",
+        "NF-UB-05",
+        "NF-UP-04"
+      ],
+      "nominal_screws": [
+        {
+          "members": [
+            "NF-UB-05",
+            "NF-UP-04"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6444220534512229,
+            -0.6684612497481073,
+            0.3713216592267516
+          ],
+          "entry_point_world_m": [
+            1.25,
+            -1.127414265584112,
+            3.116351828332589
+          ],
+          "length_m": 0.055,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UB-05": 0.033812375249501,
+            "NF-UP-04": 0.021187624750499002
+          },
+          "tip_inside": {
+            "NF-UB-05": false,
+            "NF-UP-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UB-05",
+            "NF-UP-04"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.5054553299808817,
+            -0.8560263008672256,
+            0.10832304287404512
+          ],
+          "entry_point_world_m": [
+            1.25,
+            -1.1044447775017632,
+            3.1290183617930256
+          ],
+          "length_m": 0.07,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UB-05": 0.05323353293413174,
+            "NF-UP-04": 0.016766467065868266
+          },
+          "tip_inside": {
+            "NF-UB-05": false,
+            "NF-UP-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-02",
+            "NF-UP-04"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6121681629039056,
+            -0.5593357907438177,
+            0.5589218313144028
+          ],
+          "entry_point_world_m": [
+            1.25,
+            -1.130020629195794,
+            2.413
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-02": 0.021437125748502994,
+            "NF-UP-04": 0.02431137724550898
+          },
+          "tip_inside": {
+            "NF-RAIL-02": false,
+            "NF-UP-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-02",
+            "NF-UP-04"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.4188974899438883,
+            -0.6028470288285795,
+            0.6790437045958557
+          ],
+          "entry_point_world_m": [
+            1.25,
+            -1.1116305265237407,
+            2.3882197946558934
+          ],
+          "length_m": 0.085,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-02": 0.054121756487025954,
+            "NF-UP-04": 0.021377245508982037
+          },
+          "tip_inside": {
+            "NF-RAIL-02": false,
+            "NF-UP-04": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-02",
+            "NF-UB-05"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6837779121293929,
+            0.27549605776739033,
+            0.6756846076673605
+          ],
+          "entry_point_world_m": [
+            1.25,
+            -0.47274977081358804,
+            2.413
+          ],
+          "length_m": 0.055,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-02": 0.01778443113772455,
+            "NF-UB-05": 0.02162674650698603
+          },
+          "tip_inside": {
+            "NF-RAIL-02": false,
+            "NF-UB-05": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-02",
+            "NF-UB-05"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.49765689912631317,
+            0.11705167495287212,
+            0.8594396524147055
+          ],
+          "entry_point_world_m": [
+            1.25,
+            -0.4668803666405799,
+            2.387141705834502
+          ],
+          "length_m": 0.075,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-02": 0.044011976047904196,
+            "NF-UB-05": 0.022005988023952098
+          },
+          "tip_inside": {
+            "NF-RAIL-02": false,
+            "NF-UB-05": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        }
+      ],
+      "failed_joint_attempts": []
+    },
+    {
+      "task_id": "UPPER-END-EAST-NORTH",
+      "success": true,
+      "source_members": [
+        "NF-UP-03",
+        "NF-RAIL-01",
+        "NF-UB-06"
+      ],
+      "permanent_cleats": [],
+      "connected_members": [
+        "NF-RAIL-01",
+        "NF-UB-06",
+        "NF-UP-03"
+      ],
+      "nominal_screws": [
+        {
+          "members": [
+            "NF-UB-06",
+            "NF-UP-03"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.7647823592523465,
+            0.5620033019294141,
+            0.31505591820635714
+          ],
+          "entry_point_world_m": [
+            1.25,
+            1.138,
+            3.1990624472515226
+          ],
+          "length_m": 0.05,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UB-06": 0.02135728542914172,
+            "NF-UP-03": 0.028642714570858287
+          },
+          "tip_inside": {
+            "NF-UB-06": false,
+            "NF-UP-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-UB-06",
+            "NF-UP-03"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.5524921658666714,
+            0.40600102467158233,
+            0.7279530030308137
+          ],
+          "entry_point_world_m": [
+            1.25,
+            1.138,
+            3.167365548551504
+          ],
+          "length_m": 0.065,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-UB-06": 0.029580838323353294,
+            "NF-UP-03": 0.03541916167664671
+          },
+          "tip_inside": {
+            "NF-UB-06": false,
+            "NF-UP-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-01",
+            "NF-UP-03"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6121681629039056,
+            0.5593357907438177,
+            0.5589218313144028
+          ],
+          "entry_point_world_m": [
+            1.25,
+            1.130020629195794,
+            2.413
+          ],
+          "length_m": 0.06,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-01": 0.021437125748502994,
+            "NF-UP-03": 0.02431137724550898
+          },
+          "tip_inside": {
+            "NF-RAIL-01": false,
+            "NF-UP-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-01",
+            "NF-UP-03"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.4188974899438883,
+            0.6028470288285795,
+            0.6790437045958557
+          ],
+          "entry_point_world_m": [
+            1.25,
+            1.1116305265237407,
+            2.3882197946558934
+          ],
+          "length_m": 0.085,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-01": 0.054121756487025954,
+            "NF-UP-03": 0.021377245508982037
+          },
+          "tip_inside": {
+            "NF-RAIL-01": false,
+            "NF-UP-03": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-01",
+            "NF-UB-06"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.6837779121293938,
+            -0.2754960577673863,
+            0.6756846076673614
+          ],
+          "entry_point_world_m": [
+            1.25,
+            0.47274977081358793,
+            2.413
+          ],
+          "length_m": 0.055,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-01": 0.01778443113772455,
+            "NF-UB-06": 0.02162674650698603
+          },
+          "tip_inside": {
+            "NF-RAIL-01": false,
+            "NF-UB-06": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        },
+        {
+          "members": [
+            "NF-RAIL-01",
+            "NF-UB-06"
+          ],
+          "type": "nominal face-entry toe screw",
+          "axis": [
+            -0.4976568991263133,
+            -0.11705167495287057,
+            0.8594396524147057
+          ],
+          "entry_point_world_m": [
+            1.25,
+            0.4668803666405799,
+            2.387141705834502
+          ],
+          "length_m": 0.075,
+          "shaft_radius_m": 0.0025,
+          "geometric_embedment_m": {
+            "NF-RAIL-01": 0.044011976047904196,
+            "NF-UB-06": 0.022005988023952098
+          },
+          "tip_inside": {
+            "NF-RAIL-01": false,
+            "NF-UB-06": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true,
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false
+        }
+      ],
+      "failed_joint_attempts": []
+    }
+  ],
+  "offsite_modules_passed": 5,
+  "offsite_robot_screw_driver_paths_accepted": false,
+  "physical_joint_capacity_qualified": false,
+  "full_assembly_success": false
+}

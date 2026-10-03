@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 355" role="img" aria-labelledby="title desc">
+<title id="title">The five connections visible in the saved bridge Grasshopper screenshot</title>
+<desc id="desc">The recorded crop shows Assemble Model to Analyse ThII to Model View to Beam View to a stress legend. A separate wire takes Mass in kilograms from Assemble Model to a yellow panel. Upstream inputs and the numerical case are outside the screenshot.</desc>
+<rect width="1280" height="355" fill="#eeeae2"/>
+<text x="40" y="39" fill="#2b548f" font-family="Consolas,monospace" font-size="18" font-weight="700">FIVE WIRES VISIBLE IN THE SAVED CROP</text>
+<text x="40" y="69" fill="#202522" font-family="Arial,sans-serif" font-size="18" font-weight="400">The model reaches a displayed stress legend; the yellow panel reads mass.</text>
+<path d="M40 83H1240 M40 313H1240" stroke="#b5b1a8"/>
+<rect x="40" y="115" width="196" height="88" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="53" y="152" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Assemble Model</text><text x="53" y="186" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">OUT / MODEL</text>
+<rect x="281" y="115" width="196" height="88" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="294" y="152" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Analyse ThII</text><text x="294" y="186" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">IN / MODEL</text>
+<rect x="522" y="115" width="196" height="88" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="535" y="152" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Model View</text><text x="535" y="186" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">IN / ANALYSED MODEL</text>
+<rect x="763" y="115" width="196" height="88" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="776" y="152" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Beam View</text><text x="776" y="186" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">IN / MODEL</text>
+<rect x="1004" y="115" width="236" height="88" fill="#faf8f3" stroke="#2b548f" stroke-width="1.5"/><text x="1017" y="152" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Stress legend</text><text x="1017" y="186" fill="#2b548f" font-family="Consolas,monospace" font-size="13" font-weight="400">IN / COLOUR</text>
+<polyline points="236,159 281,159" fill="none" stroke="#2b548f" stroke-width="2.5"/><polygon points="281,159 273,154 273,164" fill="#2b548f"/>
+<polyline points="477,159 522,159" fill="none" stroke="#2b548f" stroke-width="2.5"/><polygon points="522,159 514,154 514,164" fill="#2b548f"/>
+<polyline points="718,159 763,159" fill="none" stroke="#2b548f" stroke-width="2.5"/><polygon points="763,159 755,154 755,164" fill="#2b548f"/>
+<polyline points="959,159 1004,159" fill="none" stroke="#2b548f" stroke-width="2.5"/><polygon points="1004,159 996,154 996,164" fill="#2b548f"/>
+<rect x="281" y="220" width="196" height="75" fill="#faf8f3" stroke="#986633" stroke-width="1.5"/><text x="294" y="257" fill="#202522" font-family="Arial,sans-serif" font-size="19" font-weight="700">Yellow Panel</text><text x="294" y="278" fill="#986633" font-family="Consolas,monospace" font-size="13" font-weight="400">MASS [KG]</text>
+<polyline points="138,203 138,257 281,257" fill="none" stroke="#986633" stroke-width="2.5"/><polygon points="281,257 273,252 273,262" fill="#986633"/>
+<text x="510" y="254" fill="#986633" font-family="Consolas,monospace" font-size="14" font-weight="700">PARALLEL OUTPUT</text>
+<text x="510" y="278" fill="#202522" font-family="Arial,sans-serif" font-size="16" font-weight="400">Mass is not a stress value.</text>
+<text x="40" y="337" fill="#777b75" font-family="Consolas,monospace" font-size="13" font-weight="400">OUTSIDE CROP / UPSTREAM INPUTS · SECTIONS · LOAD CASE · RESULT-TO-FORM MATCH</text>
+</svg>

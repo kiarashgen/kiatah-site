@@ -1,0 +1,15 @@
+{
+  "source": "content/projects/computation-structures/result-crop-ledger.json",
+  "source_sha256": "f75bc97e330b6a4efafa51770d34130d79f3079f6b86cea2f9a0cd78357ed073",
+  "source_image_sha256": {
+    "s1": "b4f802bc590b93bca8bf07e9cb8a11b439aea0e41b650bd99e8e479947470a70",
+    "s2": "546cf0b0cae5c82debf77f9f4224581c81c4957391c7d3490a7d1ac98c94aea5",
+    "s3": "d33589f211f9ee31add37967c721d9c0f8796420c96acfc7f2a3386d310c87cd",
+    "s4": "b7836ed069131035d23d2c2fa465e5472e3879a47a1e4cb769f8dfa5c334aa0d",
+    "s5": "5039abfdc5db5c7ceff90f3bbd03f8cb547f228c2bbc9de0d864f6bf59aeb2cd"
+  },
+  "output_sha256": "8ccc255987f2d099dda78de9b173339343cc8810e6e860b173fe94c09b00a47c",
+  "portrait_output_sha256": "85de7407b69e7b9c85f070678e82c642e88ed6a0c1cca5b3ee92b865b683ec4b",
+  "unit_as_printed": "stress [kN/cm\u00b2]",
+  "claim_limit": "Legend endpoints only; crops are not mapped to bridge forms or load cases."
+}

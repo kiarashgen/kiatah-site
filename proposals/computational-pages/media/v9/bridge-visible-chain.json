@@ -1,0 +1,16 @@
+{
+  "source_image": "public/proposals/computational-pages/media/v2/bridge-original-graph.jpg",
+  "source_image_sha256": "b713c938fbe3b2aac0d96b4f0e302d04d34f46b172b0395e3b378759a4b24b27",
+  "source_trace": "public/proposals/computational-pages/media/v7/bridge-visible-wire-trace.json",
+  "source_trace_sha256": "df05a8ce2086f7f47407ded92bf9f09f317b98ab19b5f0002cc6d2f5be8bad26",
+  "visible_connections": [
+    "Assemble Model / Model to Analyse ThII / Model",
+    "Analyse ThII / Analysed Model to Model View / Model",
+    "Model View / Model to Beam View / Model",
+    "Beam View / Legend Colours to stress legend / Colour",
+    "Assemble Model / Mass [kg] to yellow Panel"
+  ],
+  "output_sha256": "3ad2e774faa8b1aa7d14bd2780b03eab2f0e989b5d00955389c19c394eb98c73",
+  "portrait_output_sha256": "07d383b55e6864a4e4127381194c4d4f65c648b01d3319a181ce92ba444128db",
+  "treatment": "Clean diagram of only the five wires visible in the retained screenshot crop. Nodes reflowed and port labels abbreviated for reading. No unseen upstream inputs, numeric case, or bridge-result pairing is inferred."
+}

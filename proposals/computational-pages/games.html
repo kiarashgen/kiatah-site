@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Learning to play — Kiarash Taheri</title><link href="computational.css?v=3" rel="stylesheet"/><link href="computational-v2.css" rel="stylesheet"/><link href="games-record.css?v=3" rel="stylesheet"/><script defer="" src="games.js?v=10"></script><link href="games-v7.css?v=8" rel="stylesheet"/><link href="computational-v5.css?v=5" rel="stylesheet"/><link href="games-v9.css?v=2" rel="stylesheet"/></head><body>
+<aside class="rail"><a class="rail-name" href="/#work">Kiarash<br/>Taheri</a><span class="rail-url">kiatah.com</span><nav class="rail-main"><a href="/#home">HOME</a><a href="/#work">WORK</a><a href="/#index">INDEX</a></nav><nav class="rail-project"><b>IN THIS PROJECT<br/>Learning to play</b><a href="#hokm">01 Hokm</a><a href="#xo">02 X/O</a><a href="#limits">03 Record</a><a href="/#work">← Work</a></nav></aside>
+<main class="page"><header class="v2-hero games-hero"><div class="games-hero-copy"><span class="eyebrow">02 / game experiments</span><h1>Learning<br/>to play.</h1><p>Two saved decision systems. In Hokm, a legal-card rule changes which score can be used. In X/O, three move rules change the choice from the same checkpoint.</p><nav class="v2-hero-links"><a href="#hokm">Follow one card ↓</a><a href="#xo">Compare one board ↓</a></nav></div><figure class="hokm-hero-art"><picture><source media="(max-width:560px)" srcset="media/v9/hokm-trick-table-portrait.svg"/><img alt="Source-derived first trick around four seats: P0 K spades, P1 9 spades, P2 2 spades, P3 A spades; P3 wins for team 1" height="560" src="media/v9/hokm-trick-table.svg" width="720"/></picture><figcaption>Saved first trick / four seats · trump ♦</figcaption></figure></header>
+<section class="chapter" id="hokm">
+<div class="chapter-head hokm-heading"><div><span class="eyebrow">01 / SAVED 40-ACTION SELF-PLAY DEAL</span><h2>Four seats. One trick.</h2></div><p>Follow the recorded play around the table. The blue hand is next: pale cards cannot follow the lead suit, outlined cards can, and one card carries the saved choice.</p></div>
+<div class="hokm-moments" id="hokm-moments" aria-label="Jump to three saved decisions"></div>
+<div aria-label="Ten saved tricks; select a trick to start at its first play" class="hokm-timeline" id="hokm-timeline" role="group"></div>
+<div aria-label="Move through saved Hokm deal" class="hokm-deal-controls" role="group">
+<button id="hokm-prev-trick" type="button">← Trick</button><button id="hokm-prev" type="button">← Play</button>
+<input aria-label="Saved Hokm action" id="hokm-step" max="39" min="0" type="range" value="2"/>
+<button id="hokm-next" type="button">Play →</button><button id="hokm-next-trick" type="button">Trick →</button>
+<output for="hokm-step" id="hokm-count">01 / 40</output>
+</div>
+<div aria-label="All four hands and the current trick" class="hokm-deal">
+<div class="hokm-deal-header"><strong id="hokm-trick-number">TRICK 01 / 10</strong><span id="hokm-state">PLAYER 0</span><span>TRUMP <b id="hokm-trump">♦</b></span><span>TEAM 0 <b id="hokm-team0">0</b> / TEAM 1 <b id="hokm-team1">0</b></span><small>ARCHIVAL VIEW · ALL FOUR HANDS</small></div>
+<div class="hokm-table"><div class="hokm-hands" id="hokm-hands"></div>
+<div class="hokm-trick"><div class="hokm-trick-heading"><span>TRICK ON TABLE</span><strong id="hokm-trick-status">Lead</strong></div><div class="hokm-trick-cards" id="hokm-trick-cards"></div></div></div>
+</div>
+<div aria-label="Decision path for the selected saved action" class="hokm-logic" id="hokm-logic"></div>
+<div aria-live="polite" class="hokm-decision"><div><span class="eyebrow">SAVED ACTION</span><strong id="hokm-choice">Loading saved deal…</strong><button aria-pressed="false" class="hokm-reveal" id="hokm-reveal" type="button">Reveal selected play</button></div><details><summary>All legal action scores</summary><div class="q-bars" id="hokm-bars"></div><p class="caption">Q values are checkpoint scores, not probabilities.</p></details></div>
+<p class="source-note">All four hands can be shown because this is a stored self-play replay. Opponents did not receive each other’s hands as network input. <a href="media/hokm-replay.json">Complete 40-action data ↗</a></p>
+</section>
+<section class="chapter light" id="xo">
+<div class="chapter-head"><div><span class="eyebrow">02 / saved X/O network</span><h2>One position. Three rules.</h2></div><p>Start with a position where the three rules make different moves. Then play your own board below and compare choices from the same checkpoint.</p></div>
+<div class="xo-demo" id="xo-demo" aria-label="Worked position and three source-computed O decisions"></div>
+<h3 class="xo-play-heading">Try another position.</h3>
+<div class="pair equal xo-comparison"><div><div aria-label="X and O board" class="game-grid" id="xo-board"></div><div class="controls"><button id="xo-reset" type="button">New game</button><span aria-live="polite" id="xo-status">Your move / X</span></div></div>
+<div class="data-panel xo-inspector"><span class="eyebrow">Same input · same checkpoint</span><div class="xo-inputs" id="xo-inputs"></div><div class="xo-network-path">18 INPUT BITS <span>→</span> 64 <span>→</span> 32 <span>→</span> 9 OUTPUT CELLS</div><p class="v2-small">The saved network scores all nine cells. Occupied cells are masked; the selected rule acts on the remaining cells.</p><div aria-label="Nine checkpoint outputs in board order" class="xo-score-grid" id="xo-scores"></div><p aria-live="polite" class="xo-policy-result" id="xo-explain">Place X to compare three O decisions from the same position.</p></div></div>
+<div aria-label="Three O move rules applied to the same position" class="xo-policy-comparison" hidden id="xo-policy-comparison"></div>
+<p class="source-note">The checkpoint weights are unchanged across rules. Raw outputs have no calibrated probability meaning. <a href="media/xo-networks.json">Saved checkpoints ↗</a></p></section>
+<section class="chapter dark" id="limits">
+<div class="chapter-head"><div><span class="eyebrow">03 / controlled comparison</span><h2>What did the saved policies do?</h2></div><p>Each frozen policy pair played the same 80 deals eight ways: four leaders and both team assignments. The distribution below shows how many of those eight games the focal policy won per deal.</p></div>
+<figure class="v5-diagram v5-eval-diagram"><img alt="Source-backed diagram of 80 fixed deals, four leaders and two team assignments, yielding 640 games per frozen policy comparison" src="media/v5/hokm-evaluation-system.svg"/><figcaption>Controlled evaluation / 640 games for each pair of frozen policies</figcaption></figure>
+<div class="game-eval-distribution" id="game-eval-distribution" aria-label="Saved evaluation distributions by deal"></div>
+<div class="game-seat-comparison"><div><span class="eyebrow">Training arrangement</span><strong>Checkpoint · random · checkpoint · random</strong><p>The same policy controlled seats 0 and 2; random play occupied seats 1 and 3.</p></div><div><span class="eyebrow">Saved replay</span><strong>Checkpoint · checkpoint · checkpoint · checkpoint</strong><p>The 40-decision self-play record uses the checkpoint at every seat. It is a different setup from training.</p></div></div>
+<p class="source-note">The engine simplifies Hokm: random trump and first team to seven tricks. Each matchup uses seed 280926 and 640 paired games. The results do not measure play against humans. <a href="media/hokm-evaluation.json">Evaluation data and conditions ↗</a></p>
+</section><footer class="site-footer"><a href="/#work">← Work</a><a href="/#index">Project index ↗</a></footer></main></body></html>

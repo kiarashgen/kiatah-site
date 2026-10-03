@@ -1,0 +1,957 @@
+{
+  "source_name": "simple.ifc",
+  "source_sha256": "196d21ef82488245cb3e451689be8e072addf09e5f0903ee867a61dba9111d76",
+  "schema": "'IFC4X3_ADD2'",
+  "entity_count": 10824,
+  "counts": {
+    "IFCORGANIZATION": 2,
+    "IFCAPPLICATION": 1,
+    "IFCCARTESIANPOINT": 2504,
+    "IFCDIRECTION": 91,
+    "IFCPERSON": 1,
+    "IFCPERSONANDORGANIZATION": 1,
+    "IFCOWNERHISTORY": 1,
+    "IFCSIUNIT": 4,
+    "IFCAXIS2PLACEMENT3D": 291,
+    "IFCGEOMETRICREPRESENTATIONCONTEXT": 1,
+    "IFCGEOMETRICREPRESENTATIONSUBCONTEXT": 4,
+    "IFCPROJECT": 1,
+    "IFCCLASSIFICATION": 1,
+    "IFCLOCALPLACEMENT": 60,
+    "IFCPOSTALADDRESS": 1,
+    "IFCBUILDING": 1,
+    "IFCBUILDINGSTOREY": 3,
+    "IFCSITE": 1,
+    "IFCPROPERTYSINGLEVALUE": 74,
+    "IFCPROPERTYSET": 114,
+    "IFCRELDEFINESBYPROPERTIES": 110,
+    "IFCAXIS2PLACEMENT2D": 41,
+    "IFCRECTANGLEPROFILEDEF": 41,
+    "IFCEXTRUDEDAREASOLID": 198,
+    "IFCSHAPEREPRESENTATION": 78,
+    "IFCPRODUCTDEFINITIONSHAPE": 54,
+    "IFCSPACE": 11,
+    "IFCSPACETYPE": 11,
+    "IFCPOLYLINE": 185,
+    "IFCPLANE": 10,
+    "IFCPOLYGONALBOUNDEDHALFSPACE": 10,
+    "IFCBOOLEANCLIPPINGRESULT": 10,
+    "IFCCOLOURRGB": 8,
+    "IFCSURFACESTYLERENDERING": 7,
+    "IFCSURFACESTYLE": 7,
+    "IFCSTYLEDITEM": 78,
+    "IFCWALL": 16,
+    "IFCMATERIAL": 8,
+    "IFCSTYLEDREPRESENTATION": 7,
+    "IFCMATERIALDEFINITIONREPRESENTATION": 7,
+    "IFCMATERIALLAYER": 2,
+    "IFCMATERIALLAYERSET": 2,
+    "IFCWALLTYPE": 1,
+    "IFCDIMENSIONALEXPONENTS": 1,
+    "IFCMEASUREWITHUNIT": 1,
+    "IFCCONVERSIONBASEDUNIT": 1,
+    "IFCSLAB": 3,
+    "IFCSLABTYPE": 1,
+    "IFCMATERIALLAYERSETUSAGE": 3,
+    "IFCPOLYLOOP": 2124,
+    "IFCFACEOUTERBOUND": 2122,
+    "IFCFACE": 2122,
+    "IFCFACEBOUND": 2,
+    "IFCCLOSEDSHELL": 9,
+    "IFCFACETEDBREP": 9,
+    "IFCREPRESENTATIONMAP": 1,
+    "IFCDOORLININGPROPERTIES": 1,
+    "IFCDOORPANELPROPERTIES": 1,
+    "IFCDOORTYPE": 1,
+    "IFCCURVESTYLEFONTPATTERN": 3,
+    "IFCCURVESTYLEFONT": 3,
+    "IFCCURVESTYLE": 3,
+    "IFCFILLAREASTYLEHATCHING": 3,
+    "IFCFILLAREASTYLE": 1,
+    "IFCMATERIALCONSTITUENT": 41,
+    "IFCSHAPEASPECT": 5,
+    "IFCMATERIALCONSTITUENTSET": 10,
+    "IFCCARTESIANTRANSFORMATIONOPERATOR3D": 1,
+    "IFCMAPPEDITEM": 9,
+    "IFCDOOR": 9,
+    "IFCSTAIR": 1,
+    "IFCSTAIRTYPE": 1,
+    "IFCARBITRARYCLOSEDPROFILEDEF": 157,
+    "IFCGEOMETRICSET": 2,
+    "IFCSTAIRFLIGHT": 1,
+    "IFCSTAIRFLIGHTTYPE": 1,
+    "IFCMEMBERTYPE": 1,
+    "IFCMEMBER": 2,
+    "IFCBOOLEANRESULT": 1,
+    "IFCOPENINGELEMENT": 10,
+    "IFCRELVOIDSELEMENT": 10,
+    "IFCRAILING": 2,
+    "IFCRAILINGTYPE": 1,
+    "IFCRELAGGREGATES": 6,
+    "IFCRELCONTAINEDINSPATIALSTRUCTURE": 3,
+    "IFCRELASSOCIATESMATERIAL": 17,
+    "IFCRELDEFINESBYTYPE": 18,
+    "IFCRELCONNECTSPATHELEMENTS": 24,
+    "IFCPRESENTATIONLAYERASSIGNMENT": 7,
+    "IFCRELFILLSELEMENT": 9,
+    "IFCUNITASSIGNMENT": 1
+  },
+  "nodes": [
+    {
+      "id": 29,
+      "type": "IFCPROJECT",
+      "guid": "00fRiou$P70PrQbOCaQU8G",
+      "name": "Project Number"
+    },
+    {
+      "id": 34,
+      "type": "IFCBUILDING",
+      "guid": "00fRiou$P70PrQbOCaQU8H",
+      "name": "Building Name"
+    },
+    {
+      "id": 37,
+      "type": "IFCBUILDINGSTOREY",
+      "guid": "2JF4e6axWHqu3u0C1FZlmi",
+      "name": "L1"
+    },
+    {
+      "id": 41,
+      "type": "IFCBUILDINGSTOREY",
+      "guid": "1ZGO8hrFCHqw0v0026FpFv",
+      "name": "L2"
+    },
+    {
+      "id": 45,
+      "type": "IFCBUILDINGSTOREY",
+      "guid": "0HP4cy8Db0qP7LAqShkF9S",
+      "name": "L3"
+    },
+    {
+      "id": 48,
+      "type": "IFCSITE",
+      "guid": "00fRiou$P70PrQbOCaQU8I",
+      "name": "Default"
+    },
+    {
+      "id": 64,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEvm",
+      "name": "100"
+    },
+    {
+      "id": 78,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEvz",
+      "name": "101"
+    },
+    {
+      "id": 92,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEu9",
+      "name": "102"
+    },
+    {
+      "id": 106,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEuA",
+      "name": "103"
+    },
+    {
+      "id": 120,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEoc",
+      "name": "104"
+    },
+    {
+      "id": 134,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEoY",
+      "name": "105"
+    },
+    {
+      "id": 148,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEol",
+      "name": "106"
+    },
+    {
+      "id": 162,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEoe",
+      "name": "107"
+    },
+    {
+      "id": 176,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEor",
+      "name": "108"
+    },
+    {
+      "id": 190,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEos",
+      "name": "109"
+    },
+    {
+      "id": 204,
+      "type": "IFCSPACE",
+      "guid": "0HP4cy8Db0qP7LAqShkEop",
+      "name": "110"
+    },
+    {
+      "id": 243,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFWR",
+      "name": "Basic Wall:Generic - 200mm:1663998"
+    },
+    {
+      "id": 294,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkF_2",
+      "name": "Basic Wall:Generic - 200mm:1664103"
+    },
+    {
+      "id": 330,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFzv",
+      "name": "Basic Wall:Generic - 200mm:1664156"
+    },
+    {
+      "id": 370,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFys",
+      "name": "Basic Wall:Generic - 200mm:1664211"
+    },
+    {
+      "id": 396,
+      "type": "IFCSLAB",
+      "guid": "0HP4cy8Db0qP7LAqShkFxm",
+      "name": "Floor:Generic 300mm:1664277"
+    },
+    {
+      "id": 8411,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkFxN",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1664306"
+    },
+    {
+      "id": 8447,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFq6",
+      "name": "Basic Wall:Generic - 200mm:1664739"
+    },
+    {
+      "id": 8484,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFpz",
+      "name": "Basic Wall:Generic - 200mm:1664792"
+    },
+    {
+      "id": 8494,
+      "type": "IFCSTAIR",
+      "guid": "0HP4cy8Db0qP7LAqShkF5X",
+      "name": "Assembled Stair:Stair:1665668"
+    },
+    {
+      "id": 8946,
+      "type": "IFCSTAIRFLIGHT",
+      "guid": "0HP4cy8Db0qP7LAqShkF4y",
+      "name": "Assembled Stair:Stair:1665668 Run 1"
+    },
+    {
+      "id": 9060,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFTH",
+      "name": "Basic Wall:Generic - 200mm:1666228"
+    },
+    {
+      "id": 9095,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFSx",
+      "name": "Basic Wall:Generic - 200mm:1666270"
+    },
+    {
+      "id": 9128,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFQ5",
+      "name": "Basic Wall:Generic - 200mm:1666400"
+    },
+    {
+      "id": 9161,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkFOT",
+      "name": "Basic Wall:Generic - 200mm:1666552"
+    },
+    {
+      "id": 9175,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkFLl",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1666698"
+    },
+    {
+      "id": 9191,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkFKV",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1666810"
+    },
+    {
+      "id": 9207,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkFGh",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1667022"
+    },
+    {
+      "id": 9223,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkEl9",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1667116"
+    },
+    {
+      "id": 9239,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkEjt",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1667218"
+    },
+    {
+      "id": 9255,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkEif",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1667276"
+    },
+    {
+      "id": 9279,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkEeP",
+      "name": "Basic Wall:Generic - 200mm:1667580"
+    },
+    {
+      "id": 9302,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkEeO",
+      "name": "Basic Wall:Generic - 200mm:1667581"
+    },
+    {
+      "id": 9324,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkEeR",
+      "name": "Basic Wall:Generic - 200mm:1667582"
+    },
+    {
+      "id": 9346,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkEeQ",
+      "name": "Basic Wall:Generic - 200mm:1667583"
+    },
+    {
+      "id": 9372,
+      "type": "IFCSLAB",
+      "guid": "0HP4cy8Db0qP7LAqShkEWD",
+      "name": "Floor:Generic 300mm:1668072"
+    },
+    {
+      "id": 9382,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "1yXBDBPwUvSQtwyjgu5Qpj",
+      "name": "Floor:Generic 300mm:1439244"
+    },
+    {
+      "id": 9410,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkEze",
+      "name": "Basic Wall:Generic - 200mm:1668237"
+    },
+    {
+      "id": 9432,
+      "type": "IFCWALL",
+      "guid": "0HP4cy8Db0qP7LAqShkEum",
+      "name": "Basic Wall:Generic - 200mm:1668565"
+    },
+    {
+      "id": 9446,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkEuI",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1668599"
+    },
+    {
+      "id": 9462,
+      "type": "IFCDOOR",
+      "guid": "0HP4cy8Db0qP7LAqShkEqK",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1668849"
+    },
+    {
+      "id": 9483,
+      "type": "IFCSLAB",
+      "guid": "0HP4cy8Db0qP7LAqShkEmD",
+      "name": "Floor:Generic 300mm:1669096"
+    },
+    {
+      "id": 10069,
+      "type": "IFCRAILING",
+      "guid": "0HP4cy8Db0qP7LAqShkF2W",
+      "name": "Railing:Handrail - Rectangular:1665861"
+    },
+    {
+      "id": 10599,
+      "type": "IFCRAILING",
+      "guid": "0HP4cy8Db0qP7LAqShkF2i",
+      "name": "Railing:Handrail - Rectangular:1665865"
+    },
+    {
+      "id": 10710,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "2D98LPL6Svc9M4kODPtTxs",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1664306:1"
+    },
+    {
+      "id": 10725,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "13nBJkAwCC$vkM1Q$jqzMr",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1666698:1"
+    },
+    {
+      "id": 10740,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "1iGbH0pww_SnUkV3_teAfC",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1667022:1"
+    },
+    {
+      "id": 10755,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "0sarXl6Lj88Ai2QnbOD0mp",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1667116:1"
+    },
+    {
+      "id": 10770,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "3WVw2SfwqWzfJ1Ca$IMOFW",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1667218:1"
+    },
+    {
+      "id": 10785,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "0SHZg151pNldz3ftqwOZBc",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1667276:1"
+    },
+    {
+      "id": 10800,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "1_UzAymOLmmH4upFYc3rFu",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1666810:1"
+    },
+    {
+      "id": 10815,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "0uR24Ytv_fZamuBVQdCxIl",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1668599:1"
+    },
+    {
+      "id": 10830,
+      "type": "IFCOPENINGELEMENT",
+      "guid": "3c11rKILquHOCcJSQMj76K",
+      "name": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1668849:1"
+    }
+  ],
+  "edges": [
+    {
+      "source": 9372,
+      "target": 9382,
+      "kind": "OPENS",
+      "relation_id": 9383
+    },
+    {
+      "source": 8494,
+      "target": 8946,
+      "kind": "COMPOSES",
+      "relation_id": 10605
+    },
+    {
+      "source": 8494,
+      "target": 10069,
+      "kind": "COMPOSES",
+      "relation_id": 10605
+    },
+    {
+      "source": 8494,
+      "target": 10599,
+      "kind": "COMPOSES",
+      "relation_id": 10605
+    },
+    {
+      "source": 37,
+      "target": 243,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 294,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 330,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 370,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 396,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 8411,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 8447,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 8484,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 8494,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9060,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9095,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9128,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9161,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9175,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9191,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9207,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9223,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9239,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 37,
+      "target": 9255,
+      "kind": "CONTAINS",
+      "relation_id": 10612
+    },
+    {
+      "source": 41,
+      "target": 9279,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 41,
+      "target": 9302,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 41,
+      "target": 9324,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 41,
+      "target": 9346,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 41,
+      "target": 9372,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 41,
+      "target": 9410,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 41,
+      "target": 9432,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 41,
+      "target": 9446,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 41,
+      "target": 9462,
+      "kind": "CONTAINS",
+      "relation_id": 10617
+    },
+    {
+      "source": 45,
+      "target": 9483,
+      "kind": "CONTAINS",
+      "relation_id": 10622
+    },
+    {
+      "source": 29,
+      "target": 48,
+      "kind": "COMPOSES",
+      "relation_id": 10623
+    },
+    {
+      "source": 48,
+      "target": 34,
+      "kind": "COMPOSES",
+      "relation_id": 10624
+    },
+    {
+      "source": 37,
+      "target": 120,
+      "kind": "COMPOSES",
+      "relation_id": 10625
+    },
+    {
+      "source": 37,
+      "target": 134,
+      "kind": "COMPOSES",
+      "relation_id": 10625
+    },
+    {
+      "source": 37,
+      "target": 148,
+      "kind": "COMPOSES",
+      "relation_id": 10625
+    },
+    {
+      "source": 37,
+      "target": 162,
+      "kind": "COMPOSES",
+      "relation_id": 10625
+    },
+    {
+      "source": 37,
+      "target": 176,
+      "kind": "COMPOSES",
+      "relation_id": 10625
+    },
+    {
+      "source": 37,
+      "target": 190,
+      "kind": "COMPOSES",
+      "relation_id": 10625
+    },
+    {
+      "source": 37,
+      "target": 204,
+      "kind": "COMPOSES",
+      "relation_id": 10625
+    },
+    {
+      "source": 41,
+      "target": 64,
+      "kind": "COMPOSES",
+      "relation_id": 10626
+    },
+    {
+      "source": 41,
+      "target": 78,
+      "kind": "COMPOSES",
+      "relation_id": 10626
+    },
+    {
+      "source": 41,
+      "target": 92,
+      "kind": "COMPOSES",
+      "relation_id": 10626
+    },
+    {
+      "source": 41,
+      "target": 106,
+      "kind": "COMPOSES",
+      "relation_id": 10626
+    },
+    {
+      "source": 34,
+      "target": 37,
+      "kind": "COMPOSES",
+      "relation_id": 10627
+    },
+    {
+      "source": 34,
+      "target": 41,
+      "kind": "COMPOSES",
+      "relation_id": 10627
+    },
+    {
+      "source": 34,
+      "target": 45,
+      "kind": "COMPOSES",
+      "relation_id": 10627
+    },
+    {
+      "source": 243,
+      "target": 10710,
+      "kind": "OPENS",
+      "relation_id": 10711
+    },
+    {
+      "source": 10710,
+      "target": 8411,
+      "kind": "FILLED_BY",
+      "relation_id": 10712
+    },
+    {
+      "source": 8484,
+      "target": 10725,
+      "kind": "OPENS",
+      "relation_id": 10726
+    },
+    {
+      "source": 10725,
+      "target": 9175,
+      "kind": "FILLED_BY",
+      "relation_id": 10727
+    },
+    {
+      "source": 8484,
+      "target": 10740,
+      "kind": "OPENS",
+      "relation_id": 10741
+    },
+    {
+      "source": 10740,
+      "target": 9207,
+      "kind": "FILLED_BY",
+      "relation_id": 10742
+    },
+    {
+      "source": 9060,
+      "target": 10755,
+      "kind": "OPENS",
+      "relation_id": 10756
+    },
+    {
+      "source": 10755,
+      "target": 9223,
+      "kind": "FILLED_BY",
+      "relation_id": 10757
+    },
+    {
+      "source": 9095,
+      "target": 10770,
+      "kind": "OPENS",
+      "relation_id": 10771
+    },
+    {
+      "source": 10770,
+      "target": 9239,
+      "kind": "FILLED_BY",
+      "relation_id": 10772
+    },
+    {
+      "source": 9095,
+      "target": 10785,
+      "kind": "OPENS",
+      "relation_id": 10786
+    },
+    {
+      "source": 10785,
+      "target": 9255,
+      "kind": "FILLED_BY",
+      "relation_id": 10787
+    },
+    {
+      "source": 9161,
+      "target": 10800,
+      "kind": "OPENS",
+      "relation_id": 10801
+    },
+    {
+      "source": 10800,
+      "target": 9191,
+      "kind": "FILLED_BY",
+      "relation_id": 10802
+    },
+    {
+      "source": 9410,
+      "target": 10815,
+      "kind": "OPENS",
+      "relation_id": 10816
+    },
+    {
+      "source": 10815,
+      "target": 9446,
+      "kind": "FILLED_BY",
+      "relation_id": 10817
+    },
+    {
+      "source": 9432,
+      "target": 10830,
+      "kind": "OPENS",
+      "relation_id": 10831
+    },
+    {
+      "source": 10830,
+      "target": 9462,
+      "kind": "FILLED_BY",
+      "relation_id": 10832
+    },
+    {
+      "source": 243,
+      "target": 8411,
+      "kind": "HOSTS",
+      "relation_id": [
+        10711,
+        10712
+      ],
+      "through_opening": 10710
+    },
+    {
+      "source": 8484,
+      "target": 9175,
+      "kind": "HOSTS",
+      "relation_id": [
+        10726,
+        10727
+      ],
+      "through_opening": 10725
+    },
+    {
+      "source": 8484,
+      "target": 9207,
+      "kind": "HOSTS",
+      "relation_id": [
+        10741,
+        10742
+      ],
+      "through_opening": 10740
+    },
+    {
+      "source": 9060,
+      "target": 9223,
+      "kind": "HOSTS",
+      "relation_id": [
+        10756,
+        10757
+      ],
+      "through_opening": 10755
+    },
+    {
+      "source": 9095,
+      "target": 9239,
+      "kind": "HOSTS",
+      "relation_id": [
+        10771,
+        10772
+      ],
+      "through_opening": 10770
+    },
+    {
+      "source": 9095,
+      "target": 9255,
+      "kind": "HOSTS",
+      "relation_id": [
+        10786,
+        10787
+      ],
+      "through_opening": 10785
+    },
+    {
+      "source": 9161,
+      "target": 9191,
+      "kind": "HOSTS",
+      "relation_id": [
+        10801,
+        10802
+      ],
+      "through_opening": 10800
+    },
+    {
+      "source": 9410,
+      "target": 9446,
+      "kind": "HOSTS",
+      "relation_id": [
+        10816,
+        10817
+      ],
+      "through_opening": 10815
+    },
+    {
+      "source": 9432,
+      "target": 9462,
+      "kind": "HOSTS",
+      "relation_id": [
+        10831,
+        10832
+      ],
+      "through_opening": 10830
+    }
+  ],
+  "edge_counts": {
+    "OPENS": 10,
+    "COMPOSES": 19,
+    "CONTAINS": 29,
+    "FILLED_BY": 9,
+    "HOSTS": 9
+  },
+  "scope": "Semantic STEP relationships; sample model as software fixture; geometry and egress not validated"
+}

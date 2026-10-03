@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 810" role="img" aria-labelledby="title description">
+<title id="title">How the declared frame carries load</title>
+<desc id="description">Case 02, one of two symmetric side planes. Nine 10 kN deck loads act on each plane. Upper chord members compress, the right end diagonal has the largest tension, and the deck moves downward a maximum of 2.48 mm at 18 m.</desc>
+<rect width="1320" height="810" fill="#f5f1e9"/>
+<text x="42.0" y="48.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="23" font-weight="700">ONE LOAD CASE / ONE FRAME / THREE READINGS</text>
+<text x="1277.0" y="48.0" text-anchor="end" fill="#315c96" font-family="monospace" font-size="15" font-weight="400">CASE 02 · CHS 160 × 6</text>
+<path d="M42.0,66.0 L1278.0,66.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="42.0" y="101.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="15" font-weight="400">01   BOUNDARY</text>
+<text x="42.0" y="127.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="18" font-weight="700">9 × 10 kN ↓ on this side plane</text>
+<text x="1278.0" y="127.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="15" font-weight="400">+ 9 × 10 kN on the mirrored plane = 180 kN total</text>
+<path d="M42.0,148.0 L1278.0,148.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<path d="M122.0,324.0 L196.3,271.2" fill="none" stroke="#aa6157" stroke-width="4.10"/>
+<path d="M196.3,271.2 L287.9,229.2" fill="none" stroke="#aa6157" stroke-width="3.76"/>
+<path d="M287.9,229.2 L394.1,202.0" fill="none" stroke="#aa6157" stroke-width="4.31"/>
+<path d="M394.1,202.0 L508.4,191.1" fill="none" stroke="#aa6157" stroke-width="4.21"/>
+<path d="M508.4,191.1 L624.1,194.4" fill="none" stroke="#aa6157" stroke-width="4.62"/>
+<path d="M624.1,194.4 L737.6,208.3" fill="none" stroke="#aa6157" stroke-width="4.71"/>
+<path d="M737.6,208.3 L847.6,230.1" fill="none" stroke="#aa6157" stroke-width="4.98"/>
+<path d="M847.6,230.1 L954.0,257.5" fill="none" stroke="#aa6157" stroke-width="5.10"/>
+<path d="M954.0,257.5 L1057.0,289.1" fill="none" stroke="#aa6157" stroke-width="4.29"/>
+<path d="M1057.0,289.1 L1157.0,324.0" fill="none" stroke="#aa6157" stroke-width="4.37"/>
+<path d="M122.0,324.0 L225.5,365.0" fill="none" stroke="#315c96" stroke-width="3.47"/>
+<path d="M225.5,365.0 L287.9,229.2" fill="none" stroke="#aa6157" stroke-width="2.57"/>
+<path d="M287.9,229.2 L432.5,365.0" fill="none" stroke="#315c96" stroke-width="2.23"/>
+<path d="M432.5,365.0 L508.4,191.1" fill="none" stroke="#aa6157" stroke-width="2.12"/>
+<path d="M508.4,191.1 L639.5,365.0" fill="none" stroke="#315c96" stroke-width="2.04"/>
+<path d="M639.5,365.0 L737.6,208.3" fill="none" stroke="#aa6157" stroke-width="1.82"/>
+<path d="M737.6,208.3 L846.5,365.0" fill="none" stroke="#315c96" stroke-width="1.57"/>
+<path d="M846.5,365.0 L954.0,257.5" fill="none" stroke="#315c96" stroke-width="1.85"/>
+<path d="M954.0,257.5 L1053.5,365.0" fill="none" stroke="#aa6157" stroke-width="2.79"/>
+<path d="M1053.5,365.0 L1157.0,324.0" fill="none" stroke="#315c96" stroke-width="4.43"/>
+<path d="M122.0,324.0 L122.0,365.0" fill="none" stroke="#aa6157" stroke-width="4.59"/>
+<path d="M196.3,271.2 L225.5,365.0" fill="none" stroke="#315c96" stroke-width="2.13"/>
+<path d="M287.9,229.2 L329.0,365.0" fill="none" stroke="#315c96" stroke-width="2.20"/>
+<path d="M394.1,202.0 L432.5,365.0" fill="none" stroke="#315c96" stroke-width="2.18"/>
+<path d="M508.4,191.1 L536.0,365.0" fill="none" stroke="#315c96" stroke-width="2.18"/>
+<path d="M624.1,194.4 L639.5,365.0" fill="none" stroke="#315c96" stroke-width="2.00"/>
+<path d="M737.6,208.3 L743.0,365.0" fill="none" stroke="#315c96" stroke-width="2.18"/>
+<path d="M847.6,230.1 L846.5,365.0" fill="none" stroke="#315c96" stroke-width="1.83"/>
+<path d="M954.0,257.5 L950.0,365.0" fill="none" stroke="#315c96" stroke-width="2.19"/>
+<path d="M1057.0,289.1 L1053.5,365.0" fill="none" stroke="#315c96" stroke-width="1.68"/>
+<path d="M1157.0,324.0 L1157.0,365.0" fill="none" stroke="#aa6157" stroke-width="4.59"/>
+<path d="M122.0,365.0 L225.5,365.0" fill="none" stroke="#aa6157" stroke-width="3.76"/>
+<path d="M225.5,365.0 L329.0,365.0" fill="none" stroke="#aa6157" stroke-width="1.71"/>
+<path d="M329.0,365.0 L432.5,365.0" fill="none" stroke="#aa6157" stroke-width="1.59"/>
+<path d="M432.5,365.0 L536.0,365.0" fill="none" stroke="#315c96" stroke-width="2.05"/>
+<path d="M536.0,365.0 L639.5,365.0" fill="none" stroke="#315c96" stroke-width="2.12"/>
+<path d="M639.5,365.0 L743.0,365.0" fill="none" stroke="#315c96" stroke-width="2.48"/>
+<path d="M743.0,365.0 L846.5,365.0" fill="none" stroke="#315c96" stroke-width="2.49"/>
+<path d="M846.5,365.0 L950.0,365.0" fill="none" stroke="#315c96" stroke-width="2.34"/>
+<path d="M950.0,365.0 L1053.5,365.0" fill="none" stroke="#315c96" stroke-width="2.32"/>
+<path d="M1053.5,365.0 L1157.0,365.0" fill="none" stroke="#aa6157" stroke-width="3.75"/>
+<path d="M225.5,388.0 L225.5,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M221.5 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M432.5,388.0 L432.5,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M428.5 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M639.5,388.0 L639.5,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M635.5 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M846.5,388.0 L846.5,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M842.5 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M1053.5,388.0 L1053.5,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M1049.5 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M329.0,388.0 L329.0,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M325.0 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M536.0,388.0 L536.0,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M532.0 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M743.0,388.0 L743.0,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M739.0 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M950.0,388.0 L950.0,366.0" fill="none" stroke="#625d55" stroke-width="1.50"/>
+<path d="M946.0 374l4 7 4-7" fill="none" stroke="#625d55" stroke-width="1.5"/>
+<path d="M122.0 370l-11 14h22z" fill="#f5f1e9" stroke="#242320" stroke-width="1.6"/>
+<path d="M1157.0 370l-11 14h22z" fill="#f5f1e9" stroke="#242320" stroke-width="1.6"/>
+<path d="M900.8,243.8 L670.0,156.0" fill="none" stroke="#aa6157" stroke-width="1.50"/>
+<circle cx="900.8" cy="243.8" r="5" fill="#aa6157" stroke="#f5f1e9" stroke-width="2"/>
+<text x="680.0" y="165.0" text-anchor="start" fill="#aa6157" font-family="monospace" font-size="14" font-weight="400">UPPER CHORD</text>
+<text x="680.0" y="191.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="19" font-weight="700">−52.04 kN / compression</text>
+<path d="M1105.2,344.5 L1020.0,181.0" fill="none" stroke="#315c96" stroke-width="1.50"/>
+<circle cx="1105.2" cy="344.5" r="5" fill="#315c96" stroke="#f5f1e9" stroke-width="2"/>
+<text x="1030.0" y="190.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="14" font-weight="400">END DIAGONAL</text>
+<text x="1030.0" y="216.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="19" font-weight="700">+42.35 kN / tension</text>
+<text x="42.0" y="436.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="15" font-weight="400">02   SOLVED RESPONSE</text>
+<text x="42.0" y="463.0" text-anchor="start" fill="#242320" font-family="Arial,sans-serif" font-size="18" font-weight="700">Signed member force</text>
+<path d="M43.0,486.0 L74.0,486.0" fill="none" stroke="#315c96" stroke-width="5.00"/>
+<text x="83.0" y="492.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">+ tension</text>
+<path d="M227.0,486.0 L258.0,486.0" fill="none" stroke="#aa6157" stroke-width="5.00"/>
+<text x="267.0" y="492.0" text-anchor="start" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">− compression</text>
+<text x="1278.0" y="489.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">Line weight ∝ |axial force| · 0–60.78 kN</text>
+<path d="M42.0,513.0 L1278.0,513.0" fill="none" stroke="#c7bfb3" stroke-width="1.00"/>
+<text x="42.0" y="551.0" text-anchor="start" fill="#315c96" font-family="monospace" font-size="15" font-weight="400">03   DECK MOVEMENT</text>
+<text x="1278.0" y="551.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">eleven lower nodes / x = 0–30 m</text>
+<path d="M122.0,587.0 L1157.0,587.0" fill="none" stroke="#d5cec3" stroke-width="1.00" stroke-dasharray="4 6"/>
+<text x="106.0" y="592.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">0</text>
+<path d="M122.0,642.0 L1157.0,642.0" fill="none" stroke="#d5cec3" stroke-width="1.00" stroke-dasharray="4 6"/>
+<text x="106.0" y="647.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">1</text>
+<path d="M122.0,697.0 L1157.0,697.0" fill="none" stroke="#d5cec3" stroke-width="1.00" stroke-dasharray="4 6"/>
+<text x="106.0" y="702.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">2</text>
+<path d="M122.0,752.0 L1157.0,752.0" fill="none" stroke="#d5cec3" stroke-width="1.00" stroke-dasharray="4 6"/>
+<text x="106.0" y="757.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">3</text>
+<path d="M122.0,587.0 L225.5,631.1 L329.0,664.4 L432.5,684.7 L536.0,708.8 L639.5,716.0 L743.0,723.2 L846.5,711.0 L950.0,691.6 L1053.5,650.8 L1157.0,587.0" fill="none" stroke="#315c96" stroke-width="3.5"/>
+<circle cx="122.0" cy="587.0" r="4" fill="#315c96"/>
+<circle cx="225.5" cy="631.1" r="4" fill="#315c96"/>
+<circle cx="329.0" cy="664.4" r="4" fill="#315c96"/>
+<circle cx="432.5" cy="684.7" r="4" fill="#315c96"/>
+<circle cx="536.0" cy="708.8" r="4" fill="#315c96"/>
+<circle cx="639.5" cy="716.0" r="4" fill="#315c96"/>
+<circle cx="743.0" cy="723.2" r="4" fill="#315c96"/>
+<circle cx="846.5" cy="711.0" r="4" fill="#315c96"/>
+<circle cx="950.0" cy="691.6" r="4" fill="#315c96"/>
+<circle cx="1053.5" cy="650.8" r="4" fill="#315c96"/>
+<circle cx="1157.0" cy="587.0" r="4" fill="#315c96"/>
+<text x="122.0" y="783.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">0</text>
+<text x="329.0" y="783.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">6</text>
+<text x="536.0" y="783.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">12</text>
+<text x="743.0" y="783.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">18</text>
+<text x="950.0" y="783.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">24</text>
+<text x="1157.0" y="783.0" text-anchor="middle" fill="#625d55" font-family="monospace" font-size="14" font-weight="400">30</text>
+<path d="M743.0,723.2 L795.0,692.2" fill="none" stroke="#315c96" stroke-width="1.50"/>
+<text x="801.0" y="689.2" text-anchor="start" fill="#315c96" font-family="Arial,sans-serif" font-size="18" font-weight="700">2.48 mm at 18 m</text>
+<text x="1160.0" y="802.0" text-anchor="end" fill="#625d55" font-family="monospace" font-size="13" font-weight="400">DISTANCE ALONG DECLARED SPAN / M</text>
+</svg>

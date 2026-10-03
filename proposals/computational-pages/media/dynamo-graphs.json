@@ -1,0 +1,1315 @@
+[
+  {
+    "name": "kiarash taheri - mohammadreza hoseiny.dyn",
+    "nodes": [
+      {
+        "id": "ceae104115ef4722ab3909a8ab37cbe9",
+        "name": "All Elements of Category",
+        "code": null,
+        "function": null,
+        "x": -63.44966367987303,
+        "y": 321.3861480477572,
+        "inputs": [
+          "Category"
+        ],
+        "outputs": [
+          "Elements"
+        ]
+      },
+      {
+        "id": "b484ef4bae544c56b4cd10d9193d8ade",
+        "name": "Categories",
+        "code": null,
+        "function": null,
+        "x": -319.52645001689547,
+        "y": 320.5993020624073,
+        "inputs": [],
+        "outputs": [
+          "Category"
+        ]
+      },
+      {
+        "id": "24ee4d0b664a43e7af4f2a22925c8140",
+        "name": "List.FilterByBoolMask",
+        "code": null,
+        "function": "DSCore.List.FilterByBoolMask@var[]..[],var[]..[]",
+        "x": 1352.3529337940593,
+        "y": 196.81135713804815,
+        "inputs": [
+          "list",
+          "mask"
+        ],
+        "outputs": [
+          "in",
+          "out"
+        ]
+      },
+      {
+        "id": "c282bee3e24540709012f12ea6df395d",
+        "name": "Element.ElementType",
+        "code": null,
+        "function": "Revit.Elements.Element.ElementType",
+        "x": 316.8574964302453,
+        "y": 232.56362067071763,
+        "inputs": [
+          "element"
+        ],
+        "outputs": [
+          "ElementType"
+        ]
+      },
+      {
+        "id": "6a7670b2b1c54b41ab53ecb74e13a58e",
+        "name": "Element.Name",
+        "code": null,
+        "function": "Revit.Elements.Element.Name",
+        "x": 659.6317251615123,
+        "y": 233.16180006809202,
+        "inputs": [
+          "element"
+        ],
+        "outputs": [
+          "string"
+        ]
+      },
+      {
+        "id": "19768fdab2764a16962a5b20cd90f528",
+        "name": "==",
+        "code": null,
+        "function": "==@var[]..[],var[]..[]",
+        "x": 971.272830500011,
+        "y": 230.724566489539,
+        "inputs": [
+          "x",
+          "y"
+        ],
+        "outputs": [
+          "bool"
+        ]
+      },
+      {
+        "id": "bef66c0146e44265b463f72e74fd71a7",
+        "name": "List.GetItemAtIndex",
+        "code": null,
+        "function": "DSCore.List.GetItemAtIndex@var[]..[],int",
+        "x": 659.1401812966067,
+        "y": -149.96389685019068,
+        "inputs": [
+          "list",
+          "index"
+        ],
+        "outputs": [
+          "item"
+        ]
+      },
+      {
+        "id": "19caf9e4e4cc475eb3ecc6e0b45ef7fc",
+        "name": "Element.Name",
+        "code": null,
+        "function": "Revit.Elements.Element.Name",
+        "x": 925.4597667875673,
+        "y": -146.71142731593068,
+        "inputs": [
+          "element"
+        ],
+        "outputs": [
+          "string"
+        ]
+      },
+      {
+        "id": "2410bf23f6154d65a8af27a5a20dddba",
+        "name": "Element.GetLocation",
+        "code": null,
+        "function": "Revit.Elements.Element.GetLocation",
+        "x": 1727.0450650604712,
+        "y": 199.03552200621027,
+        "inputs": [
+          "element"
+        ],
+        "outputs": [
+          "Geometry"
+        ]
+      },
+      {
+        "id": "38ebd0afd9b743c9b8869fe5aa1bc4e2",
+        "name": "Surface.Area",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.Surface.Area",
+        "x": 2664.3290875989383,
+        "y": 202.75683115425932,
+        "inputs": [
+          "surface"
+        ],
+        "outputs": [
+          "double"
+        ]
+      },
+      {
+        "id": "00abf7fd9dc24f6d8890a9e931a7f3ef",
+        "name": "Surface.ByPatch",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.Surface.ByPatch@Autodesk.DesignScript.Geometry.Curve",
+        "x": 2394.183988464177,
+        "y": 200.39407411077624,
+        "inputs": [
+          "closedCurve"
+        ],
+        "outputs": [
+          "Surface"
+        ]
+      },
+      {
+        "id": "725f8eab47f34f6aa6e6dbebf12a9d7d",
+        "name": "PolyCurve.ByJoinedCurves",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.PolyCurve.ByJoinedCurves@Autodesk.DesignScript.Geometry.Curve[],double",
+        "x": 2064.0719950401844,
+        "y": 199.34810155704503,
+        "inputs": [
+          "curves",
+          "joinTolerance"
+        ],
+        "outputs": [
+          "PolyCurve"
+        ]
+      },
+      {
+        "id": "3872f1dd22a34bfdba311ec76eeb2a95",
+        "name": "Code Block",
+        "code": "0;",
+        "function": null,
+        "x": 660.4913578437256,
+        "y": 0.6863973043442684,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "394985d4b39e4a0a921604387cec9efc",
+        "name": "Element.GetLocation",
+        "code": null,
+        "function": "Revit.Elements.Element.GetLocation",
+        "x": 1727.6161691146563,
+        "y": 327.0174627304069,
+        "inputs": [
+          "element"
+        ],
+        "outputs": [
+          "Geometry"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "ceae104115ef4722ab3909a8ab37cbe9",
+        "target": "c282bee3e24540709012f12ea6df395d",
+        "output": "Elements",
+        "input": "element"
+      },
+      {
+        "source": "ceae104115ef4722ab3909a8ab37cbe9",
+        "target": "24ee4d0b664a43e7af4f2a22925c8140",
+        "output": "Elements",
+        "input": "list"
+      },
+      {
+        "source": "b484ef4bae544c56b4cd10d9193d8ade",
+        "target": "ceae104115ef4722ab3909a8ab37cbe9",
+        "output": "Category",
+        "input": "Category"
+      },
+      {
+        "source": "24ee4d0b664a43e7af4f2a22925c8140",
+        "target": "2410bf23f6154d65a8af27a5a20dddba",
+        "output": "in",
+        "input": "element"
+      },
+      {
+        "source": "24ee4d0b664a43e7af4f2a22925c8140",
+        "target": "394985d4b39e4a0a921604387cec9efc",
+        "output": "out",
+        "input": "element"
+      },
+      {
+        "source": "c282bee3e24540709012f12ea6df395d",
+        "target": "6a7670b2b1c54b41ab53ecb74e13a58e",
+        "output": "ElementType",
+        "input": "element"
+      },
+      {
+        "source": "c282bee3e24540709012f12ea6df395d",
+        "target": "bef66c0146e44265b463f72e74fd71a7",
+        "output": "ElementType",
+        "input": "list"
+      },
+      {
+        "source": "6a7670b2b1c54b41ab53ecb74e13a58e",
+        "target": "19768fdab2764a16962a5b20cd90f528",
+        "output": "string",
+        "input": "x"
+      },
+      {
+        "source": "19768fdab2764a16962a5b20cd90f528",
+        "target": "24ee4d0b664a43e7af4f2a22925c8140",
+        "output": "bool",
+        "input": "mask"
+      },
+      {
+        "source": "bef66c0146e44265b463f72e74fd71a7",
+        "target": "19caf9e4e4cc475eb3ecc6e0b45ef7fc",
+        "output": "item",
+        "input": "element"
+      },
+      {
+        "source": "19caf9e4e4cc475eb3ecc6e0b45ef7fc",
+        "target": "19768fdab2764a16962a5b20cd90f528",
+        "output": "string",
+        "input": "y"
+      },
+      {
+        "source": "2410bf23f6154d65a8af27a5a20dddba",
+        "target": "725f8eab47f34f6aa6e6dbebf12a9d7d",
+        "output": "Geometry",
+        "input": "curves"
+      },
+      {
+        "source": "00abf7fd9dc24f6d8890a9e931a7f3ef",
+        "target": "38ebd0afd9b743c9b8869fe5aa1bc4e2",
+        "output": "Surface",
+        "input": "surface"
+      },
+      {
+        "source": "725f8eab47f34f6aa6e6dbebf12a9d7d",
+        "target": "00abf7fd9dc24f6d8890a9e931a7f3ef",
+        "output": "PolyCurve",
+        "input": "closedCurve"
+      },
+      {
+        "source": "3872f1dd22a34bfdba311ec76eeb2a95",
+        "target": "bef66c0146e44265b463f72e74fd71a7",
+        "output": "",
+        "input": "index"
+      }
+    ],
+    "scope": "Saved definition topology and coordinates; not a new Revit execution"
+  },
+  {
+    "name": "natural light.dyn",
+    "nodes": [
+      {
+        "id": "8ec84a1253c94d77b9ae1e4362dafb16",
+        "name": "Categories",
+        "code": null,
+        "function": null,
+        "x": 298.0659321258787,
+        "y": 207.65711763642273,
+        "inputs": [],
+        "outputs": [
+          "Category"
+        ]
+      },
+      {
+        "id": "07dd2500093245b59fd02d58686aca08",
+        "name": "All Elements of Category",
+        "code": null,
+        "function": null,
+        "x": 669.8128865222685,
+        "y": 204.4806702165972,
+        "inputs": [
+          "Category"
+        ],
+        "outputs": [
+          "Elements"
+        ]
+      },
+      {
+        "id": "043a7786871a44c0a17b9a010ecad253",
+        "name": "All Elements of Category",
+        "code": null,
+        "function": null,
+        "x": 635.888079985618,
+        "y": -1.5807740663109087,
+        "inputs": [
+          "Category"
+        ],
+        "outputs": [
+          "Elements"
+        ]
+      },
+      {
+        "id": "d0e8ea848ebc46f99abade30f17de8ed",
+        "name": "Categories",
+        "code": null,
+        "function": null,
+        "x": 305.21394755914855,
+        "y": -2.0474023853596464,
+        "inputs": [],
+        "outputs": [
+          "Category"
+        ]
+      },
+      {
+        "id": "af1168340f234128932aae31900cf5c1",
+        "name": "Element.BoundingBox",
+        "code": null,
+        "function": "Revit.Elements.Element.BoundingBox",
+        "x": 1012.6221020639714,
+        "y": 1.1081360094772776,
+        "inputs": [
+          "element"
+        ],
+        "outputs": [
+          "BoundingBox"
+        ]
+      },
+      {
+        "id": "b0fef865ac3a48a98dcc88ee7e3ed0e2",
+        "name": "Element.BoundingBox",
+        "code": null,
+        "function": "Revit.Elements.Element.BoundingBox",
+        "x": 1011.4935567388659,
+        "y": 205.58281797030872,
+        "inputs": [
+          "element"
+        ],
+        "outputs": [
+          "BoundingBox"
+        ]
+      },
+      {
+        "id": "3e247ea96b8c404fb7600e47cc348e44",
+        "name": "BoundingBox.Intersects",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.BoundingBox.Intersects@Autodesk.DesignScript.Geometry.BoundingBox",
+        "x": 1671.311522140943,
+        "y": -3.991926479853987,
+        "inputs": [
+          "boundingBox",
+          "other"
+        ],
+        "outputs": [
+          "bool"
+        ]
+      },
+      {
+        "id": "4ae60447c72d4f4eb505313238feb39b",
+        "name": "List.FilterByBoolMask",
+        "code": null,
+        "function": "DSCore.List.FilterByBoolMask@var[]..[],var[]..[]",
+        "x": 1969.6052795056603,
+        "y": -5.358016364825744,
+        "inputs": [
+          "list",
+          "mask"
+        ],
+        "outputs": [
+          "in",
+          "out"
+        ]
+      },
+      {
+        "id": "359e1d6c64a649bd87bfb887e0ebc035",
+        "name": "Watch",
+        "code": null,
+        "function": null,
+        "x": 2229.997386544456,
+        "y": -3.8480223215419755,
+        "inputs": [
+          ""
+        ],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "2ed44daef6c34a16b75ca93f964580ae",
+        "name": "Data.ExportToExcel",
+        "code": null,
+        "function": "DSOffice.Data.ExportToExcel@string,string,int,int,var[][],bool,bool",
+        "x": 7338.545142560564,
+        "y": -606.1553536318306,
+        "inputs": [
+          "filePath",
+          "sheetName",
+          "startRow",
+          "startColumn",
+          "data",
+          "overWrite",
+          "writeAsString"
+        ],
+        "outputs": [
+          "var[][]"
+        ]
+      },
+      {
+        "id": "40ad07371e2a4844a298262037a686a8",
+        "name": "Code Block",
+        "code": "\"natural light\";",
+        "function": null,
+        "x": 6839.502911340999,
+        "y": -474.51847537184597,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "871815f5dff44f43b0dd2c09bcfd63c1",
+        "name": "Element.GetParameterValueByName",
+        "code": null,
+        "function": "Revit.Elements.Element.GetParameterValueByName@string",
+        "x": 3274.6547484570888,
+        "y": -399.6230581846738,
+        "inputs": [
+          "element",
+          "parameterName"
+        ],
+        "outputs": [
+          "var[]..[]"
+        ]
+      },
+      {
+        "id": "c705aee698a44870b97db6a21f6886c9",
+        "name": "Code Block",
+        "code": "\"Area\";",
+        "function": null,
+        "x": 3015.254986667332,
+        "y": -366.1709516945874,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "3366aac5fab14809aee3ab8403466d6a",
+        "name": "Math.Sum",
+        "code": null,
+        "function": "DSCore.Math.Sum@double[]",
+        "x": 3732.7037587703894,
+        "y": -401.2293458023921,
+        "inputs": [
+          "values"
+        ],
+        "outputs": [
+          "double"
+        ]
+      },
+      {
+        "id": "549bb9e6169d4bd3ac83a93a681167f8",
+        "name": "File Path",
+        "code": null,
+        "function": null,
+        "x": 6840.510439908624,
+        "y": -605.7652801110082,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "c90fa4fdf7d840fb8a9bf9eda86fe8ac",
+        "name": "Code Block",
+        "code": "0;",
+        "function": null,
+        "x": 6835.558601008616,
+        "y": -349.5810214261952,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "26c58eec460e4080a4f6b20938145dd6",
+        "name": "Boolean",
+        "code": null,
+        "function": null,
+        "x": 6835.938936193313,
+        "y": 28.86790468284471,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "28627d9fc3d1419aa74f91d89e2ba6ca",
+        "name": "List Create",
+        "code": null,
+        "function": null,
+        "x": 6825.468063281485,
+        "y": -230.3491206747504,
+        "inputs": [
+          "item0",
+          "item1",
+          "item2",
+          "item3",
+          "item4"
+        ],
+        "outputs": [
+          "list"
+        ]
+      },
+      {
+        "id": "8bf0fc1315aa4aca9be58793f7389798",
+        "name": "List.Flatten",
+        "code": null,
+        "function": "DSCore.List.Flatten@var[]..[],int",
+        "x": 4128.881750571859,
+        "y": -564.9394075191613,
+        "inputs": [
+          "list",
+          "amount"
+        ],
+        "outputs": [
+          "list"
+        ]
+      },
+      {
+        "id": "9435b3f8d95445e098d9aa937c8ac4e4",
+        "name": "List.Flatten",
+        "code": null,
+        "function": "DSCore.List.Flatten@var[]..[],int",
+        "x": 4121.5344610974425,
+        "y": -403.6406096769513,
+        "inputs": [
+          "list",
+          "amount"
+        ],
+        "outputs": [
+          "list"
+        ]
+      },
+      {
+        "id": "9ccd11cebc1d4c8c847a450dafc9ff66",
+        "name": "List.Transpose",
+        "code": null,
+        "function": "DSCore.List.Transpose@var[]..[]",
+        "x": 7085.914724447736,
+        "y": -235.217509352359,
+        "inputs": [
+          "lists"
+        ],
+        "outputs": [
+          "lists"
+        ]
+      },
+      {
+        "id": "ef028364c02b4569af6e4dad2a7960f3",
+        "name": "Element.GetParameterValueByName",
+        "code": null,
+        "function": "Revit.Elements.Element.GetParameterValueByName@string",
+        "x": 3037.450878670308,
+        "y": 1041.9595716686854,
+        "inputs": [
+          "element",
+          "parameterName"
+        ],
+        "outputs": [
+          "var[]..[]"
+        ]
+      },
+      {
+        "id": "5e36da936579455395e139f7f9f54445",
+        "name": "Code Block",
+        "code": "\"Host Id\";",
+        "function": null,
+        "x": 2837.0153537115975,
+        "y": 1074.7354238767384,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "29514ccadee34a7b8465b3354ad50e73",
+        "name": "Element.GetLocation",
+        "code": null,
+        "function": "Revit.Elements.Element.GetLocation",
+        "x": 3637.212209804829,
+        "y": 1041.7116204835893,
+        "inputs": [
+          "element"
+        ],
+        "outputs": [
+          "geometry[]"
+        ]
+      },
+      {
+        "id": "7dc8db955d6441b797c85b9dea3202b5",
+        "name": "Line.Direction",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.Line.Direction",
+        "x": 4053.576005548617,
+        "y": 1046.4176709843132,
+        "inputs": [
+          "line"
+        ],
+        "outputs": [
+          "Vector"
+        ]
+      },
+      {
+        "id": "d8da17c73a1c43bbb4f962f971d446d9",
+        "name": "Vector.Rotate",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.Vector.Rotate@Autodesk.DesignScript.Geometry.Vector,double",
+        "x": 4620.5980191525,
+        "y": 1034.8124938465162,
+        "inputs": [
+          "vector",
+          "axis",
+          "degrees"
+        ],
+        "outputs": [
+          "Vector"
+        ]
+      },
+      {
+        "id": "4b6bef98342b4f4fb776e1f974a9f4ec",
+        "name": "Vector.ZAxis",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.Vector.ZAxis",
+        "x": 4395.789577387273,
+        "y": 1118.220654388889,
+        "inputs": [],
+        "outputs": [
+          "Vector"
+        ]
+      },
+      {
+        "id": "80bcf9b859aa46b1babc00f6c7b03540",
+        "name": "Code Block",
+        "code": "90;",
+        "function": null,
+        "x": 4395.383822070205,
+        "y": 1247.7625009845606,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "eb626f80ad224b0f80e5cbe0f37f1c7b",
+        "name": "Vector.ByCoordinates",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.Vector.ByCoordinates@double,double,double",
+        "x": 5586.421619074743,
+        "y": 1244.194540131431,
+        "inputs": [
+          "x",
+          "y",
+          "z"
+        ],
+        "outputs": [
+          "Vector"
+        ]
+      },
+      {
+        "id": "0c61d61a024647bdb4a2056148d8038d",
+        "name": "Code Block",
+        "code": "0;\n-1;\n0;",
+        "function": null,
+        "x": 5377.305147816303,
+        "y": 1248.198165909191,
+        "inputs": [],
+        "outputs": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "id": "5576520298214b779f2a7fb62ed50c0c",
+        "name": "Vector.ZAxis",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.Vector.ZAxis",
+        "x": 5599.2763776097445,
+        "y": 1107.1271112426812,
+        "inputs": [],
+        "outputs": [
+          "Vector"
+        ]
+      },
+      {
+        "id": "2b66d713bc524881a46b4291a143781e",
+        "name": "Vector.AngleAboutAxis",
+        "code": null,
+        "function": "Autodesk.DesignScript.Geometry.Vector.AngleAboutAxis@Autodesk.DesignScript.Geometry.Vector,Autodesk.DesignScript.Geometry.Vector",
+        "x": 5831.9114723910025,
+        "y": 1048.8077280101256,
+        "inputs": [
+          "vector",
+          "otherVector",
+          "rotationAxis"
+        ],
+        "outputs": [
+          "double"
+        ]
+      },
+      {
+        "id": "08105e325ba34988b30aaac952b80416",
+        "name": "Code Block",
+        "code": "Vflat = Vector.ByCoordinates(Vector.X(V), Vector.Y(V), 0);",
+        "function": null,
+        "x": 5056.150952452743,
+        "y": 961.1181351546342,
+        "inputs": [
+          "V"
+        ],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "74d650beddc24ca19d2e83a213e3a6a1",
+        "name": "Code Block",
+        "code": "angle = x;\n(angle >= 315 || angle < 45) ? \"North\" :\n(angle >= 45 && angle < 135) ? \"East\" :\n(angle >= 135 && angle < 225) ? \"South\" :\n\"West\";",
+        "function": null,
+        "x": 6387.272375694374,
+        "y": 1039.1478654038615,
+        "inputs": [
+          "x"
+        ],
+        "outputs": [
+          "",
+          ""
+        ]
+      },
+      {
+        "id": "ad4a2cae0ef24105a1b423a21e9362ac",
+        "name": "Math.Round",
+        "code": null,
+        "function": "DSCore.Math.Round@double",
+        "x": 6137.103475958924,
+        "y": 1039.927478566913,
+        "inputs": [
+          "number"
+        ],
+        "outputs": [
+          "number"
+        ]
+      },
+      {
+        "id": "498cf82f846f4f6da7c021e2973d8b03",
+        "name": "List.UniqueItems",
+        "code": null,
+        "function": "DSCore.List.UniqueItems@var[]..[]",
+        "x": 6958.3314958981055,
+        "y": 1056.4385900315294,
+        "inputs": [
+          "list"
+        ],
+        "outputs": [
+          "list"
+        ]
+      },
+      {
+        "id": "19dcea46b7664936a4f6af33792006d7",
+        "name": "String.Join",
+        "code": null,
+        "function": "DSCore.String.Join@string,string[]",
+        "x": 7458.581926274297,
+        "y": 1028.783208213814,
+        "inputs": [
+          "separator",
+          "string0"
+        ],
+        "outputs": [
+          "string"
+        ]
+      },
+      {
+        "id": "f510f2d072b3439c888996371244adcd",
+        "name": "Code Block",
+        "code": "\" and \";",
+        "function": null,
+        "x": 7271.793460687891,
+        "y": 1029.2042732576626,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "4c7fd8c87859456890658e1afb80d8b7",
+        "name": "List.Flatten",
+        "code": null,
+        "function": "DSCore.List.Flatten@var[]..[],int",
+        "x": 7794.547103749684,
+        "y": 1032.32943450935,
+        "inputs": [
+          "list",
+          "amount"
+        ],
+        "outputs": [
+          "list"
+        ]
+      },
+      {
+        "id": "95de92504c0d4090914e9fe025697575",
+        "name": "Element.GetParameterValueByName",
+        "code": null,
+        "function": "Revit.Elements.Element.GetParameterValueByName@string",
+        "x": 4575.821242468713,
+        "y": 92.01798201620886,
+        "inputs": [
+          "element",
+          "parameterName"
+        ],
+        "outputs": [
+          "var[]..[]"
+        ]
+      },
+      {
+        "id": "6d68c5d5f57f4ffb91889d1e37c2f497",
+        "name": "Code Block",
+        "code": "\"Number\";",
+        "function": null,
+        "x": 4363.249909936003,
+        "y": 125.36361487507543,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "d6438ac5a6ee44d6baedd0c83aff63be",
+        "name": "Element.GetParameterValueByName",
+        "code": null,
+        "function": "Revit.Elements.Element.GetParameterValueByName@string",
+        "x": 4563.083593676731,
+        "y": -79.5112371428736,
+        "inputs": [
+          "element",
+          "parameterName"
+        ],
+        "outputs": [
+          "var[]..[]"
+        ]
+      },
+      {
+        "id": "9cf000a63d214f60b303a78e8195a7ff",
+        "name": "Code Block",
+        "code": "\"Name\";",
+        "function": null,
+        "x": 4360.346249952501,
+        "y": -42.88760801451326,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "a2bc28809ae14641b532f4bd78d5e443",
+        "name": ">",
+        "code": null,
+        "function": ">@var[]..[],var[]..[]",
+        "x": 4572.661647128134,
+        "y": 277.2611147423854,
+        "inputs": [
+          "x",
+          "y"
+        ],
+        "outputs": [
+          "bool"
+        ]
+      },
+      {
+        "id": "17f6be05b33b407f95a454d359c1a8a2",
+        "name": "Code Block",
+        "code": "0;",
+        "function": null,
+        "x": 4376.4048127474725,
+        "y": 311.68658795214907,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "137e0fea76be4f19b93a98c2f2de4eb3",
+        "name": "List Create",
+        "code": null,
+        "function": null,
+        "x": 7528.804927124872,
+        "y": -235.4392617954495,
+        "inputs": [
+          "item0",
+          "item1"
+        ],
+        "outputs": [
+          "list"
+        ]
+      },
+      {
+        "id": "5d6ab41478a444c196342bfa5f550bb8",
+        "name": "Code Block",
+        "code": "[\n\"ROOM NUMBER\",\n\"ROOM NAME\",\n\"NATURAL LIGHTENING\",\n\"AREA OF OPENING(S)\",\n\"SIDE ON THE OPENING\"\n];",
+        "function": null,
+        "x": 7241.28186509949,
+        "y": -57.83937754613328,
+        "inputs": [],
+        "outputs": [
+          ""
+        ]
+      },
+      {
+        "id": "5763fea7001844edb46d1bbead9d37b3",
+        "name": "List.Transpose",
+        "code": null,
+        "function": "DSCore.List.Transpose@var[]..[]",
+        "x": 7526.422609450432,
+        "y": -59.21226014636159,
+        "inputs": [
+          "lists"
+        ],
+        "outputs": [
+          "lists"
+        ]
+      },
+      {
+        "id": "02fce831e5854a3a8dd1b23bd365e25c",
+        "name": "Code Block",
+        "code": "",
+        "function": null,
+        "x": 7948.0,
+        "y": 1767.0,
+        "inputs": [],
+        "outputs": []
+      }
+    ],
+    "edges": [
+      {
+        "source": "8ec84a1253c94d77b9ae1e4362dafb16",
+        "target": "07dd2500093245b59fd02d58686aca08",
+        "output": "Category",
+        "input": "Category"
+      },
+      {
+        "source": "07dd2500093245b59fd02d58686aca08",
+        "target": "b0fef865ac3a48a98dcc88ee7e3ed0e2",
+        "output": "Elements",
+        "input": "element"
+      },
+      {
+        "source": "07dd2500093245b59fd02d58686aca08",
+        "target": "4ae60447c72d4f4eb505313238feb39b",
+        "output": "Elements",
+        "input": "list"
+      },
+      {
+        "source": "043a7786871a44c0a17b9a010ecad253",
+        "target": "8bf0fc1315aa4aca9be58793f7389798",
+        "output": "Elements",
+        "input": "list"
+      },
+      {
+        "source": "043a7786871a44c0a17b9a010ecad253",
+        "target": "95de92504c0d4090914e9fe025697575",
+        "output": "Elements",
+        "input": "element"
+      },
+      {
+        "source": "043a7786871a44c0a17b9a010ecad253",
+        "target": "d6438ac5a6ee44d6baedd0c83aff63be",
+        "output": "Elements",
+        "input": "element"
+      },
+      {
+        "source": "043a7786871a44c0a17b9a010ecad253",
+        "target": "af1168340f234128932aae31900cf5c1",
+        "output": "Elements",
+        "input": "element"
+      },
+      {
+        "source": "d0e8ea848ebc46f99abade30f17de8ed",
+        "target": "043a7786871a44c0a17b9a010ecad253",
+        "output": "Category",
+        "input": "Category"
+      },
+      {
+        "source": "af1168340f234128932aae31900cf5c1",
+        "target": "3e247ea96b8c404fb7600e47cc348e44",
+        "output": "BoundingBox",
+        "input": "boundingBox"
+      },
+      {
+        "source": "b0fef865ac3a48a98dcc88ee7e3ed0e2",
+        "target": "3e247ea96b8c404fb7600e47cc348e44",
+        "output": "BoundingBox",
+        "input": "other"
+      },
+      {
+        "source": "3e247ea96b8c404fb7600e47cc348e44",
+        "target": "4ae60447c72d4f4eb505313238feb39b",
+        "output": "bool",
+        "input": "mask"
+      },
+      {
+        "source": "4ae60447c72d4f4eb505313238feb39b",
+        "target": "359e1d6c64a649bd87bfb887e0ebc035",
+        "output": "in",
+        "input": ""
+      },
+      {
+        "source": "359e1d6c64a649bd87bfb887e0ebc035",
+        "target": "871815f5dff44f43b0dd2c09bcfd63c1",
+        "output": "",
+        "input": "element"
+      },
+      {
+        "source": "359e1d6c64a649bd87bfb887e0ebc035",
+        "target": "ef028364c02b4569af6e4dad2a7960f3",
+        "output": "",
+        "input": "element"
+      },
+      {
+        "source": "40ad07371e2a4844a298262037a686a8",
+        "target": "2ed44daef6c34a16b75ca93f964580ae",
+        "output": "",
+        "input": "sheetName"
+      },
+      {
+        "source": "871815f5dff44f43b0dd2c09bcfd63c1",
+        "target": "3366aac5fab14809aee3ab8403466d6a",
+        "output": "var[]..[]",
+        "input": "values"
+      },
+      {
+        "source": "c705aee698a44870b97db6a21f6886c9",
+        "target": "871815f5dff44f43b0dd2c09bcfd63c1",
+        "output": "",
+        "input": "parameterName"
+      },
+      {
+        "source": "3366aac5fab14809aee3ab8403466d6a",
+        "target": "9435b3f8d95445e098d9aa937c8ac4e4",
+        "output": "double",
+        "input": "list"
+      },
+      {
+        "source": "549bb9e6169d4bd3ac83a93a681167f8",
+        "target": "2ed44daef6c34a16b75ca93f964580ae",
+        "output": "",
+        "input": "filePath"
+      },
+      {
+        "source": "c90fa4fdf7d840fb8a9bf9eda86fe8ac",
+        "target": "2ed44daef6c34a16b75ca93f964580ae",
+        "output": "",
+        "input": "startRow"
+      },
+      {
+        "source": "c90fa4fdf7d840fb8a9bf9eda86fe8ac",
+        "target": "2ed44daef6c34a16b75ca93f964580ae",
+        "output": "",
+        "input": "startColumn"
+      },
+      {
+        "source": "26c58eec460e4080a4f6b20938145dd6",
+        "target": "2ed44daef6c34a16b75ca93f964580ae",
+        "output": "",
+        "input": "overWrite"
+      },
+      {
+        "source": "28627d9fc3d1419aa74f91d89e2ba6ca",
+        "target": "9ccd11cebc1d4c8c847a450dafc9ff66",
+        "output": "list",
+        "input": "lists"
+      },
+      {
+        "source": "9435b3f8d95445e098d9aa937c8ac4e4",
+        "target": "28627d9fc3d1419aa74f91d89e2ba6ca",
+        "output": "list",
+        "input": "item1"
+      },
+      {
+        "source": "9435b3f8d95445e098d9aa937c8ac4e4",
+        "target": "a2bc28809ae14641b532f4bd78d5e443",
+        "output": "list",
+        "input": "x"
+      },
+      {
+        "source": "9ccd11cebc1d4c8c847a450dafc9ff66",
+        "target": "2ed44daef6c34a16b75ca93f964580ae",
+        "output": "lists",
+        "input": "data"
+      },
+      {
+        "source": "9ccd11cebc1d4c8c847a450dafc9ff66",
+        "target": "137e0fea76be4f19b93a98c2f2de4eb3",
+        "output": "lists",
+        "input": "item0"
+      },
+      {
+        "source": "ef028364c02b4569af6e4dad2a7960f3",
+        "target": "29514ccadee34a7b8465b3354ad50e73",
+        "output": "var[]..[]",
+        "input": "element"
+      },
+      {
+        "source": "5e36da936579455395e139f7f9f54445",
+        "target": "ef028364c02b4569af6e4dad2a7960f3",
+        "output": "",
+        "input": "parameterName"
+      },
+      {
+        "source": "29514ccadee34a7b8465b3354ad50e73",
+        "target": "7dc8db955d6441b797c85b9dea3202b5",
+        "output": "geometry[]",
+        "input": "line"
+      },
+      {
+        "source": "7dc8db955d6441b797c85b9dea3202b5",
+        "target": "d8da17c73a1c43bbb4f962f971d446d9",
+        "output": "Vector",
+        "input": "vector"
+      },
+      {
+        "source": "d8da17c73a1c43bbb4f962f971d446d9",
+        "target": "08105e325ba34988b30aaac952b80416",
+        "output": "Vector",
+        "input": "V"
+      },
+      {
+        "source": "4b6bef98342b4f4fb776e1f974a9f4ec",
+        "target": "d8da17c73a1c43bbb4f962f971d446d9",
+        "output": "Vector",
+        "input": "axis"
+      },
+      {
+        "source": "80bcf9b859aa46b1babc00f6c7b03540",
+        "target": "d8da17c73a1c43bbb4f962f971d446d9",
+        "output": "",
+        "input": "degrees"
+      },
+      {
+        "source": "eb626f80ad224b0f80e5cbe0f37f1c7b",
+        "target": "2b66d713bc524881a46b4291a143781e",
+        "output": "Vector",
+        "input": "otherVector"
+      },
+      {
+        "source": "0c61d61a024647bdb4a2056148d8038d",
+        "target": "eb626f80ad224b0f80e5cbe0f37f1c7b",
+        "output": "",
+        "input": "x"
+      },
+      {
+        "source": "0c61d61a024647bdb4a2056148d8038d",
+        "target": "eb626f80ad224b0f80e5cbe0f37f1c7b",
+        "output": "",
+        "input": "y"
+      },
+      {
+        "source": "0c61d61a024647bdb4a2056148d8038d",
+        "target": "eb626f80ad224b0f80e5cbe0f37f1c7b",
+        "output": "",
+        "input": "z"
+      },
+      {
+        "source": "5576520298214b779f2a7fb62ed50c0c",
+        "target": "2b66d713bc524881a46b4291a143781e",
+        "output": "Vector",
+        "input": "rotationAxis"
+      },
+      {
+        "source": "2b66d713bc524881a46b4291a143781e",
+        "target": "ad4a2cae0ef24105a1b423a21e9362ac",
+        "output": "double",
+        "input": "number"
+      },
+      {
+        "source": "08105e325ba34988b30aaac952b80416",
+        "target": "2b66d713bc524881a46b4291a143781e",
+        "output": "",
+        "input": "vector"
+      },
+      {
+        "source": "74d650beddc24ca19d2e83a213e3a6a1",
+        "target": "498cf82f846f4f6da7c021e2973d8b03",
+        "output": "",
+        "input": "list"
+      },
+      {
+        "source": "ad4a2cae0ef24105a1b423a21e9362ac",
+        "target": "74d650beddc24ca19d2e83a213e3a6a1",
+        "output": "number",
+        "input": "x"
+      },
+      {
+        "source": "498cf82f846f4f6da7c021e2973d8b03",
+        "target": "19dcea46b7664936a4f6af33792006d7",
+        "output": "list",
+        "input": "string0"
+      },
+      {
+        "source": "19dcea46b7664936a4f6af33792006d7",
+        "target": "4c7fd8c87859456890658e1afb80d8b7",
+        "output": "string",
+        "input": "list"
+      },
+      {
+        "source": "f510f2d072b3439c888996371244adcd",
+        "target": "19dcea46b7664936a4f6af33792006d7",
+        "output": "",
+        "input": "separator"
+      },
+      {
+        "source": "4c7fd8c87859456890658e1afb80d8b7",
+        "target": "28627d9fc3d1419aa74f91d89e2ba6ca",
+        "output": "list",
+        "input": "item2"
+      },
+      {
+        "source": "95de92504c0d4090914e9fe025697575",
+        "target": "28627d9fc3d1419aa74f91d89e2ba6ca",
+        "output": "var[]..[]",
+        "input": "item3"
+      },
+      {
+        "source": "6d68c5d5f57f4ffb91889d1e37c2f497",
+        "target": "95de92504c0d4090914e9fe025697575",
+        "output": "",
+        "input": "parameterName"
+      },
+      {
+        "source": "d6438ac5a6ee44d6baedd0c83aff63be",
+        "target": "28627d9fc3d1419aa74f91d89e2ba6ca",
+        "output": "var[]..[]",
+        "input": "item0"
+      },
+      {
+        "source": "9cf000a63d214f60b303a78e8195a7ff",
+        "target": "d6438ac5a6ee44d6baedd0c83aff63be",
+        "output": "",
+        "input": "parameterName"
+      },
+      {
+        "source": "a2bc28809ae14641b532f4bd78d5e443",
+        "target": "28627d9fc3d1419aa74f91d89e2ba6ca",
+        "output": "bool",
+        "input": "item4"
+      },
+      {
+        "source": "17f6be05b33b407f95a454d359c1a8a2",
+        "target": "a2bc28809ae14641b532f4bd78d5e443",
+        "output": "",
+        "input": "y"
+      },
+      {
+        "source": "5d6ab41478a444c196342bfa5f550bb8",
+        "target": "137e0fea76be4f19b93a98c2f2de4eb3",
+        "output": "",
+        "input": "item1"
+      },
+      {
+        "source": "5d6ab41478a444c196342bfa5f550bb8",
+        "target": "5763fea7001844edb46d1bbead9d37b3",
+        "output": "",
+        "input": "lists"
+      }
+    ],
+    "scope": "Saved definition topology and coordinates; not a new Revit execution"
+  }
+]

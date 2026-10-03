@@ -1,0 +1,47 @@
+{
+  "source": "public/proposals/computational-pages/force-study-data.json",
+  "source_sha256": "d10e80ea3ed60656498d6ddaba121f8ba7504e06d3b4f02db76136b480edbcfd",
+  "tension_member": {
+    "index_zero_based": 60,
+    "source_curve_id": "f5accf94-56db-46f0-bc33-4f5b31dd4608"
+  },
+  "compression_member": {
+    "index_zero_based": 48,
+    "source_curve_id": "651184d2-7097-48dc-8830-f438f67d09bc"
+  },
+  "case_values": [
+    {
+      "id": "retained_12",
+      "tension_kN": 42.69493814000967,
+      "compression_kN": -52.04128876660019,
+      "max_displacement_mm": 3.3524170055197624
+    },
+    {
+      "id": "retained_16",
+      "tension_kN": 42.34854941645282,
+      "compression_kN": -52.035788857648036,
+      "max_displacement_mm": 2.477034414102786
+    },
+    {
+      "id": "retained_20",
+      "tension_kN": 41.93716544176689,
+      "compression_kN": -52.02879100680646,
+      "max_displacement_mm": 1.4867735233568593
+    },
+    {
+      "id": "lower_rise_16",
+      "tension_kN": 47.85545760275407,
+      "compression_kN": -60.77665819538797,
+      "max_displacement_mm": 3.108633962445252
+    },
+    {
+      "id": "higher_rise_16",
+      "tension_kN": 37.972254479487546,
+      "compression_kN": -46.24956984793725,
+      "max_displacement_mm": 2.1478255518997127
+    }
+  ],
+  "output_sha256": "089a8d4b51bc4feb0e965beb270f356575bdf7a383cdff248e1fd7d48a63eb1a",
+  "portrait_output_sha256": "ede1cf49185013bb332a8fab7615ec4d17afd32a4ca08bb8ed020a813257ce8b",
+  "treatment": "Two fixed source Rhino members tracked across five later declared first-order frame cases; common loads and member IDs verified. Geometry drawing uses case 02 centerlines. The calculation is separate from the group-built bridge and historical Karamba screenshots."
+}

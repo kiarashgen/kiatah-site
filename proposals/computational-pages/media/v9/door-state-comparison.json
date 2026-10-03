@@ -1,0 +1,31 @@
+{
+  "source_grid": "C:\\Users\\kiarash\\Desktop\\compute\\computational_projects_v2_2026-09-28\\data\\spatial_voxels.npz",
+  "source_grid_sha256": "d72a0f7884ea9eff06053ece8ecf9b8fd3c88f90521fd02b5578b39b75f72816",
+  "source_route": "public/proposals/computational-pages/media/ifc-selected-route.json",
+  "source_route_sha256": "7fb4b699ac21fb1ea2ad303ce94763a54c03c0a95a535fe4d41ebb9c3ed207ef",
+  "source_door": "public/proposals/computational-pages/media/v8/door-states.json",
+  "source_door_sha256": "92637813110872d03db8f5ecf17d099d73b3a1ab1ada0e2ba03b877cf37a94df",
+  "source_scenarios": "C:\\Users\\kiarash\\Desktop\\compute\\computational_projects_v2_2026-09-28\\data\\spatial_scenarios.json",
+  "source_scenarios_sha256": "47395ad0cd56adf656662309467df018229b8a47d7f168d568408d5d37ec9d21",
+  "open_distance_m": 10.776955262170048,
+  "closed_status": "disconnected",
+  "grid_crop": {
+    "x": [
+      75,
+      89
+    ],
+    "y": [
+      52,
+      65
+    ],
+    "z": 12
+  },
+  "open_crossing_cell": [
+    82,
+    59
+  ],
+  "door_ifc_id": 17468,
+  "output_sha256": "81810bec70ac6c1cd97a964ab06e665c4479cdc7762b41d1e4d603c43f68feb5",
+  "portrait_output_sha256": "eb0f2660ac9e7118244c1434f5d7566d815bb1f8677a2b9b7c4da9063b73d903",
+  "treatment": "Paired plan crops use the same exact source solid and room arrays. Open path is the stored route. Closed door slab uses source IFC mesh bounds; dashed line is only the former open path. Disconnection is the stored scenario status. The closed occupancy mask is not retained or reconstructed."
+}

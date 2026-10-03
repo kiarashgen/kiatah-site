@@ -1,0 +1,59 @@
+{
+  "source_routes": "media/ifc-routes.json",
+  "source_routes_sha256": "c9c28f465bece02fd2fb5bee04be6fb698b598787d695a29643e18ac13fca5b2",
+  "source_plan": "media/v2/ifc-voxel-base.svg",
+  "source_plan_sha256": "5a4a7cb2cba066f6d6ebf4540b868f1d0f0f574976d9f2899f0a6356c5659624",
+  "output_sha256": "c0761145151f109d3ea761fdc0f41967516db0b932c0d8a019ba4790c5080db3",
+  "portrait_output_sha256": "a6dcaa6300e29b684512349341619c403b756243fe8be826ff393a663b352527",
+  "selected": [
+    {
+      "start": {
+        "id": 20909,
+        "guid": "347jFE2yX7IhCEIALmupEH",
+        "name": "Schlafzimmer",
+        "storey": 479
+      },
+      "end": {
+        "id": 34191,
+        "guid": "3$f2p7VyLB7eox67SA_zKE",
+        "name": "Flur",
+        "storey": 479
+      },
+      "distance_m": 6.6698484809835,
+      "path_cells": 59
+    },
+    {
+      "start": {
+        "id": 21283,
+        "guid": "0e_hbkIQ5DMQlIJ$2V3j_m",
+        "name": "Bad",
+        "storey": 479
+      },
+      "end": {
+        "id": 21640,
+        "guid": "2RSCzLOBz4FAK$_wE8VckM",
+        "name": "Buero",
+        "storey": 479
+      },
+      "distance_m": 7.948528137423855,
+      "path_cells": 78
+    },
+    {
+      "start": {
+        "id": 20909,
+        "guid": "347jFE2yX7IhCEIALmupEH",
+        "name": "Schlafzimmer",
+        "storey": 479
+      },
+      "end": {
+        "id": 21640,
+        "guid": "2RSCzLOBz4FAK$_wE8VckM",
+        "name": "Buero",
+        "storey": 479
+      },
+      "distance_m": 10.776955262170048,
+      "path_cells": 98
+    }
+  ],
+  "claim_limit": "Same saved reference grid; source routes are recorded scenario outcomes, not a new solve or authored building."
+}

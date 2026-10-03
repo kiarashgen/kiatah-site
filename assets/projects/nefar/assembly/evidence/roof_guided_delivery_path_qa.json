@@ -1,0 +1,491 @@
+{
+  "success": true,
+  "rows": [
+    {
+      "task_id": "ROOF-SKIN-01-SOUTH-FULL",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 313,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-01-NORTH-FULL",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 490,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-02-SOUTH-WEST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 407,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-02-SOUTH-EAST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 640,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-02-NORTH-WEST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 978,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-02-NORTH-EAST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 1052,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-03-SOUTH-WEST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 839,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-03-SOUTH-EAST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 559,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-03-NORTH-WEST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 837,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-03-NORTH-EAST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 606,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-04-SOUTH-WEST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 360,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-04-SOUTH-EAST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 559,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-04-NORTH-WEST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 559,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-04-NORTH-EAST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 835,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-05-SOUTH-WEST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 709,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-05-SOUTH-EAST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 454,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-05-NORTH-WEST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 882,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-05-NORTH-EAST",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 931,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-06-SOUTH-FULL",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            -1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 313,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    },
+    {
+      "task_id": "ROOF-SKIN-06-NORTH-FULL",
+      "success": true,
+      "selected": {
+        "route": "direct horizontal/upward slide",
+        "translation_waypoints_m": [
+          [
+            0.0,
+            1.65,
+            -0.35
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_original_panel_attitude": true
+      },
+      "rejected": [],
+      "solid_intersection_tests": 589,
+      "robot_absent_during_guided_transfer": true,
+      "physical_worker_ergonomics_and_access_unqualified": true
+    }
+  ],
+  "source_solid_path_sampling_max_step_m": 0.025,
+  "source_meshes_tested_in_actual_task_order_and_all_other_skin_panels": true,
+  "worker_and_guarded_scaffold_geometry_accepted": false,
+  "programme_sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d",
+  "source_committed": false,
+  "full_assembly_success": false
+}

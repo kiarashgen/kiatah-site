@@ -1,0 +1,266 @@
+{
+  "success": true,
+  "rows": [
+    {
+      "task_id": "ROOF-SKIN-01-SOUTH-FULL",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-01-NORTH-FULL",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-02-SOUTH-WEST",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-02-SOUTH-EAST",
+      "success": true,
+      "maximum_interference_m3": 1.5107443536906592e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-07__GABLE_02__ROOF_SKIN_SOUTH_EAST__SLOPE_CUT",
+        "fixed": "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-02-NORTH-WEST",
+      "success": true,
+      "maximum_interference_m3": 4.18484855565134e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_WEST__SLOPE_CUT",
+        "fixed": "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-02-NORTH-EAST",
+      "success": true,
+      "maximum_interference_m3": 4.749127387645066e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "fixed": "NF-COVER-02__GABLE_02__ROOF_SKIN_NORTH_WEST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-03-SOUTH-WEST",
+      "success": true,
+      "maximum_interference_m3": 2.591721809677744e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__SLOPE_CUT",
+        "fixed": "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-03-SOUTH-EAST",
+      "success": true,
+      "maximum_interference_m3": 2.495887697725729e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_EAST__SLOPE_CUT",
+        "fixed": "NF-COVER-07__GABLE_03__ROOF_SKIN_SOUTH_WEST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-03-NORTH-WEST",
+      "success": true,
+      "maximum_interference_m3": 2.3942782999275547e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__SLOPE_CUT",
+        "fixed": "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-03-NORTH-EAST",
+      "success": true,
+      "maximum_interference_m3": 3.3194540512763586e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "fixed": "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-04-SOUTH-WEST",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-04-SOUTH-EAST",
+      "success": true,
+      "maximum_interference_m3": 2.1614903288087509e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__SLOPE_CUT",
+        "fixed": "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-04-NORTH-WEST",
+      "success": true,
+      "maximum_interference_m3": 2.345120561365313e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_WEST__SLOPE_CUT",
+        "fixed": "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-04-NORTH-EAST",
+      "success": true,
+      "maximum_interference_m3": 3.085723828408785e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "fixed": "NF-COVER-03__GABLE_05__ROOF_SKIN_NORTH_WEST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-05-SOUTH-WEST",
+      "success": true,
+      "maximum_interference_m3": 1.7441877304437414e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__SLOPE_CUT",
+        "fixed": "NF-COVER-06__GABLE_04__ROOF_SKIN_SOUTH_EAST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-05-SOUTH-EAST",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-05-NORTH-WEST",
+      "success": true,
+      "maximum_interference_m3": 3.5999065266650404e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-03__GABLE_05__ROOF_SKIN_NORTH_WEST__SLOPE_CUT",
+        "fixed": "NF-COVER-03__GABLE_04__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-05-NORTH-EAST",
+      "success": true,
+      "maximum_interference_m3": 6.330313132048062e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "fixed": "NF-COVER-04__GABLE_06__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-06-SOUTH-FULL",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-SKIN-06-NORTH-FULL",
+      "success": true,
+      "maximum_interference_m3": 8.234268980100538e-10,
+      "worst_pair": {
+        "moving": "NF-COVER-04__GABLE_06__SLOPE_CUT",
+        "fixed": "NF-COVER-04__GABLE_05__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "distance_m": 0.005
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-01",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-02",
+      "success": true,
+      "maximum_interference_m3": 1.3623136552123053e-11,
+      "worst_pair": {
+        "moving": "NF-COVER-08__GABLE_02__ROOF_SKIN_SOUTH_EAST__RIDGE_CAP",
+        "fixed": "NF-COVER-07__GABLE_02__ROOF_SKIN_SOUTH_EAST__SLOPE_CUT",
+        "distance_m": 0.05
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-03",
+      "success": true,
+      "maximum_interference_m3": 7.740954695618246e-19,
+      "worst_pair": {
+        "moving": "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_WEST__RIDGE_CAP",
+        "fixed": "NF-COVER-02__GABLE_03__ROOF_SKIN_NORTH_EAST__SLOPE_CUT",
+        "distance_m": 0.02
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-04",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-05",
+      "success": true,
+      "maximum_interference_m3": 5.033792978101069e-11,
+      "worst_pair": {
+        "moving": "NF-COVER-06__GABLE_05__ROOF_SKIN_SOUTH_WEST__RIDGE_CAP",
+        "fixed": "NF-COVER-05__GABLE_05__ROOF_SKIN_SOUTH_WEST__SLOPE_CUT",
+        "distance_m": 0.02
+      },
+      "all_other_skin_panels_treated_as_already_installed": true
+    },
+    {
+      "task_id": "ROOF-RIDGE-CAP-06",
+      "success": true,
+      "maximum_interference_m3": 0.0,
+      "worst_pair": null,
+      "all_other_skin_panels_treated_as_already_installed": true
+    }
+  ],
+  "failed": [],
+  "shifted_solid_intersection_tests": 802,
+  "maximum_interference_m3": 8.234268980100538e-10,
+  "conservative_all_other_skin_panels_fixed": true,
+  "robot_and_support_paths_still_required": true,
+  "source_committed": false,
+  "full_assembly_success": false,
+  "programme": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/section_programme.json",
+    "sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d"
+  }
+}

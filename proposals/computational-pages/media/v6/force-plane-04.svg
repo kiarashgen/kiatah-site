@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 278" role="img" aria-label="Lower rise / CHS 160 × 6: signed axial forces and nine downward 10 kilonewton node loads on one truss plane">
+<path d="M64 203H931" stroke="#b8b2a7" stroke-width="1"/>
+<line x1="64" y1="166.8" x2="126.26" y2="131.86" stroke="#ad5f54" stroke-width="3.35" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="126.26" y1="131.86" x2="202.96" y2="104.02" stroke="#ad5f54" stroke-width="3.19" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="202.96" y1="104.02" x2="291.96" y2="86.04" stroke="#ad5f54" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="291.96" y1="86.04" x2="387.68" y2="78.82" stroke="#ad5f54" stroke-width="3.82" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="387.68" y1="78.82" x2="484.59" y2="80.96" stroke="#ad5f54" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="484.59" y1="80.96" x2="579.66" y2="90.2" stroke="#ad5f54" stroke-width="4.26" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="579.66" y1="90.2" x2="671.82" y2="104.59" stroke="#ad5f54" stroke-width="4.39" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="671.82" y1="104.59" x2="760.94" y2="122.74" stroke="#ad5f54" stroke-width="4.45" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="760.94" y1="122.74" x2="847.23" y2="143.69" stroke="#ad5f54" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="847.23" y1="143.69" x2="931" y2="166.8" stroke="#ad5f54" stroke-width="3.63" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="166.8" x2="150.7" y2="203" stroke="#365f9b" stroke-width="3.12" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="150.7" y1="203" x2="202.96" y2="104.02" stroke="#ad5f54" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="202.96" y1="104.02" x2="324.1" y2="203" stroke="#365f9b" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="324.1" y1="203" x2="387.68" y2="78.82" stroke="#ad5f54" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="387.68" y1="78.82" x2="497.5" y2="203" stroke="#365f9b" stroke-width="1.84" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="497.5" y1="203" x2="579.66" y2="90.2" stroke="#ad5f54" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="579.66" y1="90.2" x2="670.9" y2="203" stroke="#ad5f54" stroke-width="1.48" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="670.9" y1="203" x2="760.94" y2="122.74" stroke="#365f9b" stroke-width="1.82" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="760.94" y1="122.74" x2="844.3" y2="203" stroke="#ad5f54" stroke-width="2.58" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="844.3" y1="203" x2="931" y2="166.8" stroke="#365f9b" stroke-width="3.81" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="166.8" x2="64" y2="203" stroke="#ad5f54" stroke-width="3.66" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="126.26" y1="131.86" x2="150.7" y2="203" stroke="#365f9b" stroke-width="1.86" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="202.96" y1="104.02" x2="237.4" y2="203" stroke="#365f9b" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="291.96" y1="86.04" x2="324.1" y2="203" stroke="#365f9b" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="387.68" y1="78.82" x2="410.8" y2="203" stroke="#365f9b" stroke-width="1.94" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="484.59" y1="80.96" x2="497.5" y2="203" stroke="#365f9b" stroke-width="1.78" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="579.66" y1="90.2" x2="584.2" y2="203" stroke="#365f9b" stroke-width="1.94" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="671.82" y1="104.59" x2="670.9" y2="203" stroke="#365f9b" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="760.94" y1="122.74" x2="757.6" y2="203" stroke="#365f9b" stroke-width="1.94" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="847.23" y1="143.69" x2="844.3" y2="203" stroke="#365f9b" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="931" y1="166.8" x2="931" y2="203" stroke="#ad5f54" stroke-width="3.65" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="203" x2="150.7" y2="203" stroke="#ad5f54" stroke-width="3.41" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="150.7" y1="203" x2="237.4" y2="203" stroke="#ad5f54" stroke-width="1.64" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="237.4" y1="203" x2="324.1" y2="203" stroke="#ad5f54" stroke-width="1.53" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="324.1" y1="203" x2="410.8" y2="203" stroke="#365f9b" stroke-width="1.97" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="410.8" y1="203" x2="497.5" y2="203" stroke="#365f9b" stroke-width="2.03" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="497.5" y1="203" x2="584.2" y2="203" stroke="#365f9b" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="584.2" y1="203" x2="670.9" y2="203" stroke="#365f9b" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="670.9" y1="203" x2="757.6" y2="203" stroke="#365f9b" stroke-width="2.11" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="757.6" y1="203" x2="844.3" y2="203" stroke="#365f9b" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="844.3" y1="203" x2="931" y2="203" stroke="#ad5f54" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64 205l-10 14h20z" fill="none" stroke="#242522" stroke-width="1.4"/>
+<path d="M931 205l-10 14h20z" fill="none" stroke="#242522" stroke-width="1.4"/>
+<path d="M150.7 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M324.1 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M497.5 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M670.9 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M844.3 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M237.4 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M410.8 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M584.2 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M757.6 207v26m-6-8 6 8 6-8" fill="none" stroke="#242522" stroke-width="2"/>
+<path d="M64 256H931M64 250v12M931 250v12" stroke="#8d887f" stroke-width="1.6"/>
+<text x="64" y="274" font-size="18" font-family="monospace" fill="#5d5952">0</text>
+<text x="497" y="274" text-anchor="middle" font-size="18" font-family="monospace" fill="#5d5952">9 × 10 kN ↓ / visible plane</text>
+<text x="931" y="274" text-anchor="end" font-size="18" font-family="monospace" fill="#5d5952">30 m declared span</text>
+</svg>

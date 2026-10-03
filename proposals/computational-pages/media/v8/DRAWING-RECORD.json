@@ -1,0 +1,27 @@
+{
+  "status": "new first-order interpretation of retained Rhino proportions; not a recovered Karamba result",
+  "source": "public/proposals/computational-pages/force-study-data.json",
+  "source_sha256": "d10e80ea3ed60656498d6ddaba121f8ba7504e06d3b4f02db76136b480edbcfd",
+  "worked_case": {
+    "case_id": "retained_16",
+    "input_sha256": "3f2bcca45bea6b857d3422d9a3bf0f88801c7f20114d679636d67f793fa55bbb",
+    "result_sha256": "579e5ff60d5370bfe577bf0a24857cf8f7f567052e70296ac10f2fdb9cde1308",
+    "annotated_edges": [
+      7,
+      19
+    ],
+    "annotated_curve_ids": [
+      "f1c2df13-8ef9-427a-991e-f16a112cfda1",
+      "9213f7d2-4f47-4b59-8ab5-04c146ab0cfa"
+    ],
+    "peak_deck_node_down_mm": 2.4769,
+    "peak_deck_node_x_m": 18.0,
+    "loads_total_kN": 180
+  },
+  "outputs": {
+    "frame-worked-02.svg": "9062d614cecfe3032defd0d9f4ef6766bfbdb89f4fc20ab1aa71960fd516f709",
+    "frame-worked-02-narrow.svg": "8f00515882030fbb66df97ff3b6adc1e15f05390c3f60f9a392e5f06309d3987",
+    "frame-five-case-comparison.svg": "2f8e7a19942b7d1b5b0cb7576b1cf7c03d9c1c595afb062580b7afd09a79eef9",
+    "frame-five-case-comparison-narrow.svg": "9a650395c2cdd46bdb7ca4a7ce490e4d3e0c7f88e13431d3d9bc7ff24a4a7821"
+  }
+}

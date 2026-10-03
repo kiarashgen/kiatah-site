@@ -1,0 +1,198 @@
+[
+  {
+    "asset": "bridge-geometry.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/bridge-geometry-transparent.png",
+    "sha256": "288648cb329b10f7072d781bae9e76a8533aeb9f87917cf95b33a98d6274ee46",
+    "bytes": 183682,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "bridge-source-geometry.jpg",
+    "source": "compute/karamba/bridge/1.JPG",
+    "sha256": "776a43f468d8556033f779622a32fc918995fc8b14d64f466b382ee3b6153cba",
+    "bytes": 93271,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "bridge-source-loads.jpg",
+    "source": "compute/karamba/bridge/3.JPG",
+    "sha256": "e61b39788d751fe6723d10850c7d4ab8740fb748a5060034524dd251bbb7ee14",
+    "bytes": 135375,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "tower-geometry.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/tower-depth-render.png",
+    "sha256": "3f193700fc743e30e5484b61813daa8f181ea65da74338b874dfd0a64ce50752",
+    "bytes": 426017,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "shell-geometry.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/shell-depth-render.png",
+    "sha256": "e44e8c6b384b606590b920fcc2f1e102d71856f3f80ef4bc3c7e054cbb63feee",
+    "bytes": 120824,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "tower.glb",
+    "source": "compute/computational_projects_v2_2026-09-28/models/tower-retained-native-mesh.glb",
+    "sha256": "a6315694e97e6a030e5af34ab5fe71fc28ace3f989704f270cb1c1192c13aedd",
+    "bytes": 11523496,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "shell.glb",
+    "source": "compute/computational_projects_v2_2026-09-28/models/shell-retained-native-mesh.glb",
+    "sha256": "5cbf2ecfd6be7e7463837faa14ce54400a00130e243c19601208ab1e7cde96db",
+    "bytes": 39188,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "tower-analysis.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/grasshopper-tower-analysis-chain.png",
+    "sha256": "4f8596ae4105b89d2d94cb26d07a9c185482013803a5d33d785122131227beb3",
+    "bytes": 140870,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "shell-analysis.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/grasshopper-shell-analysis-chain.png",
+    "sha256": "b7b68ac943f2262c4ad813ce5e296512da173b61f64a66b19fb2a90d3cfc6547",
+    "bytes": 189380,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "tower-graph.json",
+    "source": "compute/hokm_tower_assets_2026-09-28/data/tower_v4_graph.json",
+    "sha256": "f30f3f4221b2f21d09147a5c8aa41960fccea9ec4e31ed862ae6697a58de14f4",
+    "bytes": 580291,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "shell-diagnostics.json",
+    "source": "compute/computational_assets_2026-09-28/data/shell_geometric_diagnostics.json",
+    "sha256": "cb31bf6f5c8f214947dc5f354558e7f0ec29bb01d201d1906b9358408cbd1e26",
+    "bytes": 219038,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "hokm-replay.json",
+    "source": "compute/hokm_tower_assets_2026-09-28/data/hokm_selfplay_replay.json",
+    "sha256": "502a2928927ad251cdcb9975b28e74bbc5a0c2f42119a2449a8636cb028f3329",
+    "bytes": 145206,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "hokm-evaluation.json",
+    "source": "compute/hokm_tower_assets_2026-09-28/data/hokm_evaluation.json",
+    "sha256": "207d087d7474440e39dc6a286a998ff39e3d4375b73687cc00d32dafebcb2090",
+    "bytes": 460672,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "xo-networks.json",
+    "source": "compute/computational_portfolio_2026-09-28/data/tictactoe_networks.json",
+    "sha256": "d5cc68fdf8a29a91030b4a0e158f5b299216cd4650f051589d1833de4a8c08fb",
+    "bytes": 143793,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "rag-recording.mp4",
+    "source": "compute/computational_portfolio_2026-09-28/media/rag-prototype-history.mp4",
+    "sha256": "3d759c826bfaaea565d3f5946a91f039690c235444b8c300d67121ab6435576d",
+    "bytes": 21502154,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "rag-poster.jpg",
+    "source": "compute/computational_portfolio_2026-09-28/media/rag-interface.jpg",
+    "sha256": "26b055b9b9debe696195e147a687bb06c1c44e52a53e428caefb989958572100",
+    "bytes": 75960,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "rag-script.py",
+    "source": "compute/code/needcleaning/Machine_Learning_LangChain/source/0section19_rag.py",
+    "sha256": "6d231c36c1df5efc0542f7f9381ee466e11ae6431a5b47323c5117fcbb251da0",
+    "bytes": 4188,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "fine-tuning-record.png",
+    "source": "compute/computational_assets_2026-09-28/diagrams/fine-tuning-recorded-runs.png",
+    "sha256": "678763a65d32c90f06e8ae46ef31497fc30e541481cb5c7b6d41041b0197a9ae",
+    "bytes": 94491,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "corpus.jsonl",
+    "source": "compute/computational_portfolio_2026-09-28/data/fine-tuning/messages.jsonl",
+    "sha256": "89284ad70171c02de5019a22fda5a088b24a2ca45be89176abd9bf50216bf945",
+    "bytes": 2564441,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "dynamo-graph.png",
+    "source": "compute/computational_assets_2026-09-28/diagrams/dynamo-geometry-to-area.png",
+    "sha256": "b0da411586577049acc04bb26565f3963dbebcfc10a91bedcd4dcc7316f29f5d",
+    "bytes": 148990,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "dynamo-graphs.json",
+    "source": "compute/computational_portfolio_2026-09-28/data/dynamo_graphs.json",
+    "sha256": "a08075a6a2942a9c0af11cae8b29775a7d51263d5b30753e815e405e32285f57",
+    "bytes": 36010,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "ifc-cutaway.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/ifc-room-route-transparent.png",
+    "sha256": "8916db6e05dac7238105c80c60dbf6a0ff2fa5721187ed494f98c81cbab51f82",
+    "bytes": 187063,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "ifc-cutaway.glb",
+    "source": "compute/computational_projects_v2_2026-09-28/models/ifc-room-route-cutaway.glb",
+    "sha256": "eb968619d5b2f77b3eb8adb278768640b2426ccf0cfb7321cbeedf1eba656604",
+    "bytes": 194892,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "ifc-route-plan.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/ifc-room-route-plan.png",
+    "sha256": "3c5a4d4ba0785022298434fc65e9e239b554dc291d3e5ff87990f746391cd59d",
+    "bytes": 105390,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "ifc-voxel.png",
+    "source": "compute/computational_projects_v2_2026-09-28/assets/ifc-voxel-route-axonometric.png",
+    "sha256": "8feec67e1b53bb0550cd6f3440b6c635461bc5455f12f21badfdd3cbda900a19",
+    "bytes": 132002,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "ifc-routes.json",
+    "source": "compute/computational_projects_v2_2026-09-28/data/spatial_routes.json",
+    "sha256": "c9c28f465bece02fd2fb5bee04be6fb698b598787d695a29643e18ac13fca5b2",
+    "bytes": 124162,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "ifc-selected-route.json",
+    "source": "compute/computational_projects_v2_2026-09-28/data/spatial_selected_route.json",
+    "sha256": "7fb4b699ac21fb1ea2ad303ce94763a54c03c0a95a535fe4d41ebb9c3ed207ef",
+    "bytes": 10883,
+    "treatment": "exact copy for local computational page review"
+  },
+  {
+    "asset": "ifc-graph.json",
+    "source": "compute/computational_portfolio_2026-09-28/data/ifc_graph.json",
+    "sha256": "2220959f92c3fd9c10e485c06044c825eb8fc251643e0ccf91ab254e007e9c3c",
+    "bytes": 21500,
+    "treatment": "exact copy for local computational page review"
+  }
+]

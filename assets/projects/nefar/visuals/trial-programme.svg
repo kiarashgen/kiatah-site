@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 205" role="img" aria-label="Stage 04: two of 155 members placed kinematically, four lack grasp, 143 blocked by predecessors and six are earlier handoffs">
+<text x="0" y="47" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#294B8D">2 / 155</text>
+<text x="1" y="70" font-family="Arial,sans-serif" font-size="13" fill="#171715">placed kinematically in extended trial</text>
+<rect x="1.00" y="90" width="4.36" height="18" fill="#294B8D"/>
+<rect x="5.36" y="90" width="8.72" height="18" fill="#7595ba"/>
+<rect x="14.08" y="90" width="311.83" height="18" fill="#bbc9da"/>
+<rect x="325.92" y="90" width="13.08" height="18" fill="#171715"/>
+<rect x="1" y="123" width="9" height="9" fill="#294B8D"/>
+<text x="19" y="133" font-family="Arial,sans-serif" font-size="11" fill="#171715">KINEMATICALLY PLACED</text>
+<text x="322" y="133" font-family="Arial,sans-serif" font-size="12" text-anchor="end" fill="#171715">2</text>
+<rect x="1" y="141" width="9" height="9" fill="#7595ba"/>
+<text x="19" y="151" font-family="Arial,sans-serif" font-size="11" fill="#171715">NO GRASP</text>
+<text x="322" y="151" font-family="Arial,sans-serif" font-size="12" text-anchor="end" fill="#171715">4</text>
+<rect x="1" y="159" width="9" height="9" fill="#bbc9da"/>
+<text x="19" y="169" font-family="Arial,sans-serif" font-size="11" fill="#171715">DEPENDENCY BLOCK</text>
+<text x="322" y="169" font-family="Arial,sans-serif" font-size="12" text-anchor="end" fill="#171715">143</text>
+<rect x="1" y="177" width="9" height="9" fill="#171715"/>
+<text x="19" y="187" font-family="Arial,sans-serif" font-size="11" fill="#171715">EARLIER HANDOFF</text>
+<text x="322" y="187" font-family="Arial,sans-serif" font-size="12" text-anchor="end" fill="#171715">6</text>
+</svg>

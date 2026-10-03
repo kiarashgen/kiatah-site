@@ -1,0 +1,945 @@
+{
+  "success": true,
+  "rows": [
+    {
+      "task_id": "ROOF-RAFTER-PAIR-01",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-01",
+            "NF-RAF-11"
+          ],
+          "source_members": [
+            "NF-RAF-01",
+            "NF-RAF-11"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-01",
+          "tip_required_member": "NF-RAF-11",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            1.6499,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-01": 0.012,
+            "NF-RAF-11": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-01": 0.01656686626746507,
+            "NF-RAF-11": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-01": false,
+            "NF-RAF-11": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-01",
+            "NF-RAF-11"
+          ],
+          "source_members": [
+            "NF-RAF-01",
+            "NF-RAF-11"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-11",
+          "tip_required_member": "NF-RAF-01",
+          "axis": [
+            -0.22019275302527214,
+            0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            1.7501,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-01": 0.012,
+            "NF-RAF-11": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-01": 0.04970059880239521,
+            "NF-RAF-11": 0.01656686626746507
+          },
+          "tip_inside": {
+            "NF-RAF-01": true,
+            "NF-RAF-11": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 146,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-02",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-02",
+            "NF-RAF-12"
+          ],
+          "source_members": [
+            "NF-RAF-02",
+            "NF-RAF-12"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-02",
+          "tip_required_member": "NF-RAF-12",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            1.27225062,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-02": 0.012,
+            "NF-RAF-12": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-02": 0.01656686626746507,
+            "NF-RAF-12": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-02": false,
+            "NF-RAF-12": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-02",
+            "NF-RAF-12"
+          ],
+          "source_members": [
+            "NF-RAF-02",
+            "NF-RAF-12"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-12",
+          "tip_required_member": "NF-RAF-02",
+          "axis": [
+            -0.36740471675703457,
+            0.8922685978385126,
+            -0.262431940540739
+          ],
+          "entry_point_world_m": [
+            1.37245062,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-02": 0.012,
+            "NF-RAF-12": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-02": 0.047305389221556894,
+            "NF-RAF-12": 0.014570858283433135
+          },
+          "tip_inside": {
+            "NF-RAF-02": true,
+            "NF-RAF-12": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 164,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-03",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-03",
+            "NF-RAF-13"
+          ],
+          "source_members": [
+            "NF-RAF-03",
+            "NF-RAF-13"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-03",
+          "tip_required_member": "NF-RAF-13",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            0.89460124,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-03": 0.012,
+            "NF-RAF-13": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-03": 0.01656686626746507,
+            "NF-RAF-13": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-03": false,
+            "NF-RAF-13": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-03",
+            "NF-RAF-13"
+          ],
+          "source_members": [
+            "NF-RAF-03",
+            "NF-RAF-13"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-13",
+          "tip_required_member": "NF-RAF-03",
+          "axis": [
+            -0.36740471675703457,
+            0.8922685978385126,
+            -0.262431940540739
+          ],
+          "entry_point_world_m": [
+            0.99480124,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-03": 0.012,
+            "NF-RAF-13": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-03": 0.047305389221556894,
+            "NF-RAF-13": 0.014570858283433135
+          },
+          "tip_inside": {
+            "NF-RAF-03": true,
+            "NF-RAF-13": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 164,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-04",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-04",
+            "NF-RAF-14"
+          ],
+          "source_members": [
+            "NF-RAF-04",
+            "NF-RAF-14"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-04",
+          "tip_required_member": "NF-RAF-14",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            0.51695187,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-04": 0.012,
+            "NF-RAF-14": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-04": 0.01656686626746507,
+            "NF-RAF-14": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-04": false,
+            "NF-RAF-14": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-04",
+            "NF-RAF-14"
+          ],
+          "source_members": [
+            "NF-RAF-04",
+            "NF-RAF-14"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-14",
+          "tip_required_member": "NF-RAF-04",
+          "axis": [
+            -0.36740471675703457,
+            0.8922685978385126,
+            -0.262431940540739
+          ],
+          "entry_point_world_m": [
+            0.6171518699999999,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-04": 0.012,
+            "NF-RAF-14": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-04": 0.047305389221556894,
+            "NF-RAF-14": 0.014570858283433135
+          },
+          "tip_inside": {
+            "NF-RAF-04": true,
+            "NF-RAF-14": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 164,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-05",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-05",
+            "NF-RAF-15"
+          ],
+          "source_members": [
+            "NF-RAF-05",
+            "NF-RAF-15"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-05",
+          "tip_required_member": "NF-RAF-15",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            0.13930249,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-05": 0.012,
+            "NF-RAF-15": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-05": 0.01656686626746507,
+            "NF-RAF-15": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-05": false,
+            "NF-RAF-15": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-05",
+            "NF-RAF-15"
+          ],
+          "source_members": [
+            "NF-RAF-05",
+            "NF-RAF-15"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-15",
+          "tip_required_member": "NF-RAF-05",
+          "axis": [
+            -0.36740471675703457,
+            0.8922685978385126,
+            -0.262431940540739
+          ],
+          "entry_point_world_m": [
+            0.23950248999999998,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-05": 0.012,
+            "NF-RAF-15": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-05": 0.047305389221556894,
+            "NF-RAF-15": 0.014570858283433135
+          },
+          "tip_inside": {
+            "NF-RAF-05": true,
+            "NF-RAF-15": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 164,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-06",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-06",
+            "NF-RAF-16"
+          ],
+          "source_members": [
+            "NF-RAF-06",
+            "NF-RAF-16"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-06",
+          "tip_required_member": "NF-RAF-16",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            -0.23834688999999998,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-06": 0.012,
+            "NF-RAF-16": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-06": 0.01656686626746507,
+            "NF-RAF-16": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-06": false,
+            "NF-RAF-16": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-06",
+            "NF-RAF-16"
+          ],
+          "source_members": [
+            "NF-RAF-06",
+            "NF-RAF-16"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-16",
+          "tip_required_member": "NF-RAF-06",
+          "axis": [
+            -0.36740471675703457,
+            0.8922685978385126,
+            -0.262431940540739
+          ],
+          "entry_point_world_m": [
+            -0.13814689000000002,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-06": 0.012,
+            "NF-RAF-16": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-06": 0.047305389221556894,
+            "NF-RAF-16": 0.014570858283433135
+          },
+          "tip_inside": {
+            "NF-RAF-06": true,
+            "NF-RAF-16": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 164,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-07",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-07",
+            "NF-RAF-17"
+          ],
+          "source_members": [
+            "NF-RAF-07",
+            "NF-RAF-17"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-07",
+          "tip_required_member": "NF-RAF-17",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            -0.61599627,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-07": 0.012,
+            "NF-RAF-17": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-07": 0.01656686626746507,
+            "NF-RAF-17": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-07": false,
+            "NF-RAF-17": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-07",
+            "NF-RAF-17"
+          ],
+          "source_members": [
+            "NF-RAF-07",
+            "NF-RAF-17"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-17",
+          "tip_required_member": "NF-RAF-07",
+          "axis": [
+            -0.36740471675703457,
+            0.8922685978385126,
+            -0.262431940540739
+          ],
+          "entry_point_world_m": [
+            -0.5157962700000001,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-07": 0.012,
+            "NF-RAF-17": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-07": 0.047305389221556894,
+            "NF-RAF-17": 0.014570858283433135
+          },
+          "tip_inside": {
+            "NF-RAF-07": true,
+            "NF-RAF-17": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 164,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-08",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-08",
+            "NF-RAF-18"
+          ],
+          "source_members": [
+            "NF-RAF-08",
+            "NF-RAF-18"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-08",
+          "tip_required_member": "NF-RAF-18",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            -0.99364564,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-08": 0.012,
+            "NF-RAF-18": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-08": 0.01656686626746507,
+            "NF-RAF-18": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-08": false,
+            "NF-RAF-18": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-08",
+            "NF-RAF-18"
+          ],
+          "source_members": [
+            "NF-RAF-08",
+            "NF-RAF-18"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-18",
+          "tip_required_member": "NF-RAF-08",
+          "axis": [
+            -0.36740471675703457,
+            0.8922685978385126,
+            -0.262431940540739
+          ],
+          "entry_point_world_m": [
+            -0.89344564,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-08": 0.012,
+            "NF-RAF-18": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-08": 0.047305389221556894,
+            "NF-RAF-18": 0.014570858283433135
+          },
+          "tip_inside": {
+            "NF-RAF-08": true,
+            "NF-RAF-18": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 164,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-09",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-09",
+            "NF-RAF-19"
+          ],
+          "source_members": [
+            "NF-RAF-09",
+            "NF-RAF-19"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-09",
+          "tip_required_member": "NF-RAF-19",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            -1.37129502,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-09": 0.012,
+            "NF-RAF-19": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-09": 0.01656686626746507,
+            "NF-RAF-19": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-09": false,
+            "NF-RAF-19": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-09",
+            "NF-RAF-19"
+          ],
+          "source_members": [
+            "NF-RAF-09",
+            "NF-RAF-19"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-19",
+          "tip_required_member": "NF-RAF-09",
+          "axis": [
+            -0.36740471675703457,
+            0.8922685978385126,
+            -0.262431940540739
+          ],
+          "entry_point_world_m": [
+            -1.27109502,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-09": 0.012,
+            "NF-RAF-19": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-09": 0.047305389221556894,
+            "NF-RAF-19": 0.014570858283433135
+          },
+          "tip_inside": {
+            "NF-RAF-09": true,
+            "NF-RAF-19": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 164,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    },
+    {
+      "task_id": "ROOF-RAFTER-PAIR-10",
+      "success": true,
+      "nominal_ridge_screws": [
+        {
+          "members": [
+            "NF-RAF-10",
+            "NF-RAF-20"
+          ],
+          "source_members": [
+            "NF-RAF-10",
+            "NF-RAF-20"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-10",
+          "tip_required_member": "NF-RAF-20",
+          "axis": [
+            0.22019275302527214,
+            -0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            -1.7501,
+            0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-10": 0.012,
+            "NF-RAF-20": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-10": 0.01656686626746507,
+            "NF-RAF-20": 0.04970059880239521
+          },
+          "tip_inside": {
+            "NF-RAF-10": false,
+            "NF-RAF-20": true
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        },
+        {
+          "members": [
+            "NF-RAF-10",
+            "NF-RAF-20"
+          ],
+          "source_members": [
+            "NF-RAF-10",
+            "NF-RAF-20"
+          ],
+          "type": "nominal inclined ridge screw from exposed rafter side",
+          "first_member": "NF-RAF-20",
+          "tip_required_member": "NF-RAF-10",
+          "axis": [
+            -0.22019275302527214,
+            0.9358192003574065,
+            -0.27524094128159016
+          ],
+          "entry_point_world_m": [
+            -1.6499,
+            -0.035,
+            4.9544007599999995
+          ],
+          "length_m": 0.1,
+          "shaft_radius_m": 0.0025,
+          "minimum_geometric_intersection_by_member_m": {
+            "NF-RAF-10": 0.012,
+            "NF-RAF-20": 0.012
+          },
+          "physical_capacity_qualified": false,
+          "robot_feed_accepted": false,
+          "geometric_embedment_m": {
+            "NF-RAF-10": 0.04970059880239521,
+            "NF-RAF-20": 0.01656686626746507
+          },
+          "tip_inside": {
+            "NF-RAF-10": true,
+            "NF-RAF-20": false
+          },
+          "unrelated_solid_interference": [],
+          "head": "nominal flush countersunk head inside first named timber",
+          "countersink_operation_required": true
+        }
+      ],
+      "search_candidates": 146,
+      "site_robot_feed_accepted": false,
+      "physical_connection_capacity_qualified": false
+    }
+  ],
+  "failed": [],
+  "exact_derived_rafter_solids_used": true,
+  "maximum_screws_per_pair": 2,
+  "physical_capacity_qualified": false,
+  "workshop_robot_feed_accepted": false,
+  "source_committed": false,
+  "programme": {
+    "path": "development_cooperative_sections/qa/schedule_variant_from18_roof_planar_guided_roof_direct/section_programme.json",
+    "sha256": "87bd0aef82c404bb8dde09e3c06077cd78323d2c284bb3b65317690d39cabf3d"
+  }
+}

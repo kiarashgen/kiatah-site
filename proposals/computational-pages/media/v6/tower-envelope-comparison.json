@@ -1,0 +1,39 @@
+{
+  "asset": "public/proposals/computational-pages/media/v6/tower-envelope-comparison.svg",
+  "sha256": "6c76119e8048df032a34df66d79b091d91d7ee92e09bb45a0a79a0c016a9adcf",
+  "source": "C:\\Users\\kiarash\\Desktop\\compute\\computational_assets_2026-09-28\\data\\tower_envelope_profiles.json",
+  "source_sha256": "c16e494e96fa171c5c31e212372566b81116242d225d70d74c88912c0158d0c4",
+  "evidence_class": "new page-size drawing from retained mesh vertex-bin measurements",
+  "not": [
+    "continuous section",
+    "structural stress",
+    "displacement"
+  ],
+  "states": [
+    {
+      "state": 1,
+      "height_cm": 156.5,
+      "maximum_envelope_cm": 31.523253520241393
+    },
+    {
+      "state": 2,
+      "height_cm": 156.5,
+      "maximum_envelope_cm": 31.523253520241393
+    },
+    {
+      "state": 3,
+      "height_cm": 156.20000610500574,
+      "maximum_envelope_cm": 24.472043671920247
+    },
+    {
+      "state": 4,
+      "height_cm": 156.20000610500574,
+      "maximum_envelope_cm": 22.495927962331493
+    },
+    {
+      "state": 5,
+      "height_cm": 156.20000610500574,
+      "maximum_envelope_cm": 21.016195967799927
+    }
+  ]
+}

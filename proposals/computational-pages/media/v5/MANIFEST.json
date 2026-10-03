@@ -1,0 +1,119 @@
+[
+  {
+    "file": "bridge-brief.svg",
+    "sha256": "5da125cf5331dafebd781faef6e106303de8792a98a159253df34e88fd558bd8",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "compute/karamba/bridge/t1-t5 retained views",
+      "author-supplied 30 m crossing brief"
+    ]
+  },
+  {
+    "file": "bridge-visible-chain.svg",
+    "sha256": "2ea54457f551ac6d94de757749fb71ca31d9d44b691e1df1ce0df9b25c98cfa5",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "compute/karamba/bridge/2.JPG"
+    ]
+  },
+  {
+    "file": "dynamo-complete-strip.svg",
+    "sha256": "bd027496af9ef4a9f41576f10bf15ba434a9cab15ec725089426d865085dffe3",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "public/proposals/computational-pages/media/dynamo-graphs.json"
+    ]
+  },
+  {
+    "file": "force-comparison.svg",
+    "sha256": "362645a2b958e04825de59976a7607e75e86d044d8ff9adc2bd7821f7c499012",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "public/proposals/computational-pages/force-study-data.json"
+    ]
+  },
+  {
+    "file": "hokm-evaluation-system.svg",
+    "sha256": "c46ee002f6f85a647945c38a084cbc1b718ca176beb9a6973de695054b7aaff5",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "public/proposals/computational-pages/media/hokm-evaluation.json"
+    ]
+  },
+  {
+    "file": "ifc-host-chains.svg",
+    "sha256": "9e883fbb9956f62d5b43a0e54c48feeeeba70ddeced01a1786f6d43d70cb18cb",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "public/proposals/computational-pages/media/ifc-graph.json"
+    ]
+  },
+  {
+    "file": "rag-flow.svg",
+    "sha256": "145da9d53730759dfd103095316c8df94b73a2a33e8c3d75d28064e1d77b34fd",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "public/proposals/computational-pages/media/rag-script.py",
+      "retained prototype recording"
+    ]
+  },
+  {
+    "file": "route-atlas.svg",
+    "sha256": "15cda36054e8a42e1203cd0fc3abf4a242317c8bbebeff536cdfc9ac905d9f23",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "public/proposals/computational-pages/media/ifc-routes.json"
+    ]
+  },
+  {
+    "file": "route-logic-bench.json",
+    "sha256": "8046cc45d0741ebeeb64121ba7696fcb29638fa7946de5a8a807ee0c561e1a08",
+    "treatment": "new computed explanatory fixture; separate from source IFC",
+    "sources": [
+      "scripts/render_computation_v5.py"
+    ]
+  },
+  {
+    "file": "route-logic-bench.svg",
+    "sha256": "a701b3ec8d63e117e830221db722525807f158d1e53ed3c46259f23a515dfe96",
+    "treatment": "new computed explanatory fixture; separate from source IFC",
+    "sources": [
+      "scripts/render_computation_v5.py",
+      "public/proposals/computational-pages/media/v5/route-logic-bench.json"
+    ]
+  },
+  {
+    "file": "tower-full-definition.svg",
+    "sha256": "a969b75ce1c9dcc229a9f404a1a90166b2f9cd360b114eea4ad4e55a1400547b",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "compute/karamba/Karemaba/tower/v4.gh",
+      "public/proposals/computational-pages/media/tower-graph.json"
+    ]
+  },
+  {
+    "file": "tower-profiles.svg",
+    "sha256": "2250c787e39a07805c18e3475d5182cca1fc3f72b1fb77d742bae0327c197ba8",
+    "treatment": "source-derived diagram",
+    "sources": [
+      "compute/computational_assets_2026-09-28/data/tower_envelope_profiles.json"
+    ]
+  },
+  {
+    "file": "tower-studio-interpretation.png",
+    "sha256": "6e48ac5ed178cae69440da63d69d59af8528ab6e1fca54cb5ec5552f36186386",
+    "treatment": "AI-assisted interpretive material render; not exact source geometry or structural result",
+    "sources": [
+      "public/proposals/computational-pages/media/v2/tower-state-0.png"
+    ],
+    "prompt": "Stylized studio edit of the retained state 01 view; preserve silhouette, taper, twist and open lattice. Pale graphite rods, warm-white studio, no people, no city, no text. Interpretive model image; bracing is not exact source geometry."
+  },
+  {
+    "file": "tower-v4-source.gh",
+    "sha256": "3a1030016f2ec6a1bfdef24615d87fb8518baf5b80cbc8cdd91621bbfb5d7e0d",
+    "treatment": "exact retained native source copy",
+    "sources": [
+      "compute/karamba/Karemaba/tower/v4.gh"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "asset": "public/proposals/computational-pages/media/v7/shell-index-seam.svg",
+  "asset_sha256": "aa85bd7b899585c8c931ea5775f2fb5651f01cadbac2382fd2ef596700343866",
+  "portrait_asset": "public/proposals/computational-pages/media/v7/shell-index-seam-portrait.svg",
+  "portrait_sha256": "a46b081082c7aa5a887c9622f988da80eb1e35203846d2760c82ec302f3ed9a9",
+  "source": "C:\\Users\\kiarash\\Desktop\\compute\\computational_portfolio_2026-09-28\\data\\shell-6.npz",
+  "source_sha256": "d8413f6f0cb309ab80246fa22103c108dfb2bb2f96748d734623a957d0c3f68c",
+  "source_vertices": 1042,
+  "welded_vertices": 882,
+  "faces": 1760,
+  "source_components": [
+    441,
+    441,
+    160
+  ],
+  "components_after_coordinate_weld": 1,
+  "boundary_edges_source": 320,
+  "boundary_edges_after_coordinate_weld": 0,
+  "nonmanifold_edges_after_coordinate_weld": 0,
+  "display_only_explode": true,
+  "claim_boundary": "source-derived geometric/topological inspection, not a structural result"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "analytical redraws, not screenshots",
+  "source": "C:\\Users\\kiarash\\Desktop\\hell\\asset_production\\STAGE_02_REVIEW\\next-stage\\STAGE_03_P0\\placement\\candidate_trace.json",
+  "source_sha256": "2a93b980a132ded88a8a50dc2758fe2b8c35d8e0bb80fd3223dddcada8a0da3d",
+  "diagrams": {
+    "choice-anatomy.svg": "0492b810ac98fdf941b1538c85543bdbd41169e41a8c27a084a575d5f285d23c",
+    "system-map.svg": "83827856e63039a9f9ed9dd23cb5d92587083b755c86cdaa3575de680b288c50"
+  },
+  "limitations": "Current producer/validity rules and freshly evaluated fields on recorded checkpoint geometry; historical selection, policy context and candidate ranking are not claimed reproduced."
+}

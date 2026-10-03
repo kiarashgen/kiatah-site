@@ -1,0 +1,431 @@
+{
+  "id": "WH-06",
+  "title": "A working connection detail",
+  "width": 1440,
+  "height": 980,
+  "ops": [
+    {
+      "kind": "text",
+      "text": "WH-06 / KIARASH TAHERI",
+      "x": 48,
+      "y": 42,
+      "size": 18,
+      "font": "Mono",
+      "color": "#5C5750"
+    },
+    {
+      "kind": "text",
+      "text": "A working connection detail",
+      "x": 48,
+      "y": 116,
+      "size": 58,
+      "font": "Display",
+      "color": "#171715"
+    },
+    {
+      "kind": "text",
+      "text": "Photograph-informed schematic / assumed clear acrylic, 2 mm sheet, M3 bolt",
+      "x": 48,
+      "y": 160,
+      "size": 22,
+      "font": "Body",
+      "color": "#5C5750"
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          48,
+          185
+        ],
+        [
+          1392,
+          185
+        ]
+      ],
+      "color": "#CBC5BB",
+      "width": 1,
+      "dash": null
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          510,
+          260
+        ],
+        [
+          545,
+          260
+        ],
+        [
+          545,
+          760
+        ],
+        [
+          510,
+          760
+        ],
+        [
+          510,
+          260
+        ]
+      ],
+      "color": "#294B8D",
+      "width": 2.4,
+      "dash": null
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          625,
+          260
+        ],
+        [
+          660,
+          260
+        ],
+        [
+          660,
+          760
+        ],
+        [
+          625,
+          760
+        ],
+        [
+          625,
+          260
+        ]
+      ],
+      "color": "#294B8D",
+      "width": 2.4,
+      "dash": null
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          440,
+          455
+        ],
+        [
+          490,
+          455
+        ],
+        [
+          490,
+          535
+        ],
+        [
+          440,
+          535
+        ],
+        [
+          440,
+          455
+        ]
+      ],
+      "color": "#171715",
+      "width": 2.1,
+      "dash": null
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          565,
+          455
+        ],
+        [
+          595,
+          455
+        ],
+        [
+          595,
+          555
+        ],
+        [
+          565,
+          555
+        ],
+        [
+          565,
+          455
+        ]
+      ],
+      "color": "#171715",
+      "width": 2.1,
+      "dash": null
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          690,
+          455
+        ],
+        [
+          720,
+          455
+        ],
+        [
+          720,
+          555
+        ],
+        [
+          690,
+          555
+        ],
+        [
+          690,
+          455
+        ]
+      ],
+      "color": "#171715",
+      "width": 2.1,
+      "dash": null
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          745,
+          455
+        ],
+        [
+          800,
+          455
+        ],
+        [
+          800,
+          540
+        ],
+        [
+          745,
+          540
+        ],
+        [
+          745,
+          455
+        ]
+      ],
+      "color": "#171715",
+      "width": 2.1,
+      "dash": null
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          470,
+          490
+        ],
+        [
+          780,
+          490
+        ],
+        [
+          780,
+          515
+        ],
+        [
+          470,
+          515
+        ],
+        [
+          470,
+          490
+        ]
+      ],
+      "color": "#171715",
+      "width": 2.1,
+      "dash": null
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          420,
+          502
+        ],
+        [
+          825,
+          502
+        ]
+      ],
+      "color": "#5C5750",
+      "width": 1,
+      "dash": "8 7"
+    },
+    {
+      "kind": "text",
+      "text": "bolt head",
+      "x": 85,
+      "y": 330,
+      "size": 19,
+      "font": "Mono",
+      "color": "#294B8D"
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          85,
+          342
+        ],
+        [
+          455,
+          455
+        ]
+      ],
+      "color": "#5C5750",
+      "width": 1.2,
+      "dash": null
+    },
+    {
+      "kind": "text",
+      "text": "plate A / 2 mm",
+      "x": 70,
+      "y": 710,
+      "size": 19,
+      "font": "Mono",
+      "color": "#294B8D"
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          70,
+          722
+        ],
+        [
+          510,
+          680
+        ]
+      ],
+      "color": "#5C5750",
+      "width": 1.2,
+      "dash": null
+    },
+    {
+      "kind": "text",
+      "text": "washer + spacer",
+      "x": 850,
+      "y": 330,
+      "size": 19,
+      "font": "Mono",
+      "color": "#294B8D"
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          850,
+          342
+        ],
+        [
+          585,
+          455
+        ]
+      ],
+      "color": "#5C5750",
+      "width": 1.2,
+      "dash": null
+    },
+    {
+      "kind": "text",
+      "text": "plate B / 2 mm",
+      "x": 885,
+      "y": 730,
+      "size": 19,
+      "font": "Mono",
+      "color": "#294B8D"
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          885,
+          742
+        ],
+        [
+          655,
+          700
+        ]
+      ],
+      "color": "#5C5750",
+      "width": 1.2,
+      "dash": null
+    },
+    {
+      "kind": "text",
+      "text": "nut",
+      "x": 930,
+      "y": 590,
+      "size": 19,
+      "font": "Mono",
+      "color": "#294B8D"
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          930,
+          602
+        ],
+        [
+          795,
+          535
+        ]
+      ],
+      "color": "#5C5750",
+      "width": 1.2,
+      "dash": null
+    },
+    {
+      "kind": "text",
+      "text": "THICKNESS + FASTENER SIZE ARE WORKING ASSUMPTIONS",
+      "x": 75,
+      "y": 825,
+      "size": 18,
+      "font": "Mono",
+      "color": "#963746"
+    },
+    {
+      "kind": "line",
+      "pts": [
+        [
+          48,
+          897
+        ],
+        [
+          1392,
+          897
+        ]
+      ],
+      "color": "#CBC5BB",
+      "width": 1,
+      "dash": null
+    },
+    {
+      "kind": "text",
+      "text": "Schematic only; not a measured original joint or a fabrication-ready drill detail. Separation is exaggerated for",
+      "x": 48,
+      "y": 932,
+      "size": 19,
+      "font": "Mono",
+      "color": "#5C5750"
+    },
+    {
+      "kind": "text",
+      "text": "clarity.",
+      "x": 48,
+      "y": 957,
+      "size": 19,
+      "font": "Mono",
+      "color": "#5C5750"
+    }
+  ]
+}
