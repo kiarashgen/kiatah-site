@@ -1,0 +1,11 @@
+{
+  "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\denver airport.3dm",
+  "source_sha256": "0526cf06868d2557701bf20835923fa4b615d353c284352f1b4fb6068f5f7d94",
+  "source_curves": {
+    "polyline": 140,
+    "nurbs": 60
+  },
+  "treatment": "Orthographic projection of retained Rhino curves with neutral and blue line hierarchy; Breps and unrelated reference JPGs omitted.",
+  "output_sha256": "886efc4ba5fa25dc5787012b5ad1caa752c62f453a8cb9708d6c4455cc2fa115",
+  "mobile_output_sha256": "a4190b76d7427dd487e3060ead4ff5667fbac28f99f6790abca091d0165735bb"
+}

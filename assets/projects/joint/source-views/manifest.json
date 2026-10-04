@@ -1,0 +1,54 @@
+[
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\fabrication\\portfolio_assets\\projects\\universal-joints\\masters\\UJ-V03-frame-connector.glb",
+    "source_sha256": "b57c461dac688ca40b7defbb767251e80798e6aa8b68ba10cb4fffb685c8428c",
+    "source_object_indices": null,
+    "output": "public/assets/projects/joint/source-views/socket-node.png",
+    "output_sha256": "1c6a09a3c7cd912e3fc86281b07edfd25885baa40d8f9ffddd29ebe8fd2c380f",
+    "treatment": "offscreen render of retained source mesh; lighting, background, and camera only"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\fabrication\\portfolio_assets\\projects\\universal-joints\\masters\\UJ-V07-braced-cell.glb",
+    "source_sha256": "7f276355ebd80f40402f835952ab7a7f17bd5969c9d959e81a9ad3beb70a187e",
+    "source_object_indices": null,
+    "output": "public/assets/projects/joint/source-views/source-cell.png",
+    "output_sha256": "8d27dea9ea094a979eef6573e51efcadaba5c6a8afd1e6c5208439fbe5400360",
+    "treatment": "offscreen render of retained source mesh; lighting, background, and camera only"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\fabrication\\portfolio_assets\\projects\\universal-joints\\masters\\UJ-V08-unbraced-corner.glb",
+    "source_sha256": "e7f53acd5d2f2034563dd5f8e3a38016d5c4cfd60e1d96ddd21c1eedcc6772d7",
+    "source_object_indices": null,
+    "output": "public/assets/projects/joint/source-views/source-corner.png",
+    "output_sha256": "bec4318ae5cb529135fdb75df321f5626d014c678d9d1f36a1a41c551134eaaf",
+    "treatment": "offscreen render of retained source mesh; lighting, background, and camera only"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+    "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+    "source_object_indices": [
+      211
+    ],
+    "output": "public/assets/projects/joint/source-views/edge-eye-clip.png",
+    "output_sha256": "a01b4a71ff83576f52cf1bf4f23e8bda564312917419b9bb654edc0bff2e027a",
+    "treatment": "offscreen render of retained source mesh; lighting, background, and camera only"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+    "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+    "source_object_indices": [
+      216
+    ],
+    "output": "public/assets/projects/joint/source-views/clip-ended-bar.png",
+    "output_sha256": "8442f6a334991d67c8f83322b0d6a24e419f72613aa6ce9c65ecc750ece1e2f9",
+    "treatment": "offscreen render of retained source mesh; lighting, background, and camera only"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\fabrication\\portfolio_assets\\projects\\universal-joints\\masters\\UJ-V07-braced-cell.glb",
+    "source_sha256": "7f276355ebd80f40402f835952ab7a7f17bd5969c9d959e81a9ad3beb70a187e",
+    "source_object_indices": null,
+    "output": "public/assets/projects/joint/source-views/source-cell-line.png",
+    "output_sha256": "9de66be443fe94757927e1f331cf72a60594f4ed3ef3a147e36e6c1651279213",
+    "treatment": "offscreen render of retained source mesh; lighting, background, and camera only"
+  }
+]

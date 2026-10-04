@@ -1,0 +1,6 @@
+{
+  "source_mesh_manifest": "public/assets/projects/joint/kit/manifest.json",
+  "browser_capture": "locally rendered default assembly study with nodes, rods, two thread ties and two gray bars",
+  "evidence_limit": "Editorial arrangement of retained part meshes, not a photograph or structural simulation.",
+  "output_sha256": "e9cef54b33f4a69b6a7d2bddc99902c1ecbe73429ef4e6af0469428f510fbf7b"
+}

@@ -153,5 +153,25 @@
 .sc-ledger-details summary:hover,.sc-ledger-details summary:focus-visible{color:var(--sc-blue)}
 .sc-ledger-details .sc-ledger-table{max-width:780px;margin:5px 0 15px}
 .sc-ledger-details>p{font:12px/1.5 Mono,Consolas,monospace;margin:0 0 15px;color:#5d5851}
+
+/* Retained physical evidence and Denver roof source model. */
+.sc-physical-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:24px 0 10px}
+.sc-physical-pair figure{min-width:0;margin:0;background:#151513;border:1px solid #77736c}
+.sc-physical-pair img{display:block;width:100%;height:350px;object-fit:cover;object-position:center}
+.sc-physical-pair figcaption{padding:10px 12px;color:#e9e5dc;font:10px/1.4 Mono,Consolas,monospace;letter-spacing:.03em}
+.sc-tower-source{display:grid;grid-template-columns:minmax(180px,.32fr) minmax(0,.68fr);gap:14px;margin:16px 0 0}
+.sc-tower-source figure{min-width:0;margin:0;border:1px solid #55514b;background:#0b0b0a;padding:8px}
+.sc-tower-source img{display:block;width:100%;height:385px;object-fit:contain;background:#0b0b0a}
+.sc-tower-source figcaption{padding:9px 5px 3px;color:#c9c3b9;font:10px/1.4 Mono,Consolas,monospace}
+.sc-tower-source a{color:#c8daf5}
+.sc-denver{background:#0b0b0a;color:#f1eee7;border-color:#4f4c47}
+.sc-denver .sc-heading p{color:#c8c2b8}
+.sc-denver .sc-kicker{color:#a8bce1}
+.sc-denver-wire{margin:0;background:#0b0b0a;border:1px solid #57534d;padding:8px}
+.sc-denver-wire img{display:block;width:100%;height:auto;max-height:700px;object-fit:contain}
+.sc-denver-wire figcaption{padding:6px;color:#c8c2b8;font:10px/1.4 Mono,Consolas,monospace}
+.sc-denver .sc-image-method{color:#c8c2b8}
+.sc-denver .sc-image-method a{color:#c8daf5}
+@media(max-width:700px){.sc-physical-pair,.sc-tower-source{grid-template-columns:1fr}.sc-physical-pair img{height:285px}.sc-tower-source img{height:auto;max-height:420px}}
 @media(max-width:850px){.sc-ledger-intro{grid-template-columns:1fr 1fr;gap:10px 20px}}
 @media(max-width:610px){.sc-ledger-intro{grid-template-columns:1fr}.sc-ledger-intro .sc-kicker{grid-column:auto}.sc-results-range figcaption{font-size:10px}}

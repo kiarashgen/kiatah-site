@@ -1,0 +1,20 @@
+{
+  "source": "C:\\Users\\kiarash\\Desktop\\hell\\asset_production\\STAGE_02_REVIEW\\bundles\\RH-SRC-01\\C01\\state.npz",
+  "source_sha256": "01f4c2016c154b05bda3406fc6beed95420dfa9588ceff7a63884743705f878c",
+  "source_window_xyz": [
+    [
+      22,
+      50
+    ],
+    [
+      30,
+      58
+    ],
+    [
+      0,
+      15
+    ]
+  ],
+  "treatment": "Mirrored fourfold editorial plan composition using each occupied C01 cell and its stack height; not the saved site layout or a new solver result.",
+  "output_sha256": "23579c8d0f7e712b7266cdaacbe5a63ae5caa4be573b64e995d28685bb4d9a5e"
+}

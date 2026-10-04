@@ -1,0 +1,23 @@
+{
+  "source_parts": {
+    "node": {
+      "path": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\joint\\kit\\node.glb",
+      "sha256": "31cc550c6f083c8a001afe9ff48452f710800bee665d38b0b5dead80803f4167"
+    },
+    "rod": {
+      "path": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\joint\\kit\\rod.glb",
+      "sha256": "a63057ae58a772fb1638f9996ed2ba1a849d1f3dcdffe7c23f7386dcb2158ebd"
+    },
+    "thread-clip": {
+      "path": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\joint\\kit\\thread-clip.glb",
+      "sha256": "15047c73fbd40938d0aec752ec60de88c74e5502d90e06952a42e86dbc11c5c8"
+    },
+    "brace": {
+      "path": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\joint\\kit\\brace.glb",
+      "sha256": "b8f9d304a927f4d2559324e6491c5e32d907e31704c68afd3c886305c8273c50"
+    }
+  },
+  "assembly": "Authored symmetric plan study: 25 source nodes, 40 source sphere-ended rods, 8 source eye clips, 12 source C-ended rigid bars, four visual thread loops.",
+  "geometry_note": "Each part is rigidly transformed at the saved 13.2881 cm node pitch; source meshes are not scaled. Grip and cord contact placement is a visual assembly study, not a verified physical fit or force calculation.",
+  "output_sha256": "70b784591f791a59cdc0ec33b56d07ddc4887a83efa53943f3bddc2cab5ca66c"
+}

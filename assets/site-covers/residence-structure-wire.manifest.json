@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\residence-hell\\technical\\architectural\\structure-axon.png",
+  "source_sha256": "062b985df3f88ae24951bebeca2b93134e67f0d02f296b3d941ed21ca4325e22",
+  "crop_source_pixels": [
+    61,
+    393,
+    3138,
+    1807
+  ],
+  "treatment": "Cropped the saved structural axon and extracted its line transitions to a transparent neutral ink drawing.",
+  "claim_limit": "A line treatment of a retained authored model view, not a new modeled state or structural calculation.",
+  "output_sha256": "8a16c8eba47ae942917e522e839c6adb196f0a707c10b99ccef7148fb0daa03f"
+}

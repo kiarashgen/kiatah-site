@@ -1,0 +1,12 @@
+{
+  "residence": {
+    "source": "C:\\Users\\kiarash\\Desktop\\hell\\asset_production\\STAGE_02_REVIEW\\bundles\\RH-SRC-01\\C01\\state.npz",
+    "sha256": "01f4c2016c154b05bda3406fc6beed95420dfa9588ceff7a63884743705f878c",
+    "treatment": "Axonometric projection of occupied saved C01 cells; translucent homes, core wireframes, no solver replay."
+  },
+  "wormhole": {
+    "source": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\wormhole\\archive\\masters\\wormhole-saved-spatial-curve-field.glb",
+    "sha256": "ec359987edef0ac78d26481daea6aaa6fb1c270ceef6bf341e58979a1e8c21a5",
+    "treatment": "Projection of the retained spatial curve field; artistic rotation, no built-photo claim."
+  }
+}

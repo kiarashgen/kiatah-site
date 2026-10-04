@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Ask, find, check: a recorded regulation question traced to a source passage</title>
+  <desc id="desc">Editorial diagram of the retained Persian question, retrieved page 91 and the answer claims supported by that page. Air loss and increased energy use are supported; health is left unverified.</desc>
+  <rect width="1200" height="760" fill="#101114"/>
+  <g fill="none" stroke="#535650" stroke-width="1">
+    <path d="M38 69H1162M38 693H1162"/>
+    <path d="M384 104V654M815 104V654" stroke="#3b3e3e"/>
+  </g>
+  <g font-family="IBM Plex Mono,monospace" fill="#b9b7ae" font-size="20" letter-spacing="2">
+    <text x="38" y="43">RETAINED EXCHANGE / MABHAS 19</text>
+    <text x="38" y="129">01 / ASK</text>
+    <text x="414" y="129">02 / FIND</text>
+    <text x="845" y="129">03 / CHECK</text>
+    <text x="38" y="730">QUESTION</text>
+    <text x="414" y="730">PDF PAGE 91</text>
+    <text x="845" y="730">SUPPORTED CLAIMS</text>
+  </g>
+  <g fill="none" stroke="#e8e6dd" stroke-width="2">
+    <path d="M74 224h278v215H208l-67 54v-54H74z"/>
+    <path d="M420 172h352v440H420z"/>
+    <path d="M851 206h291v117H851zM851 345h291v117H851zM851 484h291v117H851z"/>
+  </g>
+  <text x="212" y="325" text-anchor="middle" font-family="Inter,sans-serif" font-size="95" fill="#eeeae0">?</text>
+  <g stroke="#a9aca8" stroke-width="4" stroke-linecap="round">
+    <path d="M457 226h236M457 248h275M457 270h252M457 318h249M457 340h272M457 362h226M457 410h266M457 432h254M457 454h274M457 502h221M457 524h276M457 546h245"/>
+  </g>
+  <rect x="448" y="398" width="296" height="50" fill="none" stroke="#6384bb" stroke-width="3"/>
+  <path d="M762 423h55" stroke="#6384bb" stroke-width="3"/>
+  <g font-family="Inter,sans-serif" font-size="29" fill="#e8e6dd">
+    <text x="909" y="275">Air loss</text>
+    <text x="909" y="414">Energy use</text>
+    <text x="909" y="553" fill="#9b9c99">Health</text>
+  </g>
+  <g fill="none" stroke="#8faad1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m872 262 10 11 18-25M872 401l10 11 18-25"/>
+  </g>
+  <text x="870" y="554" font-family="IBM Plex Mono,monospace" font-size="32" fill="#9b9c99">?</text>
+</svg>

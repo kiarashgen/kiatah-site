@@ -1,0 +1,11 @@
+{
+  "source_parts": {
+    "node": "31cc550c6f083c8a001afe9ff48452f710800bee665d38b0b5dead80803f4167",
+    "rod": "a63057ae58a772fb1638f9996ed2ba1a849d1f3dcdffe7c23f7386dcb2158ebd",
+    "thread-clip": "15047c73fbd40938d0aec752ec60de88c74e5502d90e06952a42e86dbc11c5c8",
+    "brace": "b8f9d304a927f4d2559324e6491c5e32d907e31704c68afd3c886305c8273c50"
+  },
+  "composition": "Authored folded 4 by 4 by 2 spatial field with source node, rod, eye-clip and bar meshes; row-centre pitch is retained.",
+  "limit": "Editorial digital assembly. Cord paths illustrate eye-to-eye routes; grip fits and forces are not physically measured.",
+  "output_sha256": "62dece1dd84f35dd1b894fb995eb560b6115b38c3e533e5176c3bd9ab01b5e45"
+}

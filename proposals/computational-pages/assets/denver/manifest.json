@@ -1,0 +1,92 @@
+{
+  "project": "Denver International Airport physical roof study",
+  "claim_limit": "These files and photographs document a student study model. They do not claim authorship of the airport or structural qualification of its roof.",
+  "files": [
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\denver airport.3dm",
+      "output": "denver airport.3dm",
+      "sha256": "0526cf06868d2557701bf20835923fa4b615d353c284352f1b4fb6068f5f7d94",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\denver airport print.3dm",
+      "output": "denver airport print.3dm",
+      "sha256": "f5214ffc16e5f112d6f83806fe9e53e75d09b9bb3dd464cc4f8388b43ef5cd7e",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\fin.3dm",
+      "output": "fin.3dm",
+      "sha256": "446565a6dfdde13d42869bad93ab7c5643e9828850a56415a675a48e8dd8810c",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\denver air print.3mf",
+      "output": "denver air print.3mf",
+      "sha256": "e766a1ae01d3c94fd55aa155bb28b17c0829620ca404721715a21daa9433ca42",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\anticlastic print.3mf",
+      "output": "anticlastic print.3mf",
+      "sha256": "34414806a15c7c49e2227a4e787b19f6325e15dace4926a349927d93e61e0668",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\anticlastic print2.3mf",
+      "output": "anticlastic print2.3mf",
+      "sha256": "ae73fb0b3841faab9c9e6295b5bb6dc0d6ccf7e9cd177ab865af8c8ea5e92451",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\conn.3mf",
+      "output": "conn.3mf",
+      "sha256": "4f65d71ce09552cfa469ce69efbc1dc6da43ff0386732893584329e925903d4a",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\conn222.3mf",
+      "output": "conn222.3mf",
+      "sha256": "3b4c2b272cdc1cfeb71d3892f3958c86d2eaa60098ed19459930fc4542668cdd",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\fin.3mf",
+      "output": "fin.3mf",
+      "sha256": "552c2939b3fbc6a3344ce3198a37cd73a5a298764ddb10d94a168d1a8e74870c",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\denver airport\\nuts.3mf",
+      "output": "nuts.3mf",
+      "sha256": "90f05a0ffb7d371a3fa5bf36c536874ce0a01e7229066878ed5d15f22f09e9a7",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\all add on\\struct\\photo_5913738189694767600_y.jpg",
+      "source_sha256": "383427f50ab8ec1278bf7ed93fa52e182860846e7fcd34fc1f4cb2a605cbfe77",
+      "output": "roof-frame-crop.jpg",
+      "sha256": "cebfb2b375c58e446ffc71f6f0e9dc43278746a52cc5cf9af214bcdf1b0df524",
+      "crop_source_pixels": [
+        0,
+        40,
+        1080,
+        591
+      ],
+      "treatment": "cropped and lightly tone-corrected"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\all add on\\struct\\photo_5913738189694767601_y.jpg",
+      "source_sha256": "38f4619b5c0f3d32de8ef48f3be1f8b6e0e322dd76f8c965dfd27a0fa89411aa",
+      "output": "roof-membrane-crop.jpg",
+      "sha256": "5d3edfdad9602e528d97dba2d38f3bc05e54e420ec616aa9ddb462f8e1a19d28",
+      "crop_source_pixels": [
+        120,
+        15,
+        1010,
+        585
+      ],
+      "treatment": "cropped and lightly tone-corrected"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+  "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+  "units": "cm from Rhino source",
+  "parts": {
+    "node": {
+      "url": "/assets/projects/joint/kit/node.glb",
+      "source_object_index": 107,
+      "original_bounds_cm": [
+        [
+          54.008018,
+          -1.55068,
+          97.38781
+        ],
+        [
+          57.109383,
+          1.550688,
+          100.489174
+        ]
+      ],
+      "center_translation_cm": [
+        -55.558701,
+        -4e-06,
+        -98.938492
+      ],
+      "centered_dimensions_cm": [
+        3.101364,
+        3.101368,
+        3.101364
+      ],
+      "mesh_sha256": "31cc550c6f083c8a001afe9ff48452f710800bee665d38b0b5dead80803f4167"
+    },
+    "rod": {
+      "url": "/assets/projects/joint/kit/rod.glb",
+      "source_object_index": 115,
+      "original_bounds_cm": [
+        [
+          33.735497,
+          -0.5,
+          99.675789
+        ],
+        [
+          34.735497,
+          0.5,
+          111.57473
+        ]
+      ],
+      "center_translation_cm": [
+        -34.235497,
+        -0.0,
+        -105.625259
+      ],
+      "centered_dimensions_cm": [
+        1.0,
+        1.0,
+        11.898941
+      ],
+      "mesh_sha256": "a63057ae58a772fb1638f9996ed2ba1a849d1f3dcdffe7c23f7386dcb2158ebd"
+    },
+    "thread-clip": {
+      "url": "/assets/projects/joint/kit/thread-clip.glb",
+      "source_object_index": 211,
+      "original_bounds_cm": [
+        [
+          -110.106644,
+          2.169295,
+          -0.306918
+        ],
+        [
+          -108.603767,
+          2.980118,
+          0.093082
+        ]
+      ],
+      "center_translation_cm": [
+        109.355206,
+        -2.574707,
+        0.106918
+      ],
+      "centered_dimensions_cm": [
+        1.502876,
+        0.810823,
+        0.4
+      ],
+      "mesh_sha256": "15047c73fbd40938d0aec752ec60de88c74e5502d90e06952a42e86dbc11c5c8"
+    },
+    "brace": {
+      "url": "/assets/projects/joint/kit/brace.glb",
+      "source_object_index": 216,
+      "original_bounds_cm": [
+        [
+          -99.791733,
+          -7.608412,
+          8.102649
+        ],
+        [
+          -82.853119,
+          -6.797588,
+          8.502655
+        ]
+      ],
+      "center_translation_cm": [
+        91.322426,
+        7.203,
+        -8.302652
+      ],
+      "centered_dimensions_cm": [
+        16.938614,
+        0.810823,
+        0.400006
+      ],
+      "mesh_sha256": "b8f9d304a927f4d2559324e6491c5e32d907e31704c68afd3c886305c8273c50"
+    }
+  },
+  "claim_limit": "Part meshes are retained; browser placement and connection affordances are an editorial spatial study, not a validated fit or force simulation."
+}

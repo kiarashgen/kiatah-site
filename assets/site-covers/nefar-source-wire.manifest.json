@@ -1,0 +1,12 @@
+{
+  "geometry_source": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\nefar\\assembly\\geometry.json",
+  "geometry_sha256": "c89942706f31ec4e7e475f658dad2c3a24d9a90e31dd762c19326a5f46fde417",
+  "playback_source": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\nefar\\assembly\\FULL_PLAYBACK.json",
+  "playback_sha256": "01f4937e731cee17bac2e93284df216c70d74d0e41e5c4201ae92de2c231f19c",
+  "cell_source": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\nefar\\assembly\\CELL_MODEL.json",
+  "cell_sha256": "07058489a2e8f6fe8d1b8dce696ff97d495a29f174ac012cb0ac7260689494c2",
+  "arm_pose": "active arm at midpoint of retained loaded route for step 44; other arm in viewer park pose",
+  "retained_step": "ROOF-RAFTER-PAIR-01",
+  "treatment": "Orthographic wire projection of installed source timber and two arms from the retained conceptual robotic cell; first rafter pair brighter. Route visualization, not physical build evidence.",
+  "output_sha256": "882a4beb1d2da504eab1bb671a8e3ff09f3e8cf7d57d897a0af7463a0158ba8a"
+}

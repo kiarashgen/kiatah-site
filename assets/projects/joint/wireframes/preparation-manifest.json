@@ -1,0 +1,51 @@
+[
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\fabrication\\portfolio_assets\\projects\\universal-joints\\svg\\UJ-01-artwork.svg",
+    "source_sha256": "13d3ab23c9c12338dc2477c9c28cd434b7bb36eee0a16c298d226147b424104f",
+    "prepared": "public\\assets\\projects\\joint\\wireframes\\retained-variants.svg",
+    "prepared_sha256": "13d3ab23c9c12338dc2477c9c28cd434b7bb36eee0a16c298d226147b424104f",
+    "treatment": "unaltered transparent line artwork from fabrication package"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\fabrication\\portfolio_assets\\projects\\universal-joints\\svg\\UJ-02-artwork.svg",
+    "source_sha256": "45b7350f665747296aacd19509b5901c5e51fa010c20a25a90d30e4c29aacf1d",
+    "prepared": "public\\assets\\projects\\joint\\wireframes\\frame-connector.svg",
+    "prepared_sha256": "45b7350f665747296aacd19509b5901c5e51fa010c20a25a90d30e4c29aacf1d",
+    "treatment": "unaltered transparent line artwork from fabrication package"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\fabrication\\portfolio_assets\\projects\\universal-joints\\svg\\UJ-03-artwork.svg",
+    "source_sha256": "e606d483f9162838caae251832e46eef63cdf82cedb02e1669b76a1d0344c1d7",
+    "prepared": "public\\assets\\projects\\joint\\wireframes\\local-construction.svg",
+    "prepared_sha256": "e606d483f9162838caae251832e46eef63cdf82cedb02e1669b76a1d0344c1d7",
+    "treatment": "unaltered transparent line artwork from fabrication package"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\joint\\photos\\printed-nodes-a.jpg",
+    "source_sha256": "c0b57b5af5656a72a61833e8ddacd3892d1e4cfc017877a8a4ac1725dcf7988e",
+    "prepared": "public\\assets\\projects\\joint\\photos\\printed-nodes-a-edited.jpg",
+    "prepared_sha256": "23f6097ce9f64bcd0d4954145c2eeca4993427d93634674c0ec9325b6a2bfdec",
+    "crop_xyxy": [
+      299,
+      12,
+      1121,
+      591
+    ],
+    "orientation": "EXIF-transposed before cropping",
+    "treatment": "cropped to printed parts; restrained brightness, contrast and sharpness correction"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\siteandportfolio\\public\\assets\\projects\\joint\\photos\\printed-nodes-b.jpg",
+    "source_sha256": "d0111f94d5d60af1d21b4c4e59e28be93170fa14de9b7d7b224be56a9ad6542c",
+    "prepared": "public\\assets\\projects\\joint\\photos\\printed-nodes-b-edited.jpg",
+    "prepared_sha256": "7b63257d123df62de3b9bd61f631dfba56e5843e13aab9126cc44349ec7cd106",
+    "crop_xyxy": [
+      274,
+      12,
+      1096,
+      591
+    ],
+    "orientation": "EXIF-transposed before cropping",
+    "treatment": "cropped to printed parts; restrained brightness, contrast and sharpness correction"
+  }
+]

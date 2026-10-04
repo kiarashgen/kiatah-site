@@ -1,0 +1,42 @@
+{
+  "treatment": "Source photographs cropped around the physical models and lightly tone-corrected. Originals preserved.",
+  "claim_limit": "The bridge photographs show a hanging load setup, but the available photos alone do not establish measured weight, failure load, or performance.",
+  "images": [
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\all add on\\struct\\photo_5798758079771297572_y.jpg",
+      "source_sha256": "270efd160be46f1f36ecfa54d8f5bc8d96c05bfcf47aa46be328b4e1346f7985",
+      "crop_source_pixels": [
+        120,
+        140,
+        830,
+        900
+      ],
+      "output": "bridge-load-overall.jpg",
+      "output_sha256": "f37c637ffb98fb37e2d0c36d2c96ec64dc6f8a028bef9e7c525a547c1aa6517c"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\all add on\\struct\\photo_5798758079771297573_y.jpg",
+      "source_sha256": "6760c0d4328097fbe92f20fa346117bf5cd2218a0f49d21c7f203f2914ee94f4",
+      "crop_source_pixels": [
+        0,
+        0,
+        950,
+        680
+      ],
+      "output": "bridge-load-detail.jpg",
+      "output_sha256": "a25fddf923a91966e2b319ff833a966dd3f8b3c29d4075a5b465d7a34ec6ea03"
+    },
+    {
+      "source": "C:\\Users\\kiarash\\Desktop\\all add on\\struct\\photo_5913738189694767552_y.jpg",
+      "source_sha256": "d7919a4c73c8cbd41584b408e7186cc0165618d61167e58d11800c2546e28c2a",
+      "crop_source_pixels": [
+        310,
+        65,
+        730,
+        1200
+      ],
+      "output": "tower-printed-crop.jpg",
+      "output_sha256": "d33ef5c24b475740b1d2af534de0e980a65c55954339241162fae0d5a44a7c8e"
+    }
+  ]
+}

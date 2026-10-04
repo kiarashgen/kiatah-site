@@ -1,0 +1,50 @@
+{
+  "source": "C:\\Users\\kiarash\\Desktop\\all add on\\struct\\Sheet.pdf",
+  "source_sha256": "9b7c290c55620c6b0018e06ee055063a50e9f183ff185ac5d11e6c0d01f17835",
+  "source_page": 8,
+  "treatment": "Cropped the four retained wireframe tower views, removed pale sheet background, recolored line pixels neutral cream, composed without labels.",
+  "claim_limit": "These are presentation views from the source sheet; they are not a new structural analysis or proven performance.",
+  "parts": [
+    {
+      "output": "public/assets/site-covers/struct-towers/tower-01.png",
+      "crop_at_900px": [
+        518,
+        140,
+        580,
+        506
+      ],
+      "output_sha256": "d17460f9f7030348dbda3b3ef20d8576aa3138d01865e79ce337be2c8b8b988b"
+    },
+    {
+      "output": "public/assets/site-covers/struct-towers/tower-02.png",
+      "crop_at_900px": [
+        598,
+        140,
+        657,
+        506
+      ],
+      "output_sha256": "547d065e0d85af2dffd5c1ae02c7b69e6b93e06b9bdc48a3cc422a7faaac6c15"
+    },
+    {
+      "output": "public/assets/site-covers/struct-towers/tower-03.png",
+      "crop_at_900px": [
+        678,
+        140,
+        744,
+        506
+      ],
+      "output_sha256": "3ccb5ef0f4220c62d4a23c63a7cfd2aa091f09f661629e5eb79e300b873dfd64"
+    },
+    {
+      "output": "public/assets/site-covers/struct-towers/tower-04.png",
+      "crop_at_900px": [
+        760,
+        140,
+        831,
+        506
+      ],
+      "output_sha256": "8b5be9d9a67c70bef0450a667d996ee214db846fdbc2f8dbfa32ae5e0dd1908e"
+    }
+  ],
+  "output_sha256": "6299525c8e9b2936a43722782190965088d3019bd01ecdf941afb5a82f01d45a"
+}

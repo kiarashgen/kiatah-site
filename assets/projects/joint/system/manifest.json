@@ -1,0 +1,54 @@
+[
+  {
+    "site_url": "/assets/projects/joint/system/frame-neutral.png",
+    "angle_degrees": 0,
+    "folded_field": false,
+    "force_reading": false,
+    "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+    "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+    "source_object_indices": [
+      107,
+      115
+    ],
+    "treatment": "new system-scale shear diagram using unchanged retained part meshes; floating blue/red arrows indicate structural role, not modeled clip hardware or measured stress"
+  },
+  {
+    "site_url": "/assets/projects/joint/system/frame-shear.png",
+    "angle_degrees": 20,
+    "folded_field": false,
+    "force_reading": false,
+    "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+    "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+    "source_object_indices": [
+      107,
+      115
+    ],
+    "treatment": "new system-scale shear diagram using unchanged retained part meshes; floating blue/red arrows indicate structural role, not modeled clip hardware or measured stress"
+  },
+  {
+    "site_url": "/assets/projects/joint/system/frame-braced.png",
+    "angle_degrees": 20,
+    "folded_field": false,
+    "force_reading": true,
+    "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+    "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+    "source_object_indices": [
+      107,
+      115
+    ],
+    "treatment": "new system-scale shear diagram using unchanged retained part meshes; floating blue/red arrows indicate structural role, not modeled clip hardware or measured stress"
+  },
+  {
+    "site_url": "/assets/projects/joint/system/frame-folded.png",
+    "angle_degrees": null,
+    "folded_field": true,
+    "force_reading": false,
+    "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+    "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+    "source_object_indices": [
+      107,
+      115
+    ],
+    "treatment": "new folded spatial field with unchanged retained part meshes and constant member length"
+  }
+]

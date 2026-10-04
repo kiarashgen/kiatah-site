@@ -1,0 +1,30 @@
+[
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+    "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+    "source_object_indices": [
+      115,
+      117
+    ],
+    "node_count": 48,
+    "rod_count": 47,
+    "seed": 17,
+    "pitch_cm": 13.2881,
+    "site_url": "/assets/projects/joint/spatial-studies/spatial-branch-a.png",
+    "treatment": "new digital spatial study; source node and sphere-ended member rigidly oriented without rescaling; unbuilt arrangement"
+  },
+  {
+    "source": "C:\\Users\\kiarash\\Desktop\\university\\semester 3\\\u0633\u06cc\u0633\u062a\u0645\\tarkash 333 frame comp.3dm",
+    "source_sha256": "a76655656a9f8bc22c5f760f4819f7f55478940102cf7f8932655d3af80229f5",
+    "source_object_indices": [
+      115,
+      117
+    ],
+    "node_count": 64,
+    "rod_count": 63,
+    "seed": 37,
+    "pitch_cm": 13.2881,
+    "site_url": "/assets/projects/joint/spatial-studies/spatial-branch-b.png",
+    "treatment": "new digital spatial study; source node and sphere-ended member rigidly oriented without rescaling; unbuilt arrangement"
+  }
+]
