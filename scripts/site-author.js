@@ -1,8 +1,21 @@
 /* Shared site authoring. Each page keeps its own saved choices and second drawing layer. */
 (() => {
-  for (const source of document.querySelectorAll('[data-site-authoring-config]')) {
-    initPage(JSON.parse(source.textContent));
+  const assetSource = document.querySelector('[data-site-authoring-assets]');
+  const sharedAssets = assetSource ? JSON.parse(assetSource.textContent) : [];
+  const configs = [...document.querySelectorAll('[data-site-authoring-config]')].map(source => JSON.parse(source.textContent));
+  const initialized = new Set();
+  function activatePage() {
+    for (const config of configs) {
+      const page = document.getElementById(config.page);
+      if (!page?.classList.contains('active') || initialized.has(config.page)) continue;
+      initialized.add(config.page);
+      initPage({...config, assets: config.assets || sharedAssets});
+    }
+    window.dispatchEvent(new Event('site:author-visibility'));
   }
+  addEventListener('site:route', activatePage);
+  addEventListener('hashchange', () => requestAnimationFrame(activatePage));
+  activatePage();
 
   function initPage(embedded) {
   const pageId = embedded.page;
@@ -20,7 +33,7 @@
   const originalTexts = new Map([...texts].map(([key, item]) => [key, item.innerText]));
   const originalMarkup = new Map([...texts].map(([key, item]) => [key, item.innerHTML]));
   const originals = new Map([...images].map(([key, item]) => [key, {
-    src: item.dataset.siteOriginalSrc || item.getAttribute('src'), asset: item.dataset.asset, width: item.style.width,
+    src: item.dataset.siteOriginalSrc || item.dataset.siteSrc || item.getAttribute('src'), asset: item.dataset.asset, width: item.style.width,
     height: item.style.height, fit: item.style.objectFit, position: item.style.objectPosition,
     transform: item.style.transform,
     lightbox: item.closest('button[data-lightbox]')?.dataset.lightbox,
@@ -48,7 +61,9 @@
   plane.setAttribute('aria-hidden', 'true');
   page.append(plane);
   const canvases = new Map();
+  const drawnTargets = new Set(state.strokes.map(stroke => stroke.anchor || stroke.section));
   for (const [key] of sketchTargets) {
+    if (!editing && !drawnTargets.has(key)) continue;
     const svg = document.createElementNS(svgNS, 'svg');
     svg.setAttribute('viewBox', '0 0 1000 1000');
     svg.setAttribute('preserveAspectRatio', 'none');
@@ -62,6 +77,7 @@
     for (const [key, anchor] of sketchTargets) {
       const rect = anchor.getBoundingClientRect();
       const svg = canvases.get(key);
+      if (!svg) continue;
       Object.assign(svg.style, {left: `${rect.left - root.left}px`, top: `${rect.top - root.top}px`,
         width: `${rect.width}px`, height: `${rect.height}px`});
     }
@@ -97,9 +113,23 @@
   }
   function paint() {
     for (const svg of canvases.values()) svg.replaceChildren();
-    for (const stroke of state.strokes) canvases.get(stroke.anchor || stroke.section)?.append(pathNode(stroke));
+    for (const stroke of state.strokes) {
+      const key = stroke.anchor || stroke.section;
+      if (!canvases.has(key) && sketchTargets.has(key)) {
+        const svg = document.createElementNS(svgNS, 'svg');
+        svg.setAttribute('viewBox', '0 0 1000 1000');
+        svg.setAttribute('preserveAspectRatio', 'none');
+        svg.classList.add('site-sketch-svg'); plane.append(svg); canvases.set(key, svg);
+      }
+      canvases.get(key)?.append(pathNode(stroke));
+    }
   }
   function apply() {
+    function imageSource(node, url) {
+      url = window.KTImageFiles?.[url] || url;
+      if (node.dataset.siteSrc && !node.getAttribute('src')) node.dataset.siteSrc = url;
+      else if (node.getAttribute('src') !== url) node.src = url;
+    }
     for (const [key, node] of texts) {
       if (Object.hasOwn(state.texts, key)) {
         if (node.textContent !== state.texts[key]) node.textContent = state.texts[key];
@@ -109,16 +139,19 @@
       const setting = state.images[key] || {};
       const original = originals.get(key);
       const replacement = assetById.get(setting.replacement);
-      if (replacement) { node.src = replacement.url; node.removeAttribute('data-asset'); }
-      else if (original.asset) { node.dataset.asset = original.asset; if (original.src) node.src = original.src; }
-      else if (original.src) node.src = original.src;
+      if (replacement) { imageSource(node, replacement.url); node.removeAttribute('data-asset'); }
+      else if (original.asset) { node.dataset.asset = original.asset; if (original.src) imageSource(node, original.src); }
+      else if (original.src) imageSource(node, original.src);
       const button = node.closest('button');
       if (button && original.lightbox) {
         if (replacement) { button.removeAttribute('data-lightbox'); button.onclick = () => window.open(replacement.url, '_blank', 'noopener'); }
         else { button.dataset.lightbox = original.lightbox; button.onclick = null; }
       }
       const link = node.closest('a[href]');
-      if (link && original.href) link.href = replacement?.url || original.href;
+      if (link && original.href) {
+        const url = replacement?.url || original.href;
+        link.href = window.KTImageFiles?.[url] || url;
+      }
       node.style.width = setting.width ? `${setting.width}%` : original.width;
       node.style.height = setting.height ? `${setting.height}px` : original.height;
       node.style.objectFit = setting.fit || original.fit;
@@ -163,6 +196,7 @@
     if (active) requestAnimationFrame(placeCanvases);
   };
   addEventListener('hashchange', () => setTimeout(routeVisibility, 20));
+  addEventListener('site:author-visibility', routeVisibility);
   setTimeout(routeVisibility, 20);
   fetch(`/__site/authoring/${pageId}`).then(response => {
     if (!response.ok) throw Error('Local edit service unavailable');

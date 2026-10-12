@@ -3,7 +3,7 @@
     "source": "C:\\Users\\kiarash\\Desktop\\fabrication\\portfolio_assets\\projects\\universal-joints\\masters\\UJ-V03-frame-connector.glb",
     "source_sha256": "b57c461dac688ca40b7defbb767251e80798e6aa8b68ba10cb4fffb685c8428c",
     "source_object_indices": null,
-    "output": "public/assets/projects/joint/source-views/socket-node.png",
+    "output": "public/assets/optimized/socket-node-1c6a09a3c7cd.webp",
     "output_sha256": "1c6a09a3c7cd912e3fc86281b07edfd25885baa40d8f9ffddd29ebe8fd2c380f",
     "treatment": "offscreen render of retained source mesh; lighting, background, and camera only"
   },

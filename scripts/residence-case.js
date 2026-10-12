@@ -43,4 +43,7 @@
     if (event.target?.id === 'rh2-range') { stop(); show(event.target.value); }
   });
   document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); });
+  addEventListener('site:route', () => {
+    if (!document.getElementById('residence')?.classList.contains('active')) stop();
+  });
 })();
