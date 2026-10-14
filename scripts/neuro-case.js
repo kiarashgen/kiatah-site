@@ -4,6 +4,7 @@
   const dialog = page.querySelector('.neuro-inspector');
   const image = dialog?.querySelector('img');
   const scroller = dialog?.querySelector('.neuro-inspector-scroll');
+  const title = dialog?.querySelector('.neuro-inspector-bar>span');
   if (!dialog || !image || !scroller) return;
   let scale = 1;
   function size() { image.style.width = (scale * 100) + '%'; }
@@ -14,7 +15,8 @@
       if (!source) return;
       image.src = source;
       image.alt = original?.alt || 'Complete source image';
-      scale = window.innerWidth <= 700 ? 2.4 : 1;
+      if (title) title.textContent = button.getAttribute('data-neuro-title') || image.alt;
+      scale = button.classList.contains('neuro-open-photo') ? 1 : (window.innerWidth <= 700 ? 2.4 : 1);
       size();
       dialog.showModal();
       scroller.scrollTo(0, 0);

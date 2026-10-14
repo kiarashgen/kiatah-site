@@ -1,1 +1,221 @@
-var A=document.querySelector("#wormhole .wh-showcase");if(A){let j=function(t){let a=t.kind==="Drawing"?t.files?.artwork_svg:t.src,n=z[t.id];return`<figure class="asset-figure asset-${p(t.id)} ${t.kind==="Drawing"?"vector-figure":"photo-figure"}"><button type="button" data-asset="${p(t.id)}" aria-label="Inspect ${p(t.title)}"><div class="image-wrap"><img src="${p(a||t.thumb)}" alt="${p(t.title)}" loading="lazy"><span class="inspect-indicator" aria-hidden="true">\u2197</span></div></button><figcaption>${p(n?.[0]||`${t.id} / ${t.title}`)}</figcaption><p>${p(n?.[1]||t.caption)}</p></figure>`},O=function(t){let a=t.points.map(g=>g[0]),n=t.points.map(g=>g[1]),o=(Math.min(...a)+Math.max(...a))/2,c=(Math.min(...n)+Math.max(...n))/2,d=Math.min(90/(Math.max(...a)-Math.min(...a)),62/(Math.max(...n)-Math.min(...n)));return`<polyline points="${t.points.map(([g,u])=>`${(50+(g-o)*d).toFixed(2)},${(35-(u-c)*d).toFixed(2)}`).join(" ")}" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>`},C=function(){let t=e("#part-search").value.trim().toLowerCase(),a=h.parts.map((o,c)=>({part:o,index:c})).filter(({part:o})=>!t||o.id.toLowerCase().includes(t)||o.uuid.toLowerCase().includes(t)),n=a.slice(0,q);e("#part-grid").innerHTML=n.map(({part:o,index:c})=>`<button type="button" class="part-tile ${c===$?"active":""}" data-part="${c}" aria-label="Inspect ${o.id}"><svg viewBox="0 0 100 70" aria-hidden="true">${O(o)}</svg><span>${o.id}</span></button>`).join(""),e("#part-result").textContent=`${n.length} / ${a.length} PARTS`,e("#show-all-parts").hidden=n.length>=a.length},R=function(t,a=!1){$=(t+h.parts.length)%h.parts.length,W.dispatchEvent(new CustomEvent("wh-select-part",{detail:$})),E(".part-tile").forEach(n=>n.classList.toggle("active",Number(n.dataset.part)===$)),a&&(location.hash="#wormhole/wh-field",setTimeout(()=>e("#part-id").scrollIntoView({block:"nearest",behavior:"smooth"}),60))},x=function(){!s||!s.naturalWidth||!s.naturalHeight||(f=Math.min(l.clientWidth/s.naturalWidth,l.clientHeight/s.naturalHeight)*.94,k={x:(l.clientWidth-s.naturalWidth*f)/2,y:(l.clientHeight-s.naturalHeight*f)/2},w())},w=function(){s&&(s.style.transform=`translate(${k.x}px,${k.y}px) scale(${f})`,e("#zoom-label").textContent=`${Math.round(f*100)}%`)},N=function(t){l.innerHTML="",s=document.createElement("img"),s.alt=e("#inspect-title").textContent,s.onload=x,s.src=t,l.append(s),e("#image-tools").hidden=!1,e("#model-tools").hidden=!0},L=function(t){r&&(m=Math.max(0,Math.min(r.pages.length-1,t)),N(r.pages[m]),e("#doc-position").textContent=`${m+1} / ${r.pages.length}`,e("#doc-page").value=m+1,e("#doc-page").max=r.pages.length,e("#doc-prev").disabled=m===0,e("#doc-next").disabled=m===r.pages.length-1)},T=function(t,a=null,n=null){r=t?.startsWith("doc-")?U.get(t.slice(4)):null,i=b.get(t);let o=n||r?.title||i?.title||"Source image";e("#inspect-kicker").textContent=r?"DOCUMENT / ORIGINAL SHOWCASE":i?`${i.kind.toUpperCase()} / ${i.id}`:"SOURCE RECORD",e("#inspect-title").textContent=o,e("#inspect-caption").textContent=i?.caption||(r?`Full ${r.pages.length}-page source document.`:"Original source or source-derived drawing."),e("#inspect-source-text").textContent=i?.sources?.join(", ")||i?.source_id||"See the source asset manifest for hash and path.";let c=r?{pdf:r.pdf}:i?.files||{};if(e("#inspect-files").innerHTML="",e("#document-tools").hidden=!r,e("#inspect-neighbours").hidden=!!(r||a),e("#inspect-source").hidden=!i,r)L(0);else if(i?.kind==="Model"){s=null;let d=D.get(i.id.replace(/^model-/,""));l.innerHTML=d?.glb?`<model-viewer src="${p(d.glb)}" camera-controls auto-rotate shadow-intensity="0" exposure="0.75" alt="${p(o)}" style="display:block;width:100%;height:100%;background:#171715"></model-viewer>`:`<img src="${p(i.src)}" alt="${p(o)}">`,e("#image-tools").hidden=!0,e("#model-tools").hidden=!d?.glb}else i?.kind==="Video"?(s=null,l.innerHTML=`<video controls playsinline preload="metadata" src="${p(i.src)}" style="display:block;width:100%;height:100%;object-fit:contain;background:#0d0d0c"></video>`,e("#image-tools").hidden=!0,e("#model-tools").hidden=!0):N(a||(i?.kind==="Drawing"?i.files?.artwork_svg:null)||i?.src||"");y.open||y.showModal()},M=function(t){if(!i)return;let a=h.assets,n=a.findIndex(o=>o.id===i.id);n>=0&&T(a[(n+t+a.length)%a.length].id)};Y=j,B=O,F=C,G=R,_=x,P=w,X=N,V=L,J=T,K=M;let e=t=>A.querySelector(t),E=t=>[...A.querySelectorAll(t)],p=t=>String(t??"").replace(/[&<>"']/g,a=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[a]),H=await fetch("/assets/projects/wormhole/showcase-data.json");if(!H.ok)throw new Error(`Wormhole catalogue ${H.status}`);let h=await H.json(),b=new Map(h.assets.map(t=>[t.id,t])),D=new Map(h.models.map(t=>[t.id,t])),U=new Map(h.documents.map(t=>[t.id,t])),W=e("#wh-interactive"),$=0,q=66,z={"photo-wormhole-cutting-frame":["01 / CUTTING","The cutting head and separate sheet pieces."],"photo-wormhole-assembly-frame":["02 / ASSEMBLY","Parts gathered and connected at the table."],"photo-wormhole-daylight":["03 / DISPLAY","The completed object seen in daylight."]};E("[data-drawings]").forEach(t=>{t.innerHTML=t.dataset.drawings.split(",").map(a=>b.get(a)).filter(Boolean).map(j).join("")}),E(".photo-sequence").forEach(t=>{t.innerHTML=t.dataset.assets.split(",").map(a=>b.get(a)).filter(Boolean).map(j).join("")});let I={"W04-native-flattening":"W04 / inspect + flatten","SRC-0069-native-straight":"0069 / relaxation + mapping","SRC-0073-native-straight":"0073 / triangle \u2192 part"};E(".native-browser").forEach(t=>{let a=Object.keys(I);t.innerHTML=`<div class="native-tabs" aria-label="Native definition">${a.map((c,d)=>`<button type="button" data-native-id="${c}" ${d===0?'class="active"':""}>${I[c]}</button>`).join("")}</div><button type="button" class="native-frame" aria-label="Inspect native Grasshopper canvas"><img alt="Actual native Grasshopper canvas"><span class="inspect-indicator mono">OPEN AT FULL RESOLUTION \u2197</span></button><div class="native-stage-list" aria-label="Canvas stage"></div><div class="native-caption"><p></p></div>`;let n=t.querySelector(".native-frame");function o(c){let d=b.get(`gh-${c}-native-full`);if(!d)return;n.dataset.asset=d.id,n.querySelector("img").src=d.thumb,t.querySelector(".native-caption p").textContent=d.caption;let g=h.assets.filter(u=>u.kind==="Grasshopper"&&u.id.startsWith(`gh-${c}-native-`));t.querySelector(".native-stage-list").innerHTML=g.map((u,S)=>`<button type="button" data-native-image="${p(u.id)}" ${S===0?'class="active"':""}>${S===0?"Full network":p(u.title.split(" / ").pop())}</button>`).join(""),t.querySelectorAll("[data-native-id]").forEach(u=>u.classList.toggle("active",u.dataset.nativeId===c))}t.addEventListener("click",c=>{let d=c.target.closest("[data-native-id]");if(d)return o(d.dataset.nativeId);let g=c.target.closest("[data-native-image]");if(g){let u=b.get(g.dataset.nativeImage);n.dataset.asset=u.id,n.querySelector("img").src=u.thumb,t.querySelectorAll("[data-native-image]").forEach(S=>S.classList.toggle("active",S===g))}}),o(a[0])}),W.addEventListener("wh-part-selected",t=>{$=t.detail,E(".part-tile").forEach(a=>a.classList.toggle("active",Number(a.dataset.part)===$))}),e("#part-search").addEventListener("input",C),e("#show-all-parts").addEventListener("click",()=>{q=442,C()}),e("#part-grid").addEventListener("click",t=>{let a=t.target.closest("[data-part]");a&&R(Number(a.dataset.part),!0)}),C();let y=e("#inspector"),l=e("#inspect-media"),r=null,i=null,m=0,s=null,f=1,k={x:0,y:0},v=null;A.addEventListener("click",t=>{let a=t.target.closest("[data-wh-local-image]");if(a)return T(null,a.dataset.whLocalImage,a.dataset.whTitle);let n=t.target.closest("[data-asset]");n&&T(n.dataset.asset)}),e("#inspect-close").addEventListener("click",()=>y.close()),e("#doc-prev").addEventListener("click",()=>L(m-1)),e("#doc-next").addEventListener("click",()=>L(m+1)),e("#doc-page").addEventListener("change",t=>L(Number(t.target.value)-1)),e("#zoom-fit").addEventListener("click",x),e("#zoom-in").addEventListener("click",()=>{f*=1.35,w()}),e("#zoom-out").addEventListener("click",()=>{f/=1.35,w()}),e("#image-paper").addEventListener("click",()=>l.classList.remove("dark")),e("#image-dark").addEventListener("click",()=>l.classList.add("dark")),l.addEventListener("wheel",t=>{s&&(t.preventDefault(),f*=t.deltaY<0?1.14:1/1.14,w())},{passive:!1}),l.addEventListener("pointerdown",t=>{s&&(v={x:t.clientX,y:t.clientY,px:k.x,py:k.y},l.setPointerCapture(t.pointerId))}),l.addEventListener("pointermove",t=>{v&&(k={x:v.px+t.clientX-v.x,y:v.py+t.clientY-v.y},w())}),l.addEventListener("pointerup",()=>{v=null}),l.addEventListener("pointercancel",()=>{v=null}),e("#inspect-prev").addEventListener("click",()=>M(-1)),e("#inspect-next").addEventListener("click",()=>M(1)),e("#model-snapshot").hidden=!0,E("[data-inspect-view]").forEach(t=>t.hidden=!0),document.addEventListener("keydown",t=>{!y.open||["INPUT","SELECT","TEXTAREA"].includes(t.target.tagName)||(t.key==="ArrowRight"&&(r?L(m+1):M(1)),t.key==="ArrowLeft"&&(r?L(m-1):M(-1)),(t.key==="+"||t.key==="=")&&(f*=1.35,w()),t.key==="-"&&(f/=1.35,w()),t.key==="0"&&x())}),new ResizeObserver(()=>{y.open&&s&&x()}).observe(l),window.WH_SHOWCASE_STATUS={assets:h.assets.length,documents:h.documents.map(t=>t.pages.length),parts:h.parts.length}}var Y,B,F,G,_,P,X,V,J,K;
+// Wormhole-only interactions adapted from the original fabrication showcase.
+// All catalogue records and media URLs come from the copied source catalogue.
+const root = document.querySelector('#wormhole .wh-showcase');
+if (root) {
+  const $ = selector => root.querySelector(selector);
+  const $$ = selector => [...root.querySelectorAll(selector)];
+  const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
+  const response = await fetch('/assets/projects/wormhole/showcase-data.json');
+  if (!response.ok) throw new Error(`Wormhole catalogue ${response.status}`);
+  const data = await response.json();
+  const assets = new Map(data.assets.map(asset => [asset.id, asset]));
+  const models = new Map(data.models.map(model => [model.id, model]));
+  const documents = new Map(data.documents.map(doc => [doc.id, doc]));
+  const partRoot = $('#wh-interactive');
+  let selectedPart = 0;
+  let partLimit = 66;
+  const photoNotes = {
+    'photo-wormhole-cutting-frame': ['01 / CUTTING', 'Cutting the sheet parts from the project’s layouts.'],
+    'photo-wormhole-assembly-frame': ['02 / ASSEMBLY', 'Sorting and joining the pieces at the work table.'],
+    'photo-wormhole-daylight': ['03 / DISPLAY', 'The assembled surface within its black display frame.'],
+  };
+  function figure(asset) {
+    const visual = asset.kind === 'Drawing' ? asset.files?.artwork_svg : asset.src;
+    const note = photoNotes[asset.id];
+    return `<figure class="asset-figure asset-${escape(asset.id)} ${asset.kind === 'Drawing' ? 'vector-figure' : 'photo-figure'}"><button type="button" data-asset="${escape(asset.id)}" aria-label="Inspect ${escape(asset.title)}"><div class="image-wrap"><img src="${escape(visual || asset.thumb)}" alt="${escape(asset.title)}" loading="lazy"><span class="inspect-indicator" aria-hidden="true">↗</span></div></button><figcaption>${escape(note?.[0] || `${asset.id} / ${asset.title}`)}</figcaption><p>${escape(note?.[1] || asset.caption)}</p></figure>`;
+  }
+  $$('[data-drawings]').forEach(element => {
+    element.innerHTML = element.dataset.drawings.split(',').map(id => assets.get(id)).filter(Boolean).map(figure).join('');
+  });
+  $$('.photo-sequence').forEach(element => {
+    element.innerHTML = element.dataset.assets.split(',').map(id => assets.get(id)).filter(Boolean).map(figure).join('');
+  });
+
+  const nativeTitles = { 'W04-native-flattening': 'W04 / inspect + flatten', 'SRC-0069-native-straight': '0069 / relaxation + mapping', 'SRC-0073-native-straight': '0073 / triangle → part' };
+  $$('.native-browser').forEach(element => {
+    const ids = ['SRC-0069-native-straight', 'SRC-0073-native-straight', 'W04-native-flattening'];
+    element.innerHTML = `<div class="native-tabs" aria-label="Native definition">${ids.map((id, index) => `<button type="button" data-native-id="${id}" ${index === 0 ? 'class="active"' : ''}>${nativeTitles[id]}</button>`).join('')}</div><button type="button" class="native-frame" aria-label="Inspect native Grasshopper canvas"><img alt="Actual native Grasshopper canvas"><span class="inspect-indicator mono">OPEN AT FULL RESOLUTION ↗</span></button><div class="native-stage-list" aria-label="Canvas stage"></div><div class="native-caption"><p></p></div>`;
+    const frame = element.querySelector('.native-frame');
+    function selectDefinition(id) {
+      const source = assets.get(`gh-${id}-native-full`);
+      if (!source) return;
+      frame.dataset.asset = source.id;
+      frame.querySelector('img').src = source.thumb;
+      element.querySelector('.native-caption p').textContent = source.caption;
+      const stages = data.assets.filter(asset => asset.kind === 'Grasshopper' && asset.id.startsWith(`gh-${id}-native-`));
+      element.querySelector('.native-stage-list').innerHTML = stages.map((asset, index) => `<button type="button" data-native-image="${escape(asset.id)}" ${index === 0 ? 'class="active"' : ''}>${index === 0 ? 'Full network' : escape(asset.title.split(' / ').pop())}</button>`).join('');
+      element.querySelectorAll('[data-native-id]').forEach(button => button.classList.toggle('active', button.dataset.nativeId === id));
+    }
+    element.addEventListener('click', event => {
+      const tab = event.target.closest('[data-native-id]');
+      if (tab) return selectDefinition(tab.dataset.nativeId);
+      const stage = event.target.closest('[data-native-image]');
+      if (stage) {
+        const asset = assets.get(stage.dataset.nativeImage);
+        frame.dataset.asset = asset.id;
+        frame.querySelector('img').src = asset.thumb;
+        element.querySelectorAll('[data-native-image]').forEach(button => button.classList.toggle('active', button === stage));
+      }
+    });
+    selectDefinition(ids[0]);
+  });
+
+  function profileSvg(part) {
+    const xs = part.points.map(point => point[0]);
+    const ys = part.points.map(point => point[1]);
+    const centerX = (Math.min(...xs) + Math.max(...xs)) / 2;
+    const centerY = (Math.min(...ys) + Math.max(...ys)) / 2;
+    const scale = Math.min(90 / (Math.max(...xs) - Math.min(...xs)), 62 / (Math.max(...ys) - Math.min(...ys)));
+    return `<polyline points="${part.points.map(([x, y]) => `${(50 + (x - centerX) * scale).toFixed(2)},${(35 - (y - centerY) * scale).toFixed(2)}`).join(' ')}" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>`;
+  }
+  function renderParts() {
+    const term = $('#part-search').value.trim().toLowerCase();
+    const found = data.parts.map((part, index) => ({ part, index })).filter(({ part }) => !term || part.id.toLowerCase().includes(term) || part.uuid.toLowerCase().includes(term));
+    const shown = found.slice(0, partLimit);
+    $('#part-grid').innerHTML = shown.map(({ part, index }) => `<button type="button" class="part-tile ${index === selectedPart ? 'active' : ''}" data-part="${index}" aria-label="Inspect ${part.id}"><svg viewBox="0 0 100 70" aria-hidden="true">${profileSvg(part)}</svg><span>${part.id}</span></button>`).join('');
+    $('#part-result').textContent = `${shown.length} / ${found.length} PARTS`;
+    $('#show-all-parts').hidden = shown.length >= found.length;
+  }
+  function selectPart(index, scroll = false) {
+    selectedPart = (index + data.parts.length) % data.parts.length;
+    partRoot.dispatchEvent(new CustomEvent('wh-select-part', { detail: selectedPart }));
+    $$('.part-tile').forEach(button => button.classList.toggle('active', Number(button.dataset.part) === selectedPart));
+    if (scroll) {
+      location.hash = '#wormhole/wh-field';
+      setTimeout(() => $('#part-id').scrollIntoView({ block: 'nearest', behavior: 'smooth' }), 60);
+    }
+  }
+  partRoot.addEventListener('wh-part-selected', event => {
+    selectedPart = event.detail;
+    $$('.part-tile').forEach(button => button.classList.toggle('active', Number(button.dataset.part) === selectedPart));
+  });
+  $('#part-search').addEventListener('input', renderParts);
+  $('#show-all-parts').addEventListener('click', () => { partLimit = 442; renderParts(); });
+  $('#part-grid').addEventListener('click', event => {
+    const tile = event.target.closest('[data-part]');
+    if (tile) selectPart(Number(tile.dataset.part), true);
+  });
+  renderParts();
+
+  const dialog = $('#inspector');
+  const media = $('#inspect-media');
+  let currentDocument = null;
+  let currentAsset = null;
+  let page = 0;
+  let image = null;
+  let scale = 1;
+  let pan = { x: 0, y: 0 };
+  let drag = null;
+  function fitImage() {
+    if (!image || !image.naturalWidth || !image.naturalHeight) return;
+    scale = Math.min(media.clientWidth / image.naturalWidth, media.clientHeight / image.naturalHeight) * 0.94;
+    pan = { x: (media.clientWidth - image.naturalWidth * scale) / 2, y: (media.clientHeight - image.naturalHeight * scale) / 2 };
+    paintImage();
+  }
+  function paintImage() {
+    if (!image) return;
+    image.style.transform = `translate(${pan.x}px,${pan.y}px) scale(${scale})`;
+    $('#zoom-label').textContent = `${Math.round(scale * 100)}%`;
+  }
+  function showImage(url) {
+    media.innerHTML = '';
+    image = document.createElement('img');
+    image.alt = $('#inspect-title').textContent;
+    image.onload = fitImage;
+    image.src = url;
+    media.append(image);
+    $('#image-tools').hidden = false;
+    $('#model-tools').hidden = true;
+  }
+  function showPage(index) {
+    if (!currentDocument) return;
+    page = Math.max(0, Math.min(currentDocument.pages.length - 1, index));
+    showImage(currentDocument.pages[page]);
+    $('#doc-position').textContent = `${page + 1} / ${currentDocument.pages.length}`;
+    $('#doc-page').value = page + 1;
+    $('#doc-page').max = currentDocument.pages.length;
+    $('#doc-prev').disabled = page === 0;
+    $('#doc-next').disabled = page === currentDocument.pages.length - 1;
+  }
+  function openInspector(id, localUrl = null, localTitle = null) {
+    currentDocument = id?.startsWith('doc-') ? documents.get(id.slice(4)) : null;
+    currentAsset = assets.get(id);
+    const title = localTitle || currentDocument?.title || currentAsset?.title || 'Source image';
+    $('#inspect-kicker').textContent = currentDocument ? 'DOCUMENT / ORIGINAL SHOWCASE' : currentAsset ? `${currentAsset.kind.toUpperCase()} / ${currentAsset.id}` : 'SOURCE RECORD';
+    $('#inspect-title').textContent = title;
+    $('#inspect-caption').textContent = currentAsset?.caption || (currentDocument ? `Full ${currentDocument.pages.length}-page source document.` : title);
+    $('#inspect-source-text').textContent = currentAsset?.sources?.join(', ') || currentAsset?.source_id || 'See the source asset manifest for hash and path.';
+    const files = currentDocument ? { pdf: currentDocument.pdf } : currentAsset?.files || {};
+    $('#inspect-files').innerHTML = '';
+    $('#document-tools').hidden = !currentDocument;
+    $('#inspect-neighbours').hidden = Boolean(currentDocument || localUrl);
+    $('#inspect-source').hidden = !currentAsset;
+    if (currentDocument) showPage(0);
+    else if (currentAsset?.kind === 'Model') {
+      image = null;
+      const model = models.get(currentAsset.id.replace(/^model-/, ''));
+      media.innerHTML = model?.glb ? `<model-viewer src="${escape(model.glb)}" camera-controls auto-rotate shadow-intensity="0" exposure="0.75" alt="${escape(title)}" style="display:block;width:100%;height:100%;background:#171715"></model-viewer>` : `<img src="${escape(currentAsset.src)}" alt="${escape(title)}">`;
+      $('#image-tools').hidden = true;
+      $('#model-tools').hidden = !model?.glb;
+    } else if (currentAsset?.kind === 'Video') {
+      image = null;
+      media.innerHTML = `<video controls playsinline preload="metadata" src="${escape(currentAsset.src)}" style="display:block;width:100%;height:100%;object-fit:contain;background:#0d0d0c"></video>`;
+      $('#image-tools').hidden = true;
+      $('#model-tools').hidden = true;
+    } else showImage(localUrl || (currentAsset?.kind === 'Drawing' ? currentAsset.files?.artwork_svg : null) || currentAsset?.src || '');
+    if (!dialog.open) dialog.showModal();
+  }
+  root.addEventListener('click', event => {
+    const local = event.target.closest('[data-wh-local-image]');
+    if (local) return openInspector(null, local.dataset.whLocalImage, local.dataset.whTitle);
+    const asset = event.target.closest('[data-asset]');
+    if (asset) openInspector(asset.dataset.asset);
+  });
+  $('#inspect-close').addEventListener('click', () => dialog.close());
+  $('#doc-prev').addEventListener('click', () => showPage(page - 1));
+  $('#doc-next').addEventListener('click', () => showPage(page + 1));
+  $('#doc-page').addEventListener('change', event => showPage(Number(event.target.value) - 1));
+  $('#zoom-fit').addEventListener('click', fitImage);
+  $('#zoom-in').addEventListener('click', () => { scale *= 1.35; paintImage(); });
+  $('#zoom-out').addEventListener('click', () => { scale /= 1.35; paintImage(); });
+  $('#image-paper').addEventListener('click', () => media.classList.remove('dark'));
+  $('#image-dark').addEventListener('click', () => media.classList.add('dark'));
+  media.addEventListener('wheel', event => {
+    if (!image) return;
+    event.preventDefault();
+    scale *= event.deltaY < 0 ? 1.14 : 1 / 1.14;
+    paintImage();
+  }, { passive: false });
+  media.addEventListener('pointerdown', event => {
+    if (!image) return;
+    drag = { x: event.clientX, y: event.clientY, px: pan.x, py: pan.y };
+    media.setPointerCapture(event.pointerId);
+  });
+  media.addEventListener('pointermove', event => {
+    if (!drag) return;
+    pan = { x: drag.px + event.clientX - drag.x, y: drag.py + event.clientY - drag.y };
+    paintImage();
+  });
+  media.addEventListener('pointerup', () => { drag = null; });
+  media.addEventListener('pointercancel', () => { drag = null; });
+  function neighbour(direction) {
+    if (!currentAsset) return;
+    const list = data.assets;
+    const index = list.findIndex(asset => asset.id === currentAsset.id);
+    if (index >= 0) openInspector(list[(index + direction + list.length) % list.length].id);
+  }
+  $('#inspect-prev').addEventListener('click', () => neighbour(-1));
+  $('#inspect-next').addEventListener('click', () => neighbour(1));
+  $('#model-snapshot').hidden = true;
+  $$('[data-inspect-view]').forEach(button => button.hidden = true);
+  document.addEventListener('keydown', event => {
+    if (!dialog.open || ['INPUT', 'SELECT', 'TEXTAREA'].includes(event.target.tagName)) return;
+    if (event.key === 'ArrowRight') currentDocument ? showPage(page + 1) : neighbour(1);
+    if (event.key === 'ArrowLeft') currentDocument ? showPage(page - 1) : neighbour(-1);
+    if (event.key === '+' || event.key === '=') { scale *= 1.35; paintImage(); }
+    if (event.key === '-') { scale /= 1.35; paintImage(); }
+    if (event.key === '0') fitImage();
+  });
+  new ResizeObserver(() => { if (dialog.open && image) fitImage(); }).observe(media);
+  window.WH_SHOWCASE_STATUS = { assets: data.assets.length, documents: data.documents.map(doc => doc.pages.length), parts: data.parts.length };
+}
